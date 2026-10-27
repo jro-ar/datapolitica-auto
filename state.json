@@ -1,0 +1,1153 @@
+{
+  "x_tweeted_titles": [
+    "Bullrich dijo que est\u00e1 preparada para ser presidenta en 2027",
+    "Consultor: Bullrich no tiene base para ser candidata en 2027",
+    "La UOM negocia su convenio pese al veto del Gobierno",
+    "Milei fue sobrese\u00eddo en el caso de la criptomoneda Libra",
+    "Milei habl\u00f3 de golpe pero el Congreso y los precios lo frenan",
+    "El Peronismo Federal present\u00f3 un plan energ\u00e9tico en Comodoro Rivadavia",
+    "Lorenzetti advirti\u00f3 sobre el agotamiento del agua y la tierra",
+    "Las universidades argentinas llevaron su reclamo al papa Le\u00f3n XIV",
+    "Kicillof y Grabois mostraron acercamiento pol\u00edtico en la UBA",
+    "La ruta Chile-Malvinas divide a la pol\u00edtica argentina",
+    "El PJ celebr\u00f3 el triunfo de Lula como se\u00f1al para el peronismo",
+    "El Gobierno sum\u00f3 una funcionaria a Capital Humano",
+    "Kicillof: la reelecci\u00f3n de Lula frena el avance ultraderechista",
+    "El Papa Le\u00f3n XIV visitar\u00e1 la Argentina del 8 al 11 de noviembre",
+    "La confianza en el Gobierno rebota pero sigue en baja anual",
+    "Juez acusado de acoso nombr\u00f3 a la hija del juez que lo investiga",
+    "Macri felicit\u00f3 a Lula y el PRO tom\u00f3 distancia de Milei",
+    "El PJ busca recuperarse imitando el triunfo de Lula",
+    "Milei usa la crisis fiscal europea para defender su ajuste",
+    "El Gobierno y el PJ pelean por la Magistratura"
+  ],
+  "x_tweeted_urls": [
+    "https://datapolitica.com/4501~lula-y-flavio-bolsonaro-empatan-en-las-encuestas-para-2026",
+    "https://datapolitica.com/4507~argentina-y-chile-modernizan-sus-fuerzas-armadas-sin-aumentar-el-gasto",
+    "https://datapolitica.com/4510~diputados-aprobo-la-ley-pero-limito-la-compra-de-tierras-a-extranjeros",
+    "https://datapolitica.com/4517~kicillof-evalua-unificar-la-eleccion-bonaerense-si-sobreviven-las-paso",
+    "https://datapolitica.com/4521~lorenzetti-alerta-sobre-algoritmos-que-amplifican-el-odio",
+    "https://datapolitica.com/4526~el-ala-politica-del-oficialismo-presiona-por-subir-salarios",
+    "https://datapolitica.com/4535~capitanich-confirmo-que-el-pj-chaqueno-elegira-candidatos-sin-paso",
+    "https://datapolitica.com/4537~senadora-de-la-libertad-avanza-admite-que-quiere-ser-presidenta",
+    "https://datapolitica.com/4541~la-justicia-libero-al-sindicalista-acusado-por-el-bloqueo-a-una-pyme",
+    "https://datapolitica.com/4542~leon-xiv-visitara-argentina-y-el-vaticano-distribuye-invitaciones",
+    "https://datapolitica.com/4545~bullrich-dijo-que-esta-preparada-para-ser-presidenta-en-2027",
+    "https://datapolitica.com/4547~consultor-bullrich-no-tiene-base-para-ser-candidata-en-2027",
+    "https://datapolitica.com/4552~la-uom-negocia-su-convenio-pese-al-veto-del-gobierno",
+    "https://datapolitica.com/4553~milei-fue-sobreseido-en-el-caso-de-la-criptomoneda-libra",
+    "https://datapolitica.com/4559~milei-hablo-de-golpe-pero-el-congreso-y-los-precios-lo-frenan",
+    "https://datapolitica.com/4563~el-peronismo-federal-presento-un-plan-energetico-en-comodoro-rivadavia",
+    "https://datapolitica.com/4564~lorenzetti-advirtio-sobre-el-agotamiento-del-agua-y-la-tierra",
+    "https://datapolitica.com/4565~las-universidades-argentinas-llevaron-su-reclamo-al-papa-leon-xiv",
+    "https://datapolitica.com/4571~kicillof-y-grabois-mostraron-acercamiento-politico-en-la-uba",
+    "https://datapolitica.com/4575~la-ruta-chile-malvinas-divide-a-la-politica-argentina",
+    "https://datapolitica.com/4576~el-pj-celebro-el-triunfo-de-lula-como-senal-para-el-peronismo",
+    "https://datapolitica.com/4582~el-gobierno-sumo-una-funcionaria-a-capital-humano",
+    "https://datapolitica.com/4583~kicillof-la-reeleccion-de-lula-frena-el-avance-ultraderechista",
+    "https://datapolitica.com/4589~el-papa-leon-xiv-visitara-la-argentina-del-8-al-11-de-noviembre",
+    "https://datapolitica.com/4590~la-confianza-en-el-gobierno-rebota-pero-sigue-en-baja-anual",
+    "https://datapolitica.com/4596~juez-acusado-de-acoso-nombro-a-la-hija-del-juez-que-lo-investiga",
+    "https://datapolitica.com/4617~macri-felicito-a-lula-y-el-pro-tomo-distancia-de-milei",
+    "https://datapolitica.com/4630~el-pj-busca-recuperarse-imitando-el-triunfo-de-lula",
+    "https://datapolitica.com/4636~milei-usa-la-crisis-fiscal-europea-para-defender-su-ajuste",
+    "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura"
+  ],
+  "x_last_tweet_at": "2026-10-27T11:43:46+00:00",
+  "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
+  "run_log": [
+    {
+      "fecha": "2026-10-24 16:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-24 17:02",
+      "publicadas": 1,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": [
+        "Lorenzetti advirti\u00f3 sobre el agotamiento del agua y la tierra"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 18:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-24 19:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-24 20:03",
+      "publicadas": 1,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": [
+        "Las universidades argentinas llevaron su reclamo al papa Le\u00f3n XIV"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 21:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-24 22:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-24 23:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 00:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 01:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 02:03",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 03:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 04:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 05:04",
+      "publicadas": 3,
+      "cinta": true,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Titulo malo: Milei frena el debate sobre Malvinas por un viaje a EE.UU."
+      ],
+      "titulos": [
+        "Las obras sociales sindicales est\u00e1n al borde del colapso financiero",
+        "Kicillof negocia para habilitar la reelecci\u00f3n de intendentes",
+        "Milei admiti\u00f3 resultados bajos y tensiones con aliados",
+        "Karina Milei gan\u00f3 la interna por la pol\u00edtica de discapacidad"
+      ]
+    },
+    {
+      "fecha": "2026-10-25 06:04",
+      "publicadas": 2,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": [
+        "La disputa por la sucesi\u00f3n ya genera tensiones en el Gobierno",
+        "Kicillof y Grabois mostraron acercamiento pol\u00edtico en la UBA"
+      ]
+    },
+    {
+      "fecha": "2026-10-25 07:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 08:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 09:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 10:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 11:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 12:02",
+      "publicadas": 1,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": [
+        "Lorenzetti aclara que la Corte no inhabilit\u00f3 a Cristina Kirchner"
+      ]
+    },
+    {
+      "fecha": "2026-10-25 13:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 14:02",
+      "publicadas": 1,
+      "cinta": true,
+      "estado": "SIN NOVEDADES",
+      "detalle": [],
+      "titulos": [
+        "El Gobierno eval\u00faa postergar el voto del proyecto de soberan\u00eda",
+        "Lacunza defendi\u00f3 las PASO y rechaz\u00f3 cambios electorales"
+      ]
+    },
+    {
+      "fecha": "2026-10-25 15:02",
+      "publicadas": 1,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": [
+        "La ruta Chile-Malvinas divide a la pol\u00edtica argentina"
+      ]
+    },
+    {
+      "fecha": "2026-10-25 16:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 17:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 18:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 19:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 20:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 21:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 22:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-25 23:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-26 00:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-26 01:04",
+      "publicadas": 1,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": [
+        "El PJ celebr\u00f3 el triunfo de Lula como se\u00f1al para el peronismo"
+      ]
+    },
+    {
+      "fecha": "2026-10-26 02:03",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-26 03:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-26 04:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-26 05:03",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Titulo malo: Lula gana en Brasil y pone en aprietos a Milei de cara a 202",
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-26 06:04",
+      "publicadas": 2,
+      "cinta": true,
+      "estado": "SIN NOVEDADES",
+      "detalle": [],
+      "titulos": [
+        "El Senado debate c\u00f3mo cobrarles a los padres que no pagan alimentos",
+        "El resultado en Brasil obliga a Milei a recalcular sus alianzas",
+        "Un nuevo fondo y la informalidad bajan los aportes jubilatorios"
+      ]
+    },
+    {
+      "fecha": "2026-10-26 07:04",
+      "publicadas": 1,
+      "cinta": true,
+      "estado": "SIN NOVEDADES",
+      "detalle": [],
+      "titulos": [
+        "Bullrich pone condiciones para ser vicepresidenta de Milei",
+        "Docentes universitarios ir\u00e1n a una semana de paro nacional"
+      ]
+    },
+    {
+      "fecha": "2026-10-26 08:05",
+      "publicadas": 1,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": [
+        "El Gobierno sum\u00f3 una funcionaria a Capital Humano"
+      ]
+    },
+    {
+      "fecha": "2026-10-26 09:03",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-26 10:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-26 11:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-26 12:03",
+      "publicadas": 1,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": [
+        "Kicillof: la reelecci\u00f3n de Lula frena el avance ultraderechista"
+      ]
+    },
+    {
+      "fecha": "2026-10-26 13:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-26 14:04",
+      "publicadas": 2,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": [
+        "Milei no felicit\u00f3 a Lula y marc\u00f3 su posici\u00f3n ante la derecha",
+        "Bariloche vota su Carta Org\u00e1nica y marca el mapa electoral de 2027"
+      ]
+    },
+    {
+      "fecha": "2026-10-26 15:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-26 16:03",
+      "publicadas": 1,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: Titulo de cinta sin la calidad necesaria. NO se publica."
+      ],
+      "titulos": [
+        "El triunfo de Lula reordena las alianzas de Milei en la regi\u00f3n"
+      ]
+    },
+    {
+      "fecha": "2026-10-26 17:05",
+      "publicadas": 3,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": [
+        "Lula gan\u00f3, pero el Congreso de Brasil frena su agenda",
+        "Mauricio Macri felicit\u00f3 a Lula mientras Milei guarda silencio",
+        "El Papa Le\u00f3n XIV visitar\u00e1 la Argentina del 8 al 11 de noviembre"
+      ]
+    },
+    {
+      "fecha": "2026-10-26 18:02",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-26 19:03",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-26 20:03",
+      "publicadas": 1,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: no hubo noticia nueva para la cinta"
+      ],
+      "titulos": [
+        "La confianza en el Gobierno rebota pero sigue en baja anual"
+      ]
+    },
+    {
+      "fecha": "2026-10-26 21:09",
+      "publicadas": 6,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [],
+      "titulos": [
+        "Rejal vuelve al kirchnerismo y LLA queda en minor\u00eda en el Senado",
+        "Amnist\u00eda Internacional llevar\u00e1 el caso Libra a la ONU",
+        "Fiscal\u00eda explic\u00f3 c\u00f3mo los Kirchner lavaron dinero con sus hoteles",
+        "El negocio de los Kirchner recib\u00eda m\u00e1s dinero ilegal que legal",
+        "Llaryora resiste en C\u00f3rdoba pero Juez recorta la brecha",
+        "Juez acusado de acoso nombr\u00f3 a la hija del juez que lo investiga",
+        "Gobierno y peronismo mantienen reuniones informales"
+      ]
+    },
+    {
+      "fecha": "2026-10-26 22:09",
+      "publicadas": 6,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: Brasil arrastra a Argentina: el riesgo pa\u00eds trep\u00f3 a 755 punt"
+      ],
+      "titulos": [
+        "La CGT qued\u00f3 fuera del PJ y exige integraci\u00f3n sindical",
+        "Guelar: Lula llega debilitado y debe redefinir su agenda",
+        "Cristina felicit\u00f3 a Lula por su victoria electoral",
+        "El Gobierno busca revertir en Diputados los cambios al BCRA",
+        "Milei tiene otras causas judiciales abiertas adem\u00e1s del caso cripto",
+        "Brasil cuenta los votos entre Lula y Bolsonaro",
+        "El Gobierno contrat\u00f3 a DF Entertainment para la visita del Papa"
+      ]
+    },
+    {
+      "fecha": "2026-10-26 23:08",
+      "publicadas": 6,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Sin foto de Jorge Scioli: Jorge Scioli critica a su hermano Daniel con un po"
+      ],
+      "titulos": [
+        "Abad impuls\u00f3 un premio para la FURP en el Senado bonaerense",
+        "El Gobierno asciende al hermano del ministro de Justicia",
+        "El Gobierno busca capitalizar la visita del Papa Francisco",
+        "El real cae y Brasil se vuelve m\u00e1s barato para los argentinos",
+        "Bullrich impulsa la ley de Salud Mental en el Senado",
+        "El triunfo de Lula expuso fisuras entre Milei y sus aliados",
+        "Cuestionan la privatizaci\u00f3n de AySA en audiencia p\u00fablica"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 00:11",
+      "publicadas": 6,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Mismo tema que otra nota: El Gobierno no logra votos para aprobar el Presupuesto"
+      ],
+      "titulos": [
+        "El bloque peronista suma 22 miembros y va por la Magistratura",
+        "Milei eval\u00faa si va a la cumbre iberoamericana en Espa\u00f1a",
+        "Falsa psiquiatra: la imputaron por intentar internar a un menor",
+        "Carlos Bianco: Buenos Aires no desdobla si la Naci\u00f3n mantiene las PASO",
+        "El oficialismo cedi\u00f3 en dos puntos clave para sumar votos",
+        "Macri felicit\u00f3 a Lula y el PRO tom\u00f3 distancia de Milei",
+        "Milei responsabiliz\u00f3 a Lula por un eventual fraude en Brasil"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 01:10",
+      "publicadas": 4,
+      "cinta": true,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Sin foto de Pepe Scioli: Pepe Scioli felicit\u00f3 a Lula y expuso su ruptura co",
+        "Titulo malo: La confianza en el Gobierno sube levemente pero cae en el a\u00f1"
+      ],
+      "titulos": [
+        "La ausencia de Bullrich en gabinete expone fractura con el PRO",
+        "Una agrupaci\u00f3n c\u00edvica presiona al Senado por la ley antiludopat\u00eda",
+        "El 68% quiere que Milei abandone su choque con Brasil",
+        "Jorge Macri celebr\u00f3 la elecci\u00f3n del papa Le\u00f3n XIV",
+        "Estudiantes perdi\u00f3 con Uni\u00f3n y se aleja de los playoffs"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 02:08",
+      "publicadas": 2,
+      "cinta": true,
+      "estado": "PROBLEMA",
+      "detalle": [
+        "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
+        "Repetida: El Papa visitar\u00e1 Argentina del 8 al 11 de noviembre"
+      ],
+      "titulos": [
+        "Diputados opositores impulsan declaraci\u00f3n por la prensa libre",
+        "El Partido Liberal de Brasil acepta la derrota ante Lula",
+        "Torres, Weretilneck y Figueroa inauguraron planta de gas"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 03:06",
+      "publicadas": 2,
+      "cinta": true,
+      "estado": "SIN NOVEDADES",
+      "detalle": [],
+      "titulos": [
+        "Massa elogi\u00f3 a Lula y le exigi\u00f3 a Milei aceptar su derrota",
+        "Un dirigente peronista felicit\u00f3 a Lula y se alej\u00f3 del oficialismo",
+        "Instituto venci\u00f3 1-0 a Riestra y lidera la Zona A por 5 puntos"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 04:06",
+      "publicadas": 1,
+      "cinta": true,
+      "estado": "PROBLEMA",
+      "detalle": [
+        "Error armando una nota: Expecting value: line 1 column 1 (char 0)"
+      ],
+      "titulos": [
+        "El PJ busca recuperarse imitando el triunfo de Lula",
+        "La incertidumbre econ\u00f3mica complica la campa\u00f1a de Milei"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 05:09",
+      "publicadas": 3,
+      "cinta": true,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
+        "Repetida: La confianza en el Gobierno subi\u00f3 en octubre pero cay\u00f3 7% in",
+        "Repetida: El papa Le\u00f3n XIV visitar\u00e1 la Argentina en noviembre"
+      ],
+      "titulos": [
+        "Massa us\u00f3 la victoria de Lula para interpelar al gobierno",
+        "El Gobierno no tiene votos para aprobar el Presupuesto",
+        "El Gobierno modifica su proyecto sobre Malvinas por presi\u00f3n de EE.UU.",
+        "El Vaticano visitar\u00e1 organizaciones sociales en La Matanza"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 06:05",
+      "publicadas": 0,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: Cinta sin foto verificada de Mariano Matzkin. NO se publica."
+      ],
+      "titulos": []
+    },
+    {
+      "fecha": "2026-10-27 07:06",
+      "publicadas": 1,
+      "cinta": true,
+      "estado": "SIN NOVEDADES",
+      "detalle": [],
+      "titulos": [
+        "Milei usa la crisis fiscal europea para defender su ajuste",
+        "Kicillof critic\u00f3 el silencio de Milei ante Brasil"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 08:06",
+      "publicadas": 0,
+      "cinta": true,
+      "estado": "PROBLEMA",
+      "detalle": [
+        "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
+        "Repetida: Milei no felicit\u00f3 a Lula por su reelecci\u00f3n en Brasil"
+      ],
+      "titulos": [
+        "Vecinos de Catamarca cortan la Ruta 40 por falta de agua"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 09:10",
+      "publicadas": 5,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Mismo tema que otra nota: Milei negocia el Presupuesto 2027 con presi\u00f3n de provin",
+        "Cinta: Titulo de cinta sin la calidad necesaria. NO se publica."
+      ],
+      "titulos": [
+        "Nadie lidera la carrera para suceder a Kicillof en Buenos Aires",
+        "Congreso limita venta de tierras rurales a extranjeros",
+        "El Gobierno fija descuentos de 50% y 20% en gas para zonas fr\u00edas",
+        "Milei no coment\u00f3 la victoria de Lula y desvi\u00f3 la atenci\u00f3n al Congreso",
+        "La C\u00e1mara de Diputados avanza en el Presupuesto y la Ley de Defensa"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 10:07",
+      "publicadas": 3,
+      "cinta": true,
+      "estado": "SIN NOVEDADES",
+      "detalle": [],
+      "titulos": [
+        "Argentina perdi\u00f3 155.000 empleos formales en un a\u00f1o de ajuste",
+        "El Gobierno negocia el Presupuesto 2027 con bloques aliados",
+        "El Gobierno demora acuerdos con gobernadores para las PASO",
+        "Milei participar\u00e1 del congreso partidario de La Libertad Avanza"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 11:08",
+      "publicadas": 4,
+      "cinta": true,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Sin foto de Juan Marchetto: Juan Marchetto apela el sobreseimiento de Milei en"
+      ],
+      "titulos": [
+        "Glencore invertir\u00e1 US$ 6.393 millones en miner\u00eda en Catamarca",
+        "El embajador en Tailandia suma tambi\u00e9n la representaci\u00f3n ante Camboya",
+        "Casi la mitad de los argentinos pide que el Papa priorice la pobreza",
+        "El Gobierno y el PJ pelean por la Magistratura",
+        "Brote de meningitis en Mendoza: 4 infectados y 2 muertos"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 12:08",
+      "publicadas": 2,
+      "cinta": true,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Sin foto de Juan Manuel Sapag: Sapag advierte que Vaca Muerta no puede absorber m",
+        "Repetida: El Papa Le\u00f3n XIV visitar\u00e1 Argentina en noviembre"
+      ],
+      "titulos": [
+        "El PJ busca replicar el modelo de Lula para ganar en 2027",
+        "Merlo, Pennisi y Pereyra cantar\u00e1n en la misa de Le\u00f3n XIV",
+        "Trebucq critic\u00f3 a Milei por sus dichos sobre Brasil"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 13:07",
+      "publicadas": 2,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Cinta: La cinta repite un tema ya publicado. NO se publica."
+      ],
+      "titulos": [
+        "Juan Acosta defiende los ataques de Milei a periodistas",
+        "El abogado de Bullrich renunci\u00f3 al Ministerio de Seguridad"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 14:07",
+      "publicadas": 3,
+      "cinta": true,
+      "estado": "SIN NOVEDADES",
+      "detalle": [],
+      "titulos": [
+        "Colombi rechaza la UCR cercana a Milei y pide unir gobernadores",
+        "El PJ del Chaco usar\u00e1 internas propias para elegir candidatos en 2027",
+        "Brasil investiga si Bolsonaro cruz\u00f3 la frontera en secreto",
+        "El gobernador de R\u00edo Negro compite ante un libertario en Bariloche"
+      ]
+    },
+    {
+      "fecha": "2026-10-27 15:10",
+      "publicadas": 6,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Mismo tema que otra nota: Milei no felicitar\u00e1 a Lula y rompe con la tradici\u00f3n dip"
+      ],
+      "titulos": [
+        "Milei se niega a felicitar a Lula y agrava la crisis con Brasil",
+        "Pichetto: en 2027 ganar\u00e1 un pol\u00edtico del sistema, no un outsider",
+        "Un inversor apela el sobreseimiento de Milei en el caso Libra",
+        "El PRO porte\u00f1o ir\u00e1 unido en 2027 con Jorge y Mauricio Macri",
+        "El vocero oficial se distanci\u00f3 del juicio a Bolsonaro",
+        "Roy\u00f3n celebr\u00f3 que el Senado aprob\u00f3 el pliego de Michelli",
+        "Acciones argentinas abren con leve rebote en bolsa"
+      ]
+    }
+  ],
+  "orden1_ids": [
+    4662,
+    4663,
+    4664,
+    4665,
+    4666,
+    4667
+  ],
+  "cinta_id": 4668,
+  "published_links": [
+    "https://www.infobae.com/politica/2026/10/27/el-pj-mira-el-triunfo-de-lula-la-candidatura-de-cfk-el-futuro-de-la-coalicion-y-el-mensaje-a-milei/",
+    "https://noticiasargentinas.com/espectaculos/quienes-son-los-artistas-confirmados-para-cantar-en-la-visita-del-papa-leon-xiv-a-la-argentina_a6ae07a84bc8a73c74f0e5b70",
+    "https://www.perfil.com/noticias/politica/rigi-el-gobierno-oficializo-un-proyecto-minero-de-us-6393-millones-en-catamarca.phtml",
+    "https://www.infobae.com/politica/2026/10/27/el-pj-chaco-convoco-a-internas-abiertas-para-el-4-de-julio-de-2027/",
+    "https://tn.com.ar/politica/2026/10/27/el-gobierno-prioriza-a-sus-candidatos-en-las-provincias-y-demora-los-acuerdos-con-los-gobernadores-por-las-paso/",
+    "https://www.infobae.com/politica/2026/10/27/no-va-a-haber-comunicado-el-gobierno-confirmo-que-no-felicitara-a-lula-por-su-victoria-y-crece-la-tension-con-brasil/",
+    "https://perfil.com/modo-fontevecchia/miguel-angel-pichetto-no-veo-que-2027-sea-de-un-outsider-mas-bien-de-un-hombre-del-sistema-aPWsz8T2iAcu",
+    "https://www.clarin.com/politica/caso-libra-inversores-apelo-sobreseimiento-milei-pidio-cierren-expediente_0_Pcc2FJZ4LG.html",
+    "https://www.infobae.com/politica/2026/10/27/el-pro-busca-un-acuerdo-para-la-proxima-eleccion-en-caba-veo-un-escenario-de-entendimiento-puertas-adentro/",
+    "https://www.lanacion.com.ar/politica/el-gobierno-tomo-nota-del-resultado-de-las-elecciones-en-brasil-nid27102026/",
+    "https://perfil.com/modo-fontevecchia/flavia-royon-la-aprobacion-del-pliego-de-michelli-demostro-que-hay-una-oposicion-constructiva-modof-aJRwL5n2aBfr",
+    "https://noticiasargentinas.com/economia/las-acciones-argentinas-abren-con-un-leve-rebote_a6ae0abf8bc8a73c74f143f1a"
+  ],
+  "used_img_hashes": [
+    "35e6184f3f13a7ad6d1d8992d7077fa0",
+    "b549443606fe8e4cad80217694f28998",
+    "8d7018bfb41ae0abcada1a93df03229c",
+    "e258015bac59394c59c5b1ddffebe4ef",
+    "26381ccdf0a33c91f3b56e863d40ed72",
+    "3dc27ab3f08f5ecc3e950ba2b6c47657",
+    "80baebc05d76917567c9fc6f6a31ce49",
+    "0de208a06083ca1ee65c15cf0b0ca6aa",
+    "a3142714fdfb68e640e155a00b0b7370",
+    "3dc27ab3f08f5ecc3e950ba2b6c47657",
+    "a3142714fdfb68e640e155a00b0b7370",
+    "3a89b9cac5ebffdb4c7c353b0ef02a47",
+    "f6d269d7ec3324723a4be86ae2bac0d1",
+    "80baebc05d76917567c9fc6f6a31ce49",
+    "e258015bac59394c59c5b1ddffebe4ef"
+  ],
+  "published_titles": [
+    "Karina Milei gan\u00f3 la interna por la pol\u00edtica de discapacidad",
+    "La intransigencia de Milei hace estallar la guerra interna",
+    "La disputa por la sucesi\u00f3n ya genera tensiones en el Gobierno",
+    "La \"competencia destructiva\" que acecha a la mesa pol\u00edtica y la advertencia de Milei por el 2027",
+    "Kicillof y Grabois mostraron acercamiento pol\u00edtico en la UBA",
+    "Juan Grabois se mostr\u00f3 con Kicillof: \"Con Axel estamos construyendo un camino\"",
+    "Lorenzetti aclara que la Corte no inhabilit\u00f3 a Cristina Kirchner",
+    "Lorenzetti habl\u00f3 del fallo sobre Cristina Kirchner y pidi\u00f3 cubrir las vacantes en la Corte Suprema",
+    "El Gobierno eval\u00faa postergar el voto del proyecto de soberan\u00eda",
+    "El viaje que podr\u00eda postergar el debate del proyecto sobre Malvinas y los ajustes que el Gobierno eval\u00faa para sumar votos",
+    "Lacunza defendi\u00f3 las PASO y rechaz\u00f3 cambios electorales",
+    "Lacunza defendi\u00f3 las PASO y rechaz\u00f3 modificar el sistema electoral cerca de los comicios",
+    "La ruta Chile-Malvinas divide a la pol\u00edtica argentina",
+    "Los detalles de la ruta mar\u00edtima entre Chile y Malvinas, la tensi\u00f3n con Argentina y el proyecto para frenar el intercambio",
+    "El PJ celebr\u00f3 el triunfo de Lula como se\u00f1al para el peronismo",
+    "CFK, Axel Kicillof, Sergio Massa y otros referentes del PJ celebraron el triunfo electoral de Lula da Silva",
+    "El Senado debate c\u00f3mo cobrarles a los padres que no pagan alimentos",
+    "El Senado busca consensuar la creaci\u00f3n de un registro de deudores alimentarios morosos",
+    "El resultado en Brasil obliga a Milei a recalcular sus alianzas",
+    "El triunfo de Lula inquieta al Gobierno y abre interrogantes sobre el escenario electoral de 2027",
+    "Un nuevo fondo y la informalidad bajan los aportes jubilatorios",
+    "Cu\u00e1nto deja de recaudar el sistema previsional por la menor cantidad de trabajadores que aportan y la implementaci\u00f3n del FAL",
+    "Bullrich pone condiciones para ser vicepresidenta de Milei",
+    "Lugares y poder de decisi\u00f3n en la gesti\u00f3n: las condiciones de Patricia Bullrich en medio de los rumores de una f\u00f3rmula con Milei",
+    "Docentes universitarios ir\u00e1n a una semana de paro nacional",
+    "Conflicto universitario: convocaron a un nuevo paro nacional por una semana",
+    "El Gobierno sum\u00f3 una funcionaria a Capital Humano",
+    "El Gobierno design\u00f3 a una nueva funcionaria en un \u00e1rea clave de Capital Humano",
+    "Kicillof: la reelecci\u00f3n de Lula frena el avance ultraderechista",
+    "Kicillof celebr\u00f3 la victoria de Lula: \"Fue un enorme triunfo del pueblo brasile\u00f1o y una derrota de Milei y su motosierra\"",
+    "Milei no felicit\u00f3 a Lula y marc\u00f3 su posici\u00f3n ante la derecha",
+    "Milei a\u00fan no felicit\u00f3 a Lula y encabeza una nueva reuni\u00f3n de Gabinete tras la derrota de Bolsonaro",
+    "Bariloche vota su Carta Org\u00e1nica y marca el mapa electoral de 2027",
+    "Bariloche, laboratorio electoral: elige convencionales y pone a prueba las alianzas pol\u00edticas de cara a 2027",
+    "El triunfo de Lula reordena las alianzas de Milei en la regi\u00f3n",
+    "Ganadores y perdedores en la Argentina del triunfo de Lula en Brasil: siete claves para Milei, el peronismo y las elecciones 2027",
+    "Lula gan\u00f3, pero el Congreso de Brasil frena su agenda",
+    "Por qu\u00e9 gan\u00f3 Lula en Brasil: los factores que inclinaron la elecci\u00f3n y el desaf\u00edo que enfrentar\u00e1 en el Congreso",
+    "Mauricio Macri felicit\u00f3 a Lula mientras Milei guarda silencio",
+    "Mauricio Macri felicit\u00f3 a Lula Da Silva por su triunfo en Brasil mientras el presidente Javier Milei sigue sin pronunciarse",
+    "El Papa Le\u00f3n XIV visitar\u00e1 la Argentina del 8 al 11 de noviembre",
+    "El Papa Le\u00f3n XIV confirm\u00f3 su viaje a la Argentina: \u201cMe llena de alegr\u00eda\u201d",
+    "La confianza en el Gobierno rebota pero sigue en baja anual",
+    "La confianza en el Gobierno subi\u00f3 tras la ca\u00edda en septiembre, seg\u00fan un estudio de la Universidad Di Tella",
+    "Rejal vuelve al kirchnerismo y LLA queda en minor\u00eda en el Senado",
+    "Magistratura: Rejal vuelve con los K en el Senado y complica a libertarios en una eventual puja por butacas",
+    "Amnist\u00eda Internacional llevar\u00e1 el caso Libra a la ONU",
+    "Amnist\u00c3\u00ada Internacional llevar\u00c3\u00a1 a la CIDH y la ONU los ataques de Milei contra periodistas por el caso $LIBRA",
+    "Fiscal\u00eda explic\u00f3 c\u00f3mo los Kirchner lavaron dinero con sus hoteles",
+    "Juicio por Hotesur y Los Sauces: la fiscal\u00eda detall\u00f3 cu\u00e1l fue la maniobra de los Kirchner \"para garantizar el \u00e9xito del lavado de activos\"",
+    "El negocio de los Kirchner recib\u00eda m\u00e1s dinero ilegal que legal",
+    "Los fiscales aseguran que a Los Sauces, de la familia Kirchner, \u201centraban m\u00e1s fondos il\u00edcitos que l\u00edcitos\u201d",
+    "Llaryora resiste en C\u00f3rdoba pero Juez recorta la brecha",
+    "Encuesta: Juez achica la distancia con Llaryora, que sigue ganando en todos los escenarios",
+    "Juez acusado de acoso nombr\u00f3 a la hija del juez que lo investiga",
+    "Un camarista federal de La Rioja denunciado por acoso design\u00f3 en los tribunales a la hija del juez que lo investiga",
+    "Gobierno y peronismo mantienen reuniones informales",
+    "Charlas de quincho: Roast beef libertario, asados peronistas, una disputa fronteriza y un Cabildo financiero",
+    "La CGT qued\u00f3 fuera del PJ y exige integraci\u00f3n sindical",
+    "En la cumbre del PJ hubo cr\u00edticas al gremialismo: la CGT se quej\u00f3 por su exclusi\u00f3n y pide integraci\u00f3n",
+    "Guelar: Lula llega debilitado y debe redefinir su agenda",
+    "Diego Guelar analiz\u00f3 el triunfo de Lula: \u201ccambio de reglas\u201d, la relaci\u00f3n con Milei y el posible indulto a Bolsonaro",
+    "Cristina felicit\u00f3 a Lula por su victoria electoral",
+    "Cristina Kirchner celebr\u00f3 el triunfo de Lula da Silva en Brasil: \u201cFelicitaciones, compa\u00f1ero presidente\u201d",
+    "El Gobierno busca revertir en Diputados los cambios al BCRA",
+    "El Gobierno cambia de estrategia y buscar\u00e1 revertir en Diputados las modificaciones que introdujo el Senado a la reforma del BCRA",
+    "Milei tiene otras causas judiciales abiertas adem\u00e1s del caso cripto",
+    "Despu\u00e9s del cierre de $LIBRA, los otros expedientes que preocupan al Gobierno",
+    "Brasil cuenta los votos entre Lula y Bolsonaro",
+    "Reacciones de las elecciones en Brasil 2026: mensajes, tuits y declaraciones",
+    "El Gobierno contrat\u00f3 a DF Entertainment para la visita del Papa",
+    "La visita del Papa: la Iglesia espera la \u201c\u00faltima avanzada\u201d y el Gobierno adjudic\u00f3 un contrato millonario para producir los eventos masivos",
+    "Abad impuls\u00f3 un premio para la FURP en el Senado bonaerense",
+    "La FURP recibi\u00f3 la distinci\u00f3n \"Domingo Faustino Sarmiento\" en el Senado",
+    "El Gobierno asciende al hermano del ministro de Justicia",
+    "El Gobierno impulsa en el Senado el ascenso de un hermano del ministro de Justicia en la carrera diplom\u00e1tica",
+    "El Gobierno busca capitalizar la visita del Papa Francisco",
+    "C\u00f3mo contin\u00faan las reuniones del Gobierno por la llegada del Papa",
+    "El real cae y Brasil se vuelve m\u00e1s barato para los argentinos",
+    "\u00bfBrasil m\u00e1s barato para el verano? C\u00f3mo impacta la devaluaci\u00f3n del real en el bolsillo de los turistas argentinos",
+    "Bullrich impulsa la ley de Salud Mental en el Senado",
+    "Congreso: Patricia Bullrich busca sesionar en el Senado y LLA negocia cambios a la ley de Malvinas",
+    "El triunfo de Lula expuso fisuras entre Milei y sus aliados",
+    "Elecciones en Brasil: el triunfo de Lula da Silva expuso diferencias entre Javier Milei, la oposici\u00f3n y sus aliados en el Congreso",
+    "Cuestionan la privatizaci\u00f3n de AySA en audiencia p\u00fablica",
+    "Nuevos cuestionamientos por la privatizaci\u00c3\u00b3n de AySA e incertidumbre por el futuro de las obras",
+    "El bloque peronista suma 22 miembros y va por la Magistratura",
+    "Un senador de La Rioja regres\u00f3 al bloque del PJ, que reclama dos bancas en el Consejo de la Magistratura",
+    "Milei eval\u00faa si va a la cumbre iberoamericana en Espa\u00f1a",
+    "Sin reconocer a Lula y tras insultar a S\u00e1nchez, Milei define si viaja a la Cumbre Iberoamericana",
+    "Falsa psiquiatra: la imputaron por intentar internar a un menor",
+    "Imputan a una mujer que se hac\u00eda pasar por psiquiatra y quiso internar a un joven",
+    "Carlos Bianco: Buenos Aires no desdobla si la Naci\u00f3n mantiene las PASO",
+    "El gobierno de Kicillof ratific\u00f3 que si se sostienen las PASO no habr\u00e1 desdoblamiento en Buenos Aires",
+    "El oficialismo cedi\u00f3 en dos puntos clave para sumar votos",
+    "Malvinas: el gobierno acept\u00f3 limitar las prohibiciones a empresas que operan en las islas y reformul\u00f3 el pol\u00e9mico delito de \u201cdesinformaci\u00f3n masiva\u201d",
+    "Macri felicit\u00f3 a Lula y el PRO tom\u00f3 distancia de Milei",
+    "Mauricio Macri y el PRO marcaron distancia del Gobierno y felicitaron a Lula da Silva por el triunfo en Brasil",
+    "Milei responsabiliz\u00f3 a Lula por un eventual fraude en Brasil",
+    "Javier Milei y sus medidas, en vivo: el Presidente acus\u00f3 a Lula de querer \u201crobar\u201d las elecciones en Brasil",
+    "La ausencia de Bullrich en gabinete expone fractura con el PRO",
+    "Una nueva diferencia pol\u00edtica por Brasil: el trasfondo de la ausencia de Patricia Bullrich en la reuni\u00f3n de gabinete",
+    "Una agrupaci\u00f3n c\u00edvica presiona al Senado por la ley antiludopat\u00eda",
+    "Fuerza SUMA pide al Senado aprobar la ley contra la ludopat\u00eda antes de que pierda estado parlamentario",
+    "El 68% quiere que Milei abandone su choque con Brasil",
+    "El 68% de los argentinos cree que Milei deber\u00eda reconocer el triunfo de Lula",
+    "Jorge Macri celebr\u00f3 la elecci\u00f3n del papa Le\u00f3n XIV",
+    "Jorge Macri celebr\u00f3 la visita del papa Le\u00f3n XIV y le abri\u00f3 las puertas de Buenos Aires: \u201cSer\u00e1 su casa\u201d",
+    "Estudiantes perdi\u00f3 con Uni\u00f3n y se aleja de los playoffs",
+    "Estudiantes cay\u00f3 con Uni\u00f3n y se aleja de la clasificaci\u00f3n en el Torneo Clausura 2026",
+    "Diputados opositores impulsan declaraci\u00f3n por la prensa libre",
+    "\u00abQuemarse en la hoguera\u00bb: El repudio a Milei que pone a prueba a la UCR y al juecismo en C\u00f3rdoba",
+    "El Partido Liberal de Brasil acepta la derrota ante Lula",
+    "Brasil: el Partido Liberal reconoci\u00f3 la reelecci\u00f3n de Luiz In\u00e1cio Lula da Silva",
+    "Torres, Weretilneck y Figueroa inauguraron planta de gas",
+    "Ignacio Torres, Alberto Weretilneck y Rolando Figueroa inauguraron la Planta Compresora Holdich: los detalles del proyecto",
+    "Massa elogi\u00f3 a Lula y le exigi\u00f3 a Milei aceptar su derrota",
+    "Massa defini\u00f3 a Lula como \u201cel Per\u00f3n de este siglo\u201d y pidi\u00f3 aprender de su alianza pol\u00edtica",
+    "Un dirigente peronista felicit\u00f3 a Lula y se alej\u00f3 del oficialismo",
+    "\u201cPepe\u201d Scioli celebr\u00f3 la victoria de Lula en Brasil y lanz\u00f3 un dardo contra su hermano Daniel",
+    "Instituto venci\u00f3 1-0 a Riestra y lidera la Zona A por 5 puntos",
+    "Instituto venci\u00f3 a Riestra y qued\u00f3 a un paso de asegurarse el primer puesto en la Zona A",
+    "El PJ busca recuperarse imitando el triunfo de Lula",
+    "El peronismo se sube a la hist\u00f3rica remontada de Lula y busca reflejarse en el espejo del PT de cara a 2027",
+    "La incertidumbre econ\u00f3mica complica la campa\u00f1a de Milei",
+    "Milei en la hoguera de la incertidumbre creciente",
+    "Massa us\u00f3 la victoria de Lula para interpelar al gobierno",
+    "Sergio Massa le pidi\u00c3\u00b3 a Javier Milei que reconozca el triunfo de Lula y habl\u00c3\u00b3 de una \"bocanada de \u00c3\u00a1nimo\" en el peronismo",
+    "El Gobierno no tiene votos para aprobar el Presupuesto",
+    "Sin acuerdo con los aliados, se dilata el debate por el Presupuesto y el oficialismo posterga el dictamen hasta mediados de noviembre",
+    "El Gobierno modifica su proyecto sobre Malvinas por presi\u00f3n de EE.UU.",
+    "Malvinas: el Gobierno busca modificar el proyecto de Defensa de la Soberan\u00eda Nacional tras los pedidos de aliados y de EE.UU.",
+    "El Vaticano visitar\u00e1 organizaciones sociales en La Matanza",
+    "Antes de la visita de Le\u00f3n XIV, una delegaci\u00f3n del Vaticano se reunir\u00e1 con movimientos sociales en La Matanza",
+    "Milei usa la crisis fiscal europea para defender su ajuste",
+    "El Gobierno est\u00e1 en alerta por los conflictos en Europa: el doble impacto econ\u00f3mico y el modelo Milei",
+    "Kicillof critic\u00f3 el silencio de Milei ante Brasil",
+    "Kicillof apunt\u00f3 contra Milei por no pronunciarse tras la victoria de Lula",
+    "Vecinos de Catamarca cortan la Ruta 40 por falta de agua",
+    "Catamarca: denuncian una semana sin agua y cortan la Ruta 40 por un servicio provincial",
+    "Nadie lidera la carrera para suceder a Kicillof en Buenos Aires",
+    "Encuesta 2027: \"casi empate\" en la punta para suceder a Kicillof y a cu\u00e1nto queda el tercero",
+    "Congreso limita venta de tierras rurales a extranjeros",
+    "El oficialismo busca dictaminar esta semana el proyecto de propiedad privada que restituye el l\u00edmite de venta de tierras rurales",
+    "El Gobierno fija descuentos de 50% y 20% en gas para zonas fr\u00edas",
+    "Zonas Fr\u00edas: el Gobierno defini\u00f3 qui\u00e9nes tendr\u00e1n descuentos del 50% y el 20% en el precio del gas",
+    "Milei no coment\u00f3 la victoria de Lula y desvi\u00f3 la atenci\u00f3n al Congreso",
+    "En el Gobierno aseguran que Milei no se expresar\u00e1 sobre el triunfo de Lula y se enfocan en la agenda legislativa y la defensa del rumbo econ\u00f3mico",
+    "La C\u00e1mara de Diputados avanza en el Presupuesto y la Ley de Defensa",
+    "El Gobierno acelera el debate por el Presupuesto 2027 y busca dictaminar la Ley de Defensa de la Soberan\u00eda",
+    "Argentina perdi\u00f3 155.000 empleos formales en un a\u00f1o de ajuste",
+    "El empleo formal en la Argentina suma 14 meses en ca\u00edda y el salario m\u00ednimo est\u00e1 en su piso hist\u00f3rico",
+    "El Gobierno negocia el Presupuesto 2027 con bloques aliados",
+    "Presupuesto 2027: \u00faltima ronda de consultas y negociaciones con bloques dialoguistas sobre discapacidad y universidades",
+    "El Gobierno demora acuerdos con gobernadores para las PASO",
+    "El Gobierno prioriza sus candidatos en las provincias y demora los acuerdos con los gobernadores por las PASO",
+    "Milei participar\u00e1 del congreso partidario de La Libertad Avanza",
+    "El Gobierno prepara un congreso nacional de La Libertad Avanza en Rosario con Milei para fortalecer el armado de 2027",
+    "Glencore invertir\u00e1 US$ 6.393 millones en miner\u00eda en Catamarca",
+    "RIGI: el Gobierno oficializ\u00f3 un proyecto minero de US$ 6.393 millones en Catamarca",
+    "El embajador en Tailandia suma tambi\u00e9n la representaci\u00f3n ante Camboya",
+    "El Gobierno design\u00c3\u00b3 a Claudio Guti\u00c3\u00a9rrez como embajador ante Camboya, adem\u00c3\u00a1s de su cargo en Tailandia",
+    "Casi la mitad de los argentinos pide que el Papa priorice la pobreza",
+    "Encuesta: la pobreza y la paz encabezan las demandas de los argentinos para el papa Le\u00f3n XIV",
+    "El Gobierno y el PJ pelean por la Magistratura",
+    "Congreso: se avecina una nueva pelea entre la LLA y el peronismo por el Consejo de la Magistratura",
+    "Brote de meningitis en Mendoza: 4 infectados y 2 muertos",
+    "Alerta por un brote de meningitis en Mendoza: 4 pacientes se infectaron y 2 murieron",
+    "El PJ busca replicar el modelo de Lula para ganar en 2027",
+    "El PJ mira el triunfo de Lula: la candidatura de CFK, el futuro de la coalici\u00f3n y el mensaje a Milei",
+    "Merlo, Pennisi y Pereyra cantar\u00e1n en la misa de Le\u00f3n XIV",
+    "Qui\u00e9nes son los artistas confirmados para cantar en la visita del Papa Le\u00f3n XIV a la Argentina",
+    "Trebucq critic\u00f3 a Milei por sus dichos sobre Brasil",
+    "Trebucq contra Milei: pidi\u00f3 respetar \"la institucionalidad de Brasil\" y calific\u00f3 como \"una barbaridad\" lo que dijo sobre la hoguera",
+    "Juan Acosta defiende los ataques de Milei a periodistas",
+    "El actor Juan Acosta volvi\u00f3 a defender a Milei: \"No hay una persona que no lo agreda, \u00bfpor qu\u00e9 no va agredir?\"",
+    "El abogado de Bullrich renunci\u00f3 al Ministerio de Seguridad",
+    "Renunci\u00f3 Juli\u00e1n Curi: funcionario de Bullrich en Seguridad tras denunciar a la Justicia porte\u00f1a",
+    "Colombi rechaza la UCR cercana a Milei y pide unir gobernadores",
+    "Ricardo Colombi critic\u00f3 la alianza de la UCR con Milei, se baj\u00f3 de la interna y propuso un frente de gobernadores",
+    "El PJ del Chaco usar\u00e1 internas propias para elegir candidatos en 2027",
+    "El PJ Chaco convoc\u00f3 a internas abiertas para el 4 de julio de 2027",
+    "Brasil investiga si Bolsonaro cruz\u00f3 la frontera en secreto",
+    "A partir del movimiento de un avi\u00f3n en la Argentina, la Polic\u00eda de Brasil investiga si Fl\u00e1vio Bolsonaro huy\u00f3",
+    "El gobernador de R\u00edo Negro compite ante un libertario en Bariloche",
+    "Gobernador dialoguista se mide con La Libertad Avanza de Javier Milei en el primer test de la campa\u00c3\u00b1a 2027",
+    "Milei se niega a felicitar a Lula y agrava la crisis con Brasil",
+    "\u201cNo va a haber comunicado\u201d: el gobierno argentino confirm\u00f3 que no felicitar\u00e1 a Lula por su victoria y crece la tensi\u00f3n con Brasil",
+    "Pichetto: en 2027 ganar\u00e1 un pol\u00edtico del sistema, no un outsider",
+    "Miguel \u00c1ngel Pichetto: \u201cNo veo que 2027 sea de un outsider, m\u00e1s bien de un hombre del sistema\u201d",
+    "Un inversor apela el sobreseimiento de Milei en el caso Libra",
+    "Caso $LIBRA: uno de los inversores apel\u00f3 el sobreseimiento de los Milei y pidi\u00f3 que no cierren el expediente",
+    "El PRO porte\u00f1o ir\u00e1 unido en 2027 con Jorge y Mauricio Macri",
+    "El PRO busca un acuerdo para la pr\u00f3xima elecci\u00f3n en CABA: \u201cVeo un escenario de entendimiento puertas adentro\u201d",
+    "El vocero oficial se distanci\u00f3 del juicio a Bolsonaro",
+    "El Gobierno dice que \u201ctom\u00f3 nota\u201d del resultado de las elecciones en Brasil y que Bolsonaro no pidi\u00f3 asilo en el pa\u00eds",
+    "Roy\u00f3n celebr\u00f3 que el Senado aprob\u00f3 el pliego de Michelli",
+    "Flavia Roy\u00f3n: \u201cLa aprobaci\u00f3n del pliego de Michelli demostr\u00f3 que hay una oposici\u00f3n constructiva\u201d",
+    "Acciones argentinas abren con leve rebote en bolsa",
+    "Las acciones argentinas abren con un leve rebote"
+  ]
+}
