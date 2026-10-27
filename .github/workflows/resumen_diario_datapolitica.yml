@@ -1,0 +1,36 @@
+name: Resumen diario datapolitica
+
+on:
+  # Lo dispara cron-job.org todos los dias a las 08:10 (hora de Buenos Aires).
+  # El horario automatico de GitHub se saco porque llegaba con horas de atraso.
+  workflow_dispatch:
+
+jobs:
+  resumen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      issues: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Armar resumen
+        run: python resumen_diario.py > resumen.md
+
+      - name: Enviar resumen por mail (aviso de GitHub)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cat resumen.md >> "$GITHUB_STEP_SUMMARY"
+          titulo="Resumen diario datapolitica - $(TZ=America/Argentina/Buenos_Aires date +%d/%m/%Y)"
+          num=$(gh issue create --title "$titulo" --body-file resumen.md | grep -oE '[0-9]+$')
+          # Se cierra enseguida: el mail ya sale, y no quedan avisos acumulados
+          if [ -n "$num" ]; then gh issue close "$num"; fi

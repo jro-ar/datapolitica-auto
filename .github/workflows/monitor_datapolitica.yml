@@ -1,0 +1,92 @@
+name: Monitor Datapolitica
+
+on:
+  schedule:
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verificar y corregir pipeline
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            const runs = await github.rest.actions.listWorkflowRuns({
+              owner, repo,
+              workflow_id: 'datapolitica.yml',
+              per_page: 1
+            });
+
+            const lastRun = runs.data.workflow_runs[0];
+            const lastRunTime = lastRun ? new Date(lastRun.created_at) : null;
+            const horasSinCorrer = lastRunTime
+              ? (Date.now() - lastRunTime.getTime()) / 3600000
+              : 999;
+
+            console.log('Ultimo run: ' + lastRun?.created_at + ' | Hace ' + horasSinCorrer.toFixed(1) + 'h | Estado: ' + lastRun?.conclusion);
+
+            try {
+              const stateFile = await github.rest.repos.getContent({ owner, repo, path: 'state.json' });
+              const state = JSON.parse(Buffer.from(stateFile.data.content, 'base64').toString());
+              if ((state.used_img_hashes || []).length > 10) {
+                state.used_img_hashes = [];
+                const updated = Buffer.from(JSON.stringify(state, null, 2)).toString('base64');
+                await github.rest.repos.createOrUpdateFileContents({
+                  owner, repo, path: 'state.json',
+                  message: 'chore: limpiar used_img_hashes [skip ci]',
+                  content: updated,
+                  sha: stateFile.data.sha
+                });
+                console.log('Hashes limpiados');
+              }
+            } catch(e) {
+              console.log('Error leyendo state.json: ' + e.message);
+            }
+
+            if (horasSinCorrer > 5) {
+              const issues = await github.rest.issues.listForRepo({
+                owner, repo, state: 'open', labels: 'alerta-pipeline', per_page: 1
+              });
+              if (issues.data.length === 0) {
+                await github.rest.issues.create({
+                  owner, repo,
+                  title: 'Datapolitica sin actualizar hace ' + horasSinCorrer.toFixed(0) + ' horas',
+                  body: 'El pipeline datapolitica.yml lleva ' + horasSinCorrer.toFixed(1) + ' horas sin ejecutarse.\n\nUltimo run: ' + (lastRun?.created_at || 'desconocido') + '\nEstado: ' + (lastRun?.conclusion || 'desconocido') + '\n\nEste issue se cierra automaticamente cuando el pipeline vuelva a correr.',
+                  labels: ['alerta-pipeline']
+                });
+                console.log('Issue de alerta creado');
+              }
+            }
+
+            if (horasSinCorrer <= 5 && lastRun?.conclusion === 'success') {
+              const issues = await github.rest.issues.listForRepo({
+                owner, repo, state: 'open', labels: 'alerta-pipeline', per_page: 10
+              });
+              for (const issue of issues.data) {
+                await github.rest.issues.update({
+                  owner, repo, issue_number: issue.number, state: 'closed'
+                });
+                console.log('Issue cerrado (pipeline OK)');
+              }
+            }
+
+            if (lastRun?.conclusion === 'failure') {
+              await github.rest.actions.createWorkflowDispatch({
+                owner, repo, workflow_id: 'datapolitica.yml', ref: 'main'
+              });
+              console.log('Pipeline re-disparado');
+            }
