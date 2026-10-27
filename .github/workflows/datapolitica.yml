@@ -1,0 +1,105 @@
+name: Automatizar datapolitica.com
+
+
+on:
+  # La orden de actualizar llega desde cron-job.org (7, 11, 15 y 20 hs de Argentina).
+  # Tambien se puede lanzar a mano con "Run workflow".
+  workflow_dispatch:
+
+
+concurrency:
+  group: datapolitica-publicar
+  cancel-in-progress: false
+
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+      issues: write
+
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+
+      - name: Instalar dependencias
+        run: |
+          pip install anthropic requests beautifulsoup4 Pillow
+          # detector de caras para centrar las fotos (si fallara, el automatizador sigue sin el)
+          pip install numpy opencv-python-headless || echo "Aviso: no se pudo instalar opencv"
+
+
+      - name: Validar sintaxis Python
+        run: |
+          python -m py_compile automatizar_datapolitica_FINAL.py && echo "OK: automatizar_datapolitica_FINAL.py"
+          python -m py_compile fix_css.py && echo "OK: fix_css.py"
+
+
+      - name: Arreglar tipografia CSS
+        env:
+          DATAPOLITICA_PANEL_PASS: ${{ secrets.DATAPOLITICA_PANEL_PASS }}
+        run: python fix_css.py
+
+
+      - name: Publicar noticias
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DATAPOLITICA_PANEL_PASS: ${{ secrets.DATAPOLITICA_PANEL_PASS }}
+        run: python automatizar_datapolitica_FINAL.py
+
+
+      - name: Guardar estado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f state.json || true
+          if git diff --cached --quiet; then
+            echo "Sin cambios de estado"
+            exit 0
+          fi
+          git commit -m "chore: actualizar estado datapolitica"
+          # Si otro proceso (por ejemplo el posteo en X) guardo antes, nos ponemos al dia y reintentamos
+          for i in 1 2 3 4; do
+            if git pull --rebase -X theirs origin main && git push; then
+              echo "Estado guardado"
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
+          echo "::warning::No se pudo guardar el estado despues de 4 intentos"
+          exit 0
+
+
+      - name: Avisar si hubo un problema
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ job.status }}" != "success" ] && [ ! -f alerta.txt ]; then
+            printf "## La corrida de datapolitica se corto por un error\n\nVer el detalle: %s\n" "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" > alerta.txt
+          fi
+          if [ -f alerta.txt ]; then
+            echo "" >> alerta.txt
+            echo "Detalle de la corrida: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> alerta.txt
+            abierto=$(gh issue list --state open --search "in:title Aviso datapolitica" --json number --jq '.[0].number' || true)
+            if [ -n "$abierto" ]; then
+              gh issue comment "$abierto" --body-file alerta.txt
+            else
+              gh issue create --title "Aviso datapolitica: hubo un problema en la actualizacion" --body-file alerta.txt
+            fi
+          else
+            echo "Sin problemas: no se envia aviso"
+          fi
