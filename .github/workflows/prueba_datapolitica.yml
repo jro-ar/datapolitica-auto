@@ -1,0 +1,53 @@
+name: Prueba datapolitica (no publica)
+
+# Corre el automatizador en MODO PRUEBA: arma notas, titulos y fotos pero NO borra ni publica nada
+# y no guarda el estado. Se usa para revisar una version nueva antes de que llegue al sitio.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: datapolitica-publicar
+  cancel-in-progress: false
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: |
+          pip install anthropic requests beautifulsoup4 Pillow
+          # detector de caras para centrar las fotos (si fallara, el automatizador sigue sin el)
+          pip install numpy opencv-python-headless || echo "Aviso: no se pudo instalar opencv"
+
+      - name: Validar sintaxis Python
+        run: |
+          if [ -f automatizar_datapolitica_PRUEBA.py ]; then python -m py_compile automatizar_datapolitica_PRUEBA.py; fi
+          python -m py_compile automatizar_datapolitica_FINAL.py && echo "OK"
+
+      - name: Probar (sin publicar)
+        env:
+          DRY_RUN: "1"
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DATAPOLITICA_PANEL_PASS: ${{ secrets.DATAPOLITICA_PANEL_PASS }}
+        # Si existe automatizar_datapolitica_PRUEBA.py se prueba ESA version (la nueva, que todavia
+        # no esta en el sitio); si no, la que esta funcionando.
+        run: |
+          if [ -f automatizar_datapolitica_PRUEBA.py ]; then
+            echo ">> Probando la VERSION NUEVA (automatizar_datapolitica_PRUEBA.py)"
+            python automatizar_datapolitica_PRUEBA.py
+          else
+            echo ">> Probando la version actual del sitio"
+            python automatizar_datapolitica_FINAL.py
+          fi
