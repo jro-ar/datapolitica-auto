@@ -887,6 +887,55 @@ def _is_journalist_studio_image(img) -> bool:
         return False  # si falla, no descartar
 
 
+_CACHE_MARCA: dict = {}
+
+def foto_con_marca(data: bytes) -> bool:
+    """v22: True si la foto tiene sobreimpreso el logo, sello o marca de agua de un medio o agencia
+    (ej.: NA - Noticias Argentinas, Infobae, TN, Clarin, AFP) o un zocalo/placa de TV.
+    Esas fotos NO se usan. Si la revision falla, se toma como SIN marca (no frena la publicacion)."""
+    import hashlib as _h
+    clave = _h.md5(data).hexdigest()
+    if clave in _CACHE_MARCA:
+        return _CACHE_MARCA[clave]
+    resultado = False
+    try:
+        import base64, io as _io
+        from PIL import Image as _I
+        im = _I.open(_io.BytesIO(data)).convert("RGB")
+        im.thumbnail((1024, 1024))
+        buf = _io.BytesIO()
+        im.save(buf, format="JPEG", quality=80)
+        b64 = base64.b64encode(buf.getvalue()).decode()
+        cli = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        resp = cli.messages.create(
+            model="claude-haiku-4-5",
+            max_tokens=5,
+            messages=[{
+                "role": "user",
+                "content": [
+                    {"type": "image", "source": {"type": "base64", "media_type": "image/jpeg", "data": b64}},
+                    {"type": "text", "text": (
+                        "Mira con atencion las esquinas y los bordes de la foto. "
+                        "¿Tiene sobreimpreso (agregado encima de la foto) el logo, sello, nombre o marca de agua "
+                        "de un medio de comunicacion o agencia de noticias (por ejemplo NA / Noticias Argentinas, "
+                        "Telam, Infobae, TN, Clarin, La Nacion, LN+, A24, C5N, Perfil, Ambito, AFP, Reuters, EFE, AP), "
+                        "o un zocalo / placa de television con texto? "
+                        "Los carteles, banderas o logos que estan en el lugar fotografiado (atriles, fondos de actos) NO cuentan. "
+                        "Responde solo SI o NO.")}
+                ]
+            }]
+        )
+        answer = resp.content[0].text.strip().upper().replace("Í", "I")
+        resultado = answer.startswith("SI")
+    except Exception as e:
+        print(f"   Aviso revision de marca en foto: {e}")
+        resultado = False
+    _CACHE_MARCA[clave] = resultado
+    if resultado:
+        print("   Foto con marca de un medio (logo/sello/marca de agua): NO se usa")
+    return resultado
+
+
 _URL_BLACKLIST = (
     "via.placeholder.com",
     "scorecardresearch.com",
@@ -1201,6 +1250,8 @@ def foto_de_persona(art: dict, nombre: str, actual: bytes | None = None) -> byte
         except Exception:
             data = None
         if data:
+            if foto_con_marca(data):
+                continue
             if encuadre_ok(data):
                 return data
             print("   Foto verificada pero mal encuadrada (primer plano o cara cortada): busco otra")
@@ -1311,6 +1362,9 @@ def find_article_with_photo(articles: list[dict],
                 continue
             if foto_muy_parecida(img):
                 print(f"   Foto casi igual a otra de esta actualizacion, descartado: {art['title'][:60]}")
+                continue
+            if foto_con_marca(img):
+                print(f"   Foto con marca de un medio, descartado: {art['title'][:60]}")
                 continue
             used_img_hashes.add(img_hash)
             registrar_foto_usada(img)
@@ -1758,6 +1812,20 @@ def main():
     print("=" * 55)
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+
+    # v22: en modo prueba, autocontrol del detector de fotos con marca de medios
+    if DRY_RUN:
+        try:
+            _con = _download_image("https://datapolitica.com/upload/gallery/c8/8/c875366d4b50961cad7fb7530e511acf.jpg")
+            _sin = _foto_wikipedia("Javier Milei")
+            _r1 = foto_con_marca(_con) if _con else None
+            _r2 = foto_con_marca(_sin) if _sin else None
+            _txt = (f"Autoprueba marca de medios: foto con logo NA -> {'detectada' if _r1 else 'NO detectada'}; "
+                    f"foto limpia de Wikipedia -> {'marcada por error' if _r2 else 'aceptada'}")
+            print("   " + _txt)
+            RESUMEN["descartes"].append(_txt)
+        except Exception as _e:
+            print(f"   Autoprueba de marca no disponible: {_e}")
 
     # 0. Estado anterior
     state = load_state()
