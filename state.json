@@ -57,16 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-24 22:02",
-      "publicadas": 0,
-      "cinta": false,
-      "estado": "SIN NOVEDADES",
-      "detalle": [
-        "Cinta: no hubo noticia nueva para la cinta"
-      ],
-      "titulos": []
-    },
-    {
       "fecha": "2026-10-24 23:02",
       "publicadas": 0,
       "cinta": false,
@@ -949,61 +939,72 @@
         "El Senado debate econom\u00eda y la oposici\u00f3n cita a declarar a Santilli",
         "Santa Fe organiza dos exposiciones sobre seguridad en Rosario"
       ]
+    },
+    {
+      "fecha": "2026-10-29 10:09",
+      "publicadas": 6,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [],
+      "titulos": [
+        "Javier Milei regresa a Corrientes para cerrar un congreso libertario",
+        "La CGT qued\u00f3 afuera de la cumbre del PJ sobre el 2027",
+        "El peronismo patag\u00f3nico apuesta a tres candidatos para 2027",
+        "El Senado debatir\u00e1 salud mental y un proyecto pro mercado",
+        "El caso Bolsonaro expuso fisuras en la coalici\u00f3n de Milei",
+        "Alberto Weretilneck adelanta elecciones en R\u00edo Negro",
+        "Presentan un libro sobre el Congreso argentino desde 1983"
+      ]
     }
   ],
   "orden1_ids": [
-    4706,
-    4707,
-    4708,
-    4709,
-    4710,
-    4711
+    4713,
+    4714,
+    4715,
+    4716,
+    4717,
+    4718
   ],
-  "cinta_id": 4712,
+  "cinta_id": 4719,
   "published_links": [
-    "https://www.lanacion.com.ar/politica/la-argentina-volvio-a-votar-en-contra-de-levantar-el-embargo-a-cuba-en-la-asamblea-de-la-onu-nid28102026/",
-    "https://www.infobae.com/politica/2026/10/28/patricia-bullrich-reconocio-el-triunfo-de-lula-en-brasil-y-cuestiono-la-utilizacion-de-la-justicia-para-perseguir-a-flavio-bolsonaro/",
-    "https://tn.com.ar/politica/2026/10/27/senadores-patagonicos-impulsan-un-proyecto-de-ley-para-modificar-el-esquema-de-subsidios-al-gas-y-garantizar-tarifas-accesibles/",
-    "https://www.infobae.com/politica/2026/10/28/el-gobierno-porteno-alcanzo-las-1000-propiedades-recuperadas-que-fueron-restituidas-a-sus-duenos/",
-    "https://www.ambito.com/politica/un-intendente-se-postulo-la-presidencia-criticas-la-libertad-avanza-y-al-kirchnerismo-n6338842",
-    "https://www.infobae.com/politica/2026/10/28/luego-del-acto-de-maximo-kirchner-kicillof-se-reunira-con-sus-intendentes-y-bajara-lineamientos-politicos/",
-    "https://www.ambito.com/politica/causa-andis-postergaron-la-indagatoria-los-kovalivker-n6339032",
-    "https://www.infobae.com/politica/2026/10/28/sin-paros-generales-y-con-un-acto-en-una-cancha-la-nueva-estrategia-de-la-cgt-que-pone-en-la-mira-tanto-al-gobierno-como-al-pj/",
-    "https://www.infobae.com/politica/2026/10/28/la-uba-otorgara-el-titulo-de-doctor-honoris-causa-al-papa-leon-xiv-en-su-visita-a-la-argentina/",
-    "https://www.lanacion.com.ar/politica/banco-central-el-oficialismo-ratifico-el-proyecto-del-senado-y-planea-una-sesion-para-despues-de-la-nid28102026/",
     "https://www.ambito.com/politica/el-senado-va-sesion-un-nuevo-regimen-inversiones-y-la-oposicion-presionara-interpelaciones-n6338961",
-    "https://www.infobae.com/politica/2026/10/28/el-gobierno-de-santa-fe-realizara-una-exposicion-en-rosario-para-mostrar-los-logros-del-modelo-de-seguridad/"
+    "https://www.infobae.com/politica/2026/10/28/luego-del-acto-de-maximo-kirchner-kicillof-se-reunira-con-sus-intendentes-y-bajara-lineamientos-politicos/",
+    "https://www.infobae.com/politica/2026/10/28/patricia-bullrich-reconocio-el-triunfo-de-lula-en-brasil-y-cuestiono-la-utilizacion-de-la-justicia-para-perseguir-a-flavio-bolsonaro/",
+    "https://www.infobae.com/politica/2026/10/28/el-gobierno-porteno-alcanzo-las-1000-propiedades-recuperadas-que-fueron-restituidas-a-sus-duenos/",
+    "https://www.infobae.com/politica/2026/10/28/sin-paros-generales-y-con-un-acto-en-una-cancha-la-nueva-estrategia-de-la-cgt-que-pone-en-la-mira-tanto-al-gobierno-como-al-pj/",
+    "https://www.infobae.com/politica/2026/10/29/javier-milei-estara-en-corrientes-a-fines-de-noviembre-para-participar-de-una-actividad-privada/",
+    "https://www.ambito.com/politica/crece-el-malestar-la-cgt-el-desplante-del-pj-el-peronismo-no-tiene-duenos-n6339037",
+    "https://www.infobae.com/politica/2026/10/29/el-pj-federal-hace-pie-en-la-patagonia-y-empuja-a-tres-precandidatos-a-gobernador/",
+    "https://tn.com.ar/politica/2026/10/29/el-senado-tratara-la-ley-de-salud-mental-y-un-proyecto-de-incentivo-de-inversiones-para-grandes-empresas/",
+    "https://www.infobae.com/politica/2026/10/29/especulaciones-ajustes-y-cautela-como-le-impacto-al-gobierno-el-caso-bolsonaro-local-e-internacionalmente/",
+    "https://tn.com.ar/politica/2026/10/28/alberto-weretilneck-confirmo-que-rio-negro-adelantara-las-elecciones-provinciales-y-respaldo-la-eliminacion-de-las-paso/",
+    "https://www.lanacion.com.ar/politica/presentan-un-libro-sobre-el-rol-del-congreso-con-la-participacion-de-menem-camano-y-negri-nid28102026/"
   ],
   "used_img_hashes": [
+    "165621d555360284aecc18a3aef04426",
+    "6e8f64dca93d375bf894a5ad4741fa2a",
+    "1ef3a9aae46a61980e219e4a06b55ef4",
     "08194a194e14c0e38ef34bc0f514369b",
-    "45c19b8552a77a53177c0efb314e8f4d",
-    "85636dea4937e3c0ce3f63be5a5ba4f4",
-    "7e0d098931fdf497074e22314d8a98a8",
+    "608b8ca8d01bed1a95ba9a265ee21205",
     "d1694917ab549b4e21ad5493c6817f5a",
-    "916380ec7f6e849ed6911d76ea736f54",
-    "6e8f64dca93d375bf894a5ad4741fa2a",
     "a3a31c90a1a6a382b93b3936d3aa7c50",
-    "916380ec7f6e849ed6911d76ea736f54",
-    "d1694917ab549b4e21ad5493c6817f5a",
-    "6e8f64dca93d375bf894a5ad4741fa2a",
+    "d74bc879031b2678c73321c1a403bd6d",
+    "85636dea4937e3c0ce3f63be5a5ba4f4",
     "45c19b8552a77a53177c0efb314e8f4d",
-    "e129ac264a630be9664a0d2e9939f4e7"
+    "916380ec7f6e849ed6911d76ea736f54",
+    "e129ac264a630be9664a0d2e9939f4e7",
+    "7e0d098931fdf497074e22314d8a98a8",
+    "c02c99e991c7ab7606e86ccff6ed6f07",
+    "be351580b9cae20abdc9a1f12b1ba0e8",
+    "c3b51668c19d7398a4c5965c63ed632d",
+    "43f1303e979d7194f60c5592057cfc1d",
+    "608b8ca8d01bed1a95ba9a265ee21205",
+    "d74bc879031b2678c73321c1a403bd6d",
+    "c3b51668c19d7398a4c5965c63ed632d",
+    "165621d555360284aecc18a3aef04426",
+    "828ac72a0d63268f2f99ba1d4f862b40"
   ],
   "published_titles": [
-    "Cuestionan la privatizaci\u00f3n de AySA en audiencia p\u00fablica",
-    "Nuevos cuestionamientos por la privatizaci\u00c3\u00b3n de AySA e incertidumbre por el futuro de las obras",
-    "El bloque peronista suma 22 miembros y va por la Magistratura",
-    "Un senador de La Rioja regres\u00f3 al bloque del PJ, que reclama dos bancas en el Consejo de la Magistratura",
-    "Milei eval\u00faa si va a la cumbre iberoamericana en Espa\u00f1a",
-    "Sin reconocer a Lula y tras insultar a S\u00e1nchez, Milei define si viaja a la Cumbre Iberoamericana",
-    "Falsa psiquiatra: la imputaron por intentar internar a un menor",
-    "Imputan a una mujer que se hac\u00eda pasar por psiquiatra y quiso internar a un joven",
-    "Carlos Bianco: Buenos Aires no desdobla si la Naci\u00f3n mantiene las PASO",
-    "El gobierno de Kicillof ratific\u00f3 que si se sostienen las PASO no habr\u00e1 desdoblamiento en Buenos Aires",
-    "El oficialismo cedi\u00f3 en dos puntos clave para sumar votos",
-    "Malvinas: el gobierno acept\u00f3 limitar las prohibiciones a empresas que operan en las islas y reformul\u00f3 el pol\u00e9mico delito de \u201cdesinformaci\u00f3n masiva\u201d",
-    "Macri felicit\u00f3 a Lula y el PRO tom\u00f3 distancia de Milei",
-    "Mauricio Macri y el PRO marcaron distancia del Gobierno y felicitaron a Lula da Silva por el triunfo en Brasil",
     "Milei responsabiliz\u00f3 a Lula por un eventual fraude en Brasil",
     "Javier Milei y sus medidas, en vivo: el Presidente acus\u00f3 a Lula de querer \u201crobar\u201d las elecciones en Brasil",
     "La ausencia de Bullrich en gabinete expone fractura con el PRO",
@@ -1189,6 +1190,20 @@
     "El Senado debate econom\u00eda y la oposici\u00f3n cita a declarar a Santilli",
     "El Senado va a sesi\u00c3\u00b3n por un nuevo r\u00c3\u00a9gimen de inversiones y la oposici\u00c3\u00b3n presionar\u00c3\u00a1 con interpelaciones",
     "Santa Fe organiza dos exposiciones sobre seguridad en Rosario",
-    "El Gobierno de Santa Fe realizar\u00e1 una exposici\u00f3n en Rosario para mostrar los logros del modelo de seguridad"
+    "El Gobierno de Santa Fe realizar\u00e1 una exposici\u00f3n en Rosario para mostrar los logros del modelo de seguridad",
+    "Javier Milei regresa a Corrientes para cerrar un congreso libertario",
+    "Javier Milei estar\u00e1 en Corrientes a fines de noviembre para participar de una actividad privada",
+    "La CGT qued\u00f3 afuera de la cumbre del PJ sobre el 2027",
+    "Crece el malestar de la CGT tras el desplante del PJ: \"El peronismo no tiene due\u00c3\u00b1os\"",
+    "El peronismo patag\u00f3nico apuesta a tres candidatos para 2027",
+    "El PJ Federal hace pie en La Patagonia y empuja a tres precandidatos a gobernador",
+    "El Senado debatir\u00e1 salud mental y un proyecto pro mercado",
+    "El Senado tratar\u00e1 la Ley de Salud Mental y un proyecto de incentivo de inversiones para grandes empresas",
+    "El caso Bolsonaro expuso fisuras en la coalici\u00f3n de Milei",
+    "Especulaciones, ajustes y cautela: c\u00f3mo le impact\u00f3 al Gobierno el caso Bolsonaro local e internacionalmente",
+    "Alberto Weretilneck adelanta elecciones en R\u00edo Negro",
+    "Alberto Weretilneck confirm\u00f3 que R\u00edo Negro adelantar\u00e1 las elecciones y respald\u00f3 la eliminaci\u00f3n de las PASO",
+    "Presentan un libro sobre el Congreso argentino desde 1983",
+    "Presentan un libro sobre el rol del Congreso con la participaci\u00f3n de Menem, Cama\u00f1o y Negri"
   ]
 }
