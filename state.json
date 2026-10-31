@@ -57,19 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-25 06:04",
-      "publicadas": 2,
-      "cinta": false,
-      "estado": "SIN NOVEDADES",
-      "detalle": [
-        "Cinta: no hubo noticia nueva para la cinta"
-      ],
-      "titulos": [
-        "La disputa por la sucesi\u00f3n ya genera tensiones en el Gobierno",
-        "Kicillof y Grabois mostraron acercamiento pol\u00edtico en la UBA"
-      ]
-    },
-    {
       "fecha": "2026-10-25 07:02",
       "publicadas": 0,
       "cinta": false,
@@ -1003,61 +990,76 @@
         "El Gobierno contrat\u00f3 una auditor\u00eda externa sobre represas con China",
         "Intendentes del interior denuncian trato desigual en subsidios"
       ]
+    },
+    {
+      "fecha": "2026-10-31 10:10",
+      "publicadas": 6,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Repetida: El Papa Le\u00f3n XIV visitar\u00e1 Argentina en noviembre"
+      ],
+      "titulos": [
+        "Pichetto: en 2027 ganar\u00e1 el oficialismo o el peronismo renovado",
+        "Argentina celebra 43 a\u00f1os del regreso a la democracia",
+        "El peronismo negocia alianzas antes de las elecciones de medio t\u00e9rmino",
+        "M\u00e1ximo Kirchner cuestiona el RIGI y desaf\u00eda a gobernadores peronistas",
+        "Bornoroni reuni\u00f3 a cordobeses y apunt\u00f3 contra Llaryora",
+        "Milei y Bullrich ganar\u00edan la segunda vuelta ante Kicillof y Massa",
+        "Milei habl\u00f3 dos horas con estudiantes y atac\u00f3 a periodistas"
+      ]
     }
   ],
   "orden1_ids": [
-    4762,
-    4763,
-    4764,
-    4765,
-    4766,
-    4767
+    4769,
+    4770,
+    4771,
+    4772,
+    4773,
+    4774
   ],
-  "cinta_id": 4768,
+  "cinta_id": 4775,
   "published_links": [
-    "https://tn.com.ar/politica/2026/10/30/la-definicion-de-mauricio-macri-sobre-las-negociaciones-con-lla-por-un-acuerdo-electoral-no-se-avanzo-nada/",
     "https://www.ambito.com/caso-libra-fiscalia-especializada-intenta-revertir-el-sobreseimiento-javier-milei-y-pidio-reabrir-la-investigacion-n6339832",
-    "https://www.clarin.com/politica/votaria-nueva-encuesta-midio-15-posibles-candidatos-reprobaron_0_EZRECyVMY6.html",
-    "https://www.lanacion.com.ar/politica/martin-menem-no-hay-dos-candidatos-en-la-libertad-avanza-a-la-presidencia-el-unico-es-javier-milei-nid30102026/",
+    "https://tn.com.ar/politica/2026/10/30/la-definicion-de-mauricio-macri-sobre-las-negociaciones-con-lla-por-un-acuerdo-electoral-no-se-avanzo-nada/",
     "https://perfil.com/modo-fontevecchia/la-inglesas-catolica-como-cgt-de-los-pobres-segun-uno-de-los-triunviros-de-la-cgt-jorge-sola-aMxHj2T8iPxg",
-    "https://www.ambito.com/politica/cuales-fueron-los-senadores-y-diputados-que-mas-volaron-dentro-del-pais-n6339966",
-    "https://www.infobae.com/politica/2026/10/28/se-achica-el-margen-del-gobierno-para-la-reforma-electoral-y-crecen-las-dudas-sobre-los-votos/",
-    "https://www.ambito.com/politica/renuncio-el-subsecretario-ciencia-y-tecnologia-criticas-al-gobierno-denuncio-destrato-y-falta-respaldo-n6339939",
+    "https://www.lanacion.com.ar/politica/martin-menem-no-hay-dos-candidatos-en-la-libertad-avanza-a-la-presidencia-el-unico-es-javier-milei-nid30102026/",
     "https://www.clarin.com/politica/argentino-rafael-grossi-mejor-votacion-renovo-ilusion-proximo-secretario-onu_0_cdLRCDkw2O.html",
-    "https://www.infobae.com/politica/2026/10/30/presentaron-en-el-congreso-un-proyecto-de-ley-de-etiquetado-de-huevos/",
-    "https://www.lanacion.com.ar/politica/el-gobierno-busca-un-control-externo-sobre-las-obras-de-las-represas-en-santa-cruz-y-licita-la-nid30102026/",
-    "https://www.lanacion.com.ar/politica/subsidios-al-transporte-los-intendentes-de-ciudades-del-interior-vuelven-a-la-carga-por-la-nid30102026/"
+    "https://perfil.com/modo-fontevecchia/miguel-angel-pichetto-no-veo-que-2027-sea-de-un-outsider-mas-bien-de-un-hombre-del-sistema-aPWsz8T2iAcu",
+    "https://www.clarin.com/politica/43-anos-retorno-democratico-llegamos-titulo-historico-pasaba-argentina-gano-raul-alfonsin_0_YykfeZWQka.html",
+    "https://www.infobae.com/politica/2026/10/31/el-pj-rumbo-al-2027-la-reunion-de-un-sector-con-intendentes-la-fecha-clave-de-unac-y-una-interna-en-suspenso/",
+    "https://www.lanacion.com.ar/politica/maximo-kirchner-volvio-a-criticar-el-rigi-y-cruzo-a-los-gobernadores-se-ponen-muy-nerviosos-nid30102026/",
+    "https://www.lanacion.com.ar/politica/el-libertario-gabriel-bornoroni-acelera-su-armado-en-cordoba-y-amaga-con-lanzarse-el-modelo-de-nid30102026/",
+    "https://www.clarin.com/politica/nueva-encuesta-midio-balotajes-2027-dejo-sorpresas-milei-bullrich-vs-kicillof-massa_0_rD6rtCvD6x.html",
+    "https://www.lanacion.com.ar/politica/seres-cargados-de-maldad-milei-comenzo-su-exposicion-en-una-universidad-con-otro-ataque-al-nid30102026/"
   ],
   "used_img_hashes": [
+    "03901f6e857cf667747b554d0cdd2faf",
     "064802cf82b0d39c6e66d567a45882c8",
+    "610c298f71a0279ef29918403705744f",
     "db06062d5b6fa0e266d653eda63ca2c9",
+    "b55754e016522a7af1b9cd521a5b3fce",
     "e4c0566ef6c2e3267391aec8b8aeafb1",
-    "0b2ef6563dd7f6eda0952dcd12496558",
+    "f72d484d9826a164e206855c6fce36cb",
+    "3dc27ab3f08f5ecc3e950ba2b6c47657",
     "5afc423b63d0a80d3dc654bed6f43e2d",
     "66cf9c076d5a879bce751d41d9a2dc46",
-    "610c298f71a0279ef29918403705744f",
-    "064802cf82b0d39c6e66d567a45882c8",
-    "66cf9c076d5a879bce751d41d9a2dc46",
-    "0b2ef6563dd7f6eda0952dcd12496558",
-    "b55754e016522a7af1b9cd521a5b3fce",
+    "98ab8f4ba5dd75be0097acc0d316cb38",
     "c37a74516e45cb6cf2bd83efe743a85a",
-    "5afc423b63d0a80d3dc654bed6f43e2d"
+    "74caf91df737d7490dd1d5b2113ae7a8",
+    "0f88b466ad93dcce10cbb47f83fc1176",
+    "0b2ef6563dd7f6eda0952dcd12496558",
+    "29603820c808b1cfa66c9edd43772204",
+    "c0a1e2e1afc50509c636973d8d103a35",
+    "3dc27ab3f08f5ecc3e950ba2b6c47657",
+    "c0a1e2e1afc50509c636973d8d103a35",
+    "74caf91df737d7490dd1d5b2113ae7a8",
+    "03901f6e857cf667747b554d0cdd2faf",
+    "29603820c808b1cfa66c9edd43772204",
+    "eabd492760fd23110fc339b4819c2962",
+    "a3142714fdfb68e640e155a00b0b7370"
   ],
   "published_titles": [
-    "Roy\u00f3n celebr\u00f3 que el Senado aprob\u00f3 el pliego de Michelli",
-    "Flavia Roy\u00f3n: \u201cLa aprobaci\u00f3n del pliego de Michelli demostr\u00f3 que hay una oposici\u00f3n constructiva\u201d",
-    "Acciones argentinas abren con leve rebote en bolsa",
-    "Las acciones argentinas abren con un leve rebote",
-    "Bullrich desaf\u00eda a Milei y tensiona con Karina Milei",
-    "El \u201coperativo diferenciaci\u00f3n\u201d de Bullrich aumenta el malestar de Karina Milei y divide al Gobierno",
-    "Milei elimin\u00f3 81.000 empleos estatales como logro de gesti\u00f3n",
-    "El Gobierno defendi\u00f3 la reducci\u00f3n del Estado y afirm\u00f3 que se eliminaron 81.000 puestos de trabajo",
-    "Kicillof y La C\u00e1mpora apelan a N\u00e9stor para tensionar el PJ",
-    "A 16 a\u00f1os del fallecimiento de N\u00e9stor Kirchner, lo reivindic\u00f3 Kicillof y La C\u00e1mpora convoc\u00f3 a un acto",
-    "Jos\u00e9 Luis Espert apela su procesamiento por lavado",
-    "Espert apel\u00f3 en la Justicia su procesamiento por lavado de dinero y acus\u00f3 un fallo \u201cfalto de prueba y de tintes pol\u00edticos\u201d",
-    "El jurado vota hoy si destituye al juez federal Salmain",
-    "Este jueves se conoce si destituyen al juez federal acusado de pedir una coima para dictar un fallo",
     "Piden expulsar a un concejal por emplear al femicida de Agostina",
     "Piden la expulsi\u00f3n del concejal que le dio trabajo al femicida de Agostina",
     "De Andreis acus\u00f3 a Bullrich de destruir todo lo que toca",
@@ -1243,6 +1245,20 @@
     "El Gobierno contrat\u00f3 una auditor\u00eda externa sobre represas con China",
     "El Gobierno activa un control externo sobre las represas en Santa Cruz con una licitaci\u00f3n de $39.624 millones",
     "Intendentes del interior denuncian trato desigual en subsidios",
-    "Subsidios al transporte. Los intendentes de ciudades del interior vuelven a la carga por la \u201cdiscriminaci\u00f3n\u201d"
+    "Subsidios al transporte. Los intendentes de ciudades del interior vuelven a la carga por la \u201cdiscriminaci\u00f3n\u201d",
+    "Pichetto: en 2027 ganar\u00e1 el oficialismo o el peronismo renovado",
+    "Miguel \u00c1ngel Pichetto: \u201cNo veo que 2027 sea de un outsider, m\u00e1s bien de un hombre del sistema\u201d",
+    "Argentina celebra 43 a\u00f1os del regreso a la democracia",
+    "A 43 a\u00f1os del retorno democr\u00e1tico: \"LLEGAMOS\", un t\u00edtulo hist\u00f3rico y todo lo que pasaba en la Argentina cuando gan\u00f3 Ra\u00fal Alfons\u00edn",
+    "El peronismo negocia alianzas antes de las elecciones de medio t\u00e9rmino",
+    "El PJ rumbo al 2027: la reuni\u00f3n de un sector con intendentes, la fecha clave de U\u00f1ac y una interna en suspenso",
+    "M\u00e1ximo Kirchner cuestiona el RIGI y desaf\u00eda a gobernadores peronistas",
+    "M\u00e1ximo Kirchner volvi\u00f3 a criticar el RIGI y cruz\u00f3 a los gobernadores aliados: \u201cSe ponen muy nerviosos\u201d",
+    "Bornoroni reuni\u00f3 a cordobeses y apunt\u00f3 contra Llaryora",
+    "El libertario Gabriel Bornoroni acelera su armado en C\u00f3rdoba y amaga con lanzarse: \u201cEl modelo de Llaryora est\u00e1 agotado\u201d",
+    "Milei y Bullrich ganar\u00edan la segunda vuelta ante Kicillof y Massa",
+    "Una nueva encuesta midi\u00f3 balotajes para 2027 y dej\u00f3 sorpresas: Milei y Bullrich vs. Kicillof y Massa",
+    "Milei habl\u00f3 dos horas con estudiantes y atac\u00f3 a periodistas",
+    "Milei expuso ante estudiantes: dos horas de charla, cr\u00edticas a los pol\u00edticos que solo quieren \u201cganar elecciones\u201d y gui\u00f1o a Karina: \u201cEs tan ortodoxa como yo\u201d"
   ]
 }
