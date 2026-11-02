@@ -59,7 +59,7 @@ ORDEN_NOTA  = 1
 ORDEN_CINTA = 5
 
 # Cuantos articulos publicar en Orden 1 por corrida
-N_ORDEN1 = 6
+N_ORDEN1 = 5   # v23: la portada muestra 5 notas de Orden 1 (+ Editorial manual + Cinta); con 6 la primera quedaba afuera
 
 # MODO PRUEBA: con DRY_RUN=1 se arma todo (titulos, fotos, textos) pero NO se borra ni se publica nada,
 # y no se guarda el estado. Sirve para revisar una version nueva antes de que llegue al sitio.
