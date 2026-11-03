@@ -1466,6 +1466,7 @@ REGLAS:
 - copete: max 90 caracteres. El dato clave en una frase.
 - cuerpo: max 200 caracteres. Una sola oracion de contexto.
 - No uses verbos de cita. Narra el hecho.
+- FIDELIDAD: no agregues nombres propios, cargos, cifras ni datos que no esten en el articulo (si dice 'el Papa', no escribas el nombre del Papa; no cambies 'gobernadores' por 'intendentes').
 - Tono: directo, politico, argentino.
 - ORTOGRAFIA: Usa 'u' en lugar de 'o' ante palabras que empiecen con 'o' u 'ho'. Usa 'e' en lugar de 'y' ante palabras que empiecen con 'i' u 'hi'."""
 
@@ -1489,6 +1490,7 @@ REGLAS ESTRICTAS:
 - copete: max {MAX_COPETE} caracteres. Lead periodistico que amplia el titulo.
 - cuerpo: OBLIGATORIO entre {MIN_CUERPO} y {MAX_CUERPO} caracteres. NO menos. ESTRUCTURA OBLIGATORIA: usa piramide invertida. El PRIMER PARRAFO concentra que paso, quienes son los protagonistas y que significa politicamente. El SEGUNDO PARRAFO da contexto. Los siguientes desarrollan el analisis. Escribi 6-7 parrafos analiticos densos, separados por \\n. Cada parrafo debe tener minimo 3 oraciones. Desarrolla: contexto politico, actores y sus posiciones, antecedentes historicos, tensiones en juego, implicancias para la coyuntura. El cuerpo es la parte mas importante: no lo recortes.
 - No uses verbos de cita. Narra los hechos directamente.
+- FIDELIDAD: no agregues nombres propios, cargos, cifras ni datos que no esten en el articulo (si dice 'el Papa', no escribas el nombre del Papa; no cambies 'gobernadores' por 'intendentes').
 - Tono: analitico, critico, con voz editorial propia.
 - ORTOGRAFIA: Usa 'u' en lugar de 'o' ante palabras que empiecen con 'o' u 'ho'. Usa 'e' en lugar de 'y' ante palabras que empiecen con 'i' u 'hi'."""
 
@@ -1625,28 +1627,35 @@ def verificar_fidelidad(client, titulo: str, copete: str, art: dict):
     'gobernadores', o 'Milei invito al papa' cuando la fuente no lo dice), los corrige.
     Devuelve (titulo, copete). Si la revision falla, los devuelve como estaban."""
     fuente = f"Titulo: {art.get('title', '')}\nResumen: {(art.get('summary') or '')[:600]}"
-    try:
-        resp = client.messages.create(
-            model=CLAUDE_MODEL,
-            max_tokens=400,
-            messages=[{"role": "user", "content": (
-                "Sos el chequeador de datos de DATAPOLITICA. Compara el TITULO y el COPETE que vamos a publicar "
-                "con la NOTICIA ORIGINAL. Son FIELES solo si cada dato (quien, que hizo, a quien, cuantos, donde, cuando) "
-                "esta en la noticia original y no la contradice. Errores tipicos: cambiar un grupo por otro "
-                "('intendentes' en vez de 'gobernadores'), atribuir una accion a quien no la hizo, agregar "
-                "algo que la fuente no dice, o exagerar.\n"
-                "Si hay un error, reescribi el titulo y/o el copete usando SOLO lo que dice la noticia original, "
-                "manteniendo el largo parecido, en español correcto y con tildes.\n"
-                "Responde SOLO con JSON valido, sin markdown: "
-                '{"ok": true|false, "problema": "...", "titulo": "...", "copete": "..."}\n\n'
-                f"NOTICIA ORIGINAL:\n{fuente}\n\nTITULO A PUBLICAR: {titulo}\nCOPETE A PUBLICAR: {copete}"
-            )}]
-        )
-        raw = resp.content[0].text.strip()
-        m = re.search(r"\{.*\}", raw, re.S)
-        res = json.loads(m.group() if m else raw)
-    except Exception as e:
-        print(f"    Aviso: chequeo de datos no disponible ({e}).")
+    pedido = (
+        "Sos el chequeador de datos de DATAPOLITICA. Compara el TITULO y el COPETE que vamos a publicar "
+        "con la NOTICIA ORIGINAL. Son FIELES solo si cada dato (quien, que hizo, a quien, cuantos, donde, cuando) "
+        "esta en la noticia original y no la contradice. Errores tipicos: cambiar un grupo por otro "
+        "('intendentes' en vez de 'gobernadores'), atribuir una accion a quien no la hizo, agregar un nombre "
+        "o un dato que la fuente no dice (ej.: escribir 'Papa Francisco' si la fuente solo dice 'el Papa'), o exagerar.\n"
+        "Si hay un error, reescribi el titulo y/o el copete usando SOLO lo que dice la noticia original, "
+        "manteniendo el largo parecido, en español correcto y con tildes.\n"
+        "Responde SOLO con un objeto JSON en una sola linea, sin markdown ni texto extra, y con 'problema' de "
+        "menos de 25 palabras: "
+        '{"ok": true|false, "problema": "...", "titulo": "...", "copete": "..."}\n\n'
+        f"NOTICIA ORIGINAL:\n{fuente}\n\nTITULO A PUBLICAR: {titulo}\nCOPETE A PUBLICAR: {copete}"
+    )
+    res = None
+    for intento in range(3):
+        try:
+            resp = client.messages.create(
+                model=CLAUDE_MODEL,
+                max_tokens=900,
+                messages=[{"role": "user", "content": pedido}]
+            )
+            raw = resp.content[0].text.strip()
+            raw = re.sub(r"^```(?:json)?|```$", "", raw, flags=re.M).strip()
+            m = re.search(r"\{.*\}", raw, re.S)
+            res = json.loads(m.group() if m else raw)
+            break
+        except Exception as e:
+            print(f"    Aviso: chequeo de datos sin respuesta valida (intento {intento + 1}/3): {str(e)[:80]}")
+    if res is None:
         return titulo, copete
     if res.get("ok"):
         return titulo, copete
