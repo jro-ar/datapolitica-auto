@@ -57,16 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-25 18:02",
-      "publicadas": 0,
-      "cinta": false,
-      "estado": "SIN NOVEDADES",
-      "detalle": [
-        "Cinta: no hubo noticia nueva para la cinta"
-      ],
-      "titulos": []
-    },
-    {
       "fecha": "2026-10-25 19:02",
       "publicadas": 0,
       "cinta": false,
@@ -1081,59 +1071,76 @@
         "La Justicia define si los acusados por el AMIA van a juicio oral",
         "Turista argentino muri\u00f3 en accidente de ala delta en Brasil"
       ]
+    },
+    {
+      "fecha": "2026-11-03 10:10",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Sin foto de Carlos Melconian: Melconian se postula como candidato para 2027"
+      ],
+      "titulos": [
+        "Navarro esper\u00f3 un a\u00f1o para ser nombrado vicecanciller",
+        "Milei busca recomponer v\u00ednculos antes de la visita del Papa",
+        "Green Umbrella se queda con las radios p\u00fablicas de la Ciudad",
+        "El Congreso debate si los abusos a menores deben prescribir",
+        "Milei invit\u00f3 al papa Le\u00f3n XIV e incluy\u00f3 a Villarruel e intendentes",
+        "Milei recibi\u00f3 un reconocimiento de Argentinos por la Educaci\u00f3n"
+      ]
     }
   ],
   "orden1_ids": [
-    4844,
-    4845,
-    4846,
-    4847,
-    4848
+    4850,
+    4851,
+    4852,
+    4853,
+    4854
   ],
-  "cinta_id": 4849,
+  "cinta_id": 4855,
   "published_links": [
-    "https://www.lanacion.com.ar/politica/el-ministro-mahiques-impulsa-el-ascenso-de-un-juez-y-se-podria-abrir-una-nueva-vacante-en-comodoro-nid01112026/",
-    "https://www.lanacion.com.ar/politica/tras-la-derrota-y-huida-de-flavio-bolsonaro-el-presidente-milei-quedo-sin-socios-en-brasil-nid31102026/",
     "https://www.infobae.com/politica/2026/11/02/donde-voto-la-camara-electoral-habilito-el-padron-electoral-provisorio-para-las-elecciones-presidenciales-2027/",
     "https://tn.com.ar/politica/2026/11/02/cristina-kirchner-no-descarto-ser-candidata-a-presidenta-en-2027-cuando-recupere-mis-derechos-politicos-por-que-no/",
-    "https://tn.com.ar/politica/2026/11/02/el-gobierno-toma-distancia-de-la-posible-candidatura-de-cristina-kirchner-y-la-atribuye-a-una-interna-peronista/",
-    "https://www.clarin.com/politica/pro-anticipa-discusion-bonaerense-vamos-acompanar-intento-reeleccion-indefinida-intendentes_0_lamsPXfLqa.html",
     "https://www.infobae.com/politica/2026/11/02/massa-se-reunio-con-janones-el-general-de-lula-la-experiencia-de-brasil-la-unidad-y-el-frente-anti-milei-en-la-agenda/",
-    "https://www.ambito.com/politica/caba-impulsan-un-proyecto-la-legislatura-portena-crear-la-educacion-digital-integral-n6340674",
-    "https://www.lanacion.com.ar/politica/el-senado-con-poca-actividad-sin-sesion-esta-semana-podria-haber-dictamen-de-discapacidad-nid02112026/",
+    "https://www.lanacion.com.ar/politica/el-ministro-mahiques-impulsa-el-ascenso-de-un-juez-y-se-podria-abrir-una-nueva-vacante-en-comodoro-nid01112026/",
+    "https://www.lanacion.com.ar/politica/tras-la-derrota-y-huida-de-flavio-bolsonaro-el-presidente-milei-quedo-sin-socios-en-brasil-nid31102026/",
     "https://www.infobae.com/politica/2026/11/02/el-pro-busca-retomar-el-discurso-de-la-seguridad-y-propone-bloquear-las-senales-moviles-en-todas-las-carceles/",
-    "https://www.clarin.com/politica/amia-camara-federal-revisara-procesamientos-iranies-libaneses-acusados-atentado_0_gq1mDArFJg.html",
-    "https://noticiasargentinas.com/sociedad/murio-un-turista-argentino-de-26-anos-en-un-accidente-de-ala-delta-en-rio-de-janeiro_a6ae8f8fcfd3588a0f5cca52a"
+    "https://www.infobae.com/politica/2026/11/03/el-gobierno-oficializo-a-juan-navarro-como-vicecanciller-tras-mas-de-un-ano-de-la-salida-de-su-antecesor/",
+    "https://tn.com.ar/politica/2026/11/03/antes-de-la-visita-del-papa-javier-milei-busca-bajar-la-confrontacion-y-acercar-posiciones-dentro-del-gobierno-y-con-la-oposicion/",
+    "https://www.clarin.com/politica/gobierno-porteno-avanza-concesion-radios-ciudad-manejara_0_LLOeIccRc1.html",
+    "https://tn.com.ar/politica/2026/11/03/el-congreso-busca-avanzar-con-una-ley-para-que-los-abusos-sexuales-contra-menores-no-prescriban/",
+    "https://tn.com.ar/politica/2026/11/02/el-gobierno-confirmo-que-villarruel-y-los-gobernadores-ya-fueron-invitados-al-encuentro-con-el-papa-leon-xiv/",
+    "https://www.ambito.com/politica/javier-milei-recibio-un-reconocimiento-el-plan-alfabetizacion-y-se-reunio-argentinos-la-educacion-n6340694"
   ],
   "used_img_hashes": [
-    "1aa7e8f0c7c9ba50cb2f5128f0cfdc21",
+    "584e94183241af4e9d7d5adc2bc7ca35",
     "60949e5aae378e20c5ac541055ce75f3",
-    "584e94183241af4e9d7d5adc2bc7ca35",
-    "b83f9ca44bc4988c147f8c3c35a9f132",
-    "e1e8fc6cbcbeab8e3206c9b0ab5e409c",
-    "f2ca98df3e0bc7628fd98e74e1b28b7a",
     "96e84cf04518fb2b658a49004b332dc2",
-    "34fdf6c4cea7e6c891976dca2cbabb6e",
-    "e04c61643f463c95bf9bb839e48efe62",
-    "b83f9ca44bc4988c147f8c3c35a9f132",
     "f2ca98df3e0bc7628fd98e74e1b28b7a",
+    "e1e8fc6cbcbeab8e3206c9b0ab5e409c",
+    "34fdf6c4cea7e6c891976dca2cbabb6e",
+    "89c9bc2fd1273d4b435c4e0ae949a19f",
+    "2605dd97972a3a3bbb8d1ed3efb9057b",
+    "e04c61643f463c95bf9bb839e48efe62",
+    "798537f24f1ac03f40be0d4e0129dfb2",
+    "1aa7e8f0c7c9ba50cb2f5128f0cfdc21",
+    "fe0a48488a45f8e3eba0b63714312164",
+    "35cae5bb090dac76db85a6436cb48636",
+    "940e013fe4e3256a9b4b75221a2fe801",
+    "b83f9ca44bc4988c147f8c3c35a9f132",
+    "8400e43d79696d678c8adf75a591e1d1",
+    "e916b492858907cd392cbda7e6078843",
     "8735085e5f782aceb1a1df9aa1a86ad8",
-    "584e94183241af4e9d7d5adc2bc7ca35",
-    "e1e8fc6cbcbeab8e3206c9b0ab5e409c"
+    "390ab6b462cf9f76de1667b378f3860d",
+    "16067e130e1bcda227cfe8c9fa39d770",
+    "458e7939d82f94b0e98081d16125e0c0",
+    "35cae5bb090dac76db85a6436cb48636",
+    "89c9bc2fd1273d4b435c4e0ae949a19f",
+    "390ab6b462cf9f76de1667b378f3860d",
+    "16067e130e1bcda227cfe8c9fa39d770",
+    "a3142714fdfb68e640e155a00b0b7370"
   ],
   "published_titles": [
-    "Axel Kicillof visita Jujuy y Santa Fe para sumar apoyo peronista",
-    "Kicillof sigue con recorridas en clave electoral: desembarca en Jujuy y prepara su viaje a Santa Fe",
-    "El Senado modific\u00f3 la ley de salud mental y la envi\u00f3 a Diputados",
-    "Con cambios, el Senado aprob\u00f3 y gir\u00f3 a Diputados la reforma a la ley de salud mental",
-    "Brasil dice que no hubo irregularidades en el caso Bolsonaro",
-    "La fuga de Bolsonaro: el Gobierno afirma que ya est\u00e1 colaborando con la Justicia y ratifica que no hubo irregularidades",
-    "Un dirigente sindical respald\u00f3 al arzobispo Garc\u00eda Cuerva",
-    "La iglesia cat\u00f3lica como CGT de los pobres seg\u00fan uno de los triunviros de la CGT, Jorge Sol\u00e1",
-    "Una agencia explic\u00f3 c\u00f3mo Lula gan\u00f3 tras perder la primera vuelta",
-    "Los estrategas detr\u00c3\u00a1s de la remontada de Lula: el Ej\u00c3\u00a9rcito de WhatsApp, la motosierra de Milei y la disputa por el significado del cambio",
-    "La Corte Suprema protegi\u00f3 a YPF de pagar sobreprecios",
-    "La Corte Suprema rechaz\u00c3\u00b3 una demanda colectiva contra YPF por cobrar sobreprecios",
     "Buenos Aires protege a deudores del acoso de cobradores",
     "La Legislatura porte\u00f1a aprob\u00f3 l\u00edmites a las cobranzas extrajudiciales y cre\u00f3 una mesa de asistencia para personas endeudadas",
     "Macri admite que el acuerdo con La Libertad Avanza est\u00e1 frenado",
@@ -1321,6 +1328,18 @@
     "La Justicia define si los acusados por el AMIA van a juicio oral",
     "AMIA: la C\u00e1mara Federal revisar\u00e1 los procesamientos de los iran\u00edes y libaneses acusados del atentado",
     "Turista argentino muri\u00f3 en accidente de ala delta en Brasil",
-    "Muri\u00f3 un turista argentino de 26 a\u00f1os en un accidente de ala delta en R\u00edo de Janeiro"
+    "Muri\u00f3 un turista argentino de 26 a\u00f1os en un accidente de ala delta en R\u00edo de Janeiro",
+    "Navarro esper\u00f3 un a\u00f1o para ser nombrado vicecanciller",
+    "El Gobierno oficializ\u00f3 a Juan Navarro como vicecanciller a m\u00e1s de un a\u00f1o de la salida de su antecesor",
+    "Milei busca recomponer v\u00ednculos antes de la visita del Papa",
+    "Antes de la visita del Papa, Javier Milei busca bajar la confrontaci\u00f3n y acercar posiciones dentro del Gobierno y con la oposici\u00f3n",
+    "Green Umbrella se queda con las radios p\u00fablicas de la Ciudad",
+    "El Gobierno porte\u00f1o avanza en la concesi\u00f3n de las radios de la Ciudad: qui\u00e9n las manejar\u00e1",
+    "El Congreso debate si los abusos a menores deben prescribir",
+    "El Congreso busca avanzar con una ley para que los abusos sexuales contra menores no prescriban",
+    "Milei invit\u00f3 al papa Le\u00f3n XIV e incluy\u00f3 a Villarruel e intendentes",
+    "El Gobierno confirm\u00f3 que Villarruel y los gobernadores ya fueron invitados al encuentro con el papa Le\u00f3n XIV",
+    "Milei recibi\u00f3 un reconocimiento de Argentinos por la Educaci\u00f3n",
+    "Javier Milei recibi\u00c3\u00b3 un reconocimiento por el Plan de Alfabetizaci\u00c3\u00b3n y se reuni\u00c3\u00b3 con Argentinos por la Educaci\u00c3\u00b3n"
   ]
 }
