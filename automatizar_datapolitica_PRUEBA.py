@@ -779,10 +779,49 @@ def _caras(img):
 _ENCUADRE: dict = {}
 
 
+_ENCUADRE_VISUAL: dict = {}
+
+
+def _encuadre_visual_ok(data: bytes) -> bool:
+    """v24: Claude Haiku mira la foto YA RECORTADA, como se va a ver en el sitio.
+    False si es un primer plano exagerado o si la cabeza/cara esta cortada por un borde."""
+    import hashlib as _h
+    clave = _h.md5(data).hexdigest()
+    if clave in _ENCUADRE_VISUAL:
+        return _ENCUADRE_VISUAL[clave]
+    ok = True
+    try:
+        import base64
+        cli = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        resp = cli.messages.create(
+            model="claude-haiku-4-5",
+            max_tokens=5,
+            messages=[{"role": "user", "content": [
+                {"type": "image", "source": {"type": "base64", "media_type": "image/jpeg",
+                                             "data": base64.b64encode(data).decode()}},
+                {"type": "text", "text": (
+                    "Esta foto va como imagen principal de una noticia. Responde MAL si la persona principal aparece en un "
+                    "primer plano exagerado (la cara ocupa mas o menos la mitad del alto de la foto o mas), o si su cabeza "
+                    "o su cara estan cortadas por algun borde (por ejemplo, sin la parte de arriba de la cabeza). "
+                    "Si la persona se ve bien encuadrada (cabeza entera, con algo de espacio alrededor) o si no hay "
+                    "una persona en primer plano, responde BIEN. Responde solo BIEN o MAL.")}
+            ]}]
+        )
+        ok = not resp.content[0].text.strip().upper().startswith("MAL")
+    except Exception as e:
+        print(f"   Aviso revision de encuadre: {e}")
+        ok = True
+    _ENCUADRE_VISUAL[clave] = ok
+    return ok
+
+
 def encuadre_ok(data: bytes) -> bool:
-    """False si la foto original era un primer plano exagerado o la cara estaba cortada por un borde."""
+    """False si la foto era un primer plano exagerado o la cara estaba cortada por un borde
+    (control por deteccion de caras + v24: control visual de la foto final con Claude Haiku)."""
     import hashlib
-    return _ENCUADRE.get(hashlib.md5(data).hexdigest(), True)
+    if not _ENCUADRE.get(hashlib.md5(data).hexdigest(), True):
+        return False
+    return _encuadre_visual_ok(data)
 
 
 def _evaluar_encuadre(caras, w, h) -> bool:
@@ -820,7 +859,10 @@ def _crop_to_16_9(data: bytes) -> bytes:
             cw = min(w, h * R)
             cw = max(cw, ancho_caras / 0.70)
             ch = cw / R
-            # que la cara no ocupe mas de ~45% de alto ni quede cortada arriba
+            # v24: la cara ocupa como maximo ~35% del alto del recorte (cabeza entera y hombros);
+            # en fotos verticales (retratos) se completan los costados con fondo difuminado
+            # en vez de acercar la camara a la cara
+            ch = max(ch, min(h, alto_cara / 0.35))
             ch = max(ch, alto_cara / 0.45)
             cw = ch * R
             # posicion: caras centradas a lo ancho y en el tercio superior-medio
@@ -1256,7 +1298,8 @@ def foto_de_persona(art: dict, nombre: str, actual: bytes | None = None) -> byte
                 return data
             print("   Foto verificada pero mal encuadrada (primer plano o cara cortada): busco otra")
             candidatas.append(data)
-    return candidatas[0] if candidatas else None
+    # v24: nunca una foto mal encuadrada (antes se usaba la primera aunque estuviera mal)
+    return None
 
 
 def fetch_article_image(art: dict) -> bytes | None:
@@ -1365,6 +1408,9 @@ def find_article_with_photo(articles: list[dict],
                 continue
             if foto_con_marca(img):
                 print(f"   Foto con marca de un medio, descartado: {art['title'][:60]}")
+                continue
+            if not encuadre_ok(img):
+                print(f"   Foto mal encuadrada (primer plano o cabeza cortada), descartado: {art['title'][:60]}")
                 continue
             used_img_hashes.add(img_hash)
             registrar_foto_usada(img)
@@ -1573,11 +1619,51 @@ def _titulo_pasa_reglas_basicas(t: str) -> str:
     return ""
 
 
-def control_calidad_titulo(client, titulo: str, copete: str) -> str | None:
+def verificar_fidelidad(client, titulo: str, copete: str, art: dict):
+    """v24: compara titulo y copete con la NOTICIA ORIGINAL (titulo y resumen de la fuente).
+    Si algun dato no esta en la fuente o la contradice (ej.: 'intendentes' donde la fuente dice
+    'gobernadores', o 'Milei invito al papa' cuando la fuente no lo dice), los corrige.
+    Devuelve (titulo, copete). Si la revision falla, los devuelve como estaban."""
+    fuente = f"Titulo: {art.get('title', '')}\nResumen: {(art.get('summary') or '')[:600]}"
+    try:
+        resp = client.messages.create(
+            model=CLAUDE_MODEL,
+            max_tokens=400,
+            messages=[{"role": "user", "content": (
+                "Sos el chequeador de datos de DATAPOLITICA. Compara el TITULO y el COPETE que vamos a publicar "
+                "con la NOTICIA ORIGINAL. Son FIELES solo si cada dato (quien, que hizo, a quien, cuantos, donde, cuando) "
+                "esta en la noticia original y no la contradice. Errores tipicos: cambiar un grupo por otro "
+                "('intendentes' en vez de 'gobernadores'), atribuir una accion a quien no la hizo, agregar "
+                "algo que la fuente no dice, o exagerar.\n"
+                "Si hay un error, reescribi el titulo y/o el copete usando SOLO lo que dice la noticia original, "
+                "manteniendo el largo parecido, en español correcto y con tildes.\n"
+                "Responde SOLO con JSON valido, sin markdown: "
+                '{"ok": true|false, "problema": "...", "titulo": "...", "copete": "..."}\n\n'
+                f"NOTICIA ORIGINAL:\n{fuente}\n\nTITULO A PUBLICAR: {titulo}\nCOPETE A PUBLICAR: {copete}"
+            )}]
+        )
+        raw = resp.content[0].text.strip()
+        m = re.search(r"\{.*\}", raw, re.S)
+        res = json.loads(m.group() if m else raw)
+    except Exception as e:
+        print(f"    Aviso: chequeo de datos no disponible ({e}).")
+        return titulo, copete
+    if res.get("ok"):
+        return titulo, copete
+    t2 = corregir_conjunciones(str(res.get("titulo") or titulo).strip().strip('"'))
+    c2 = str(res.get("copete") or copete).strip()
+    print(f"    Chequeo de datos: {str(res.get('problema', ''))[:120]}")
+    print(f"      -> Titulo: {t2}")
+    if c2 != copete:
+        print(f"      -> Copete: {c2[:100]}")
+    return t2, c2
+
+
+def control_calidad_titulo(client, titulo: str, copete: str, fuente: str = "") -> str | None:
     """Ultimo filtro antes de publicar. Devuelve un titulo correcto, o None si no se logra
     (en ese caso la nota NO se publica: es preferible una nota menos que un titulo malo)."""
     t = (titulo or "").strip().strip('"')
-    for ronda in range(1, 4):
+    for ronda in range(1, 5):
         motivo = _titulo_pasa_reglas_basicas(t)
         try:
             resp = client.messages.create(
@@ -1592,12 +1678,15 @@ def control_calidad_titulo(client, titulo: str, copete: str) -> str | None:
                     "sin jerga, metaforas, abreviaturas ni fechas sueltas como 'el 17'.\n"
                     "3) Ortografia perfecta en español, con todas las tildes (MAL: 'reunio'; BIEN: 'reunió').\n"
                     f"4) Tiene como maximo {MAX_TITULO} caracteres (apunta a {MAX_TITULO - 8} o menos; conta bien los caracteres).\n"
-                    "5) No inventa datos: todo lo que dice esta en el titulo o en el copete.\n"
+                    "5) No inventa datos: todo lo que dice esta en el copete"
+                    + (" y coincide con la NOTICIA ORIGINAL (si el copete y la noticia original no coinciden, manda la noticia original)" if fuente else "")
+                    + ".\n"
                     + (f"Control automatico detecto: {motivo}.\n" if motivo else "")
                     + "Si NO cumple, escribi un titulo corregido que SI cumpla todo, usando solo la informacion dada.\n"
                     "Responde SOLO con JSON valido, sin markdown: "
                     '{"ok": true|false, "problema": "...", "titulo": "titulo final"}\n\n'
                     f"Titulo: {t}\nCopete: {copete}"
+                    + (f"\nNOTICIA ORIGINAL: {fuente}" if fuente else "")
                 )}]
             )
             raw = resp.content[0].text.strip()
@@ -1614,7 +1703,8 @@ def control_calidad_titulo(client, titulo: str, copete: str) -> str | None:
         print(f"    Control de titulo (ronda {ronda}): {res.get('problema', motivo)} -> {nuevo}")
         t = nuevo
         # el titulo corregido se vuelve a revisar en la ronda siguiente
-    return t if not _titulo_pasa_reglas_basicas(t) else None
+    # v24: si tras 4 rondas el titulo no quedo APROBADO, no se publica (antes salia sin la ultima revision)
+    return None
 
 
 def rewrite_con_reintento(client, art: dict, tipo: str) -> dict:
@@ -2028,8 +2118,11 @@ def main():
             b = contenido["cuerpo"]
             print(f"    Titulo  ({len(t):3d} chars): {t}")
             print(f"    Copete  ({len(c):3d} chars): {c[:80]}{'...' if len(c)>80 else ''}")
+            # 0) v24: titulo y copete tienen que decir lo mismo que la noticia original
+            t, c = verificar_fidelidad(client, t, c, art)
+            _fuente = f"{art.get('title', '')}. {(art.get('summary') or '')[:400]}"
             # 1) Primero el titulo queda en su version FINAL (control de calidad)
-            t_ok = control_calidad_titulo(client, t, c)
+            t_ok = control_calidad_titulo(client, t, c, _fuente)
             if not t_ok:
                 print("    Titulo sin la calidad necesaria tras 3 revisiones. NO se publica.")
                 RESUMEN["descartes"].append(f"Titulo malo: {t[:60]}")
@@ -2047,7 +2140,7 @@ def main():
                 else:
                     # Sin foto verificada NO se nombra a la persona (evita un nombre con la cara de otro)
                     t_alt = titulo_sin_nombre(client, t, c)
-                    t_alt = control_calidad_titulo(client, t_alt, c) if t_alt else None
+                    t_alt = control_calidad_titulo(client, t_alt, c, _fuente) if t_alt else None
                     if t_alt and not persona_del_titulo(client, t_alt, c, art):
                         print(f"    Sin foto verificada de {nombre_t}. Titulo sin nombre: {t_alt}")
                         t = t_alt
@@ -2130,7 +2223,9 @@ def main():
             c2 = ct["copete"]
             b2 = ct["cuerpo"]
             print(f"    Titulo  ({len(t2):3d} chars): {t2}")
-            t2_ok = control_calidad_titulo(client, t2, c2)
+            t2, c2 = verificar_fidelidad(client, t2, c2, art_cinta)
+            _fuente2 = f"{art_cinta.get('title', '')}. {(art_cinta.get('summary') or '')[:400]}"
+            t2_ok = control_calidad_titulo(client, t2, c2, _fuente2)
             if not t2_ok:
                 raise RuntimeError("Titulo de cinta sin la calidad necesaria. NO se publica.")
             if t2_ok != t2:
@@ -2144,7 +2239,7 @@ def main():
                     img_cinta = img_pc
                 else:
                     t2_alt = titulo_sin_nombre(client, t2, c2)
-                    t2_alt = control_calidad_titulo(client, t2_alt, c2) if t2_alt else None
+                    t2_alt = control_calidad_titulo(client, t2_alt, c2, _fuente2) if t2_alt else None
                     if t2_alt and not persona_del_titulo(client, t2_alt, c2, art_cinta):
                         print(f"    Sin foto verificada de {nombre_c}. Titulo sin nombre: {t2_alt}")
                         t2 = t2_alt
