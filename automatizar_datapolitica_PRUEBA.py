@@ -2061,6 +2061,20 @@ def main():
         print(f"   {len(articulos_filtrados) - len(sin_repetir)} descartados por tema ya publicado ({len(reserva)} en reserva)")
         articulos_filtrados = sin_repetir
 
+    # v25: temas que rinden en Google -> noticias del Congreso (votaciones, proyectos, sesiones, datos
+    # y herramientas de seguimiento). Hasta 2 por actualizacion pasan adelante (solo temas nuevos, no la reserva).
+    _CLAVES_CONGRESO = ("congreso", "diputados", "senado", "senador", "diputad", "legislador", "legislativ",
+                        "proyecto de ley", "sesion", "votacion", "votaron", "quorum", "dictamen", "comision",
+                        "monitor", "ranking", "como voto")
+    _reserva = locals().get("reserva") or []
+    _cong = [a for a in articulos_filtrados
+             if all(a is not r for r in _reserva)
+             and any(k in _normalize(a.get("title", "")) for k in _CLAVES_CONGRESO)][:2]
+    if _cong:
+        articulos_filtrados = _cong + [a for a in articulos_filtrados if all(a is not c for c in _cong)]
+        for _a in _cong:
+            print(f"   [congreso] Pasa adelante (tema que rinde en Google): {_a.get('title', '')[:70]}")
+
     # 3b. Parche CSS tipografia (elimina Patua One de .patua_tit_ppal)
     # patch_css_tipografia()  # desactivado: no tocar CSS tipografia
 
