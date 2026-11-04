@@ -57,16 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-25 22:02",
-      "publicadas": 0,
-      "cinta": false,
-      "estado": "SIN NOVEDADES",
-      "detalle": [
-        "Cinta: no hubo noticia nueva para la cinta"
-      ],
-      "titulos": []
-    },
-    {
       "fecha": "2026-10-25 23:02",
       "publicadas": 0,
       "cinta": false,
@@ -1105,60 +1095,82 @@
         "Kicillof prometi\u00f3 cubrir las vacantes en la Corte bonaerense",
         "Militares chilenos temen que Argentina multe un barco a Malvinas"
       ]
+    },
+    {
+      "fecha": "2026-11-04 10:10",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: Por la visita del Papa, el Gobierno ampli\u00f3 el control a\u00e9reo ",
+        "Titulo malo: Sindicatos del transporte e industria act\u00faan sin la CGT"
+      ],
+      "titulos": [
+        "Pichetto predice que en 2027 ganar\u00e1 un pol\u00edtico del sistema",
+        "Roberto Baradel gana la CTA-T con m\u00e1s del 95% de los votos",
+        "El gobernador bonaerense lidera en 20 de 24 distritos del Conurbano",
+        "Jorge Macri conden\u00f3 el ataque contra mujeres trans en Palermo",
+        "Santilli defendi\u00f3 el modelo econ\u00f3mico ante empresarios",
+        "Oposici\u00f3n cuestion\u00f3 la suspensi\u00f3n de embargos a pymes"
+      ]
     }
   ],
   "orden1_ids": [
-    4868,
-    4869,
-    4870,
-    4871,
-    4872
+    4873,
+    4874,
+    4875,
+    4876,
+    4877
   ],
+  "cinta_id": 4878,
   "published_links": [
-    "https://www.lanacion.com.ar/politica/caso-andis-la-jueza-arroyo-salgado-le-rechazo-la-probation-al-jefe-de-seguridad-de-nordelta-acusado-nid03112026/",
-    "https://perfil.com/modo-fontevecchia/la-inglesas-catolica-como-cgt-de-los-pobres-segun-uno-de-los-triunviros-de-la-cgt-jorge-sola-aMxHj2T8iPxg",
-    "https://tn.com.ar/politica/2026/11/03/la-economia-enciende-las-internas-de-milei-y-cristina-enfrenta-una-rebelion-dentro-del-peronismo/",
-    "https://www.infobae.com/politica/2026/11/03/patricia-bullrich-celebro-el-anuncio-de-caputo-para-las-pequenas-empresas-y-se-atribuyo-la-idea/",
-    "https://www.infobae.com/politica/2026/11/03/el-gobierno-confirmo-que-no-invito-a-los-ex-presidentes-a-los-actos-por-la-visita-del-papa-leon-xiv-a-la-argentina/",
-    "https://www.clarin.com/politica/gobierno-porteno-avanza-concesion-radios-ciudad-manejara_0_LLOeIccRc1.html",
     "https://www.lanacion.com.ar/politica/tras-la-derrota-y-huida-de-flavio-bolsonaro-el-presidente-milei-quedo-sin-socios-en-brasil-nid31102026/",
-    "https://www.infobae.com/politica/2026/11/03/hugo-passalacqua-logro-en-misiones-la-sancion-de-una-ley-de-transparencia-que-aumenta-controles-sobre-las-empresas-del-estado/",
     "https://www.clarin.com/politica/milei-mando-senado-pliego-rafecas-casacion-mahiques-sigue-renovacion-comodoro-py_0_Nu43AyS3kx.html",
-    "https://www.infobae.com/politica/2026/11/03/senado-piden-votar-una-ley-de-prevencion-de-violencia-infantil-antes-de-que-finalice-el-periodo-ordinario/",
+    "https://tn.com.ar/politica/2026/11/03/la-economia-enciende-las-internas-de-milei-y-cristina-enfrenta-una-rebelion-dentro-del-peronismo/",
     "https://www.infobae.com/politica/2026/11/03/en-una-reunion-con-jueces-kicillof-dijo-que-buscara-cubrir-las-vacantes-en-la-corte-bonaerense/",
-    "https://www.lanacion.com.ar/politica/en-chile-levantan-la-guardia-ante-el-viaje-de-un-buque-mercante-a-las-malvinas-pese-a-que-el-nid03112026/"
+    "https://perfil.com/modo-fontevecchia/la-inglesas-catolica-como-cgt-de-los-pobres-segun-uno-de-los-triunviros-de-la-cgt-jorge-sola-aMxHj2T8iPxg",
+    "https://www.infobae.com/politica/2026/11/03/senado-piden-votar-una-ley-de-prevencion-de-violencia-infantil-antes-de-que-finalice-el-periodo-ordinario/",
+    "https://perfil.com/modo-fontevecchia/miguel-angel-pichetto-no-veo-que-2027-sea-de-un-outsider-mas-bien-de-un-hombre-del-sistema-aPWsz8T2iAcu",
+    "https://www.ambito.com/politica/roberto-baradel-gano-las-elecciones-la-cta-t-y-sucedera-hugo-yasky-n6341255",
+    "https://www.clarin.com/politica/nueva-encuesta-enfrento-kicillof-milei-bullrich-conurbano-paliza-20-4_0_7t91iiMxGs.html",
+    "https://www.lanacion.com.ar/politica/referentes-de-la-politica-repudiaron-el-ataque-a-las-mujeres-trans-en-los-bosques-de-palermo-lo-nid03112026/",
+    "https://www.ambito.com/politica/diego-santilli-los-empresarios-es-el-sector-privado-este-modelo-lo-que-va-cambiar-el-pais-n6341058",
+    "https://tn.com.ar/politica/2026/11/03/la-oposicion-cuestiono-la-suspension-de-embargos-a-las-pymes-y-critico-el-plan-economico-llegaron-tarde/"
   ],
   "used_img_hashes": [
-    "5d55bcd1029cd8f6f8c9048091a3d4e6",
-    "fe0a48488a45f8e3eba0b63714312164",
+    "73d1779282eac27eedf2c4502c10f3c2",
+    "4c198adccc69f5d25b52ed73b2d641dc",
+    "f7c67f029e692f24574ac5edc627f49c",
+    "44820366856bbed5a99de504e0e65f03",
     "6302611f52c51334698d07031b4a445d",
     "25279280e62c9981e3921b94e7a028aa",
-    "2b6b7805a35f3dd027615719bed28fb2",
-    "16067e130e1bcda227cfe8c9fa39d770",
-    "60949e5aae378e20c5ac541055ce75f3",
-    "df6ecc966c6db12021dddb9de1c46328",
-    "4c198adccc69f5d25b52ed73b2d641dc",
-    "2aa8c99d2bd9ef256b415e598bcb9c92",
-    "44820366856bbed5a99de504e0e65f03",
-    "130334af699fd84fb8e44b1d0059ba7c",
+    "2cbd77a918e3cb8221bc127ce456d9c4",
+    "18d88f82c2f1345b3f349042beb76085",
+    "8e49069bb43a089732d514e225d098a0",
     "a3142714fdfb68e640e155a00b0b7370",
+    "130334af699fd84fb8e44b1d0059ba7c",
+    "dd344c242b50f443862085ed8e517bab",
+    "47ea16bf65253989c85c4e271777e567",
+    "5d55bcd1029cd8f6f8c9048091a3d4e6",
     "df6ecc966c6db12021dddb9de1c46328",
+    "2b6b7805a35f3dd027615719bed28fb2",
+    "af8f0218b03ae6b8fe97d26486245b8b",
+    "3dc27ab3f08f5ecc3e950ba2b6c47657",
+    "2aa8c99d2bd9ef256b415e598bcb9c92",
+    "60949e5aae378e20c5ac541055ce75f3",
+    "fe0a48488a45f8e3eba0b63714312164",
+    "16067e130e1bcda227cfe8c9fa39d770",
+    "12dda216a61e781cebc6844c11095b13",
     "9635cba665bef65c78483ac09c5655e5",
-    "2aa8c99d2bd9ef256b415e598bcb9c92"
+    "3dc27ab3f08f5ecc3e950ba2b6c47657",
+    "73d1779282eac27eedf2c4502c10f3c2",
+    "18d88f82c2f1345b3f349042beb76085",
+    "8e49069bb43a089732d514e225d098a0",
+    "12dda216a61e781cebc6844c11095b13",
+    "51f4faf453ab942511af1a6ab75e8250",
+    "af8f0218b03ae6b8fe97d26486245b8b"
   ],
   "published_titles": [
-    "Bornoroni reuni\u00f3 a cordobeses y apunt\u00f3 contra Llaryora",
-    "El libertario Gabriel Bornoroni acelera su armado en C\u00f3rdoba y amaga con lanzarse: \u201cEl modelo de Llaryora est\u00e1 agotado\u201d",
-    "Milei y Bullrich ganar\u00edan la segunda vuelta ante Kicillof y Massa",
-    "Una nueva encuesta midi\u00f3 balotajes para 2027 y dej\u00f3 sorpresas: Milei y Bullrich vs. Kicillof y Massa",
-    "Milei habl\u00f3 dos horas con estudiantes y atac\u00f3 a periodistas",
-    "Milei expuso ante estudiantes: dos horas de charla, cr\u00edticas a los pol\u00edticos que solo quieren \u201cganar elecciones\u201d y gui\u00f1o a Karina: \u201cEs tan ortodoxa como yo\u201d",
-    "Bullrich festeja la ley de inversiones aprobada en el Senado",
-    "Bullrich celebr\u00f3 la aprobaci\u00f3n del RIIR en el Senado y dijo que atraer\u00e1 \u201coportunidades de invertir y crecer\u201d",
-    "El Gobierno no tiene votos para aprobar el Presupuesto",
-    "Las diferencias del Gobierno con los aliados en Diputados demoran las negociaciones por el Presupuesto 2027",
-    "Milei particip\u00f3 de actos con iglesias evang\u00e9licas",
-    "Los Milei refuerzan su v\u00ednculo con la iglesia evang\u00e9lica antes de la visita del papa Le\u00f3n XIV",
     "Milei cuestion\u00f3 a Cavallo y anunci\u00f3 reintegros por 500 millones",
     "En una universidad privada, Javier Milei critic\u00c3\u00b3 a Domingo Cavallo, promocion\u00c3\u00b3 su libro y prometi\u00c3\u00b3 devolver impuestos por u$s500 millones",
     "El kirchnerismo mira a Lula como modelo para volver al poder",
@@ -1346,6 +1358,18 @@
     "Kicillof prometi\u00f3 cubrir las vacantes en la Corte bonaerense",
     "En una reuni\u00f3n con jueces, Kicillof dijo que buscar\u00e1 cubrir las vacantes en la Corte bonaerense",
     "Militares chilenos temen que Argentina multe un barco a Malvinas",
-    "En Chile levantan la guardia ante el viaje de un buque mercante a las Malvinas, pese a que el gobierno argentino defiende la \u201clibre navegaci\u00f3n\u201d"
+    "En Chile levantan la guardia ante el viaje de un buque mercante a las Malvinas, pese a que el gobierno argentino defiende la \u201clibre navegaci\u00f3n\u201d",
+    "Pichetto predice que en 2027 ganar\u00e1 un pol\u00edtico del sistema",
+    "Miguel \u00c1ngel Pichetto: \u201cNo veo que 2027 sea de un outsider, m\u00e1s bien de un hombre del sistema\u201d",
+    "Roberto Baradel gana la CTA-T con m\u00e1s del 95% de los votos",
+    "Roberto Baradel gan\u00c3\u00b3 las elecciones de la CTA-T y suceder\u00c3\u00a1 a Hugo Yasky",
+    "El gobernador bonaerense lidera en 20 de 24 distritos del Conurbano",
+    "Una nueva encuesta enfrent\u00f3 a Kicillof contra Milei y Bullrich en el Conurbano y hubo paliza: 20 a 4",
+    "Jorge Macri conden\u00f3 el ataque contra mujeres trans en Palermo",
+    "Jorge Macri conden\u00f3 el ataque contra mujeres trans en Palermo y la oposici\u00f3n atribuy\u00f3 la agresi\u00f3n a discursos de odio",
+    "Santilli defendi\u00f3 el modelo econ\u00f3mico ante empresarios",
+    "Diego Santilli ante los empresarios: \"Es el sector privado en este modelo lo que va a cambiar el pa\u00c3\u00ads\"",
+    "Oposici\u00f3n cuestion\u00f3 la suspensi\u00f3n de embargos a pymes",
+    "La oposici\u00f3n cuestion\u00f3 la suspensi\u00f3n de embargos a las pymes y critic\u00f3 el plan econ\u00f3mico: \u201cLlegaron tarde\u201d"
   ]
 }
