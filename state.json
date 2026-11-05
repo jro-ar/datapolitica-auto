@@ -57,16 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-26 02:03",
-      "publicadas": 0,
-      "cinta": false,
-      "estado": "SIN NOVEDADES",
-      "detalle": [
-        "Cinta: no hubo noticia nueva para la cinta"
-      ],
-      "titulos": []
-    },
-    {
       "fecha": "2026-10-26 03:02",
       "publicadas": 0,
       "cinta": false,
@@ -1131,60 +1121,68 @@
         "De Andreis acusa a Bullrich de paralizar el pa\u00eds",
         "Pullaro critic\u00f3 a la UNR por invitar a Sa\u00edn, procesado por espionaje"
       ]
+    },
+    {
+      "fecha": "2026-11-05 10:09",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [],
+      "titulos": [
+        "Milei apuesta a la visita del Papa para recuperar protagonismo",
+        "El Gobierno confirm\u00f3 la Argentina Week 2027 para marzo",
+        "Macri choca con los gobernadores del PRO por los pactos con Milei",
+        "Expertos globales debatieron en la UBA sobre compras estatales",
+        "Urtubey: el peronismo se degrad\u00f3 y debe ser la tercera v\u00eda",
+        "Juez critic\u00f3 a la justicia de C\u00f3rdoba y al fiscal Garz\u00f3n"
+      ]
     }
   ],
   "orden1_ids": [
-    4891,
-    4892,
-    4893,
-    4894,
-    4895
+    4897,
+    4898,
+    4899,
+    4900,
+    4901
   ],
-  "cinta_id": 4896,
+  "cinta_id": 4902,
   "published_links": [
-    "https://tn.com.ar/politica/2026/11/03/estudiantes-y-docentes-de-la-uba-realizaran-una-marcha-de-velas-para-exigirle-al-gobierno-que-cumpla-con-la-ley-de-financiamiento/",
-    "https://tn.com.ar/politica/2026/11/04/milei-llego-a-madrid-donde-se-reunira-con-el-lider-de-vox-y-participara-de-una-cumbre-con-sanchez-en-plena-escalada-de-tension/",
-    "https://www.infobae.com/politica/2026/11/04/el-gobierno-se-vuelca-a-polarizar-con-el-kirchnerismo-mientras-enfrenta-cada-vez-mas-conflictos-internos/",
-    "https://www.infobae.com/politica/2026/11/04/tras-la-polemica-por-los-cedears-el-gobierno-retirara-por-completo-el-proyecto-de-ley-de-competitividad-financiera/",
-    "https://www.clarin.com/politica/nueva-encuesta-enfrento-kicillof-milei-bullrich-conurbano-paliza-20-4_0_7t91iiMxGs.html",
-    "https://tn.com.ar/politica/2026/11/03/la-oposicion-cuestiono-la-suspension-de-embargos-a-las-pymes-y-critico-el-plan-economico-llegaron-tarde/",
-    "https://tn.com.ar/internacional/2026/11/04/los-22-paises-reunidos-en-la-cumbre-iberoamericana-respaldaron-el-reclamo-argentino-de-soberania-sobre-las-islas-malvinas/",
     "https://perfil.com/modo-fontevecchia/flavia-royon-la-aprobacion-del-pliego-de-michelli-demostro-que-hay-una-oposicion-constructiva-modof-aJRwL5n2aBfr",
-    "https://perfil.com/modo-fontevecchia/piden-la-expulsion-del-concejal-que-le-dio-trabajo-al-femicida-de-agostina-modof-a3xoK2e72m8n",
-    "https://www.ambito.com/politica/argentina-voto-contra-una-resolucion-la-onu-clave-la-corte-penal-internacional-n6341655",
+    "https://www.infobae.com/politica/2026/11/04/tras-la-polemica-por-los-cedears-el-gobierno-retirara-por-completo-el-proyecto-de-ley-de-competitividad-financiera/",
+    "https://tn.com.ar/politica/2026/11/03/estudiantes-y-docentes-de-la-uba-realizaran-una-marcha-de-velas-para-exigirle-al-gobierno-que-cumpla-con-la-ley-de-financiamiento/",
+    "https://www.clarin.com/politica/maximiliano-pullaro-critico-universidad-nacional-rosario-invitar-marcelo-sain-averguenza-gobernador_0_zqJDOfr2ct.html",
     "https://perfil.com/modo-fontevecchia/fernando-de-andreis-bullrich-es-personalista-y-dinamita-cada-lugar-por-donde-pasa-modof-ao21S3m7SDmq",
-    "https://www.clarin.com/politica/maximiliano-pullaro-critico-universidad-nacional-rosario-invitar-marcelo-sain-averguenza-gobernador_0_zqJDOfr2ct.html"
+    "https://www.ambito.com/politica/argentina-voto-contra-una-resolucion-la-onu-clave-la-corte-penal-internacional-n6341655",
+    "https://tn.com.ar/politica/2026/11/05/en-medio-de-las-internas-y-la-suba-del-riesgo-pais-javier-milei-apuesta-a-la-visita-del-papa-para-recuperar-protagonismo/",
+    "https://www.lanacion.com.ar/politica/el-gobierno-confirmo-la-fecha-y-la-sede-de-una-nueva-edicion-de-la-argentina-week-para-2027-nid04112026/",
+    "https://www.infobae.com/politica/2026/11/05/discrepancias-entre-macri-y-los-gobernadores-del-pro-sobre-como-cerrar-los-acuerdos-provinciales-con-lla/",
+    "https://www.infobae.com/politica/2026/11/05/contratacion-publica-y-derecho-administrativo-expertos-de-todo-el-mundo-debatieron-en-la-uba-sobre-el-futuro-de-las-compras-estatales/",
+    "https://perfil.com/modo-fontevecchia/juan-manuel-urtubey-el-peronismo-debe-ser-la-tercera-via-aVZVz7O0Yp5Q",
+    "https://perfil.com/modo-fontevecchia/luis-juez-todos-vieron-el-desastre-que-es-la-justicia-de-cordoba-y-el-fiscal-garzon-modof-afbzi5x2VGxx"
   ],
   "used_img_hashes": [
+    "2b719fc934e397b26f15a1c5cd79d684",
+    "a992c7d4413f431babc9f30e316516fa",
+    "a0e9b0a44181caae9982fc0f01d7275b",
+    "e258015bac59394c59c5b1ddffebe4ef",
+    "2e93afa872d5625ed9a3ca583b61c2c1",
+    "c180b567d485f4da85f42a5d6da2c74a",
+    "0c8376a549b0e7298d81df6b0e72a5e5",
+    "4ce74aa6352d21653d93894c9d582c96",
+    "3011c95360e77a17d992ed4858dacdb1",
     "b2f6f34c7208a4a1b2d3cf90cbcd4ae7",
     "f1b5f916f8556b96f9c0137a84c469bf",
-    "3011c95360e77a17d992ed4858dacdb1",
     "9771cd1db51cb52d971a80174a0c132a",
-    "e258015bac59394c59c5b1ddffebe4ef",
-    "4ce74aa6352d21653d93894c9d582c96",
-    "2b719fc934e397b26f15a1c5cd79d684",
-    "0c8376a549b0e7298d81df6b0e72a5e5",
-    "a992c7d4413f431babc9f30e316516fa",
-    "a992c7d4413f431babc9f30e316516fa",
-    "2b719fc934e397b26f15a1c5cd79d684",
-    "e258015bac59394c59c5b1ddffebe4ef",
-    "9771cd1db51cb52d971a80174a0c132a",
-    "3011c95360e77a17d992ed4858dacdb1",
-    "f1b5f916f8556b96f9c0137a84c469bf"
+    "3f96ef1b564e938b0759dcbac3ead55c",
+    "5f251f560919d532c48876c89385b24a",
+    "32d6316910b544969fbc5569db4a5f55",
+    "32d6316910b544969fbc5569db4a5f55",
+    "3f96ef1b564e938b0759dcbac3ead55c",
+    "9bea3117d94cafe007faeca47cf3ecd6",
+    "2e93afa872d5625ed9a3ca583b61c2c1",
+    "a0e9b0a44181caae9982fc0f01d7275b"
   ],
   "published_titles": [
-    "El Gobierno quiere que el Papa no amplifique cr\u00edticas sociales",
-    "El Gobierno busca evitar fricciones en la visita del papa Le\u00f3n XIV y env\u00eda se\u00f1ales a la Iglesia",
-    "Un libro re\u00fane cr\u00edticas internas al peronismo sobre su rumbo",
-    "Un libro reune autocr\u00c3\u00adticas del peronismo y apunta a una construcci\u00c3\u00b3n del futuro",
-    "Camioneros va a juicio en Rosario por bloquear una empresa tres meses",
-    "Bloqueos sindicales: tras el pol\u00e9mico fallo en San Nicol\u00e1s, comienza un juicio clave contra Camioneros en Rosario",
-    "Radicales de C\u00f3rdoba negocian candidaturas con el Gobierno",
-    "\u00bfPeligra la unidad opositora en C\u00f3rdoba?: la incertidumbre por las candidaturas y la propuesta que lleg\u00f3 a la Casa Rosada",
-    "La Iglesia argentina quiere m\u00e1s que una foto con el Papa Le\u00f3n XIV",
-    "El pedido de la Iglesia argentina frente a la llegada del Papa y la mirada del Gobierno",
-    "Lula domina la agenda latinoamericana y Milei queda al margen",
-    "Lula se queda con casi toda la conversaci\u00f3n regional y relega a Milei",
     "Milei rechaz\u00f3 cambiar el rumbo econ\u00f3mico ante las presiones",
     "Milei mostr\u00f3 su alegr\u00eda por la visita del Papa y dijo que ceder en el programa ser\u00eda conducir a la Argentina \u201cal infierno\u201d",
     "Milei y el Vaticano chocan por el protocolo de la visita papal",
@@ -1372,6 +1370,18 @@
     "De Andreis acusa a Bullrich de paralizar el pa\u00eds",
     "Fernando de Andreis: \"Bullrich es personalista y dinamita cada lugar por donde pasa\"",
     "Pullaro critic\u00f3 a la UNR por invitar a Sa\u00edn, procesado por espionaje",
-    "Maximiliano Pullaro critic\u00f3 a la Universidad Nacional de Rosario por invitar a Marcelo Sain: \"Me averg\u00fcenza como gobernador\""
+    "Maximiliano Pullaro critic\u00f3 a la Universidad Nacional de Rosario por invitar a Marcelo Sain: \"Me averg\u00fcenza como gobernador\"",
+    "Milei apuesta a la visita del Papa para recuperar protagonismo",
+    "En medio de las internas y la suba del riesgo pa\u00eds, Javier Milei apuesta a la visita del Papa para recuperar protagonismo",
+    "El Gobierno confirm\u00f3 la Argentina Week 2027 para marzo",
+    "El Gobierno confirm\u00f3 la fecha y la sede de la nueva edici\u00f3n de la Argentina Week para 2027",
+    "Macri choca con los gobernadores del PRO por los pactos con Milei",
+    "Discrepancias entre Macri y los gobernadores del PRO sobre c\u00f3mo cerrar los acuerdos provinciales con LLA",
+    "Expertos globales debatieron en la UBA sobre compras estatales",
+    "Contrataci\u00f3n p\u00fablica y derecho administrativo: expertos de todo el mundo debatieron en la UBA sobre el futuro de las compras estatales",
+    "Urtubey: el peronismo se degrad\u00f3 y debe ser la tercera v\u00eda",
+    "Juan Manuel Urtubey: \u201cEl peronismo debe ser la tercera v\u00eda\u201d",
+    "Juez critic\u00f3 a la justicia de C\u00f3rdoba y al fiscal Garz\u00f3n",
+    "Luis Juez: \u201cTodos vieron el desastre que es la justicia de C\u00f3rdoba y el fiscal Garz\u00f3n\u201d"
   ]
 }
