@@ -1668,6 +1668,17 @@ def verificar_fidelidad(client, titulo: str, copete: str, art: dict):
     return t2, c2
 
 
+def titulo_fiel_final(client, titulo: str, copete: str, art: dict) -> bool:
+    """v25: ultimo control, DESPUES del corrector de titulos. Si el titulo final dice algo distinto de la
+    noticia original (ej.: 'viaje al Vaticano' cuando la fuente habla de la visita del Papa a la Argentina),
+    devuelve False y la nota NO se publica (no se intenta corregir otra vez)."""
+    t2, _c2 = verificar_fidelidad(client, titulo, copete, art)
+    if t2.strip() != titulo.strip():
+        print("    Chequeo final: el titulo corregido no coincide con la noticia original. NO se publica.")
+        return False
+    return True
+
+
 def control_calidad_titulo(client, titulo: str, copete: str, fuente: str = "") -> str | None:
     """Ultimo filtro antes de publicar. Devuelve un titulo correcto, o None si no se logra
     (en ese caso la nota NO se publica: es preferible una nota menos que un titulo malo)."""
@@ -1691,7 +1702,11 @@ def control_calidad_titulo(client, titulo: str, copete: str, fuente: str = "") -
                     + (" y coincide con la NOTICIA ORIGINAL (si el copete y la noticia original no coinciden, manda la noticia original)" if fuente else "")
                     + ".\n"
                     + (f"Control automatico detecto: {motivo}.\n" if motivo else "")
-                    + "Si NO cumple, escribi un titulo corregido que SI cumpla todo, usando solo la informacion dada.\n"
+                    + "IMPORTANTE: NO uses tu propio conocimiento para juzgar o 'corregir' los hechos: la noticia puede ser "
+                    "muy reciente y tratar hechos que no conoces (por ejemplo, una visita del Papa a la Argentina). "
+                    "La NOTICIA ORIGINAL manda. Al corregir, solo mejora la forma (claridad, largo, ortografia) "
+                    "sin cambiar el sentido ni agregar lugares, personas o datos.\n"
+                    "Si NO cumple, escribi un titulo corregido que SI cumpla todo, usando solo la informacion dada.\n"
                     "Responde SOLO con JSON valido, sin markdown: "
                     '{"ok": true|false, "problema": "...", "titulo": "titulo final"}\n\n'
                     f"Titulo: {t}\nCopete: {copete}"
@@ -2046,6 +2061,20 @@ def main():
         print(f"   {len(articulos_filtrados) - len(sin_repetir)} descartados por tema ya publicado ({len(reserva)} en reserva)")
         articulos_filtrados = sin_repetir
 
+    # v25: temas que rinden en Google -> noticias del Congreso (votaciones, proyectos, sesiones, datos
+    # y herramientas de seguimiento). Hasta 2 por actualizacion pasan adelante (solo temas nuevos, no la reserva).
+    _CLAVES_CONGRESO = ("congreso", "diputados", "senado", "senador", "diputad", "legislador", "legislativ",
+                        "proyecto de ley", "sesion", "votacion", "votaron", "quorum", "dictamen", "comision",
+                        "monitor", "ranking", "como voto")
+    _reserva = locals().get("reserva") or []
+    _cong = [a for a in articulos_filtrados
+             if all(a is not r for r in _reserva)
+             and any(k in _normalize(a.get("title", "")) for k in _CLAVES_CONGRESO)][:2]
+    if _cong:
+        articulos_filtrados = _cong + [a for a in articulos_filtrados if all(a is not c for c in _cong)]
+        for _a in _cong:
+            print(f"   [congreso] Pasa adelante (tema que rinde en Google): {_a.get('title', '')[:70]}")
+
     # 3b. Parche CSS tipografia (elimina Patua One de .patua_tit_ppal)
     # patch_css_tipografia()  # desactivado: no tocar CSS tipografia
 
@@ -2138,6 +2167,9 @@ def main():
                 continue
             if t_ok != t:
                 print(f"    Titulo final: {t_ok}")
+                if not titulo_fiel_final(client, t_ok, c, art):
+                    RESUMEN["descartes"].append(f"Titulo distinto de la noticia original: {t_ok[:55]}")
+                    continue
             t = t_ok
             # 2) Despues, con el titulo final: si nombra a una persona, la foto tiene que ser de ella
             nombre_t = persona_del_titulo(client, t, c, art)
@@ -2239,6 +2271,8 @@ def main():
                 raise RuntimeError("Titulo de cinta sin la calidad necesaria. NO se publica.")
             if t2_ok != t2:
                 print(f"    Titulo final: {t2_ok}")
+                if not titulo_fiel_final(client, t2_ok, c2, art_cinta):
+                    raise RuntimeError("Titulo de cinta distinto de la noticia original. NO se publica.")
             t2 = t2_ok
             # Si la cinta nombra a una persona, la foto tiene que ser de ella
             nombre_c = persona_del_titulo(client, t2, c2, art_cinta)
