@@ -1903,6 +1903,8 @@ def escribir_resumen(estado: str):
             lineas += ["", "**Errores:**"] + [f"- {e}" for e in RESUMEN["errores"]]
         if RESUMEN.get("fuentes"):
             lineas += ["", "**Fuentes (noticias leidas):**"] + [f"- {x}" for x in RESUMEN["fuentes"]]
+        if RESUMEN.get("indexnow"):
+            lineas += ["", f"**Buscadores:** {RESUMEN['indexnow']}"]
         if RESUMEN.get("diag"):
             lineas += ["", "**Diagnostico del panel (solo lectura):**"] + [f"- {d}" for d in RESUMEN["diag"]]
         texto = "\n".join(lineas) + "\n"
@@ -1917,6 +1919,39 @@ def escribir_resumen(estado: str):
     except Exception as e:
         print(f"Aviso: no se pudo escribir el resumen: {e}")
 
+
+
+# v26: IndexNow (aviso gratuito a Bing y otros buscadores de cada nota nueva)
+INDEXNOW_KEY = "05891a78cd66dc849c778fa1af5a7dce"
+INDEXNOW_KEY_URL = f"https://datapolitica.com/{INDEXNOW_KEY}.txt"
+
+
+def avisar_indexnow(ids: list) -> str:
+    """Le avisa a Bing (IndexNow) las notas recien publicadas + la portada.
+    Toma las direcciones reales de las notas del mapa del sitio. En modo prueba no envia nada."""
+    try:
+        ids = [str(i) for i in ids if i]
+        urls = ["https://datapolitica.com/"]
+        if ids:
+            r = requests.get("https://datapolitica.com/sitemap.aspx", headers=HEADERS, timeout=20)
+            for loc in re.findall(r"<loc>([^<]+)</loc>", r.text):
+                m = re.search(r"/(\d+)~", loc)
+                if m and m.group(1) in ids:
+                    urls.append(loc.strip())
+        # la clave tiene que estar publicada en el sitio para que Bing confie en el aviso
+        k = requests.get(INDEXNOW_KEY_URL, headers=HEADERS, timeout=15)
+        clave_ok = k.status_code == 200 and INDEXNOW_KEY in k.text
+        if not clave_ok:
+            return f"IndexNow: archivo de clave no disponible en el sitio (HTTP {k.status_code}); no se aviso"
+        if DRY_RUN:
+            return f"IndexNow (prueba): clave OK en el sitio; se avisarian {len(urls)} direcciones"
+        resp = requests.post("https://api.indexnow.org/indexnow", timeout=20,
+                             headers={"Content-Type": "application/json; charset=utf-8"},
+                             json={"host": "datapolitica.com", "key": INDEXNOW_KEY,
+                                   "keyLocation": INDEXNOW_KEY_URL, "urlList": urls})
+        return f"IndexNow: aviso enviado a Bing ({len(urls)} direcciones, respuesta HTTP {resp.status_code})"
+    except Exception as e:
+        return f"IndexNow: no se pudo avisar ({str(e)[:80]})"
 
 
 def main():
@@ -2341,6 +2376,10 @@ def main():
     # Historial de titulos publicados (ultimos 200) para no repetir temas entre dias
     nuevo_estado["published_titles"] = (published_titles + [t for t in nuevos_titulos if t])[-200:]
     print(f"   Titulos guardados en historial: {len(nuevo_estado['published_titles'])}")
+
+    # v26: aviso a Bing de las notas nuevas (no cambia nada del sitio)
+    RESUMEN["indexnow"] = avisar_indexnow(list(orden1_ids) + ([cinta_id] if cinta_id else []))
+    print(f"   {RESUMEN['indexnow']}")
 
     # Registro de corridas (para el resumen diario): ultimas 72
     estado_corrida = evaluar_corrida()
