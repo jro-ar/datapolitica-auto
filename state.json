@@ -57,18 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-26 06:04",
-      "publicadas": 2,
-      "cinta": true,
-      "estado": "SIN NOVEDADES",
-      "detalle": [],
-      "titulos": [
-        "El Senado debate c\u00f3mo cobrarles a los padres que no pagan alimentos",
-        "El resultado en Brasil obliga a Milei a recalcular sus alianzas",
-        "Un nuevo fondo y la informalidad bajan los aportes jubilatorios"
-      ]
-    },
-    {
       "fecha": "2026-10-26 07:04",
       "publicadas": 1,
       "cinta": true,
@@ -1165,65 +1153,79 @@
         "Presentaron la canci\u00f3n oficial para recibir al Papa Le\u00f3n XIV",
         "Karina Milei apoya a dos candidatas a gobernadoras para 2025"
       ]
+    },
+    {
+      "fecha": "2026-11-06 10:10",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: Econom\u00eda pas\u00f3 a disponibilidad a m\u00e1s de diez empleados de pl",
+        "Titulo malo: Bullrich: La Libertad Avanza no resuelve su crisis interna"
+      ],
+      "titulos": [
+        "La visita del Papa tapa las peleas internas del Gobierno",
+        "El Senado bonaerense cre\u00f3 un laboratorio estatal de medicamentos",
+        "Kicillof y M\u00e1ximo Kirchner se reunieron y baj\u00f3 la tensi\u00f3n",
+        "Jorge Macri le entregar\u00e1 las llaves de Buenos Aires al Papa Le\u00f3n XIV",
+        "Un exjugador de River dej\u00f3 La Libertad Avanza por los Passaglia",
+        "La Corte orden\u00f3 aplicar la reforma laboral para indemnizaciones"
+      ]
     }
   ],
   "orden1_ids": [
-    4917,
-    4918,
-    4919,
-    4920,
-    4921
+    4923,
+    4924,
+    4925,
+    4926,
+    4927
   ],
-  "cinta_id": 4922,
+  "cinta_id": 4928,
   "published_links": [
-    "https://www.infobae.com/politica/2026/11/05/mauricio-macri-duda-de-asistir-a-la-misa-del-papa-leon-xiv-por-las-tensiones-con-su-primo-jorge-macri/",
-    "https://perfil.com/modo-fontevecchia/luis-juez-todos-vieron-el-desastre-que-es-la-justicia-de-cordoba-y-el-fiscal-garzon-modof-afbzi5x2VGxx",
-    "https://tn.com.ar/politica/2026/11/05/suspendieron-al-juez-de-san-isidro-acusado-de-acoso-sexual-y-ordenaron-embargarle-parte-del-sueldo/",
-    "https://www.ambito.com/politica/cumbre-iberoamericana-milei-y-sanchez-se-vieron-cara-cara-primera-vez-y-se-saludaron-frialdad-n6341761",
-    "https://tn.com.ar/sociedad/2026/11/05/murio-patricia-walsh-la-exdiputada-de-izquierda-y-una-de-las-impulsoras-de-los-juicios-por-los-crimenes-durante-la-dictadura/",
-    "https://www.clarin.com/politica/maximiliano-pullaro-critico-universidad-nacional-rosario-invitar-marcelo-sain-averguenza-gobernador_0_zqJDOfr2ct.html",
-    "https://www.infobae.com/politica/2026/11/05/la-mayoria-de-los-diputados-y-senadores-confirmaron-su-presencia-al-evento-con-el-papa-leon-xiv/",
-    "https://www.infobae.com/politica/2026/11/05/entre-rios-el-ex-gobernador-sergio-urribarri-enfrentara-un-nuevo-juicio-por-corrupcion/",
-    "https://www.infobae.com/politica/2026/11/05/mas-dialogo-confianza-en-los-mercados-y-armar-un-equipo-las-recomendaciones-de-macri-para-el-gobierno/",
     "https://www.lanacion.com.ar/politica/rosenkrantz-insiste-con-la-reforma-del-sistema-de-seleccion-de-jueces-ante-la-demora-en-su-nid05112026/",
+    "https://www.infobae.com/politica/2026/11/05/mas-dialogo-confianza-en-los-mercados-y-armar-un-equipo-las-recomendaciones-de-macri-para-el-gobierno/",
+    "https://www.infobae.com/politica/2026/11/05/primeras-replicas-de-la-casa-rosada-contra-bullrich-karina-milei-eleva-el-perfil-de-la-senadora-nadia-marquez/",
+    "https://www.infobae.com/politica/2026/11/05/mauricio-macri-duda-de-asistir-a-la-misa-del-papa-leon-xiv-por-las-tensiones-con-su-primo-jorge-macri/",
     "https://www.ambito.com/politica/presentaron-la-cancion-oficial-recibir-al-papa-leon-xiv-su-visita-la-argentina-n6326044",
-    "https://www.infobae.com/politica/2026/11/05/primeras-replicas-de-la-casa-rosada-contra-bullrich-karina-milei-eleva-el-perfil-de-la-senadora-nadia-marquez/"
+    "https://tn.com.ar/sociedad/2026/11/05/murio-patricia-walsh-la-exdiputada-de-izquierda-y-una-de-las-impulsoras-de-los-juicios-por-los-crimenes-durante-la-dictadura/",
+    "https://www.infobae.com/politica/2026/11/06/la-argentina-que-recibe-al-papa-nuevas-tensiones-entre-milei-y-bullrich-el-faltazo-de-macri-y-la-pausa-obligada-del-congreso/",
+    "https://www.ambito.com/politica/el-senado-bonaerense-aprobo-el-laboratorio-estatal-medicamentos-y-dejo-afuera-la-ley-rappi-n6342181",
+    "https://www.infobae.com/politica/2026/11/06/el-acuerdo-entre-kicillof-y-maximo-kirchner-aplaco-la-interna-y-abrio-una-via-para-el-armado-electoral/",
+    "https://www.lanacion.com.ar/politica/el-gobierno-agrega-una-actividad-a-la-agenda-de-leon-xiv-jorge-macri-le-entregara-las-llaves-de-la-nid05112026/",
+    "https://tn.com.ar/politica/2026/11/06/los-passaglia-sumaron-a-un-exjugador-de-river-que-dejo-la-libertad-avanza-y-podria-ser-candidato-a-intendente/",
+    "https://tn.com.ar/politica/2026/11/05/el-gobierno-celebro-el-fallo-de-la-corte-suprema-que-ordeno-aplicar-la-reforma-laboral-para-actualizar-indemnizaciones/"
   ],
   "used_img_hashes": [
-    "82fcf00537ee64faaac00572746b1865",
     "c7b0af9047f299fd2036410f0db65495",
+    "d34ea75bf9df911902533e3267690af5",
+    "0966d59f7304957ecdd3ae6f47bce22d",
+    "ed1884c4dacef4b59a8cbae33fb0d511",
+    "cef22a5fa1eed0f1378936889f22824a",
+    "1bac7a5b4247db3c370c336da51d7c03",
+    "47e713003bc5bd6964012a6871a67d58",
+    "ea53573b603bbd77f940abc45d61b56f",
     "552a06e5fced64c370345549bb81d6b0",
     "b1b84154cd9d1cb571b6d97d3ff405a1",
     "dfe1ed6580911f8cea2da38dcc7ae708",
     "caa98621c5b8528bcec7c6b41d5da23c",
-    "2c1495c04d4dab2d9f2b2e50891c85b6",
-    "0966d59f7304957ecdd3ae6f47bce22d",
-    "5a1fb1230357c3ff2ab3b62113387890",
     "644fc9a400f57acc1ef28b05f3a1365a",
-    "cef22a5fa1eed0f1378936889f22824a",
-    "2c1495c04d4dab2d9f2b2e50891c85b6",
-    "26ddfd3a09b19c66c860459d7f6c14fa",
     "5a1fb1230357c3ff2ab3b62113387890",
+    "2c1495c04d4dab2d9f2b2e50891c85b6",
     "b473ac15e31c62642570f43183ca8c4c",
-    "0966d59f7304957ecdd3ae6f47bce22d",
-    "caa98621c5b8528bcec7c6b41d5da23c",
-    "dfe1ed6580911f8cea2da38dcc7ae708",
+    "15070b0bebb19be6de35f8df97de7a23",
+    "9996ebf0f4bf04d02b1d0604bce17f5d",
     "82fcf00537ee64faaac00572746b1865",
-    "552a06e5fced64c370345549bb81d6b0"
+    "26ddfd3a09b19c66c860459d7f6c14fa",
+    "66e51f18901d85843abf0797d71c704b",
+    "ea53573b603bbd77f940abc45d61b56f",
+    "66e51f18901d85843abf0797d71c704b",
+    "1bac7a5b4247db3c370c336da51d7c03",
+    "d34ea75bf9df911902533e3267690af5",
+    "5059378f3577d4ddae8067b40baaf1f1",
+    "15070b0bebb19be6de35f8df97de7a23",
+    "9996ebf0f4bf04d02b1d0604bce17f5d"
   ],
   "published_titles": [
-    "El PRO descarta la alianza con Milei y marca diferencias",
-    "El PRO no apura una alianza con LLA y pone el foco en el Congreso: \u201cHablar ahora de acuerdos electorales no tiene mucho sentido\u201d",
-    "El Vaticano difundi\u00f3 un video que anticipa la visita del papa Le\u00f3n XIV",
-    "\u201cBienvenidos todos\u201d: la Iglesia public\u00f3 el spot oficial sobre el viaje del papa Le\u00f3n XIV a la Argentina",
-    "Le\u00f3n XIV visitar\u00e1 Argentina en noviembre: BA, C\u00f3rdoba y Luj\u00e1n",
-    "El Papa en la Argentina: la agenda oficial de Le\u00c3\u00b3n XIV d\u00c3\u00ada a d\u00c3\u00ada y hora a hora",
-    "Milei defendi\u00f3 a Maratea tras su cruce con la China Ansaldi",
-    "Javier Milei opin\u00f3 sobre el tenso cruce entre Santiago Maratea y la China Ansa: \u201cUna emboscada por no ser kuka\u201d",
-    "Los hermanos Caputo dirigen un think tank libertario con fondos opacos",
-    "La Fundaci\u00f3n Faro: los misterios del think tank libertario liderado por los hermanos Caputo",
-    "Walter Ag\u00fcero asume al frente del Centro Nacional de Ciberseguridad",
-    "El Gobierno nombr\u00f3 al nuevo director ejecutivo del Centro Nacional de Ciberseguridad",
     "El Gobierno cambia su relaci\u00f3n con M\u00e9xico y asciende al yerno de Milei",
     "Solo en Off | Veinte meses despu\u00e9s, sigue el misterio por la bandera de Malvinas que falta en la Casa Rosada",
     "El oficialismo rionegrino gan\u00f3 en Bariloche y super\u00f3 a LLA",
@@ -1411,6 +1413,18 @@
     "Presentaron la canci\u00f3n oficial para recibir al Papa Le\u00f3n XIV",
     "Presentaron \"Argentina con el Papa\", la canci\u00c3\u00b3n oficial para recibir a Le\u00c3\u00b3n XIV",
     "Karina Milei apoya a dos candidatas a gobernadoras para 2025",
-    "Primeras r\u00e9plicas de la Casa Rosada contra Bullrich: Karina Milei eleva el perfil de la senadora Nadia M\u00e1rquez"
+    "Primeras r\u00e9plicas de la Casa Rosada contra Bullrich: Karina Milei eleva el perfil de la senadora Nadia M\u00e1rquez",
+    "La visita del Papa tapa las peleas internas del Gobierno",
+    "La Argentina que recibe al Papa: nuevas tensiones entre Milei y Bullrich, el faltazo de Macri y la pausa obligada del Congreso",
+    "El Senado bonaerense cre\u00f3 un laboratorio estatal de medicamentos",
+    "El Senado bonaerense aprob\u00c3\u00b3 el laboratorio estatal de medicamentos y dej\u00c3\u00b3 afuera la \"ley Rappi\"",
+    "Kicillof y M\u00e1ximo Kirchner se reunieron y baj\u00f3 la tensi\u00f3n",
+    "El acuerdo entre Kicillof y M\u00e1ximo Kirchner aplac\u00f3 la interna y abri\u00f3 una v\u00eda para el armado electoral",
+    "Jorge Macri le entregar\u00e1 las llaves de Buenos Aires al Papa Le\u00f3n XIV",
+    "El Gobierno agrega una actividad a la agenda de Le\u00f3n XIV: Jorge Macri le entregar\u00e1 las llaves de la Ciudad",
+    "Un exjugador de River dej\u00f3 La Libertad Avanza por los Passaglia",
+    "Los Passaglia sumaron a un exjugador de River que dej\u00f3 La Libertad Avanza y podr\u00eda ser candidato a intendente",
+    "La Corte orden\u00f3 aplicar la reforma laboral para indemnizaciones",
+    "El Gobierno celebr\u00f3 el fallo de la Corte Suprema que orden\u00f3 aplicar la reforma laboral para actualizar indemnizaciones"
   ]
 }
