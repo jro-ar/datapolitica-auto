@@ -57,16 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-26 10:02",
-      "publicadas": 0,
-      "cinta": false,
-      "estado": "SIN NOVEDADES",
-      "detalle": [
-        "Cinta: no hubo noticia nueva para la cinta"
-      ],
-      "titulos": []
-    },
-    {
       "fecha": "2026-10-26 11:02",
       "publicadas": 0,
       "cinta": false,
@@ -1192,56 +1182,86 @@
         "Naci\u00f3n y C\u00f3rdoba acordaron compensar deudas por $143.000 millones",
         "La C\u00e1mara Federal dej\u00f3 sin acusadores causa sobre obra p\u00fablica"
       ]
+    },
+    {
+      "fecha": "2026-11-07 10:15",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: Bullrich y 15 diputados presionan a La Libertad Avanza por l",
+        "Titulo malo: Encuesta muestra imagen negativa de Milei pero opositores pe",
+        "Titulo malo: Argentina apuesta a la continuidad con Paraguay tras el camb",
+        "Sin foto de Andr\u00e9s Malamud: Malamud: el Estado no premia al que cumple ni cast",
+        "Titulo distinto de la noticia original: ADEPA celebr\u00f3 la visita del Papa y pidi\u00f3 que contribuya",
+        "Titulo malo: Karina Milei prepar\u00f3 la Casa Rosada para la visita del Papa"
+      ],
+      "titulos": [
+        "La visita del papa Le\u00f3n XIV moviliza a m\u00e1s de 500 periodistas",
+        "Pagni analiz\u00f3 las estrategias de Massa, Bullrich y Kicillof",
+        "Bullrich choca con la Casa Rosada por la pol\u00edtica de discapacidad",
+        "El peronismo ve chances de ganarle a Milei y busca unidad",
+        "Bullrich anunci\u00f3 que el Senado tratar\u00e1 la ley contra la ludopat\u00eda",
+        "Las CTA le enviaron una carta al papa Le\u00f3n XIV contra Milei"
+      ]
     }
   ],
   "orden1_ids": [
-    4941,
-    4942,
-    4943,
-    4944,
-    4945
+    4947,
+    4948,
+    4949,
+    4950,
+    4951
   ],
-  "cinta_id": 4946,
+  "cinta_id": 4952,
   "published_links": [
-    "https://tn.com.ar/politica/2026/11/06/patricia-bullrich-resistio-los-cambios-que-impulsaba-la-casa-rosada-y-consiguio-apoyo-opositor-para-la-ley-de-discapacidad/",
-    "https://www.infobae.com/politica/2026/11/06/un-diputado-libertario-pidio-no-hacer-una-lectura-partidaria-de-los-discursos-del-papa/",
-    "https://tn.com.ar/politica/2026/11/05/el-gobierno-celebro-el-fallo-de-la-corte-suprema-que-ordeno-aplicar-la-reforma-laboral-para-actualizar-indemnizaciones/",
-    "https://www.infobae.com/politica/2026/11/06/el-ministerio-de-economia-paso-a-disponibilidad-a-mas-de-diez-empleados-de-planta-permanente/",
-    "https://www.lanacion.com.ar/politica/el-gobierno-agrega-una-actividad-a-la-agenda-de-leon-xiv-jorge-macri-le-entregara-las-llaves-de-la-nid05112026/",
-    "https://www.lanacion.com.ar/politica/citan-a-indagatoria-al-extitular-de-la-uom-y-a-la-vecina-de-cristina-kirchner-por-una-presunta-nid06112026/",
-    "https://tn.com.ar/politica/2026/11/06/por-unanimidad-el-congreso-de-paraguay-destituyo-al-presidente-santiago-pena/",
     "https://www.infobae.com/politica/2026/11/06/la-justicia-ordeno-al-gobierno-mantener-las-prestaciones-de-un-centro-que-atiende-a-personas-con-discapacidad/",
-    "https://www.ambito.com/politica/javier-milei-defendio-el-rumbo-la-sociedad-rural-no-hay-sustituto-la-buena-economica-n6342431",
-    "https://www.clarin.com/politica/indagaran-ex-jefes-uom-presuntos-fraudes-millonarios-aportes-afiliados-sindicato_0_h8oFE5wPtY.html",
-    "https://www.lanacion.com.ar/politica/luis-caputo-y-martin-llaryora-acordaron-compensar-deudas-por-143000-millones-nid06112026/",
-    "https://www.lanacion.com.ar/politica/la-camara-federal-dejo-al-borde-del-cierre-otra-causa-que-investigaba-al-gobierno-nid06112026/"
+    "https://www.infobae.com/politica/2026/11/06/un-diputado-libertario-pidio-no-hacer-una-lectura-partidaria-de-los-discursos-del-papa/",
+    "https://tn.com.ar/politica/2026/11/06/patricia-bullrich-resistio-los-cambios-que-impulsaba-la-casa-rosada-y-consiguio-apoyo-opositor-para-la-ley-de-discapacidad/",
+    "https://tn.com.ar/politica/2026/11/05/el-gobierno-celebro-el-fallo-de-la-corte-suprema-que-ordeno-aplicar-la-reforma-laboral-para-actualizar-indemnizaciones/",
+    "https://www.lanacion.com.ar/politica/la-camara-federal-dejo-al-borde-del-cierre-otra-causa-que-investigaba-al-gobierno-nid06112026/",
+    "https://www.lanacion.com.ar/politica/el-gobierno-agrega-una-actividad-a-la-agenda-de-leon-xiv-jorge-macri-le-entregara-las-llaves-de-la-nid05112026/",
+    "https://www.clarin.com/politica/guerra-canales-visita-papa-leon-xiv-500-acreditados-argentinos-programacion-especial_0_AvLPZRtL8x.html",
+    "https://www.lanacion.com.ar/politica/elecciones-2027-carlos-pagni-analizo-la-apuesta-electoral-de-massa-el-plan-de-bullrich-y-la-nid07112026/",
+    "https://www.infobae.com/politica/2026/11/05/nuevos-cortocircuitos-en-el-gobierno-detras-del-dictamen-de-discapacidad-en-la-previa-de-la-llegada-del-papa/",
+    "https://www.infobae.com/politica/2026/11/07/el-peronismo-empieza-a-ver-posibilidades-de-ganarle-a-milei-y-le-da-forma-a-una-propuesta-electoral/",
+    "https://tn.com.ar/politica/2026/11/06/tras-el-reclamo-de-la-iglesia-patricia-bullrich-anuncio-que-el-senado-tratara-la-ley-contra-la-ludopatia/",
+    "https://tn.com.ar/politica/2026/11/06/las-cta-le-escribieron-una-carta-al-papa-leon-xiv-con-criticas-al-gobierno-de-javier-milei/"
   ],
   "used_img_hashes": [
-    "df78da7fdd332cbd50dc580971ae76ae",
+    "63dee18f928a17fd985290e425571958",
+    "b34792b9ab62b354d873e97188226ed3",
+    "d2cc63954e090bff2227ac55a18eb884",
     "f6b23d4292d0b14a3f394b7946a2a584",
+    "e67e0599fefa73fb261981173f2c633a",
+    "9a5658605db56dd478a604e193257283",
     "6e7f4fd9e101943cb43d3e9827d72c01",
-    "d2cc63954e090bff2227ac55a18eb884",
-    "9042f91982d4a7f47f955dc08dc1418c",
-    "a15c2d28132a50f8b70589e6df95e36b",
-    "d2cc63954e090bff2227ac55a18eb884",
-    "6e7f4fd9e101943cb43d3e9827d72c01",
+    "2e930bf8c22f0c6ebc17cce126506406",
     "6c5e3a84f9e9cc88a23358a56495279e",
+    "ca091310f131fbecd1e562104275f1a5",
+    "3822b5d641ce7423e18f8e3133294b4d",
+    "9042f91982d4a7f47f955dc08dc1418c",
+    "6d25ed732f940a83d15a5c2294e2d2da",
+    "df78da7fdd332cbd50dc580971ae76ae",
+    "9e8e3a26aa6ce8326f25e03f668d9cec",
+    "b23986464d24ccb06308386155b605bd",
+    "e7a7df087d6bae1516abcb8c9ca63572",
     "a15c2d28132a50f8b70589e6df95e36b",
-    "df78da7fdd332cbd50dc580971ae76ae"
+    "8d4d158ed7a86c668cc3b27383809b11",
+    "10f6dc634e6888dabc6066e291145c76",
+    "63dee18f928a17fd985290e425571958",
+    "29442068ebcbcf0d07e1b309bac1d581",
+    "9dc2c2eebeb1c97fd1d72a51e6baf241",
+    "2e930bf8c22f0c6ebc17cce126506406",
+    "9a5658605db56dd478a604e193257283",
+    "10f6dc634e6888dabc6066e291145c76",
+    "ca091310f131fbecd1e562104275f1a5",
+    "5f916f6620fb0d0e6d329d3eb4d6c16b",
+    "e67e0599fefa73fb261981173f2c633a",
+    "b23986464d24ccb06308386155b605bd",
+    "3822b5d641ce7423e18f8e3133294b4d"
   ],
   "published_titles": [
-    "Oficialismo y oposici\u00f3n porte\u00f1a acuerdan una ley de educaci\u00f3n digital",
-    "CABA: impulsan un proyecto en la Legislatura porte\u00c3\u00b1a para crear la Educaci\u00c3\u00b3n Digital Integral",
-    "El Senado frena la ley de discapacidad por falta de qu\u00f3rum",
-    "El Senado con poca actividad: sin sesi\u00f3n esta semana, podr\u00eda haber dictamen de discapacidad",
-    "Cristian Ritondo quiere bloquear celulares en todas las c\u00e1rceles",
-    "El PRO busca retomar el discurso de la seguridad y propone bloquear las se\u00f1ales m\u00f3viles en todas las c\u00e1rceles",
-    "La Justicia define si los acusados por el AMIA van a juicio oral",
-    "AMIA: la C\u00e1mara Federal revisar\u00e1 los procesamientos de los iran\u00edes y libaneses acusados del atentado",
-    "Turista argentino muri\u00f3 en accidente de ala delta en Brasil",
-    "Muri\u00f3 un turista argentino de 26 a\u00f1os en un accidente de ala delta en R\u00edo de Janeiro",
-    "Navarro esper\u00f3 un a\u00f1o para ser nombrado vicecanciller",
-    "El Gobierno oficializ\u00f3 a Juan Navarro como vicecanciller a m\u00e1s de un a\u00f1o de la salida de su antecesor",
     "Milei busca recomponer v\u00ednculos antes de la visita del Papa",
     "Antes de la visita del Papa, Javier Milei busca bajar la confrontaci\u00f3n y acercar posiciones dentro del Gobierno y con la oposici\u00f3n",
     "Green Umbrella se queda con las radios p\u00fablicas de la Ciudad",
@@ -1429,6 +1449,18 @@
     "Naci\u00f3n y C\u00f3rdoba acordaron compensar deudas por $143.000 millones",
     "Luis Caputo y Mart\u00edn Llaryora acordaron compensar deudas por $143.000 millones",
     "La C\u00e1mara Federal dej\u00f3 sin acusadores causa sobre obra p\u00fablica",
-    "La C\u00e1mara Federal dej\u00f3 al borde del cierre otra causa que investigaba al Gobierno"
+    "La C\u00e1mara Federal dej\u00f3 al borde del cierre otra causa que investigaba al Gobierno",
+    "La visita del papa Le\u00f3n XIV moviliza a m\u00e1s de 500 periodistas",
+    "Guerra de canales por la visita del papa Le\u00f3n XIV: m\u00e1s de 500 acreditados argentinos y una programaci\u00f3n especial",
+    "Pagni analiz\u00f3 las estrategias de Massa, Bullrich y Kicillof",
+    "Elecciones 2027: Carlos Pagni analiz\u00f3 la apuesta electoral de Massa, el plan de Bullrich y la inc\u00f3gnita de Kicillof frente a Cristina",
+    "Bullrich choca con la Casa Rosada por la pol\u00edtica de discapacidad",
+    "Nuevos cortocircuitos en el Gobierno detr\u00e1s del dictamen de discapacidad en la previa de la llegada del Papa",
+    "El peronismo ve chances de ganarle a Milei y busca unidad",
+    "El peronismo empieza a ver posibilidades de ganarle a Milei y le da forma a una propuesta electoral",
+    "Bullrich anunci\u00f3 que el Senado tratar\u00e1 la ley contra la ludopat\u00eda",
+    "Tras el reclamo de la Iglesia, Patricia Bullrich anunci\u00f3 que el Senado tratar\u00e1 la ley contra la ludopat\u00eda",
+    "Las CTA le enviaron una carta al papa Le\u00f3n XIV contra Milei",
+    "Las CTA le escribieron una carta al papa Le\u00f3n XIV con cr\u00edticas al gobierno de Javier Milei"
   ]
 }
