@@ -57,16 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-26 13:02",
-      "publicadas": 0,
-      "cinta": false,
-      "estado": "SIN NOVEDADES",
-      "detalle": [
-        "Cinta: no hubo noticia nueva para la cinta"
-      ],
-      "titulos": []
-    },
-    {
       "fecha": "2026-10-26 14:04",
       "publicadas": 2,
       "cinta": false,
@@ -1218,62 +1208,83 @@
         "El Gobierno descarta cambios en el v\u00ednculo con Paraguay",
         "Milei dar\u00e1 un discurso conciliador tras pedido del Vaticano"
       ]
+    },
+    {
+      "fecha": "2026-11-08 10:14",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: Congreso: otra semana de par\u00e1lisis y la interna Karina Milei",
+        "Titulo malo: El Papa, un posible sanador para el alma herida de la Argent",
+        "Titulo malo: Bullrich marca diferencias y la Casa Rosada empieza a contra"
+      ],
+      "titulos": [
+        "Tensi\u00f3n en el Gabinete: aliados cuestionan y una senadora genera ruido",
+        "El Gobierno busca que la visita papal no genere conflicto pol\u00edtico",
+        "La SIDE detuvo a quien amenaz\u00f3 de muerte al Papa Le\u00f3n XIV",
+        "Poirier: esperemos que Argentina sepa escuchar al Papa Le\u00f3n XIV",
+        "La hija de un juez federal defiende su cargo en La Rioja",
+        "Esc\u00e1ndalos y derrotas erosionan el respaldo externo a Milei"
+      ]
     }
   ],
   "orden1_ids": [
-    4963,
-    4964,
-    4965,
-    4966,
-    4967
+    4969,
+    4970,
+    4971,
+    4972,
+    4973
   ],
-  "cinta_id": 4968,
+  "cinta_id": 4974,
   "published_links": [
+    "https://www.lanacion.com.ar/politica/en-el-gobierno-esperan-un-mensaje-breve-y-conciliador-de-milei-en-el-palacio-libertad-tras-un-pedido-nid07112026/",
     "https://www.clarin.com/politica/gobierno-restringe-tecnologia-china-sector-telecomunicaciones-podria-impactar-mercado-telefonos-celulares_0_BWnofkEPnf.html",
-    "https://www.ambito.com/politica/karina-milei-se-harto-patricia-bullrich-y-lla-prepara-represalias-tiene-una-actitud-cuasi-mafiosa-n6341985",
-    "https://tn.com.ar/politica/2026/11/06/tras-el-reclamo-de-la-iglesia-patricia-bullrich-anuncio-que-el-senado-tratara-la-ley-contra-la-ludopatia/",
-    "https://www.ambito.com/politica/javier-milei-recibira-al-papa-leon-xiv-al-pie-del-avion-aeroparque-los-detalles-su-arribo-la-argentina-n6339773",
     "https://tn.com.ar/politica/2026/11/06/patricia-bullrich-resistio-los-cambios-que-impulsaba-la-casa-rosada-y-consiguio-apoyo-opositor-para-la-ley-de-discapacidad/",
-    "https://www.lanacion.com.ar/politica/elecciones-2027-carlos-pagni-analizo-la-apuesta-electoral-de-massa-el-plan-de-bullrich-y-la-nid07112026/",
-    "https://www.clarin.com/politica/carta-reservada-papa-francisco-revela-quiso-viajar-argentina-morir-enfermedad-impidio_0_tX9LOBNqfr.html",
-    "https://www.lanacion.com.ar/politica/los-aumentos-en-las-tarifas-electricas-bonaerenses-alimentan-la-tension-entre-kicillof-y-la-campora-nid07112026/",
-    "https://www.lanacion.com.ar/politica/un-dia-despues-del-fallo-de-la-corte-una-jueza-activo-un-exhorto-a-eeuu-que-incluye-datos-sobre-nid07112026/",
     "https://www.ambito.com/politica/cuando-fue-la-ultima-visita-un-papa-la-argentina-un-viaje-10-ciudades-y-una-misa-frente-1-millon-fieles-n6307250",
-    "https://tn.com.ar/politica/2026/11/06/el-gobierno-recibe-con-optimismo-la-asuncion-del-nuevo-presidente-de-paraguay-y-descarta-cambios-en-la-relacion-bilateral/",
-    "https://www.lanacion.com.ar/politica/en-el-gobierno-esperan-un-mensaje-breve-y-conciliador-de-milei-en-el-palacio-libertad-tras-un-pedido-nid07112026/"
+    "https://www.lanacion.com.ar/politica/los-aumentos-en-las-tarifas-electricas-bonaerenses-alimentan-la-tension-entre-kicillof-y-la-campora-nid07112026/",
+    "https://www.ambito.com/politica/javier-milei-recibira-al-papa-leon-xiv-al-pie-del-avion-aeroparque-los-detalles-su-arribo-la-argentina-n6339773",
+    "https://www.infobae.com/politica/2026/11/08/el-dia-despues-de-la-visita-papal-los-proximos-movimientos-de-milei-las-senales-del-mercado-y-la-manta-corta-que-preocupa-al-gabinete/",
+    "https://www.clarin.com/politica/expectativa-gobierno-mantener-tono-pastoral_0_9pDe16IS0C.html",
+    "https://tn.com.ar/politica/2026/11/07/la-side-anuncio-la-detencion-de-una-persona-que-amenazo-de-muerte-al-papa-leon-xiv-por-su-visita-a-la-argentina/",
+    "https://www.lanacion.com.ar/politica/jose-maria-poirier-un-papa-no-soluciona-los-problemas-de-la-sociedad-pero-esperemos-que-la-argentina-nid07112026/",
+    "https://www.lanacion.com.ar/politica/polemica-en-la-justicia-federal-de-la-rioja-la-hija-del-juez-salio-al-cruce-de-los-cuestionamientos-nid01112026/",
+    "https://www.infobae.com/politica/2026/11/08/el-abrupto-derrumbe-del-mundo-donde-milei-era-feliz/"
   ],
   "used_img_hashes": [
-    "198c85b9e0ce3cfaabf45aa0fbec3b35",
-    "03763474e8c97e63311d71480bc97192",
-    "475be4dd0201c66ccbeb71fc8572813d",
     "9a5658605db56dd478a604e193257283",
-    "234f5e2316fe1bafdbe4c1baea7bb734",
-    "63dee18f928a17fd985290e425571958",
-    "0d20396999be43a2215d63278b121c10",
-    "ca091310f131fbecd1e562104275f1a5",
-    "a7520fa7f436163e05b68f867f564553",
-    "215090133a4b3f2f6e53049802f6725b",
     "63dee18f928a17fd985290e425571958",
     "a039957ba2d40e83b9464f8c75555888",
-    "475be4dd0201c66ccbeb71fc8572813d",
-    "0d20396999be43a2215d63278b121c10",
+    "234f5e2316fe1bafdbe4c1baea7bb734",
+    "6d1922c280c8b22a7596b4e30b590a63",
+    "487850f1d28c9749ef37e45ef2054ae0",
+    "294eec979353e57c641e40d619ba3fd8",
+    "2867d7ab80b5a84b02d5f64bf3471fea",
+    "6a203eeae775060c4d991e54fc2b9943",
+    "bd4c427047298bab0104a72506406ff0",
+    "a7520fa7f436163e05b68f867f564553",
     "198c85b9e0ce3cfaabf45aa0fbec3b35",
+    "dee3bd4aa381c670e25e71455bba0a07",
+    "0d20396999be43a2215d63278b121c10",
+    "475be4dd0201c66ccbeb71fc8572813d",
+    "215090133a4b3f2f6e53049802f6725b",
+    "3d321530d8ac73af74712f61bc1676f0",
+    "6fe82c74246686b228b074564a0a198d",
+    "ca091310f131fbecd1e562104275f1a5",
+    "61c3874f0816478f42188071c9d5a453",
     "03763474e8c97e63311d71480bc97192",
-    "9a5658605db56dd478a604e193257283"
+    "a1a31f0f34928467dc38fd420a988edd",
+    "6776a4fcc6f91ddeb2d730cae7221565",
+    "2867d7ab80b5a84b02d5f64bf3471fea",
+    "3d321530d8ac73af74712f61bc1676f0",
+    "487850f1d28c9749ef37e45ef2054ae0",
+    "a1a31f0f34928467dc38fd420a988edd",
+    "6776a4fcc6f91ddeb2d730cae7221565",
+    "6a203eeae775060c4d991e54fc2b9943",
+    "6d1922c280c8b22a7596b4e30b590a63",
+    "dee3bd4aa381c670e25e71455bba0a07"
   ],
   "published_titles": [
-    "El Gobierno no invit\u00f3 a ex presidentes al viaje al Vaticano",
-    "El Gobierno no invitar\u00e1 a los ex presidentes a los actos por la visita del Papa aunque Macri ir\u00e1 al Monumento de los Espa\u00f1oles",
-    "Iglesia y diputados buscan salvar la ley contra apuestas online",
-    "La Iglesia y la oposici\u00f3n presionan para salvar la ley que proh\u00edbe la publicidad de apuestas online",
-    "Los argentinos esperan que Le\u00f3n XIV hable de econom\u00eda",
-    "Para los argentinos es importante que el papa Le\u00f3n XIV aborde una agenda social durante su visita al pa\u00eds",
-    "M\u00e1s de 100 organizaciones cuestionan c\u00f3mo se eligen los jueces",
-    "Lanzan una campa\u00f1a c\u00edvica para reclamar cambios en los concursos judiciales",
-    "El gobernador de C\u00f3rdoba habl\u00f3 ante la Uni\u00f3n Industrial",
-    "La cr\u00edtica de Llaryora al Gobierno por el cierre de pymes y la p\u00e9rdida de empleo: \u201cNo puede mirar para otro lado\u201d",
-    "Passalacqua logr\u00f3 en Misiones una ley de transparencia estatal",
-    "Hugo Passalacqua logr\u00f3 en Misiones la sanci\u00f3n de una ley de transparencia que aumenta controles sobre las empresas del Estado",
     "Milei mand\u00f3 el pliego de Rafecas al Senado para Casaci\u00f3n",
     "Milei mand\u00f3 al Senado el pliego de Rafecas para Casaci\u00f3n y Mahiques sigue con su renovaci\u00f3n en Comodoro Py",
     "El Senado tiene plazo para votar una ley contra la violencia infantil",
@@ -1461,6 +1472,18 @@
     "El Gobierno descarta cambios en el v\u00ednculo con Paraguay",
     "El Gobierno recibe con optimismo la asunci\u00f3n del nuevo presidente de Paraguay y descarta cambios en la relaci\u00f3n bilateral",
     "Milei dar\u00e1 un discurso conciliador tras pedido del Vaticano",
-    "En el Gobierno esperan un mensaje breve y conciliador de Milei en el Palacio Libertad tras un pedido del Vaticano"
+    "En el Gobierno esperan un mensaje breve y conciliador de Milei en el Palacio Libertad tras un pedido del Vaticano",
+    "Tensi\u00f3n en el Gabinete: aliados cuestionan y una senadora genera ruido",
+    "El d\u00eda despu\u00e9s de la visita papal: los pr\u00f3ximos movimientos de Milei, las se\u00f1ales del mercado y la \u201cmanta corta\u201d que preocupa al Gabinete",
+    "El Gobierno busca que la visita papal no genere conflicto pol\u00edtico",
+    "La expectativa en Gobierno: mantener el tono pastoral",
+    "La SIDE detuvo a quien amenaz\u00f3 de muerte al Papa Le\u00f3n XIV",
+    "La SIDE anunci\u00f3 la detenci\u00f3n de una persona que amenaz\u00f3 de muerte al papa Le\u00f3n XIV antes de su llegada a la Argentina",
+    "Poirier: esperemos que Argentina sepa escuchar al Papa Le\u00f3n XIV",
+    "Jos\u00e9 Mar\u00eda Poirier: \u201cUn Papa no soluciona los problemas de la sociedad, pero esperemos que la Argentina sepa escucharlo\u201d",
+    "La hija de un juez federal defiende su cargo en La Rioja",
+    "Pol\u00e9mica en la Justicia federal de La Rioja: la hija de un juez sali\u00f3 al cruce de los cuestionamientos por su designaci\u00f3n",
+    "Esc\u00e1ndalos y derrotas erosionan el respaldo externo a Milei",
+    "El abrupto derrumbe del mundo donde Milei era feliz"
   ]
 }
