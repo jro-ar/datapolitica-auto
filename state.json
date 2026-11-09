@@ -57,18 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-26 16:03",
-      "publicadas": 1,
-      "cinta": false,
-      "estado": "SIN NOVEDADES",
-      "detalle": [
-        "Cinta: Titulo de cinta sin la calidad necesaria. NO se publica."
-      ],
-      "titulos": [
-        "El triunfo de Lula reordena las alianzas de Milei en la regi\u00f3n"
-      ]
-    },
-    {
       "fecha": "2026-10-26 17:05",
       "publicadas": 3,
       "cinta": false,
@@ -1244,66 +1232,89 @@
         "Karina Milei toma el control de la visita del Papa Le\u00f3n XIV",
         "El Papa puede unir a una sociedad sufriente pese a las divisiones"
       ]
+    },
+    {
+      "fecha": "2026-11-09 10:15",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Tercera nota de milei: Milei acusa a la oposici\u00f3n de distorsionar el mens",
+        "Titulo distinto de la noticia original: Gobernadores y oposici\u00f3n elogiaron al papa Le\u00f3n XIV",
+        "Mismo tema que otra nota: El Gobierno no vio el discurso del Papa como una cr\u00edtic",
+        "Titulo malo: El Papa en Argentina: pidi\u00f3 que la econom\u00eda sirva a las pers"
+      ],
+      "titulos": [
+        "Los gobernadores aliados le endurecen las exigencias a Milei",
+        "Milei encabezar\u00e1 la despedida oficial del Papa rumbo a Per\u00fa",
+        "Evang\u00e9licos kirchneristas: 'No todos somos de derecha'",
+        "El discurso del Papa dividi\u00f3 los aplausos de la pol\u00edtica argentina",
+        "La visita del Papa tensiona al Gobierno y reactiva al peronismo",
+        "Le\u00f3n XIV dej\u00f3 en Uruguay se\u00f1ales de su agenda para la Argentina"
+      ]
     }
   ],
   "orden1_ids": [
-    4986,
-    4987,
-    4988,
-    4989,
-    4990
+    4992,
+    4993,
+    4994,
+    4995,
+    4996
   ],
-  "cinta_id": 4991,
+  "cinta_id": 4997,
   "published_links": [
     "https://www.ambito.com/politica/cuando-fue-la-ultima-visita-un-papa-la-argentina-un-viaje-10-ciudades-y-una-misa-frente-1-millon-fieles-n6307250",
-    "https://www.infobae.com/politica/2026/11/06/el-presidente-milei-regresa-de-espana-y-supervisara-los-preparativos-para-la-visita-del-papa-leon-xiv/",
     "https://www.lanacion.com.ar/politica/mauricio-macri-dijo-que-no-se-ha-avanzado-nada-en-el-acuerdo-electoral-con-la-libertad-avanza-para-nid29102026/",
-    "https://tn.com.ar/politica/2026/11/06/patricia-bullrich-resistio-los-cambios-que-impulsaba-la-casa-rosada-y-consiguio-apoyo-opositor-para-la-ley-de-discapacidad/",
-    "https://www.clarin.com/politica/altares-fieles-barro-politico-visita-juan-pablo-ii-sacudio-argentina-alfonsin_0_SjTOcxzR1p.html",
-    "https://www.lanacion.com.ar/politica/donde-voto-publicaron-el-padron-provisorio-para-las-elecciones-de-argentina-2027-nid02112026/",
-    "https://tn.com.ar/politica/2026/11/07/patricia-bullrich-impulsa-en-el-senado-un-proyecto-para-que-los-delitos-de-abuso-sexual-infantil-no-prescriban/",
-    "https://www.infobae.com/politica/2026/11/07/la-fractura-silenciosa-de-la-libertad-avanza-y-sus-consecuencias-sobre-la-agenda-legislativa-del-gobierno/",
     "https://www.lanacion.com.ar/politica/el-ministerio-de-defensa-explico-como-es-la-proteccion-del-espacio-aereo-por-el-papa-leon-xiv-hay-nid08112026/",
-    "https://tn.com.ar/politica/2026/11/08/elecciones-desdobladas-y-lejos-de-las-nacionales-la-estrategia-de-los-gobernadores-patagonicos-en-2027/",
-    "https://www.ambito.com/politica/entretelones-la-visita-del-papa-leon-xiv-n6340320",
-    "https://www.lanacion.com.ar/politica/un-sanador-para-el-alma-herida-de-la-argentina-nid07112026/"
+    "https://www.lanacion.com.ar/politica/donde-voto-publicaron-el-padron-provisorio-para-las-elecciones-de-argentina-2027-nid02112026/",
+    "https://tn.com.ar/politica/2026/11/06/patricia-bullrich-resistio-los-cambios-que-impulsaba-la-casa-rosada-y-consiguio-apoyo-opositor-para-la-ley-de-discapacidad/",
+    "https://tn.com.ar/politica/2026/11/07/patricia-bullrich-impulsa-en-el-senado-un-proyecto-para-que-los-delitos-de-abuso-sexual-infantil-no-prescriban/",
+    "https://www.lanacion.com.ar/politica/milei-pierde-margen-en-el-congreso-los-gobernadores-aliados-toman-distancia-y-endurecen-sus-nid09112026/",
+    "https://tn.com.ar/politica/2026/11/09/el-gobierno-prepara-la-ceremonia-para-la-partida-del-papa-a-peru-y-confirma-que-sera-encabezada-por-javier-milei/",
+    "https://www.clarin.com/politica/evangelicos-kicillof-iglesia-universal-bendicion-axel_0_hfIMmgsxTK.html",
+    "https://www.clarin.com/politica/primer-mensaje-papa-argentina-termometro-aplausos-preocupacion-gobernadores-protocolo-prueba_0_TV9KGFVlfk.html",
+    "https://www.clarin.com/politica/visita-papa-abre-frentes-reivindicacion-bergoglio-gatillo-campana-peronismo_0_hEalE7RAxh.html",
+    "https://www.lanacion.com.ar/politica/los-mensajes-en-uruguay-un-anticipo-de-las-preocupaciones-que-leon-xiv-podria-transmitir-en-la-nid07112026/"
   ],
   "used_img_hashes": [
-    "c81099f2d12f25a0082e6553e1ca5cce",
-    "9bfbf2f237cc017307f20efcf3fcc890",
-    "15270187d104be42d4bd0e0f3c8863d7",
-    "f9d30c790559f28e5520da7b4ce8fc91",
-    "940c7b3ea09e79763c004cec8082e831",
-    "63dee18f928a17fd985290e425571958",
-    "a4c8afd309acec9c3daa507af141fdfc",
-    "a1a31f0f34928467dc38fd420a988edd",
+    "35a32bc79879034c509990e9b1fa06de",
+    "7591bd18599161ed37e4c6dd195f17e5",
     "1d161aec9717f5ad44dcc240e1abdc44",
-    "6f0c84cd4e1ae1b16f849de4915c60e0",
+    "940c7b3ea09e79763c004cec8082e831",
+    "f9d30c790559f28e5520da7b4ce8fc91",
+    "198c85b9e0ce3cfaabf45aa0fbec3b35",
+    "d62ceaa19b431d45bb4bf597c8ac70b8",
+    "96e327c0add9a96fa746e11e20357b5e",
+    "c850c32fc9348b54cf9153502d19e0fe",
     "6b2b6c07706d2c3ddb7055ebc9a1d09d",
     "a4c8afd309acec9c3daa507af141fdfc",
+    "e5fd534a86e03387e08686aac0e17373",
     "8233d1a80d7e3d632ecdf7271f0927cd",
-    "6f0c84cd4e1ae1b16f849de4915c60e0",
-    "6b2b6c07706d2c3ddb7055ebc9a1d09d",
-    "f9d30c790559f28e5520da7b4ce8fc91",
-    "1d161aec9717f5ad44dcc240e1abdc44",
-    "c81099f2d12f25a0082e6553e1ca5cce",
     "15270187d104be42d4bd0e0f3c8863d7",
-    "940c7b3ea09e79763c004cec8082e831",
-    "0f3e06cffc29f2e5fe08a4440b4eec2d"
+    "9404f5d1b72753bfc14fa650922b3892",
+    "c81099f2d12f25a0082e6553e1ca5cce",
+    "5cd7f2de98da784d28add552ce11d4dc",
+    "63dee18f928a17fd985290e425571958",
+    "ee9bc6b3a2a48ad8f4c4417b8c16af74",
+    "ff9ba863aee7909df43edee5b0ed16fc",
+    "070c7ea7c3cda2ef3f219d46c6f7df2b",
+    "8154d9970cbd5afc3e30a34224c75fc6",
+    "a1a31f0f34928467dc38fd420a988edd",
+    "0f3e06cffc29f2e5fe08a4440b4eec2d",
+    "9bfbf2f237cc017307f20efcf3fcc890",
+    "4e4462e0429c24b82e3897872a049d42",
+    "6f0c84cd4e1ae1b16f849de4915c60e0",
+    "c850c32fc9348b54cf9153502d19e0fe",
+    "5cd7f2de98da784d28add552ce11d4dc",
+    "070c7ea7c3cda2ef3f219d46c6f7df2b",
+    "a3142714fdfb68e640e155a00b0b7370",
+    "e5fd534a86e03387e08686aac0e17373",
+    "35a32bc79879034c509990e9b1fa06de",
+    "9404f5d1b72753bfc14fa650922b3892",
+    "d62ceaa19b431d45bb4bf597c8ac70b8",
+    "4e4462e0429c24b82e3897872a049d42"
   ],
   "published_titles": [
-    "Autorizan derribar aeronaves hostiles durante la visita del Papa",
-    "Autorizan el derribo de aeronaves hostiles durante la visita de Le\u00c3\u00b3n XIV a la Argentina",
-    "50 gremios reclaman a Caputo por $688.000 millones retenidos",
-    "Obras sociales: se unen 50 gremios para demandar a Luis Caputo",
-    "Intendentes reclaman subsidios de transporte igualitarios",
-    "Intendentes copan el Congreso para reclamar por subsidios al transporte y el Programa Remediar",
-    "UBA: marcha de velas para exigir financiamiento universitario",
-    "Estudiantes y docentes de la UBA realizar\u00e1n una marcha de velas para exigirle al Gobierno que cumpla con la Ley de Financiamiento Universitario",
-    "Milei lleg\u00f3 a Madrid: se reunir\u00e1 con Vox y con S\u00e1nchez",
-    "Milei lleg\u00f3 a Madrid, donde se reunir\u00e1 con el l\u00edder de Vox y participar\u00e1 de una cumbre con S\u00e1nchez en plena escalada de tensi\u00f3n",
-    "El Vaticano pidi\u00f3 condiciones a C\u00f3rdoba para la misa masiva",
-    "El pedido especial del Vaticano al gobierno de C\u00c3\u00b3rdoba antes de la visita de Le\u00c3\u00b3n XIV",
     "Los hermanos Kovalivker se negaron a declarar ante el fiscal",
     "Indagaron a los hermanos Kovalivker, de la droguer\u00eda Suizo Argentina: se negaron a declarar y presentaron escritos",
     "El Gobierno polariza con Cristina y crece su conflicto interno",
@@ -1491,6 +1502,18 @@
     "Karina Milei toma el control de la visita del Papa Le\u00f3n XIV",
     "Entretelones de la visita del papa Le\u00c3\u00b3n XIV: internas en el Gabinete, \"cholulismo\" y Karina en todas las actividades",
     "El Papa puede unir a una sociedad sufriente pese a las divisiones",
-    "Un sanador para el alma herida de la Argentina"
+    "Un sanador para el alma herida de la Argentina",
+    "Los gobernadores aliados le endurecen las exigencias a Milei",
+    "Milei pierde margen en el Congreso: los gobernadores aliados toman distancia y endurecen sus exigencias",
+    "Milei encabezar\u00e1 la despedida oficial del Papa rumbo a Per\u00fa",
+    "El Gobierno prepara la ceremonia para la partida del Papa a Per\u00fa y confirma que ser\u00e1 encabezada por Javier Milei",
+    "Evang\u00e9licos kirchneristas: 'No todos somos de derecha'",
+    "Los evang\u00e9licos de Kicillof: \"No somos la Iglesia Universal, tenemos la bendici\u00f3n de Axel\"",
+    "El discurso del Papa dividi\u00f3 los aplausos de la pol\u00edtica argentina",
+    "El primer mensaje del Papa en la Argentina: el term\u00f3metro de aplausos, preocupaci\u00f3n de los gobernadores y  un protocolo a prueba",
+    "La visita del Papa tensiona al Gobierno y reactiva al peronismo",
+    "La visita del Papa abre tres frentes, reivindicaci\u00f3n para Bergoglio y un gatillo a la campa\u00f1a del peronismo",
+    "Le\u00f3n XIV dej\u00f3 en Uruguay se\u00f1ales de su agenda para la Argentina",
+    "Los mensajes en Uruguay, un anticipo de las preocupaciones que Le\u00f3n XIV podr\u00eda transmitir en la Argentina"
   ]
 }
