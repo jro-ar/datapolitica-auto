@@ -1876,7 +1876,9 @@ def evaluar_corrida() -> str:
     graves = [e for e in RESUMEN["errores"] if not e.startswith("Error armando")]
     if graves or (RESUMEN["errores"] and RESUMEN["publicadas"] < 3):
         return "PROBLEMA"
-    if RESUMEN["publicadas"] >= N_ORDEN1 and RESUMEN["cinta"]:
+    # v27: si salieron todas las notas de Orden 1, la corrida esta bien aunque falte la cinta
+    # (titulos descartados por calidad o cinta pospuesta por tiempo no son un problema)
+    if RESUMEN["publicadas"] >= N_ORDEN1:
         return "OK"
     malos = [d for d in RESUMEN["descartes"] if d.startswith("Titulo malo")]
     if len(malos) >= 2:

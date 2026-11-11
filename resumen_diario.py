@@ -30,17 +30,18 @@ cintas = sum(1 for r in corridas if r.get("cinta"))
 print(f"## datapolitica.com — últimas 24 horas\n")
 if not corridas:
     print("**Atención: no hubo ninguna actualización en las últimas 24 horas.** "
-          "Revisar https://github.com/jro-ar/automatizador-noticias/actions\n")
+          "Revisar https://github.com/jro-ar/datapolitica-auto/actions\n")
 else:
     print("| | Cantidad |\n|---|---|")
-    print(f"| Actualizaciones (lo esperado son 24) | {len(corridas)} |")
-    print(f"| Completas (6 notas + cinta) | {ok} |")
+    print(f"| Actualizaciones (lo esperado son 4: 7, 11, 15 y 20 hs) | {len(corridas)} |")
+    print(f"| Completas (5 notas) | {ok} |")
     print(f"| Con menos notas porque no había noticias nuevas | {sin} |")
     print(f"| Con problemas | {len(prob)} |")
     print(f"| Notas publicadas | {notas} |")
     print(f"| Cintas Testigo publicadas | {cintas} |\n")
-    if len(corridas) < 18:
-        print(f"- Hubo menos actualizaciones de lo esperado ({len(corridas)} de 24): GitHub salteó corridas.\n")
+    if len(corridas) < 4:
+        print(f"- Hubo menos actualizaciones de lo esperado ({len(corridas)} de 4): alguna se cortó o no arrancó. "
+              "Ver https://github.com/jro-ar/datapolitica-auto/actions\n")
     if prob:
         print("**Problemas:**")
         for r in prob[-5:]:
