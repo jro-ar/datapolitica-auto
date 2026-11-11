@@ -15,7 +15,7 @@ concurrency:
 jobs:
   publicar:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     permissions:
       contents: write
       issues: write
@@ -55,6 +55,7 @@ jobs:
 
       - name: Publicar noticias
         env:
+          PYTHONUNBUFFERED: "1"
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DATAPOLITICA_PANEL_PASS: ${{ secrets.DATAPOLITICA_PANEL_PASS }}
         run: python automatizar_datapolitica_FINAL.py
