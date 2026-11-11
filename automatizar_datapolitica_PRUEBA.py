@@ -11,6 +11,7 @@ IMPORTANTE:
 
 import os
 import re
+import time
 import json
 import io
 import xml.etree.ElementTree as ET
@@ -1954,7 +1955,20 @@ def avisar_indexnow(ids: list) -> str:
         return f"IndexNow: no se pudo avisar ({str(e)[:80]})"
 
 
+# v27: limite de tiempo. GitHub corta la corrida a los 30 min y, si la corta, no se guarda
+# el registro de lo publicado. Pasado el limite se deja de buscar notas y se cierra bien.
+_T0 = time.time()
+LIMITE_ORDEN1_MIN = 17   # despues de esto no se arman mas notas de Orden 1
+LIMITE_CINTA_MIN = 21    # despues de esto no se arma la cinta
+
+
+def _minutos():
+    return (time.time() - _T0) / 60
+
+
 def main():
+    global _T0
+    _T0 = time.time()
     print("=" * 55)
     print("  Automatizador datapolitica.com")
     print(f"  {datetime.now().strftime('%d/%m/%Y %H:%M')} (hora UTC)")
@@ -2165,6 +2179,10 @@ def main():
     intentos = 0
     # Si una nota se descarta (titulo malo, repetida, etc.) se prueba con la siguiente noticia
     while publicadas < N_ORDEN1 and intentos < N_ORDEN1 + 14:
+        if _minutos() > LIMITE_ORDEN1_MIN:
+            print(f"   Tiempo limite ({LIMITE_ORDEN1_MIN} min): se cierra la corrida con {publicadas} notas para no cortarse.")
+            RESUMEN["descartes"].append(f"Tiempo limite: se publicaron {publicadas} notas para no cortar la corrida")
+            break
         intentos += 1
         n = publicadas
         print(f"\n  [Orden {ORDEN_NOTA} - Nota {n+1}/{N_ORDEN1}] (intento {intentos})")
@@ -2290,6 +2308,10 @@ def main():
     cinta_id = None
     motivos_cinta = []
     for _cinta_intento in range(5):
+        if _minutos() > LIMITE_CINTA_MIN:
+            print(f"   Tiempo limite ({LIMITE_CINTA_MIN} min): la cinta queda para la proxima corrida.")
+            motivos_cinta.append("tiempo limite, queda para la proxima corrida")
+            break
         art_cinta, img_cinta = _siguiente_candidato_cinta()
         if art_cinta is None:
             break
