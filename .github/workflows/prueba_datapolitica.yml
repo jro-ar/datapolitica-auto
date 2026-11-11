@@ -12,7 +12,7 @@ concurrency:
 jobs:
   probar:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     permissions:
       contents: read
 
@@ -39,6 +39,7 @@ jobs:
       - name: Probar (sin publicar)
         env:
           DRY_RUN: "1"
+          PYTHONUNBUFFERED: "1"
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DATAPOLITICA_PANEL_PASS: ${{ secrets.DATAPOLITICA_PANEL_PASS }}
         # Si existe automatizar_datapolitica_PRUEBA.py se prueba ESA version (la nueva, que todavia
