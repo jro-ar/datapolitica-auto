@@ -1392,6 +1392,9 @@ def find_article_with_photo(articles: list[dict],
         used_img_hashes = set()
 
     for i, art in enumerate(articles):
+        if _minutos() > LIMITE_CINTA_MIN + 2:
+            print("   Tiempo limite: se deja de buscar noticias para no cortar la corrida.")
+            return None, None, -1
         if i in used_indices:
             continue
         if should_discard(art):
@@ -2374,6 +2377,9 @@ def main():
     def _siguiente_candidato_cinta():
         for _pool, _usados, _es_principal in _pools:
             for _intento in range(8):
+                if _minutos() > LIMITE_CINTA_MIN:
+                    print(f"   Tiempo limite ({LIMITE_CINTA_MIN} min) buscando la cinta: queda para la proxima corrida.")
+                    return None, None
                 cand, img_c, idx_c = find_article_with_photo(
                     _pool,
                     exclude_similar_to=selected_arts,
