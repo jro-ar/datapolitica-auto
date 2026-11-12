@@ -2567,6 +2567,19 @@ def main():
     RESUMEN["indexnow"] = avisar_indexnow(list(orden1_ids) + ([cinta_id] if cinta_id else []))
     print(f"   {RESUMEN['indexnow']}")
 
+    # v28: control de letras rotas en la portada (ej. "sÃ¡bado" en la fecha). Solo avisa.
+    try:
+        _home = requests.get("https://datapolitica.com/index.aspx", headers=HEADERS, timeout=20)
+        _txt = BeautifulSoup(_home.content, "html.parser").get_text(" ", strip=True)
+        _rotas = sorted(set(re.findall(r"\w*[ÃÂ][\x80-\xbf¡-¿]\w*", _txt)))[:5]
+        if _rotas:
+            _aviso = ("Aviso del sitio: la portada muestra letras rotas (" + ", ".join(_rotas) +
+                      "). Se arregla en el servidor (Plesk), no en el robot.")
+            print("   " + _aviso)
+            RESUMEN["descartes"].append(_aviso)
+    except Exception as _e:
+        print(f"   Control de letras de la portada no disponible: {_e}")
+
     estado_corrida = evaluar_corrida()
     nuevo_estado = armar_estado(cinta_id, estado_corrida)
     print(f"   Hashes de imagenes guardados: {len(nuevo_estado['used_img_hashes'])}")
