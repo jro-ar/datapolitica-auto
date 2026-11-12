@@ -692,6 +692,8 @@ def fetch_articles(n: int = 40) -> list[dict]:
         articles.append(art)
 
     print(f"   Total articulos en pool: {len(articles)}")
+    global POOL_COMPLETO
+    POOL_COMPLETO = list(all_items)   # v28: todas las noticias de todos los diarios, para chequear temas sensibles
     # Intercalar las fuentes (1 de cada una por turno) para que no quede todo el pool
     # ocupado por la primera fuente (antes Infobae llenaba los 40 lugares)
     por_fuente = defaultdict(list)
@@ -1669,6 +1671,73 @@ def verificar_fidelidad(client, titulo: str, copete: str, art: dict):
     return t2, c2
 
 
+# v28: CANDADO DE TEMAS SENSIBLES (sin IA, no se puede "convencer").
+# Si una nota habla de una muerte, un nacimiento o una tragedia:
+#   1) la noticia original tiene que usar esas mismas palabras, y
+#   2) tiene que haber salido en al menos otros 2 diarios distintos, con la misma persona/lugar.
+# Si no se cumplen las dos cosas, la nota NO se publica.
+POOL_COMPLETO = []
+_PALABRAS_SENSIBLES = (
+    # muertes
+    "muri", "muere", "mueren", "muert", "fallec", "deceso", "funeral", "funebre", "velorio", "velatorio",
+    "sepelio", "exequia", "entierro", "sepult", "cremac", "cremad", "asesina", "restos mortales", "luto",
+    "duelo nacional", "condolencia", "q.e.p.d", "descanse en paz", "perdio la vida", "sin vida",
+    # nacimientos
+    "nacio", "nacimiento", "dio a luz", "embaraz", "fue padre", "fue madre", "fue papa ", "fue mama ",
+    # tragedias
+    "tragedia", "tragico", "accidente", "explosion", "incendio", "derrumbe", "atentado",
+    "tiroteo", "masacre", "victimas fatales", "heridos", "desaparecid", "secuestr", "naufrag", "inundacion",
+    "terremoto", "sismo", "catastrofe",
+)
+_NO_NOMBRES = {"el", "la", "los", "las", "un", "una", "en", "de", "del", "por", "para", "con", "tras", "que",
+               "gobierno", "presidente", "argentina", "argentino", "nacional", "provincia", "ciudad", "hoy"}
+
+
+def _nombres_clave(texto: str) -> list:
+    """Palabras con mayuscula (personas, lugares, instituciones) de un titulo/copete."""
+    res = []
+    for w in re.findall(r"[A-ZÁÉÍÓÚÑ][\wáéíóúñü]{3,}", texto or ""):
+        n = _normalize(w)
+        if n not in _NO_NOMBRES and n not in res:
+            res.append(n)
+    return res
+
+
+def _dominio(a: dict) -> str:
+    u = a.get("_fuente") or a.get("link") or ""
+    m = re.search(r"https?://(?:www\.)?([^/]+)", u)
+    return m.group(1) if m else u
+
+
+def candado_sensible(titulo: str, copete: str, cuerpo: str, art: dict) -> str:
+    """Devuelve "" si se puede publicar, o el motivo por el que NO se publica."""
+    fuente = _normalize((art.get("title") or "") + " " + (art.get("summary") or ""))
+    nota = _normalize(f"{titulo} {copete} {cuerpo}")
+    hallados = [p for p in _PALABRAS_SENSIBLES if _normalize(p) in nota]
+    if not hallados:
+        return ""
+    for p in hallados:
+        if _normalize(p) not in fuente:
+            return f"dice '{p.strip()}' y la noticia original no"
+    nombres = _nombres_clave(titulo) or _nombres_clave(copete)
+    if not nombres:
+        return f"tema sensible ('{hallados[0].strip()}') sin persona o lugar claro para chequear"
+    propio = _dominio(art)
+    confirman = set()
+    for a in POOL_COMPLETO:
+        d = _dominio(a)
+        if not d or d == propio or d in confirman:
+            continue
+        txt = _normalize((a.get("title") or "") + " " + (a.get("summary") or ""))
+        if any(_normalize(p) in txt for p in hallados) and any(n in txt for n in nombres):
+            confirman.add(d)
+    if len(confirman) < 2:
+        return (f"tema sensible ('{hallados[0].strip()}') que no salio en otros 2 diarios "
+                f"(confirmaron: {', '.join(sorted(confirman)) or 'ninguno'})")
+    print(f"    Tema sensible confirmado por: {', '.join(sorted(confirman))}")
+    return ""
+
+
 def titulo_fiel_final(client, titulo: str, copete: str, art: dict) -> bool:
     """v25: ultimo control, DESPUES del corrector de titulos. Si el titulo final dice algo distinto de la
     noticia original (ej.: 'viaje al Vaticano' cuando la fuente habla de la visita del Papa a la Argentina),
@@ -2259,6 +2328,11 @@ def main():
                 print("    Mismo tema que otra nota de esta actualizacion. NO se publica.")
                 RESUMEN["descartes"].append(f"Mismo tema que otra nota: {t[:55]}")
                 continue
+            _motivo = candado_sensible(t, c, b, art)
+            if _motivo:
+                print(f"    CANDADO: {_motivo}. NO se publica.")
+                RESUMEN["descartes"].append(f"Candado ({_motivo}): {t[:50]}")
+                continue
             ok, note_id = publicar(session, ORDEN_NOTA, t, c, b, img_data=img)
             print(f"    {'OK Publicado' if ok else 'ERROR al publicar'}")
             if ok:
@@ -2349,6 +2423,9 @@ def main():
                         raise RuntimeError(f"Cinta sin foto verificada de {nombre_c}. NO se publica.")
             if titulo_final_repetido(t2, _previos_cinta) or es_tema_repetido(t2, _previos_cinta)[0]:
                 raise RuntimeError("La cinta repite un tema ya publicado. NO se publica.")
+            _motivo2 = candado_sensible(t2, c2, b2, art_cinta)
+            if _motivo2:
+                raise RuntimeError(f"Candado: {_motivo2}. NO se publica.")
             ok2, cinta_id = publicar(session, ORDEN_CINTA, t2, c2, b2, img_data=img_cinta)
             print(f"    {'OK Publicado en cinta testigo' if ok2 else 'ERROR al publicar'}")
             if art_cinta.get("link"):
