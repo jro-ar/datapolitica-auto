@@ -1,22 +1,22 @@
 {
   "x_tweeted_titles": [
-    "Bullrich dijo que está preparada para ser presidenta en 2027",
+    "Bullrich dijo que est\u00e1 preparada para ser presidenta en 2027",
     "Consultor: Bullrich no tiene base para ser candidata en 2027",
     "La UOM negocia su convenio pese al veto del Gobierno",
-    "Milei fue sobreseído en el caso de la criptomoneda Libra",
-    "Milei habló de golpe pero el Congreso y los precios lo frenan",
-    "El Peronismo Federal presentó un plan energético en Comodoro Rivadavia",
-    "Lorenzetti advirtió sobre el agotamiento del agua y la tierra",
-    "Las universidades argentinas llevaron su reclamo al papa León XIV",
-    "Kicillof y Grabois mostraron acercamiento político en la UBA",
-    "La ruta Chile-Malvinas divide a la política argentina",
-    "El PJ celebró el triunfo de Lula como señal para el peronismo",
-    "El Gobierno sumó una funcionaria a Capital Humano",
-    "Kicillof: la reelección de Lula frena el avance ultraderechista",
-    "El Papa León XIV visitará la Argentina del 8 al 11 de noviembre",
+    "Milei fue sobrese\u00eddo en el caso de la criptomoneda Libra",
+    "Milei habl\u00f3 de golpe pero el Congreso y los precios lo frenan",
+    "El Peronismo Federal present\u00f3 un plan energ\u00e9tico en Comodoro Rivadavia",
+    "Lorenzetti advirti\u00f3 sobre el agotamiento del agua y la tierra",
+    "Las universidades argentinas llevaron su reclamo al papa Le\u00f3n XIV",
+    "Kicillof y Grabois mostraron acercamiento pol\u00edtico en la UBA",
+    "La ruta Chile-Malvinas divide a la pol\u00edtica argentina",
+    "El PJ celebr\u00f3 el triunfo de Lula como se\u00f1al para el peronismo",
+    "El Gobierno sum\u00f3 una funcionaria a Capital Humano",
+    "Kicillof: la reelecci\u00f3n de Lula frena el avance ultraderechista",
+    "El Papa Le\u00f3n XIV visitar\u00e1 la Argentina del 8 al 11 de noviembre",
     "La confianza en el Gobierno rebota pero sigue en baja anual",
-    "Juez acusado de acoso nombró a la hija del juez que lo investiga",
-    "Macri felicitó a Lula y el PRO tomó distancia de Milei",
+    "Juez acusado de acoso nombr\u00f3 a la hija del juez que lo investiga",
+    "Macri felicit\u00f3 a Lula y el PRO tom\u00f3 distancia de Milei",
     "El PJ busca recuperarse imitando el triunfo de Lula",
     "Milei usa la crisis fiscal europea para defender su ajuste",
     "El Gobierno y el PJ pelean por la Magistratura"
@@ -57,33 +57,20 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-27 04:06",
-      "publicadas": 1,
-      "cinta": true,
-      "estado": "PROBLEMA",
-      "detalle": [
-        "Error armando una nota: Expecting value: line 1 column 1 (char 0)"
-      ],
-      "titulos": [
-        "El PJ busca recuperarse imitando el triunfo de Lula",
-        "La incertidumbre económica complica la campaña de Milei"
-      ]
-    },
-    {
       "fecha": "2026-10-27 05:09",
       "publicadas": 3,
       "cinta": true,
       "estado": "SIN NOVEDADES",
       "detalle": [
         "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
-        "Repetida: La confianza en el Gobierno subió en octubre pero cayó 7% in",
-        "Repetida: El papa León XIV visitará la Argentina en noviembre"
+        "Repetida: La confianza en el Gobierno subi\u00f3 en octubre pero cay\u00f3 7% in",
+        "Repetida: El papa Le\u00f3n XIV visitar\u00e1 la Argentina en noviembre"
       ],
       "titulos": [
-        "Massa usó la victoria de Lula para interpelar al gobierno",
+        "Massa us\u00f3 la victoria de Lula para interpelar al gobierno",
         "El Gobierno no tiene votos para aprobar el Presupuesto",
-        "El Gobierno modifica su proyecto sobre Malvinas por presión de EE.UU.",
-        "El Vaticano visitará organizaciones sociales en La Matanza"
+        "El Gobierno modifica su proyecto sobre Malvinas por presi\u00f3n de EE.UU.",
+        "El Vaticano visitar\u00e1 organizaciones sociales en La Matanza"
       ]
     },
     {
@@ -104,7 +91,7 @@
       "detalle": [],
       "titulos": [
         "Milei usa la crisis fiscal europea para defender su ajuste",
-        "Kicillof criticó el silencio de Milei ante Brasil"
+        "Kicillof critic\u00f3 el silencio de Milei ante Brasil"
       ]
     },
     {
@@ -114,7 +101,7 @@
       "estado": "PROBLEMA",
       "detalle": [
         "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
-        "Repetida: Milei no felicitó a Lula por su reelección en Brasil"
+        "Repetida: Milei no felicit\u00f3 a Lula por su reelecci\u00f3n en Brasil"
       ],
       "titulos": [
         "Vecinos de Catamarca cortan la Ruta 40 por falta de agua"
@@ -126,15 +113,15 @@
       "cinta": false,
       "estado": "SIN NOVEDADES",
       "detalle": [
-        "Mismo tema que otra nota: Milei negocia el Presupuesto 2027 con presión de provin",
+        "Mismo tema que otra nota: Milei negocia el Presupuesto 2027 con presi\u00f3n de provin",
         "Cinta: Titulo de cinta sin la calidad necesaria. NO se publica."
       ],
       "titulos": [
         "Nadie lidera la carrera para suceder a Kicillof en Buenos Aires",
         "Congreso limita venta de tierras rurales a extranjeros",
-        "El Gobierno fija descuentos de 50% y 20% en gas para zonas frías",
-        "Milei no comentó la victoria de Lula y desvió la atención al Congreso",
-        "La Cámara de Diputados avanza en el Presupuesto y la Ley de Defensa"
+        "El Gobierno fija descuentos de 50% y 20% en gas para zonas fr\u00edas",
+        "Milei no coment\u00f3 la victoria de Lula y desvi\u00f3 la atenci\u00f3n al Congreso",
+        "La C\u00e1mara de Diputados avanza en el Presupuesto y la Ley de Defensa"
       ]
     },
     {
@@ -144,10 +131,10 @@
       "estado": "SIN NOVEDADES",
       "detalle": [],
       "titulos": [
-        "Argentina perdió 155.000 empleos formales en un año de ajuste",
+        "Argentina perdi\u00f3 155.000 empleos formales en un a\u00f1o de ajuste",
         "El Gobierno negocia el Presupuesto 2027 con bloques aliados",
         "El Gobierno demora acuerdos con gobernadores para las PASO",
-        "Milei participará del congreso partidario de La Libertad Avanza"
+        "Milei participar\u00e1 del congreso partidario de La Libertad Avanza"
       ]
     },
     {
@@ -159,8 +146,8 @@
         "Sin foto de Juan Marchetto: Juan Marchetto apela el sobreseimiento de Milei en"
       ],
       "titulos": [
-        "Glencore invertirá US$ 6.393 millones en minería en Catamarca",
-        "El embajador en Tailandia suma también la representación ante Camboya",
+        "Glencore invertir\u00e1 US$ 6.393 millones en miner\u00eda en Catamarca",
+        "El embajador en Tailandia suma tambi\u00e9n la representaci\u00f3n ante Camboya",
         "Casi la mitad de los argentinos pide que el Papa priorice la pobreza",
         "El Gobierno y el PJ pelean por la Magistratura",
         "Brote de meningitis en Mendoza: 4 infectados y 2 muertos"
@@ -173,12 +160,12 @@
       "estado": "SIN NOVEDADES",
       "detalle": [
         "Sin foto de Juan Manuel Sapag: Sapag advierte que Vaca Muerta no puede absorber m",
-        "Repetida: El Papa León XIV visitará Argentina en noviembre"
+        "Repetida: El Papa Le\u00f3n XIV visitar\u00e1 Argentina en noviembre"
       ],
       "titulos": [
         "El PJ busca replicar el modelo de Lula para ganar en 2027",
-        "Merlo, Pennisi y Pereyra cantarán en la misa de León XIV",
-        "Trebucq criticó a Milei por sus dichos sobre Brasil"
+        "Merlo, Pennisi y Pereyra cantar\u00e1n en la misa de Le\u00f3n XIV",
+        "Trebucq critic\u00f3 a Milei por sus dichos sobre Brasil"
       ]
     },
     {
@@ -191,7 +178,7 @@
       ],
       "titulos": [
         "Juan Acosta defiende los ataques de Milei a periodistas",
-        "El abogado de Bullrich renunció al Ministerio de Seguridad"
+        "El abogado de Bullrich renunci\u00f3 al Ministerio de Seguridad"
       ]
     },
     {
@@ -202,9 +189,9 @@
       "detalle": [],
       "titulos": [
         "Colombi rechaza la UCR cercana a Milei y pide unir gobernadores",
-        "El PJ del Chaco usará internas propias para elegir candidatos en 2027",
-        "Brasil investiga si Bolsonaro cruzó la frontera en secreto",
-        "El gobernador de Río Negro compite ante un libertario en Bariloche"
+        "El PJ del Chaco usar\u00e1 internas propias para elegir candidatos en 2027",
+        "Brasil investiga si Bolsonaro cruz\u00f3 la frontera en secreto",
+        "El gobernador de R\u00edo Negro compite ante un libertario en Bariloche"
       ]
     },
     {
@@ -213,15 +200,15 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Mismo tema que otra nota: Milei no felicitará a Lula y rompe con la tradición dip"
+        "Mismo tema que otra nota: Milei no felicitar\u00e1 a Lula y rompe con la tradici\u00f3n dip"
       ],
       "titulos": [
         "Milei se niega a felicitar a Lula y agrava la crisis con Brasil",
-        "Pichetto: en 2027 ganará un político del sistema, no un outsider",
+        "Pichetto: en 2027 ganar\u00e1 un pol\u00edtico del sistema, no un outsider",
         "Un inversor apela el sobreseimiento de Milei en el caso Libra",
-        "El PRO porteño irá unido en 2027 con Jorge y Mauricio Macri",
-        "El vocero oficial se distanció del juicio a Bolsonaro",
-        "Royón celebró que el Senado aprobó el pliego de Michelli",
+        "El PRO porte\u00f1o ir\u00e1 unido en 2027 con Jorge y Mauricio Macri",
+        "El vocero oficial se distanci\u00f3 del juicio a Bolsonaro",
+        "Roy\u00f3n celebr\u00f3 que el Senado aprob\u00f3 el pliego de Michelli",
         "Acciones argentinas abren con leve rebote en bolsa"
       ]
     },
@@ -231,18 +218,18 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Repetida: José Luis Espert recurre su procesamiento por lavado de dine",
-        "Mismo tema que otra nota: El PJ recordó a Néstor Kirchner a 16 años de su muerte",
-        "Mismo tema que otra nota: Juicio político al juez federal de Rosario por coimas"
+        "Repetida: Jos\u00e9 Luis Espert recurre su procesamiento por lavado de dine",
+        "Mismo tema que otra nota: El PJ record\u00f3 a N\u00e9stor Kirchner a 16 a\u00f1os de su muerte",
+        "Mismo tema que otra nota: Juicio pol\u00edtico al juez federal de Rosario por coimas"
       ],
       "titulos": [
-        "Bullrich desafía a Milei y tensiona con Karina Milei",
-        "Milei eliminó 81.000 empleos estatales como logro de gestión",
-        "Kicillof y La Cámpora apelan a Néstor para tensionar el PJ",
-        "José Luis Espert apela su procesamiento por lavado",
+        "Bullrich desaf\u00eda a Milei y tensiona con Karina Milei",
+        "Milei elimin\u00f3 81.000 empleos estatales como logro de gesti\u00f3n",
+        "Kicillof y La C\u00e1mpora apelan a N\u00e9stor para tensionar el PJ",
+        "Jos\u00e9 Luis Espert apela su procesamiento por lavado",
         "El jurado vota hoy si destituye al juez federal Salmain",
         "Piden expulsar a un concejal por emplear al femicida de Agostina",
-        "De Andreis acusó a Bullrich de destruir todo lo que toca"
+        "De Andreis acus\u00f3 a Bullrich de destruir todo lo que toca"
       ]
     },
     {
@@ -251,16 +238,16 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo malo: El Senado sesionaría el jueves con salud mental e incentivos"
+        "Titulo malo: El Senado sesionar\u00eda el jueves con salud mental e incentivos"
       ],
       "titulos": [
-        "Lula felicitó a Cristina y Massa por sus mensajes de apoyo",
-        "Milei visitó Catamarca: recorrió una mina y habló con militantes",
+        "Lula felicit\u00f3 a Cristina y Massa por sus mensajes de apoyo",
+        "Milei visit\u00f3 Catamarca: recorri\u00f3 una mina y habl\u00f3 con militantes",
         "Kogan pide unificar el voto bonaerense y nacional en 2027",
         "Larreta se postula como candidato opositor en Buenos Aires",
-        "Comercio sube salarios 5,7% en tres cuotas más bono de $50.000",
+        "Comercio sube salarios 5,7% en tres cuotas m\u00e1s bono de $50.000",
         "Urtubey: el peronismo debe renovarse para volver al poder",
-        "El senador Juez criticó al fiscal Garzón y a la justicia provincial"
+        "El senador Juez critic\u00f3 al fiscal Garz\u00f3n y a la justicia provincial"
       ]
     },
     {
@@ -273,10 +260,10 @@
         "El Gobierno avanza para cobrar peajes en rutas secundarias",
         "El Gobierno suspende pensiones por invalidez a 20 mil personas",
         "El PRO busca aliarse con Milei sin ceder candidatos ni estructura",
-        "El Ministerio de Seguridad lanza un ranking de prófugos",
-        "Patricia Bullrich rinde mal en elecciones con Milei, pero gana sin él",
+        "El Ministerio de Seguridad lanza un ranking de pr\u00f3fugos",
+        "Patricia Bullrich rinde mal en elecciones con Milei, pero gana sin \u00e9l",
         "El Gobierno disuelve la obra social de las Fuerzas Armadas",
-        "Confirman prisión preventiva de concejal libertario de Bragado"
+        "Confirman prisi\u00f3n preventiva de concejal libertario de Bragado"
       ]
     },
     {
@@ -285,17 +272,17 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo malo: Caso Thiago Altamirano: Fiscalía de Salta rechaza la prisión",
+        "Titulo malo: Caso Thiago Altamirano: Fiscal\u00eda de Salta rechaza la prisi\u00f3n",
         "Mismo tema que otra nota: Argentina activa asistencia consular tras choque de tre"
       ],
       "titulos": [
-        "Raúl Jalil pide eliminar las PASO y renovar al peronismo",
-        "Argentina busca saber si hay víctimas del tren en España",
-        "Máximo Kirchner pidió que Cristina vuelva al poder",
-        "Leonardo Boto prevé un millón de fieles en Luján por el Papa",
-        "Argentina crea un centro de ensayos clínicos con 300 investigadores",
-        "León XIV visitará Argentina en noviembre pese a su operación",
-        "Senadores patagónicos impulsan rebaja en tarifas de gas"
+        "Ra\u00fal Jalil pide eliminar las PASO y renovar al peronismo",
+        "Argentina busca saber si hay v\u00edctimas del tren en Espa\u00f1a",
+        "M\u00e1ximo Kirchner pidi\u00f3 que Cristina vuelva al poder",
+        "Leonardo Boto prev\u00e9 un mill\u00f3n de fieles en Luj\u00e1n por el Papa",
+        "Argentina crea un centro de ensayos cl\u00ednicos con 300 investigadores",
+        "Le\u00f3n XIV visitar\u00e1 Argentina en noviembre pese a su operaci\u00f3n",
+        "Senadores patag\u00f3nicos impulsan rebaja en tarifas de gas"
       ]
     },
     {
@@ -304,16 +291,16 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Tercera nota de milei: Milei frenó con un DNU el traspaso en la obra soci"
+        "Tercera nota de milei: Milei fren\u00f3 con un DNU el traspaso en la obra soci"
       ],
       "titulos": [
         "Patricia Bullrich marca distancia de Milei sobre Brasil",
-        "La ONU advierte que revisar la condena a CFK tardará años",
+        "La ONU advierte que revisar la condena a CFK tardar\u00e1 a\u00f1os",
         "Un intendente y su hermano compiten contra Milei y el kirchnerismo",
-        "Argentina votó en la ONU en contra del embargo a Cuba",
-        "Caputo contactó desde Argentina a la empresa que trasladó a Bolsonaro",
-        "Jorge Macri devolvió 1.000 propiedades usurpadas en la Ciudad",
-        "La oposición cruzó al oficialismo por el ingreso de Bolsonaro"
+        "Argentina vot\u00f3 en la ONU en contra del embargo a Cuba",
+        "Caputo contact\u00f3 desde Argentina a la empresa que traslad\u00f3 a Bolsonaro",
+        "Jorge Macri devolvi\u00f3 1.000 propiedades usurpadas en la Ciudad",
+        "La oposici\u00f3n cruz\u00f3 al oficialismo por el ingreso de Bolsonaro"
       ]
     },
     {
@@ -323,12 +310,12 @@
       "estado": "OK",
       "detalle": [],
       "titulos": [
-        "Kicillof reúne a sus intendentes en medio de la pelea peronista",
-        "La familia Kovalivker postergó su declaración ante la Justicia",
+        "Kicillof re\u00fane a sus intendentes en medio de la pelea peronista",
+        "La familia Kovalivker posterg\u00f3 su declaraci\u00f3n ante la Justicia",
         "La CGT descarta el paro total y apuesta por huelgas cortas",
-        "La UBA le dará el doctorado honoris causa al Papa León XIV",
-        "El oficialismo aprobó el dictamen para reformar el Banco Central",
-        "El Senado debate economía y la oposición cita a declarar a Santilli",
+        "La UBA le dar\u00e1 el doctorado honoris causa al Papa Le\u00f3n XIV",
+        "El oficialismo aprob\u00f3 el dictamen para reformar el Banco Central",
+        "El Senado debate econom\u00eda y la oposici\u00f3n cita a declarar a Santilli",
         "Santa Fe organiza dos exposiciones sobre seguridad en Rosario"
       ]
     },
@@ -340,11 +327,11 @@
       "detalle": [],
       "titulos": [
         "Javier Milei regresa a Corrientes para cerrar un congreso libertario",
-        "La CGT quedó afuera de la cumbre del PJ sobre el 2027",
-        "El peronismo patagónico apuesta a tres candidatos para 2027",
-        "El Senado debatirá salud mental y un proyecto pro mercado",
-        "El caso Bolsonaro expuso fisuras en la coalición de Milei",
-        "Alberto Weretilneck adelanta elecciones en Río Negro",
+        "La CGT qued\u00f3 afuera de la cumbre del PJ sobre el 2027",
+        "El peronismo patag\u00f3nico apuesta a tres candidatos para 2027",
+        "El Senado debatir\u00e1 salud mental y un proyecto pro mercado",
+        "El caso Bolsonaro expuso fisuras en la coalici\u00f3n de Milei",
+        "Alberto Weretilneck adelanta elecciones en R\u00edo Negro",
         "Presentan un libro sobre el Congreso argentino desde 1983"
       ]
     },
@@ -355,13 +342,13 @@
       "estado": "OK",
       "detalle": [],
       "titulos": [
-        "Santilli defendió que el hijo de Bolsonaro saliera sin controles",
-        "El Papa León XIV visitará Argentina por primera vez en casi 40 años",
+        "Santilli defendi\u00f3 que el hijo de Bolsonaro saliera sin controles",
+        "El Papa Le\u00f3n XIV visitar\u00e1 Argentina por primera vez en casi 40 a\u00f1os",
         "El Senado sesiona: su reglamento y el mercado de carbono",
-        "Peritos hallaron manipulación con IA en audios del caso Discapacidad",
+        "Peritos hallaron manipulaci\u00f3n con IA en audios del caso Discapacidad",
         "Santiago Passaglia se lanza solo y rechaza alianzas con el peronismo",
         "Docentes paran 24 horas por el femicidio de una maestra rural",
-        "Milei descartó acciones legales contra el presidente brasileño Lula"
+        "Milei descart\u00f3 acciones legales contra el presidente brasile\u00f1o Lula"
       ]
     },
     {
@@ -370,19 +357,19 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Tercera nota de milei: Karina Milei reunió a 12 gobernadores para elimina",
+        "Tercera nota de milei: Karina Milei reuni\u00f3 a 12 gobernadores para elimina",
         "Repetida: La AEA rechaza los ataques de Milei a periodistas",
-        "Tercera nota de milei: Karina Milei defendió el RIGI ante gobernadores pr",
-        "Tercera nota de milei: Lula elogió a Macri para marcarle diferencias a Mi",
-        "Tercera nota de milei: El Senado aprobó un pliego que Milei rechazaba y d"
+        "Tercera nota de milei: Karina Milei defendi\u00f3 el RIGI ante gobernadores pr",
+        "Tercera nota de milei: Lula elogi\u00f3 a Macri para marcarle diferencias a Mi",
+        "Tercera nota de milei: El Senado aprob\u00f3 un pliego que Milei rechazaba y d"
       ],
       "titulos": [
-        "Lula criticó a Milei al agradecer las felicitaciones de Macri",
-        "El Gobierno limitó al 2% mensual los aumentos en paritarias",
-        "Zamora acusa a Massa de frenar la renovación del PJ",
-        "Aníbal Fernández rechaza pedir el indulto para Cristina Kirchner",
+        "Lula critic\u00f3 a Milei al agradecer las felicitaciones de Macri",
+        "El Gobierno limit\u00f3 al 2% mensual los aumentos en paritarias",
+        "Zamora acusa a Massa de frenar la renovaci\u00f3n del PJ",
+        "An\u00edbal Fern\u00e1ndez rechaza pedir el indulto para Cristina Kirchner",
         "Gobernadores mineros respaldaron el ajuste fiscal de Milei",
-        "La designación de Michelli generó conflictos en el oficialismo",
+        "La designaci\u00f3n de Michelli gener\u00f3 conflictos en el oficialismo",
         "Malamud: Bullrich no puede enfrentarse ni alejarse de Milei"
       ]
     },
@@ -393,12 +380,12 @@
       "estado": "OK",
       "detalle": [],
       "titulos": [
-        "Milei viaja a Neuquén para respaldar a su senadora",
-        "La UBA lanzó un monitor para rastrear la actividad legislativa",
-        "Pettovello aseguró que el papa León XIV no vendrá a hacer política",
+        "Milei viaja a Neuqu\u00e9n para respaldar a su senadora",
+        "La UBA lanz\u00f3 un monitor para rastrear la actividad legislativa",
+        "Pettovello asegur\u00f3 que el papa Le\u00f3n XIV no vendr\u00e1 a hacer pol\u00edtica",
         "Sindicatos peronistas denuncian a Caputo por fondos de obras sociales",
-        "El Gobierno reunió a 12 gobernadores para impulsar megaproyectos",
-        "Milei viajará a España y coincidirá con el canciller brasileño",
+        "El Gobierno reuni\u00f3 a 12 gobernadores para impulsar megaproyectos",
+        "Milei viajar\u00e1 a Espa\u00f1a y coincidir\u00e1 con el canciller brasile\u00f1o",
         "Milei y el gobernador de La Rioja se cruzaron en redes"
       ]
     },
@@ -409,13 +396,13 @@
       "estado": "OK",
       "detalle": [],
       "titulos": [
-        "Las PASO podrían no cambiar antes de las elecciones de 2027",
-        "Ningún candidato presidencial tiene más apoyo que rechazo",
-        "Kicillof reúne a intendentes para consolidar su armado electoral",
-        "El Gobierno pagó una deuda al hogar Don Orione tras un embargo",
-        "El Senado debatirá el proyecto para controlar el fentanilo",
-        "El Senado exige que Villarruel reciba al papa León XIV",
-        "Murió Carlos Rinke, héroe de Malvinas y leyenda de la aviación"
+        "Las PASO podr\u00edan no cambiar antes de las elecciones de 2027",
+        "Ning\u00fan candidato presidencial tiene m\u00e1s apoyo que rechazo",
+        "Kicillof re\u00fane a intendentes para consolidar su armado electoral",
+        "El Gobierno pag\u00f3 una deuda al hogar Don Orione tras un embargo",
+        "El Senado debatir\u00e1 el proyecto para controlar el fentanilo",
+        "El Senado exige que Villarruel reciba al papa Le\u00f3n XIV",
+        "Muri\u00f3 Carlos Rinke, h\u00e9roe de Malvinas y leyenda de la aviaci\u00f3n"
       ]
     },
     {
@@ -424,16 +411,16 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Repetida: El Papa León XIV visitará Argentina en noviembre"
+        "Repetida: El Papa Le\u00f3n XIV visitar\u00e1 Argentina en noviembre"
       ],
       "titulos": [
-        "El tribunal que condenó a CFK obtuvo su segunda certificación ISO",
+        "El tribunal que conden\u00f3 a CFK obtuvo su segunda certificaci\u00f3n ISO",
         "Un video falso sobre un puente en Quilmes expone a Albasetti",
         "Axel Kicillof visita Jujuy y Santa Fe para sumar apoyo peronista",
-        "El Senado modificó la ley de salud mental y la envió a Diputados",
+        "El Senado modific\u00f3 la ley de salud mental y la envi\u00f3 a Diputados",
         "Brasil dice que no hubo irregularidades en el caso Bolsonaro",
-        "Un dirigente sindical respaldó al arzobispo García Cuerva",
-        "Una agencia explicó cómo Lula ganó tras perder la primera vuelta"
+        "Un dirigente sindical respald\u00f3 al arzobispo Garc\u00eda Cuerva",
+        "Una agencia explic\u00f3 c\u00f3mo Lula gan\u00f3 tras perder la primera vuelta"
       ]
     },
     {
@@ -442,17 +429,17 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Sin foto de Gabriel Bornoroni: Bornoroni apuntó contra Llaryora y Schiaretti en C",
-        "Tercera nota de milei: Menem: Milei será el único candidato de La Liberta"
+        "Sin foto de Gabriel Bornoroni: Bornoroni apunt\u00f3 contra Llaryora y Schiaretti en C",
+        "Tercera nota de milei: Menem: Milei ser\u00e1 el \u00fanico candidato de La Liberta"
       ],
       "titulos": [
-        "La Corte Suprema protegió a YPF de pagar sobreprecios",
+        "La Corte Suprema protegi\u00f3 a YPF de pagar sobreprecios",
         "Buenos Aires protege a deudores del acoso de cobradores",
-        "Macri admite que el acuerdo con La Libertad Avanza está frenado",
-        "Una fiscalía especial reabre la causa por LIBRA contra Milei",
-        "Milei recibirá al papa León XIV al pie del avión en Buenos Aires",
-        "Martín Menem cierra la puerta presidencial a Patricia Bullrich",
-        "Yofre prevé que Milei será reelecto y Macri, embajador"
+        "Macri admite que el acuerdo con La Libertad Avanza est\u00e1 frenado",
+        "Una fiscal\u00eda especial reabre la causa por LIBRA contra Milei",
+        "Milei recibir\u00e1 al papa Le\u00f3n XIV al pie del avi\u00f3n en Buenos Aires",
+        "Mart\u00edn Menem cierra la puerta presidencial a Patricia Bullrich",
+        "Yofre prev\u00e9 que Milei ser\u00e1 reelecto y Macri, embajador"
       ]
     },
     {
@@ -464,10 +451,10 @@
       "titulos": [
         "Diputados bonaerenses lideran el ranking de vuelos oficiales",
         "Santilli afirma tener votos para eliminar las PASO, pero la UCR duda",
-        "Subsecretario de Ciencia renunció con críticas al Gobierno",
-        "Grossi logró 9 votos en el Consejo de Seguridad y sigue en carrera",
-        "Gabriela Estévez lleva al Congreso ley para etiquetar huevos",
-        "El Gobierno contrató una auditoría externa sobre represas con China",
+        "Subsecretario de Ciencia renunci\u00f3 con cr\u00edticas al Gobierno",
+        "Grossi logr\u00f3 9 votos en el Consejo de Seguridad y sigue en carrera",
+        "Gabriela Est\u00e9vez lleva al Congreso ley para etiquetar huevos",
+        "El Gobierno contrat\u00f3 una auditor\u00eda externa sobre represas con China",
         "Intendentes del interior denuncian trato desigual en subsidios"
       ]
     },
@@ -477,16 +464,16 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Repetida: El Papa León XIV visitará Argentina en noviembre"
+        "Repetida: El Papa Le\u00f3n XIV visitar\u00e1 Argentina en noviembre"
       ],
       "titulos": [
-        "Pichetto: en 2027 ganará el oficialismo o el peronismo renovado",
-        "Argentina celebra 43 años del regreso a la democracia",
-        "El peronismo negocia alianzas antes de las elecciones de medio término",
-        "Máximo Kirchner cuestiona el RIGI y desafía a gobernadores peronistas",
-        "Bornoroni reunió a cordobeses y apuntó contra Llaryora",
-        "Milei y Bullrich ganarían la segunda vuelta ante Kicillof y Massa",
-        "Milei habló dos horas con estudiantes y atacó a periodistas"
+        "Pichetto: en 2027 ganar\u00e1 el oficialismo o el peronismo renovado",
+        "Argentina celebra 43 a\u00f1os del regreso a la democracia",
+        "El peronismo negocia alianzas antes de las elecciones de medio t\u00e9rmino",
+        "M\u00e1ximo Kirchner cuestiona el RIGI y desaf\u00eda a gobernadores peronistas",
+        "Bornoroni reuni\u00f3 a cordobeses y apunt\u00f3 contra Llaryora",
+        "Milei y Bullrich ganar\u00edan la segunda vuelta ante Kicillof y Massa",
+        "Milei habl\u00f3 dos horas con estudiantes y atac\u00f3 a periodistas"
       ]
     },
     {
@@ -496,15 +483,15 @@
       "estado": "OK",
       "detalle": [
         "Tercera nota de milei: Milei se distancia de Lula y difiere de la derecha",
-        "Tercera nota de milei: El Senado aprobó un pliego que Milei quería rechaz"
+        "Tercera nota de milei: El Senado aprob\u00f3 un pliego que Milei quer\u00eda rechaz"
       ],
       "titulos": [
         "Bullrich festeja la ley de inversiones aprobada en el Senado",
         "El Gobierno no tiene votos para aprobar el Presupuesto",
-        "Milei participó de actos con iglesias evangélicas",
-        "Milei cuestionó a Cavallo y anunció reintegros por 500 millones",
+        "Milei particip\u00f3 de actos con iglesias evang\u00e9licas",
+        "Milei cuestion\u00f3 a Cavallo y anunci\u00f3 reintegros por 500 millones",
         "El kirchnerismo mira a Lula como modelo para volver al poder",
-        "Villarruel lanza créditos sin interés para empleados del Senado",
+        "Villarruel lanza cr\u00e9ditos sin inter\u00e9s para empleados del Senado",
         "El Gobierno niega que Milei tuvo un episodio de furia en Olivos"
       ]
     },
@@ -515,13 +502,13 @@
       "estado": "OK",
       "detalle": [],
       "titulos": [
-        "LLA logró dictamen por ley Malvinas, pero sus aliados piden cambios",
-        "Javier Milei inaugura una iglesia evangélica en Neuquén con Figueroa",
-        "Royón: la aprobación de Michelli muestra autonomía legislativa",
-        "Concejal cordobés acusado de proteger al femicida de Agostina",
+        "LLA logr\u00f3 dictamen por ley Malvinas, pero sus aliados piden cambios",
+        "Javier Milei inaugura una iglesia evang\u00e9lica en Neuqu\u00e9n con Figueroa",
+        "Roy\u00f3n: la aprobaci\u00f3n de Michelli muestra autonom\u00eda legislativa",
+        "Concejal cordob\u00e9s acusado de proteger al femicida de Agostina",
         "El silencio oficial tras Bolsonaro expuso grietas en el Gobierno",
         "Kicillof defiende las PASO y rechaza un candidato impuesto",
-        "De Andreis acusó a Bullrich de dinamitar el oficialismo"
+        "De Andreis acus\u00f3 a Bullrich de dinamitar el oficialismo"
       ]
     },
     {
@@ -530,16 +517,16 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Mismo tema que otra nota: Los hermanos Passaglia lanzan su campaña desde San Nico"
+        "Mismo tema que otra nota: Los hermanos Passaglia lanzan su campa\u00f1a desde San Nico"
       ],
       "titulos": [
         "Cuatro partidos bonaerenses ya compiten por los votos de 2027",
         "Passaglia y su dupla santafesina lanzan su candidatura presidencial",
         "Patricia Bullrich frena el nombramiento de jueces federales",
-        "Seis gobernadores no podrán reelegirse en 2027",
-        "Urtubey ve al peronismo como una tercera opción electoral",
-        "Juez acusa a la justicia de Córdoba de encubrir funcionarios",
-        "El Senado aprobó un pliego que Milei no quería"
+        "Seis gobernadores no podr\u00e1n reelegirse en 2027",
+        "Urtubey ve al peronismo como una tercera opci\u00f3n electoral",
+        "Juez acusa a la justicia de C\u00f3rdoba de encubrir funcionarios",
+        "El Senado aprob\u00f3 un pliego que Milei no quer\u00eda"
       ]
     },
     {
@@ -549,13 +536,13 @@
       "estado": "OK",
       "detalle": [],
       "titulos": [
-        "El Gobierno quiere que el Papa no amplifique críticas sociales",
-        "Un libro reúne críticas internas al peronismo sobre su rumbo",
+        "El Gobierno quiere que el Papa no amplifique cr\u00edticas sociales",
+        "Un libro re\u00fane cr\u00edticas internas al peronismo sobre su rumbo",
         "Camioneros va a juicio en Rosario por bloquear una empresa tres meses",
-        "Radicales de Córdoba negocian candidaturas con el Gobierno",
-        "La Iglesia argentina quiere más que una foto con el Papa León XIV",
+        "Radicales de C\u00f3rdoba negocian candidaturas con el Gobierno",
+        "La Iglesia argentina quiere m\u00e1s que una foto con el Papa Le\u00f3n XIV",
         "Lula domina la agenda latinoamericana y Milei queda al margen",
-        "Milei rechazó cambiar el rumbo económico ante las presiones"
+        "Milei rechaz\u00f3 cambiar el rumbo econ\u00f3mico ante las presiones"
       ]
     },
     {
@@ -566,11 +553,11 @@
       "detalle": [],
       "titulos": [
         "Milei y el Vaticano chocan por el protocolo de la visita papal",
-        "Argentina lleva a Hamburgo su reclamo contra el petróleo en Malvinas",
-        "Ricardo Crespo llega a Ciencia y Tecnología tras una renuncia",
-        "María Corina Machado vuelve a Venezuela y presiona por elecciones",
-        "Hotesur: la fiscalía expuso el circuito financiero kirchnerista",
-        "Dueño de Suizo Argentina pide anular pruebas del allanamiento",
+        "Argentina lleva a Hamburgo su reclamo contra el petr\u00f3leo en Malvinas",
+        "Ricardo Crespo llega a Ciencia y Tecnolog\u00eda tras una renuncia",
+        "Mar\u00eda Corina Machado vuelve a Venezuela y presiona por elecciones",
+        "Hotesur: la fiscal\u00eda expuso el circuito financiero kirchnerista",
+        "Due\u00f1o de Suizo Argentina pide anular pruebas del allanamiento",
         "Encuesta: el 57% pide cambio pero Milei lidera las preferencias"
       ]
     },
@@ -585,12 +572,12 @@
       ],
       "titulos": [
         "Karina Milei y Jorge Macri escenifican una alianza con el PRO",
-        "La economía lidera las preocupaciones de cara a 2027",
-        "El intendente de Santa Fe: la recuperación no llegó a los municipios",
-        "Axel Kicillof recorre provincias para armar oposición propia",
-        "Milei mezcla política y religión en Neuquén con Figueroa",
-        "Raverta cruzó a Kicillof por resistir las listas de Cristina",
-        "Milei quedó aislado en Brasil tras la derrota de Bolsonaro"
+        "La econom\u00eda lidera las preocupaciones de cara a 2027",
+        "El intendente de Santa Fe: la recuperaci\u00f3n no lleg\u00f3 a los municipios",
+        "Axel Kicillof recorre provincias para armar oposici\u00f3n propia",
+        "Milei mezcla pol\u00edtica y religi\u00f3n en Neuqu\u00e9n con Figueroa",
+        "Raverta cruz\u00f3 a Kicillof por resistir las listas de Cristina",
+        "Milei qued\u00f3 aislado en Brasil tras la derrota de Bolsonaro"
       ]
     },
     {
@@ -600,16 +587,16 @@
       "estado": "OK",
       "detalle": [
         "Titulo malo: Caso Cuadernos: las pruebas que complican a Cristina Kirchne",
-        "Titulo malo: La Libertad Avanza intenta infiltrarse en la Justicia porteñ"
+        "Titulo malo: La Libertad Avanza intenta infiltrarse en la Justicia porte\u00f1"
       ],
       "titulos": [
-        "León XIV celebrará una misa masiva en Palermo en su visita a Argentina",
+        "Le\u00f3n XIV celebrar\u00e1 una misa masiva en Palermo en su visita a Argentina",
         "Kicillof y gobernadores presionan a Milei por fondos retenidos",
-        "Mahiques impulsa el ascenso de Rafecas a la Cámara de Casación",
+        "Mahiques impulsa el ascenso de Rafecas a la C\u00e1mara de Casaci\u00f3n",
         "El PRO descarta la alianza con Milei y marca diferencias",
-        "El Vaticano difundió un video que anticipa la visita del papa León XIV",
-        "León XIV visitará Argentina en noviembre: BA, Córdoba y Luján",
-        "Milei defendió a Maratea tras su cruce con la China Ansaldi"
+        "El Vaticano difundi\u00f3 un video que anticipa la visita del papa Le\u00f3n XIV",
+        "Le\u00f3n XIV visitar\u00e1 Argentina en noviembre: BA, C\u00f3rdoba y Luj\u00e1n",
+        "Milei defendi\u00f3 a Maratea tras su cruce con la China Ansaldi"
       ]
     },
     {
@@ -620,9 +607,9 @@
       "detalle": [],
       "titulos": [
         "Los hermanos Caputo dirigen un think tank libertario con fondos opacos",
-        "Walter Agüero asume al frente del Centro Nacional de Ciberseguridad",
-        "El Gobierno cambia su relación con México y asciende al yerno de Milei",
-        "El oficialismo rionegrino ganó en Bariloche y superó a LLA",
+        "Walter Ag\u00fcero asume al frente del Centro Nacional de Ciberseguridad",
+        "El Gobierno cambia su relaci\u00f3n con M\u00e9xico y asciende al yerno de Milei",
+        "El oficialismo rionegrino gan\u00f3 en Bariloche y super\u00f3 a LLA",
         "El peronismo se divide por el desdoblamiento electoral",
         "El Gobierno quiere cambiar las reglas electorales bonaerenses",
         "Oficialismo y peronismo pelean por el Consejo de la Magistratura"
@@ -635,12 +622,12 @@
       "estado": "OK",
       "detalle": [],
       "titulos": [
-        "El padrón electoral 2027 ya está disponible para consulta ciudadana",
+        "El padr\u00f3n electoral 2027 ya est\u00e1 disponible para consulta ciudadana",
         "Cristina Kirchner no descarta volver a ser presidenta en 2027",
-        "Luis Caputo critica a la AFA por el árbitro del Superclásico",
-        "El Papa León XIV visitará Argentina por primera vez",
+        "Luis Caputo critica a la AFA por el \u00e1rbitro del Supercl\u00e1sico",
+        "El Papa Le\u00f3n XIV visitar\u00e1 Argentina por primera vez",
         "Una jueza defiende que ser magistrada sin contactos es posible",
-        "Hija de juez riojano defendió su designación cuestionada"
+        "Hija de juez riojano defendi\u00f3 su designaci\u00f3n cuestionada"
       ]
     },
     {
@@ -649,15 +636,15 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo malo: Massa busca copiar el modelo digital que reeligió a Lula en "
+        "Titulo malo: Massa busca copiar el modelo digital que reeligi\u00f3 a Lula en "
       ],
       "titulos": [
         "El Gobierno culpa al peronismo por la candidatura de Cristina",
-        "Milei viaja a España y monitorea las elecciones de EE.UU.",
-        "El PRO rechaza la reelección indefinida de intendentes bonaerenses",
-        "Aníbal Fernández rechaza pedir indulto para Cristina Kirchner",
-        "Los Passaglia lanzan su propio espacio político para 2027",
-        "El politólogo Malamud: Bullrich no puede alejarse de Milei"
+        "Milei viaja a Espa\u00f1a y monitorea las elecciones de EE.UU.",
+        "El PRO rechaza la reelecci\u00f3n indefinida de intendentes bonaerenses",
+        "An\u00edbal Fern\u00e1ndez rechaza pedir indulto para Cristina Kirchner",
+        "Los Passaglia lanzan su propio espacio pol\u00edtico para 2027",
+        "El polit\u00f3logo Malamud: Bullrich no puede alejarse de Milei"
       ]
     },
     {
@@ -666,15 +653,15 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Mismo tema que otra nota: El estratega digital de Lula se reunió con Cristina y M"
+        "Mismo tema que otra nota: El estratega digital de Lula se reuni\u00f3 con Cristina y M"
       ],
       "titulos": [
         "Cristina Kirchner busca en Brasil la estrategia para 2027",
-        "Oficialismo y oposición porteña acuerdan una ley de educación digital",
-        "El Senado frena la ley de discapacidad por falta de quórum",
-        "Cristian Ritondo quiere bloquear celulares en todas las cárceles",
+        "Oficialismo y oposici\u00f3n porte\u00f1a acuerdan una ley de educaci\u00f3n digital",
+        "El Senado frena la ley de discapacidad por falta de qu\u00f3rum",
+        "Cristian Ritondo quiere bloquear celulares en todas las c\u00e1rceles",
         "La Justicia define si los acusados por el AMIA van a juicio oral",
-        "Turista argentino murió en accidente de ala delta en Brasil"
+        "Turista argentino muri\u00f3 en accidente de ala delta en Brasil"
       ]
     },
     {
@@ -686,12 +673,12 @@
         "Sin foto de Carlos Melconian: Melconian se postula como candidato para 2027"
       ],
       "titulos": [
-        "Navarro esperó un año para ser nombrado vicecanciller",
-        "Milei busca recomponer vínculos antes de la visita del Papa",
-        "Green Umbrella se queda con las radios públicas de la Ciudad",
+        "Navarro esper\u00f3 un a\u00f1o para ser nombrado vicecanciller",
+        "Milei busca recomponer v\u00ednculos antes de la visita del Papa",
+        "Green Umbrella se queda con las radios p\u00fablicas de la Ciudad",
         "El Congreso debate si los abusos a menores deben prescribir",
-        "Milei invitó al papa León XIV e incluyó a Villarruel e intendentes",
-        "Milei recibió un reconocimiento de Argentinos por la Educación"
+        "Milei invit\u00f3 al papa Le\u00f3n XIV e incluy\u00f3 a Villarruel e intendentes",
+        "Milei recibi\u00f3 un reconocimiento de Argentinos por la Educaci\u00f3n"
       ]
     },
     {
@@ -702,11 +689,11 @@
       "detalle": [],
       "titulos": [
         "LLA y el PJ enfrentan crisis internas por razones distintas",
-        "Rechazaron la probation al ex comisario que alertó a sospechosos",
-        "Bullrich mantiene su ambición de ser presidenta en 2027",
-        "Pettovello aseguró que el Papa no criticará al Gobierno",
-        "Un sindicalista respaldó al arzobispo y pidió diálogo político",
-        "Jozami: Kicillof y Milei serán rivales en 2027"
+        "Rechazaron la probation al ex comisario que alert\u00f3 a sospechosos",
+        "Bullrich mantiene su ambici\u00f3n de ser presidenta en 2027",
+        "Pettovello asegur\u00f3 que el Papa no criticar\u00e1 al Gobierno",
+        "Un sindicalista respald\u00f3 al arzobispo y pidi\u00f3 di\u00e1logo pol\u00edtico",
+        "Jozami: Kicillof y Milei ser\u00e1n rivales en 2027"
       ]
     },
     {
@@ -716,12 +703,12 @@
       "estado": "OK",
       "detalle": [],
       "titulos": [
-        "Una legisladora le disputó a Caputo la autoría de una medida",
-        "El Gobierno no invitó a ex presidentes al viaje al Vaticano",
+        "Una legisladora le disput\u00f3 a Caputo la autor\u00eda de una medida",
+        "El Gobierno no invit\u00f3 a ex presidentes al viaje al Vaticano",
         "Iglesia y diputados buscan salvar la ley contra apuestas online",
-        "Los argentinos esperan que León XIV hable de economía",
-        "Más de 100 organizaciones cuestionan cómo se eligen los jueces",
-        "El gobernador de Córdoba habló ante la Unión Industrial"
+        "Los argentinos esperan que Le\u00f3n XIV hable de econom\u00eda",
+        "M\u00e1s de 100 organizaciones cuestionan c\u00f3mo se eligen los jueces",
+        "El gobernador de C\u00f3rdoba habl\u00f3 ante la Uni\u00f3n Industrial"
       ]
     },
     {
@@ -734,10 +721,10 @@
         "Cinta: Titulo de cinta sin la calidad necesaria. / Titulo de cinta sin la calidad necesaria. / Titulo de cinta sin la calidad necesaria."
       ],
       "titulos": [
-        "Passalacqua logró en Misiones una ley de transparencia estatal",
-        "Milei mandó el pliego de Rafecas al Senado para Casación",
+        "Passalacqua logr\u00f3 en Misiones una ley de transparencia estatal",
+        "Milei mand\u00f3 el pliego de Rafecas al Senado para Casaci\u00f3n",
         "El Senado tiene plazo para votar una ley contra la violencia infantil",
-        "Kicillof prometió cubrir las vacantes en la Corte bonaerense",
+        "Kicillof prometi\u00f3 cubrir las vacantes en la Corte bonaerense",
         "Militares chilenos temen que Argentina multe un barco a Malvinas"
       ]
     },
@@ -747,16 +734,16 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo malo: Por la visita del Papa, el Gobierno amplió el control aéreo ",
-        "Titulo malo: Sindicatos del transporte e industria actúan sin la CGT"
+        "Titulo malo: Por la visita del Papa, el Gobierno ampli\u00f3 el control a\u00e9reo ",
+        "Titulo malo: Sindicatos del transporte e industria act\u00faan sin la CGT"
       ],
       "titulos": [
-        "Pichetto predice que en 2027 ganará un político del sistema",
-        "Roberto Baradel gana la CTA-T con más del 95% de los votos",
+        "Pichetto predice que en 2027 ganar\u00e1 un pol\u00edtico del sistema",
+        "Roberto Baradel gana la CTA-T con m\u00e1s del 95% de los votos",
         "El gobernador bonaerense lidera en 20 de 24 distritos del Conurbano",
-        "Jorge Macri condenó el ataque contra mujeres trans en Palermo",
-        "Santilli defendió el modelo económico ante empresarios",
-        "Oposición cuestionó la suspensión de embargos a pymes"
+        "Jorge Macri conden\u00f3 el ataque contra mujeres trans en Palermo",
+        "Santilli defendi\u00f3 el modelo econ\u00f3mico ante empresarios",
+        "Oposici\u00f3n cuestion\u00f3 la suspensi\u00f3n de embargos a pymes"
       ]
     },
     {
@@ -766,8 +753,8 @@
       "estado": "OK",
       "detalle": [],
       "titulos": [
-        "Patricia Bullrich reunió a 15 dirigentes por alarmas económicas",
-        "Presupuesto 2027: los reclamos de aliados frenan la negociación",
+        "Patricia Bullrich reuni\u00f3 a 15 dirigentes por alarmas econ\u00f3micas",
+        "Presupuesto 2027: los reclamos de aliados frenan la negociaci\u00f3n",
         "Autorizan derribar aeronaves hostiles durante la visita del Papa",
         "50 gremios reclaman a Caputo por $688.000 millones retenidos",
         "Intendentes reclaman subsidios de transporte igualitarios",
@@ -780,16 +767,16 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo malo: El Gobierno desplegará más de 11.000 efectivos en Luján por ",
-        "Titulo malo: Agustín Caulo: el Gobierno no tiene preocupación por el tono"
+        "Titulo malo: El Gobierno desplegar\u00e1 m\u00e1s de 11.000 efectivos en Luj\u00e1n por ",
+        "Titulo malo: Agust\u00edn Caulo: el Gobierno no tiene preocupaci\u00f3n por el tono"
       ],
       "titulos": [
-        "Milei llegó a Madrid: se reunirá con Vox y con Sánchez",
-        "El Vaticano pidió condiciones a Córdoba para la misa masiva",
+        "Milei lleg\u00f3 a Madrid: se reunir\u00e1 con Vox y con S\u00e1nchez",
+        "El Vaticano pidi\u00f3 condiciones a C\u00f3rdoba para la misa masiva",
         "Los hermanos Kovalivker se negaron a declarar ante el fiscal",
         "El Gobierno polariza con Cristina y crece su conflicto interno",
-        "El Gobierno retira su proyecto financiero por la polémica CEDEARs",
-        "Casación revisará la exclusión de querellantes en causa $LIBRA"
+        "El Gobierno retira su proyecto financiero por la pol\u00e9mica CEDEARs",
+        "Casaci\u00f3n revisar\u00e1 la exclusi\u00f3n de querellantes en causa $LIBRA"
       ]
     },
     {
@@ -798,15 +785,15 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo malo: Kicillof reúne al PJ bonaerense para definir la estrategia d"
+        "Titulo malo: Kicillof re\u00fane al PJ bonaerense para definir la estrategia d"
       ],
       "titulos": [
-        "22 países respaldan el reclamo argentino por Malvinas",
-        "Royón: la aprobación de Michelli mostró que hay oposición constructiva",
-        "Concejal cordobés en la mira por emplear al femicida de Agostina",
-        "Argentina votó contra una resolución de la ONU sobre la Corte Penal",
-        "De Andreis acusa a Bullrich de paralizar el país",
-        "Pullaro criticó a la UNR por invitar a Saín, procesado por espionaje"
+        "22 pa\u00edses respaldan el reclamo argentino por Malvinas",
+        "Roy\u00f3n: la aprobaci\u00f3n de Michelli mostr\u00f3 que hay oposici\u00f3n constructiva",
+        "Concejal cordob\u00e9s en la mira por emplear al femicida de Agostina",
+        "Argentina vot\u00f3 contra una resoluci\u00f3n de la ONU sobre la Corte Penal",
+        "De Andreis acusa a Bullrich de paralizar el pa\u00eds",
+        "Pullaro critic\u00f3 a la UNR por invitar a Sa\u00edn, procesado por espionaje"
       ]
     },
     {
@@ -817,11 +804,11 @@
       "detalle": [],
       "titulos": [
         "Milei apuesta a la visita del Papa para recuperar protagonismo",
-        "El Gobierno confirmó la Argentina Week 2027 para marzo",
+        "El Gobierno confirm\u00f3 la Argentina Week 2027 para marzo",
         "Macri choca con los gobernadores del PRO por los pactos con Milei",
         "Expertos globales debatieron en la UBA sobre compras estatales",
-        "Urtubey: el peronismo se degradó y debe ser la tercera vía",
-        "Juez criticó a la justicia de Córdoba y al fiscal Garzón"
+        "Urtubey: el peronismo se degrad\u00f3 y debe ser la tercera v\u00eda",
+        "Juez critic\u00f3 a la justicia de C\u00f3rdoba y al fiscal Garz\u00f3n"
       ]
     },
     {
@@ -831,18 +818,18 @@
       "estado": "OK",
       "detalle": [
         "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
-        "Titulo malo: Ley Joaquín avanza en el Senado y será aprobada en sesión",
-        "Titulo malo: Por los desmarques de Bullrich, en el Gobierno evalúan otros",
-        "Sin foto de Axel Kicillof: Kicillof y Máximo Kirchner cerraron un acuerdo en ",
-        "Titulo malo: Pilar Ramírez cuestiona al PRO en la Ciudad pero no descarta"
+        "Titulo malo: Ley Joaqu\u00edn avanza en el Senado y ser\u00e1 aprobada en sesi\u00f3n",
+        "Titulo malo: Por los desmarques de Bullrich, en el Gobierno eval\u00faan otros",
+        "Sin foto de Axel Kicillof: Kicillof y M\u00e1ximo Kirchner cerraron un acuerdo en ",
+        "Titulo malo: Pilar Ram\u00edrez cuestiona al PRO en la Ciudad pero no descarta"
       ],
       "titulos": [
         "Macri duda si ir a la misa del papa para evitar a su primo",
-        "Ariel Vallejo, financista de Tapia, podría ir preso",
-        "Emir Félix se quedó con el PJ de Mendoza y La Cámpora quedó marginada",
-        "Zamora acusa a Massa y al kirchnerismo de frenar la renovación del PJ",
-        "Milei y Sánchez se saludaron en Madrid tras meses de tensión",
-        "Milei equiparó socialismo y fascismo en Cumbre Iberoamericana"
+        "Ariel Vallejo, financista de Tapia, podr\u00eda ir preso",
+        "Emir F\u00e9lix se qued\u00f3 con el PJ de Mendoza y La C\u00e1mpora qued\u00f3 marginada",
+        "Zamora acusa a Massa y al kirchnerismo de frenar la renovaci\u00f3n del PJ",
+        "Milei y S\u00e1nchez se saludaron en Madrid tras meses de tensi\u00f3n",
+        "Milei equipar\u00f3 socialismo y fascismo en Cumbre Iberoamericana"
       ]
     },
     {
@@ -851,17 +838,17 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Mismo tema que otra nota: Murió Patricia Walsh, referente de derechos humanos, a ",
-        "Titulo malo: Guerrera le pasa la pelota a Kicillof sobre la reelección in",
+        "Mismo tema que otra nota: Muri\u00f3 Patricia Walsh, referente de derechos humanos, a ",
+        "Titulo malo: Guerrera le pasa la pelota a Kicillof sobre la reelecci\u00f3n in",
         "Titulo malo: Mariano Rajoy propuso regular las plataformas digitales en u"
       ],
       "titulos": [
-        "El Gobierno monitorea la crisis en Paraguay y calla sobre Peña",
-        "Murió Patricia Walsh, impulsora de juicios por la dictadura",
-        "El PRO porteño designó a su candidata al frente del ente regulador",
+        "El Gobierno monitorea la crisis en Paraguay y calla sobre Pe\u00f1a",
+        "Muri\u00f3 Patricia Walsh, impulsora de juicios por la dictadura",
+        "El PRO porte\u00f1o design\u00f3 a su candidata al frente del ente regulador",
         "Toviggino: el procurador pide a la Corte que cambie el juez",
         "Suspenden a juez de San Isidro acusado de acoso sexual",
-        "Una fiscal pidió investigar el escape de Flavio Bolsonaro"
+        "Una fiscal pidi\u00f3 investigar el escape de Flavio Bolsonaro"
       ]
     },
     {
@@ -871,16 +858,16 @@
       "estado": "OK",
       "detalle": [
         "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
-        "Titulo malo: La Corte Suprema ordenó aplicar la reforma laboral para actu",
-        "Titulo malo: La Corte Suprema frenó la unificación de causas de la AFA pa",
-        "Titulo malo: Aprueban proyecto de Kicillof para crear una farmacéutica es"
+        "Titulo malo: La Corte Suprema orden\u00f3 aplicar la reforma laboral para actu",
+        "Titulo malo: La Corte Suprema fren\u00f3 la unificaci\u00f3n de causas de la AFA pa",
+        "Titulo malo: Aprueban proyecto de Kicillof para crear una farmac\u00e9utica es"
       ],
       "titulos": [
         "El Congreso se une al acto con el Papa en el Palacio Libertad",
-        "Sergio Urribarri irá a un segundo juicio por enriquecimiento ilícito",
+        "Sergio Urribarri ir\u00e1 a un segundo juicio por enriquecimiento il\u00edcito",
         "Mauricio Macri le da consejos al Gobierno de cara a 2027",
-        "El presidente de la Corte presiona para cambiar cómo se eligen jueces",
-        "Presentaron la canción oficial para recibir al Papa León XIV",
+        "El presidente de la Corte presiona para cambiar c\u00f3mo se eligen jueces",
+        "Presentaron la canci\u00f3n oficial para recibir al Papa Le\u00f3n XIV",
         "Karina Milei apoya a dos candidatas a gobernadoras para 2025"
       ]
     },
@@ -890,16 +877,16 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo malo: Economía pasó a disponibilidad a más de diez empleados de pl",
+        "Titulo malo: Econom\u00eda pas\u00f3 a disponibilidad a m\u00e1s de diez empleados de pl",
         "Titulo malo: Bullrich: La Libertad Avanza no resuelve su crisis interna"
       ],
       "titulos": [
         "La visita del Papa tapa las peleas internas del Gobierno",
-        "El Senado bonaerense creó un laboratorio estatal de medicamentos",
-        "Kicillof y Máximo Kirchner se reunieron y bajó la tensión",
-        "Jorge Macri le entregará las llaves de Buenos Aires al Papa León XIV",
-        "Un exjugador de River dejó La Libertad Avanza por los Passaglia",
-        "La Corte ordenó aplicar la reforma laboral para indemnizaciones"
+        "El Senado bonaerense cre\u00f3 un laboratorio estatal de medicamentos",
+        "Kicillof y M\u00e1ximo Kirchner se reunieron y baj\u00f3 la tensi\u00f3n",
+        "Jorge Macri le entregar\u00e1 las llaves de Buenos Aires al Papa Le\u00f3n XIV",
+        "Un exjugador de River dej\u00f3 La Libertad Avanza por los Passaglia",
+        "La Corte orden\u00f3 aplicar la reforma laboral para indemnizaciones"
       ]
     },
     {
@@ -909,17 +896,17 @@
       "estado": "OK",
       "detalle": [
         "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
-        "Titulo malo: Macri le reclamó al Gobierno de Milei diálogo y un comportam",
-        "Repetida: El papa León XIV visitará Argentina y se reunirá con Milei",
-        "Titulo malo: Dos encuestas midieron cómo puede impactar la visita del Pap",
+        "Titulo malo: Macri le reclam\u00f3 al Gobierno de Milei di\u00e1logo y un comportam",
+        "Repetida: El papa Le\u00f3n XIV visitar\u00e1 Argentina y se reunir\u00e1 con Milei",
+        "Titulo malo: Dos encuestas midieron c\u00f3mo puede impactar la visita del Pap",
         "Titulo malo: Milei y el Papa: coinciden en el nombre pero chocan en ideas",
         "Titulo malo: Javier Milei habla ante la Rural con las retenciones en deba"
       ],
       "titulos": [
-        "El Gobierno minimiza advertencias pero prevé más incertidumbre en 2027",
-        "Bullrich resistió cambios y sumó apoyo opositor en Discapacidad",
+        "El Gobierno minimiza advertencias pero prev\u00e9 m\u00e1s incertidumbre en 2027",
+        "Bullrich resisti\u00f3 cambios y sum\u00f3 apoyo opositor en Discapacidad",
         "Bullrich defiende la prensa libre y choca con el Gobierno",
-        "Javier Milei se reunió dos veces con Isabel Díaz Ayuso en dos semanas",
+        "Javier Milei se reuni\u00f3 dos veces con Isabel D\u00edaz Ayuso en dos semanas",
         "El massismo dice que el debate de reelecciones depende de Kicillof",
         "Lafalla: Mendoza se acerca a Milei por influencia chilena"
       ]
@@ -930,15 +917,15 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo malo: Patricia Bullrich impulsará la ley contra las apuestas onlin"
+        "Titulo malo: Patricia Bullrich impulsar\u00e1 la ley contra las apuestas onlin"
       ],
       "titulos": [
-        "Nahuel Sotelo pide no politizar la visita del papa León XIV",
-        "Adorni: fiscal descarta enriquecimiento pero pide investigar evasión",
-        "Escándalo en la UOM: citan a indagatoria al extitular por fraude",
-        "El Gobierno va al Tribunal del Mar para frenar el petróleo de Malvinas",
-        "Caso Cuadernos: la fiscalía cree que el juicio terminará antes",
-        "Economía pasó a disponibilidad a más de diez empleados de planta"
+        "Nahuel Sotelo pide no politizar la visita del papa Le\u00f3n XIV",
+        "Adorni: fiscal descarta enriquecimiento pero pide investigar evasi\u00f3n",
+        "Esc\u00e1ndalo en la UOM: citan a indagatoria al extitular por fraude",
+        "El Gobierno va al Tribunal del Mar para frenar el petr\u00f3leo de Malvinas",
+        "Caso Cuadernos: la fiscal\u00eda cree que el juicio terminar\u00e1 antes",
+        "Econom\u00eda pas\u00f3 a disponibilidad a m\u00e1s de diez empleados de planta"
       ]
     },
     {
@@ -948,12 +935,12 @@
       "estado": "OK",
       "detalle": [],
       "titulos": [
-        "Paraguay destituyó a Santiago Peña y ordenó su detención",
-        "Un juez ordenó mantener prestaciones para 61 personas con discapacidad",
-        "Milei defiende su política económica ante la Sociedad Rural",
-        "Ex jefe de la UOM será indagado por fraude con fondos gremiales",
-        "Nación y Córdoba acordaron compensar deudas por $143.000 millones",
-        "La Cámara Federal dejó sin acusadores causa sobre obra pública"
+        "Paraguay destituy\u00f3 a Santiago Pe\u00f1a y orden\u00f3 su detenci\u00f3n",
+        "Un juez orden\u00f3 mantener prestaciones para 61 personas con discapacidad",
+        "Milei defiende su pol\u00edtica econ\u00f3mica ante la Sociedad Rural",
+        "Ex jefe de la UOM ser\u00e1 indagado por fraude con fondos gremiales",
+        "Naci\u00f3n y C\u00f3rdoba acordaron compensar deudas por $143.000 millones",
+        "La C\u00e1mara Federal dej\u00f3 sin acusadores causa sobre obra p\u00fablica"
       ]
     },
     {
@@ -965,17 +952,17 @@
         "Titulo malo: Bullrich y 15 diputados presionan a La Libertad Avanza por l",
         "Titulo malo: Encuesta muestra imagen negativa de Milei pero opositores pe",
         "Titulo malo: Argentina apuesta a la continuidad con Paraguay tras el camb",
-        "Sin foto de Andrés Malamud: Malamud: el Estado no premia al que cumple ni cast",
-        "Titulo distinto de la noticia original: ADEPA celebró la visita del Papa y pidió que contribuya",
-        "Titulo malo: Karina Milei preparó la Casa Rosada para la visita del Papa"
+        "Sin foto de Andr\u00e9s Malamud: Malamud: el Estado no premia al que cumple ni cast",
+        "Titulo distinto de la noticia original: ADEPA celebr\u00f3 la visita del Papa y pidi\u00f3 que contribuya",
+        "Titulo malo: Karina Milei prepar\u00f3 la Casa Rosada para la visita del Papa"
       ],
       "titulos": [
-        "La visita del papa León XIV moviliza a más de 500 periodistas",
-        "Pagni analizó las estrategias de Massa, Bullrich y Kicillof",
-        "Bullrich choca con la Casa Rosada por la política de discapacidad",
+        "La visita del papa Le\u00f3n XIV moviliza a m\u00e1s de 500 periodistas",
+        "Pagni analiz\u00f3 las estrategias de Massa, Bullrich y Kicillof",
+        "Bullrich choca con la Casa Rosada por la pol\u00edtica de discapacidad",
         "El peronismo ve chances de ganarle a Milei y busca unidad",
-        "Bullrich anunció que el Senado tratará la ley contra la ludopatía",
-        "Las CTA le enviaron una carta al papa León XIV contra Milei"
+        "Bullrich anunci\u00f3 que el Senado tratar\u00e1 la ley contra la ludopat\u00eda",
+        "Las CTA le enviaron una carta al papa Le\u00f3n XIV contra Milei"
       ]
     },
     {
@@ -984,14 +971,14 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo distinto de la noticia original: Milei dará un discurso breve y conciliador tras pedido ",
-        "Titulo malo: El espíritu liberal sigue vivo\", dijo Milei en la Cumbre Ibe"
+        "Titulo distinto de la noticia original: Milei dar\u00e1 un discurso breve y conciliador tras pedido ",
+        "Titulo malo: El esp\u00edritu liberal sigue vivo\", dijo Milei en la Cumbre Ibe"
       ],
       "titulos": [
-        "León XIV llega a Argentina con misas en tres ciudades",
-        "Argentina bloquea tecnología china en telecomunicaciones del Estado",
-        "La Legislatura porteña aprobó IA en las escuelas",
-        "Milei recibirá al Papa León XIV en Aeroparque el 8 de noviembre",
+        "Le\u00f3n XIV llega a Argentina con misas en tres ciudades",
+        "Argentina bloquea tecnolog\u00eda china en telecomunicaciones del Estado",
+        "La Legislatura porte\u00f1a aprob\u00f3 IA en las escuelas",
+        "Milei recibir\u00e1 al Papa Le\u00f3n XIV en Aeroparque el 8 de noviembre",
         "Karina Milei prepara represalias contra Patricia Bullrich",
         "Senadora cercana a Karina Milei y Menem gana peso en el Gobierno"
       ]
@@ -1002,16 +989,16 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo malo: Bullrich muestra músculo con 15 diputados y tensiona a La Li",
-        "Titulo malo: Los mensajes de León XIV en Uruguay anticipan lo que podría "
+        "Titulo malo: Bullrich muestra m\u00fasculo con 15 diputados y tensiona a La Li",
+        "Titulo malo: Los mensajes de Le\u00f3n XIV en Uruguay anticipan lo que podr\u00eda "
       ],
       "titulos": [
-        "Francisco quiso viajar a Argentina pero su salud se lo impidió",
-        "La Cámpora apoya frenar el aumento de tarifas eléctricas bonaerenses",
-        "Tapia y Toviggino: una jueza pidió datos financieros a EE.UU.",
-        "La última visita de un Papa a la Argentina fue hace casi 40 años",
-        "El Gobierno descarta cambios en el vínculo con Paraguay",
-        "Milei dará un discurso conciliador tras pedido del Vaticano"
+        "Francisco quiso viajar a Argentina pero su salud se lo impidi\u00f3",
+        "La C\u00e1mpora apoya frenar el aumento de tarifas el\u00e9ctricas bonaerenses",
+        "Tapia y Toviggino: una jueza pidi\u00f3 datos financieros a EE.UU.",
+        "La \u00faltima visita de un Papa a la Argentina fue hace casi 40 a\u00f1os",
+        "El Gobierno descarta cambios en el v\u00ednculo con Paraguay",
+        "Milei dar\u00e1 un discurso conciliador tras pedido del Vaticano"
       ]
     },
     {
@@ -1020,17 +1007,17 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo malo: Congreso: otra semana de parálisis y la interna Karina Milei",
+        "Titulo malo: Congreso: otra semana de par\u00e1lisis y la interna Karina Milei",
         "Titulo malo: El Papa, un posible sanador para el alma herida de la Argent",
         "Titulo malo: Bullrich marca diferencias y la Casa Rosada empieza a contra"
       ],
       "titulos": [
-        "Tensión en el Gabinete: aliados cuestionan y una senadora genera ruido",
-        "El Gobierno busca que la visita papal no genere conflicto político",
-        "La SIDE detuvo a quien amenazó de muerte al Papa León XIV",
-        "Poirier: esperemos que Argentina sepa escuchar al Papa León XIV",
+        "Tensi\u00f3n en el Gabinete: aliados cuestionan y una senadora genera ruido",
+        "El Gobierno busca que la visita papal no genere conflicto pol\u00edtico",
+        "La SIDE detuvo a quien amenaz\u00f3 de muerte al Papa Le\u00f3n XIV",
+        "Poirier: esperemos que Argentina sepa escuchar al Papa Le\u00f3n XIV",
         "La hija de un juez federal defiende su cargo en La Rioja",
-        "Escándalos y derrotas erosionan el respaldo externo a Milei"
+        "Esc\u00e1ndalos y derrotas erosionan el respaldo externo a Milei"
       ]
     },
     {
@@ -1040,16 +1027,16 @@
       "estado": "OK",
       "detalle": [
         "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
-        "Titulo malo: Karina Milei publicó un video y mensaje por la llegada del P",
-        "Titulo malo: Karina Milei preparó la Casa Rosada para recibir al Papa"
+        "Titulo malo: Karina Milei public\u00f3 un video y mensaje por la llegada del P",
+        "Titulo malo: Karina Milei prepar\u00f3 la Casa Rosada para recibir al Papa"
       ],
       "titulos": [
-        "Juan Pablo II visitó Argentina en tiempos de Alfonsín",
-        "El periodista dijo que se sintió amenazado por Berni en una reunión",
-        "El padrón provisorio 2027 ya está disponible para consulta",
-        "El Gobierno abre licitación para auditar las represas de Santa Cruz",
-        "Milei regresa de España y prepara la visita del papa León XIV",
-        "Macri dice que el acuerdo electoral con La Libertad Avanza no avanzó"
+        "Juan Pablo II visit\u00f3 Argentina en tiempos de Alfons\u00edn",
+        "El periodista dijo que se sinti\u00f3 amenazado por Berni en una reuni\u00f3n",
+        "El padr\u00f3n provisorio 2027 ya est\u00e1 disponible para consulta",
+        "El Gobierno abre licitaci\u00f3n para auditar las represas de Santa Cruz",
+        "Milei regresa de Espa\u00f1a y prepara la visita del papa Le\u00f3n XIV",
+        "Macri dice que el acuerdo electoral con La Libertad Avanza no avanz\u00f3"
       ]
     },
     {
@@ -1058,18 +1045,18 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo malo: León XIV llegó a Argentina y recordó a Francisco en su prime",
+        "Titulo malo: Le\u00f3n XIV lleg\u00f3 a Argentina y record\u00f3 a Francisco en su prime",
         "Titulo distinto de la noticia original: Menem fue el primero del Gabinete en saludar al Papa",
-        "Titulo malo: León XIV en Argentina: la economía debe servir a las persona",
-        "Titulo malo: León XIV le habló a Milei de universidades y una economía al",
-        "Titulo malo: El Papa llegó a Argentina y la política reaccionó con distin"
+        "Titulo malo: Le\u00f3n XIV en Argentina: la econom\u00eda debe servir a las persona",
+        "Titulo malo: Le\u00f3n XIV le habl\u00f3 a Milei de universidades y una econom\u00eda al",
+        "Titulo malo: El Papa lleg\u00f3 a Argentina y la pol\u00edtica reaccion\u00f3 con distin"
       ],
       "titulos": [
         "Bullrich impulsa ley para que el abuso infantil no prescriba",
-        "Bullrich se mostró con diputados oficialistas en señal de poder",
-        "Defensa explicó cómo protegerá el espacio aéreo en la visita papal",
-        "Gobernadores patagónicos desdoblarán sus elecciones en 2027",
-        "Karina Milei toma el control de la visita del Papa León XIV",
+        "Bullrich se mostr\u00f3 con diputados oficialistas en se\u00f1al de poder",
+        "Defensa explic\u00f3 c\u00f3mo proteger\u00e1 el espacio a\u00e9reo en la visita papal",
+        "Gobernadores patag\u00f3nicos desdoblar\u00e1n sus elecciones en 2027",
+        "Karina Milei toma el control de la visita del Papa Le\u00f3n XIV",
         "El Papa puede unir a una sociedad sufriente pese a las divisiones"
       ]
     },
@@ -1079,18 +1066,18 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Tercera nota de milei: Milei acusa a la oposición de distorsionar el mens",
-        "Titulo distinto de la noticia original: Gobernadores y oposición elogiaron al papa León XIV",
-        "Mismo tema que otra nota: El Gobierno no vio el discurso del Papa como una crític",
-        "Titulo malo: El Papa en Argentina: pidió que la economía sirva a las pers"
+        "Tercera nota de milei: Milei acusa a la oposici\u00f3n de distorsionar el mens",
+        "Titulo distinto de la noticia original: Gobernadores y oposici\u00f3n elogiaron al papa Le\u00f3n XIV",
+        "Mismo tema que otra nota: El Gobierno no vio el discurso del Papa como una cr\u00edtic",
+        "Titulo malo: El Papa en Argentina: pidi\u00f3 que la econom\u00eda sirva a las pers"
       ],
       "titulos": [
         "Los gobernadores aliados le endurecen las exigencias a Milei",
-        "Milei encabezará la despedida oficial del Papa rumbo a Perú",
-        "Evangélicos kirchneristas: 'No todos somos de derecha'",
-        "El discurso del Papa dividió los aplausos de la política argentina",
+        "Milei encabezar\u00e1 la despedida oficial del Papa rumbo a Per\u00fa",
+        "Evang\u00e9licos kirchneristas: 'No todos somos de derecha'",
+        "El discurso del Papa dividi\u00f3 los aplausos de la pol\u00edtica argentina",
         "La visita del Papa tensiona al Gobierno y reactiva al peronismo",
-        "León XIV dejó en Uruguay señales de su agenda para la Argentina"
+        "Le\u00f3n XIV dej\u00f3 en Uruguay se\u00f1ales de su agenda para la Argentina"
       ]
     },
     {
@@ -1099,16 +1086,16 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Sin foto de Axel Kicillof: Axel Kicillof recibió al papa León XIV en el Cotto",
-        "Titulo malo: Las reacciones del arco político argentino tras la primera j"
+        "Sin foto de Axel Kicillof: Axel Kicillof recibi\u00f3 al papa Le\u00f3n XIV en el Cotto",
+        "Titulo malo: Las reacciones del arco pol\u00edtico argentino tras la primera j"
       ],
       "titulos": [
         "El Congreso para por el Papa y vuelve con Bullrich vs. Karina Milei",
-        "Marcelo Colombo: el nuevo Papa continuará la agenda de Francisco",
-        "El ministro provincial reveló qué pidió el Vaticano a Córdoba",
-        "Kicillof saludó al papa León XIV e intercambiaron regalos",
-        "La CGT cree que el Papa apuntalará su protesta contra Milei",
-        "Kicillof presentó el Presupuesto 2027 de la Provincia"
+        "Marcelo Colombo: el nuevo Papa continuar\u00e1 la agenda de Francisco",
+        "El ministro provincial revel\u00f3 qu\u00e9 pidi\u00f3 el Vaticano a C\u00f3rdoba",
+        "Kicillof salud\u00f3 al papa Le\u00f3n XIV e intercambiaron regalos",
+        "La CGT cree que el Papa apuntalar\u00e1 su protesta contra Milei",
+        "Kicillof present\u00f3 el Presupuesto 2027 de la Provincia"
       ]
     },
     {
@@ -1117,16 +1104,16 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo malo: Javier Milei mencionó a Bergoglio ante toda la clase polític",
-        "Titulo malo: Villarruel respaldó el llamado a la unidad de León XIV y rec"
+        "Titulo malo: Javier Milei mencion\u00f3 a Bergoglio ante toda la clase pol\u00edtic",
+        "Titulo malo: Villarruel respald\u00f3 el llamado a la unidad de Le\u00f3n XIV y rec"
       ],
       "titulos": [
-        "Figueroa adelanta las elecciones en Neuquén para febrero de 2027",
-        "El Papa habló de la familia como semilla de renovación del país",
-        "Victoria Villarruel responde a críticos libertarios",
-        "El intendente de Rafaela echó a un lavacoches de una plaza pública",
-        "Milei habló en la recepción al papa León XIV",
-        "León XIV visitó el Cottolengo y habló sobre discapacidad"
+        "Figueroa adelanta las elecciones en Neuqu\u00e9n para febrero de 2027",
+        "El Papa habl\u00f3 de la familia como semilla de renovaci\u00f3n del pa\u00eds",
+        "Victoria Villarruel responde a cr\u00edticos libertarios",
+        "El intendente de Rafaela ech\u00f3 a un lavacoches de una plaza p\u00fablica",
+        "Milei habl\u00f3 en la recepci\u00f3n al papa Le\u00f3n XIV",
+        "Le\u00f3n XIV visit\u00f3 el Cottolengo y habl\u00f3 sobre discapacidad"
       ]
     },
     {
@@ -1135,18 +1122,18 @@
       "cinta": true,
       "estado": "PROBLEMA",
       "detalle": [
-        "Titulo malo: León XIV se reúne con obispos y encabeza una cumbre con sind",
-        "Titulo malo: Fernando Bravo leyó un pasaje en la misa de León XIV un mes ",
-        "Titulo malo: León XIV pide superar la polarización dialéctica para constr",
+        "Titulo malo: Le\u00f3n XIV se re\u00fane con obispos y encabeza una cumbre con sind",
+        "Titulo malo: Fernando Bravo ley\u00f3 un pasaje en la misa de Le\u00f3n XIV un mes ",
+        "Titulo malo: Le\u00f3n XIV pide superar la polarizaci\u00f3n dial\u00e9ctica para constr",
         "Titulo malo: El Papa defiende gremios y movimientos sociales y habla del ",
         "Titulo malo: La hostilidad entre Karina Milei y Bullrich ya impacta en el",
-        "Titulo malo: Milei dice que la oposición votó 40 leyes para destruir el e"
+        "Titulo malo: Milei dice que la oposici\u00f3n vot\u00f3 40 leyes para destruir el e"
       ],
       "titulos": [
         "El Gobierno define su agenda para las sesiones extraordinarias",
-        "El Gobierno desmintió a Villarruel sobre la misa del Papa",
+        "El Gobierno desminti\u00f3 a Villarruel sobre la misa del Papa",
         "Malvinas: el Gobierno espera un fallo favorable y prepara sanciones",
-        "El Papa reivindicó a Angelelli y pidió ocuparse de los pobres"
+        "El Papa reivindic\u00f3 a Angelelli y pidi\u00f3 ocuparse de los pobres"
       ]
     },
     {
@@ -1156,17 +1143,17 @@
       "estado": "OK",
       "detalle": [
         "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
-        "Titulo malo: El Papa envió un mensaje a la Argentina: unidad política y d",
-        "Titulo malo: Dirigentes sociales celebraron el mensaje de León XIV sobre ",
-        "Titulo malo: León XIV pide unidad y superar la polarización dialéctica"
+        "Titulo malo: El Papa envi\u00f3 un mensaje a la Argentina: unidad pol\u00edtica y d",
+        "Titulo malo: Dirigentes sociales celebraron el mensaje de Le\u00f3n XIV sobre ",
+        "Titulo malo: Le\u00f3n XIV pide unidad y superar la polarizaci\u00f3n dial\u00e9ctica"
       ],
       "titulos": [
-        "Qué legisladores hablaron más en el Congreso durante 2026",
-        "Nadia Márquez tensionó al Senado por un cargo clave en Acuerdos",
-        "El papa León XIV cenó con obispos en su segunda noche en el país",
+        "Qu\u00e9 legisladores hablaron m\u00e1s en el Congreso durante 2026",
+        "Nadia M\u00e1rquez tension\u00f3 al Senado por un cargo clave en Acuerdos",
+        "El papa Le\u00f3n XIV cen\u00f3 con obispos en su segunda noche en el pa\u00eds",
         "Unas 20 provincias separan sus elecciones de la nacional en 2027",
-        "Llaryora: más de un millón recibirían al papa León XIV en Córdoba",
-        "Fernando Bravo leyó un pasaje en la misa de León XIV en Palermo"
+        "Llaryora: m\u00e1s de un mill\u00f3n recibir\u00edan al papa Le\u00f3n XIV en C\u00f3rdoba",
+        "Fernando Bravo ley\u00f3 un pasaje en la misa de Le\u00f3n XIV en Palermo"
       ]
     },
     {
@@ -1178,11 +1165,11 @@
         "Cinta: no hubo noticia nueva para la cinta"
       ],
       "titulos": [
-        "Un juzgado de La Matanza declaró ilegal un bloqueo sindical",
-        "Intendentes kicillofistas piden eliminar el tope de reelección",
-        "Milei: la oposición votó 40 leyes para destruir el equilibrio",
-        "León XIV recuerda a Enrique Shaw en su visita a Argentina",
-        "El Gobierno niega que los mensajes del papa León XIV critiquen a Milei"
+        "Un juzgado de La Matanza declar\u00f3 ilegal un bloqueo sindical",
+        "Intendentes kicillofistas piden eliminar el tope de reelecci\u00f3n",
+        "Milei: la oposici\u00f3n vot\u00f3 40 leyes para destruir el equilibrio",
+        "Le\u00f3n XIV recuerda a Enrique Shaw en su visita a Argentina",
+        "El Gobierno niega que los mensajes del papa Le\u00f3n XIV critiquen a Milei"
       ]
     },
     {
@@ -1191,15 +1178,15 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo malo: Jorge Macri admitió que las medialunas y budines en la carpa"
+        "Titulo malo: Jorge Macri admiti\u00f3 que las medialunas y budines en la carpa"
       ],
       "titulos": [
-        "Murió Héctor Aguer, arzobispo emérito de La Plata, a los 83 años",
-        "Bullrich y Milei: la alianza oficialista llega al límite",
-        "La ONU postergó el caso de Cristina Kirchner para el año que viene",
-        "Empresarios y sindicalistas piden al Gobierno diálogo tras León XIV",
-        "Marta Torres, quien conmovió al Papa, le pidió a Milei más empatía",
-        "Allanan propiedades de Báez por narcotráfico y lavado"
+        "Muri\u00f3 H\u00e9ctor Aguer, arzobispo em\u00e9rito de La Plata, a los 83 a\u00f1os",
+        "Bullrich y Milei: la alianza oficialista llega al l\u00edmite",
+        "La ONU posterg\u00f3 el caso de Cristina Kirchner para el a\u00f1o que viene",
+        "Empresarios y sindicalistas piden al Gobierno di\u00e1logo tras Le\u00f3n XIV",
+        "Marta Torres, quien conmovi\u00f3 al Papa, le pidi\u00f3 a Milei m\u00e1s empat\u00eda",
+        "Allanan propiedades de B\u00e1ez por narcotr\u00e1fico y lavado"
       ]
     },
     {
@@ -1208,19 +1195,19 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo distinto de la noticia original: Renunció el vicepresidente de la Autoridad Regulatoria ",
-        "Sin foto de Axel Kicillof: Kicillof y Massa van a la última misa de León XIV ",
-        "Titulo malo: La CGT usa el encuentro con el Papa para pedir diálogo y adv",
-        "Titulo malo: El Gobierno no reabrirá el debate sobre el aborto pese al Pa",
+        "Titulo distinto de la noticia original: Renunci\u00f3 el vicepresidente de la Autoridad Regulatoria ",
+        "Sin foto de Axel Kicillof: Kicillof y Massa van a la \u00faltima misa de Le\u00f3n XIV ",
+        "Titulo malo: La CGT usa el encuentro con el Papa para pedir di\u00e1logo y adv",
+        "Titulo malo: El Gobierno no reabrir\u00e1 el debate sobre el aborto pese al Pa",
         "Titulo malo: El Gobierno sigue apostando a la reforma electoral: los esce"
       ],
       "titulos": [
-        "Intendente adicto a cocaína: votan si puede seguir en el cargo",
-        "Milei despedirá al Papa en Ezeiza tras la misa en Luján",
-        "Débora Koraj le entregó una carta al Papa por los barrios",
-        "La CGT marcó siete coincidencias con el mensaje del Papa León XIV",
+        "Intendente adicto a coca\u00edna: votan si puede seguir en el cargo",
+        "Milei despedir\u00e1 al Papa en Ezeiza tras la misa en Luj\u00e1n",
+        "D\u00e9bora Koraj le entreg\u00f3 una carta al Papa por los barrios",
+        "La CGT marc\u00f3 siete coincidencias con el mensaje del Papa Le\u00f3n XIV",
         "El Gobierno tiene menos de dos semanas para aprobar sus leyes",
-        "El papa León XIV pide superar la polarización en Argentina"
+        "El papa Le\u00f3n XIV pide superar la polarizaci\u00f3n en Argentina"
       ]
     },
     {
@@ -1229,19 +1216,19 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo distinto de la noticia original: Taiano rechazó reabrir la causa $LIBRA contra Milei",
-        "Titulo malo: El Gobierno minimiza la amenaza iraní contra los jefes milit",
-        "Titulo malo: Más de seis millones de personas se movilizaron para ver al ",
-        "Repetida: Irán declaró terroristas a la Armada y la Fuerza Aérea argen",
-        "Titulo distinto de la noticia original: El vocero del Gobierno comparó el liberalismo con la do"
+        "Titulo distinto de la noticia original: Taiano rechaz\u00f3 reabrir la causa $LIBRA contra Milei",
+        "Titulo malo: El Gobierno minimiza la amenaza iran\u00ed contra los jefes milit",
+        "Titulo malo: M\u00e1s de seis millones de personas se movilizaron para ver al ",
+        "Repetida: Ir\u00e1n declar\u00f3 terroristas a la Armada y la Fuerza A\u00e9rea argen",
+        "Titulo distinto de la noticia original: El vocero del Gobierno compar\u00f3 el liberalismo con la do"
       ],
       "titulos": [
-        "La Ley Malvinas se traba en Diputados por el capítulo electoral",
-        "Irán declaró terroristas a la Armada y la Fuerza Aérea argentinas",
-        "La Cámara Federal acelera el juicio por el atentado a la AMIA",
-        "Ninguna alternativa política logra representar a la sociedad",
-        "El Gobierno desconfía de la CGT tras su comunicado",
-        "León XIV abrió una disputa entre el Gobierno y el peronismo"
+        "La Ley Malvinas se traba en Diputados por el cap\u00edtulo electoral",
+        "Ir\u00e1n declar\u00f3 terroristas a la Armada y la Fuerza A\u00e9rea argentinas",
+        "La C\u00e1mara Federal acelera el juicio por el atentado a la AMIA",
+        "Ninguna alternativa pol\u00edtica logra representar a la sociedad",
+        "El Gobierno desconf\u00eda de la CGT tras su comunicado",
+        "Le\u00f3n XIV abri\u00f3 una disputa entre el Gobierno y el peronismo"
       ]
     },
     {
@@ -1253,8 +1240,8 @@
         "Titulo malo: El Gobierno analiza el pedido de gremios y empresarios para "
       ],
       "titulos": [
-        "Encuesta del Papa: ganó 'El Congreso es un nido de ratas'",
-        "El Gobierno busca media sanción a la reforma electoral en dos semanas",
+        "Encuesta del Papa: gan\u00f3 'El Congreso es un nido de ratas'",
+        "El Gobierno busca media sanci\u00f3n a la reforma electoral en dos semanas",
         "Bullrich y el oficialismo: ruptura que alarma al bloque del Senado",
         "El fiscal Taiano se opuso a reabrir la causa $LIBRA",
         "Jorge Macri cambia autoridades del organismo electoral de CABA",
@@ -1267,20 +1254,20 @@
       "cinta": true,
       "estado": "OK",
       "detalle": [
-        "Titulo distinto de la noticia original: Milei designó a Anzit Guerrero en Asuntos Penitenciario",
-        "Titulo malo: Martín Menem pidió acelerar la suspensión de las PASO y dijo",
-        "Titulo distinto de la noticia original: Oficialismo y oposición celebraron la visita del Papa L",
-        "Titulo malo: Argentina espera si el vicepresidente Vance visitará el país",
-        "Repetida: León XIV cerró su visita a Argentina con misa masiva en Lujá",
-        "Titulo distinto de la noticia original: Renunció el vicepresidente de la Autoridad Regulatoria "
+        "Titulo distinto de la noticia original: Milei design\u00f3 a Anzit Guerrero en Asuntos Penitenciario",
+        "Titulo malo: Mart\u00edn Menem pidi\u00f3 acelerar la suspensi\u00f3n de las PASO y dijo",
+        "Titulo distinto de la noticia original: Oficialismo y oposici\u00f3n celebraron la visita del Papa L",
+        "Titulo malo: Argentina espera si el vicepresidente Vance visitar\u00e1 el pa\u00eds",
+        "Repetida: Le\u00f3n XIV cerr\u00f3 su visita a Argentina con misa masiva en Luj\u00e1",
+        "Titulo distinto de la noticia original: Renunci\u00f3 el vicepresidente de la Autoridad Regulatoria "
       ],
       "titulos": [
         "El Congreso retoma la agenda con el Presupuesto 2027 en foco",
-        "Cristian Rivaldi, el policía que gaseó a una nena, fue condenado",
-        "Abel Furlán viajó con la vecina de Cristina Kirchner",
-        "El funeral del Papa reunió a todo el PJ en un momento de tregua",
-        "El Gobierno no reabrirá el debate para derogar la ley del aborto",
-        "Quirno le marcó a Bullrich que no es tiempo de \"ambiciones personales"
+        "Cristian Rivaldi, el polic\u00eda que gase\u00f3 a una nena, fue condenado",
+        "Abel Furl\u00e1n viaj\u00f3 con la vecina de Cristina Kirchner",
+        "El funeral del Papa reuni\u00f3 a todo el PJ en un momento de tregua",
+        "El Gobierno no reabrir\u00e1 el debate para derogar la ley del aborto",
+        "Quirno le marc\u00f3 a Bullrich que no es tiempo de \"ambiciones personales"
       ]
     },
     {
@@ -1290,241 +1277,277 @@
       "estado": "OK",
       "detalle": [
         "Titulo malo: Se profundiza la interna en el oficialismo por el debate par",
-        "Titulo malo: La Corte Interamericana condenó a la Argentina por destituir"
+        "Titulo malo: La Corte Interamericana conden\u00f3 a la Argentina por destituir"
       ],
       "titulos": [
         "El Estatuto del Periodista pierde vigencia sin avances en el Congreso",
-        "El Vaticano eliminó el posteo sobre Argentina con dos Papas",
-        "La fiscal de Cuadernos le pidió calma al custodio de Cristina",
+        "El Vaticano elimin\u00f3 el posteo sobre Argentina con dos Papas",
+        "La fiscal de Cuadernos le pidi\u00f3 calma al custodio de Cristina",
         "El Gobierno ofrece retiros voluntarios para cerrar la IOSFA",
-        "El Gobierno destrabó las PASO con aliados y convocó al Senado",
-        "El Gobierno no reforzará la custodia de jefes militares"
+        "El Gobierno destrab\u00f3 las PASO con aliados y convoc\u00f3 al Senado",
+        "El Gobierno no reforzar\u00e1 la custodia de jefes militares"
+      ]
+    },
+    {
+      "fecha": "2026-11-12 23:12",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: El oficialismo debate eliminar las PASO en medio de una inte",
+        "Candado (tema sensible ('fallec') que no salio en otros 2 diarios (confirmaron: lanacion.com.ar)): La Corte Interamericana conden\u00f3 a Argentina por de"
+      ],
+      "titulos": [
+        "Menem apura en Diputados la suspensi\u00f3n de las PASO",
+        "La Corte Suprema obliga a garantizar educaci\u00f3n inclusiva en Entre R\u00edos",
+        "Caso Andis: el peritaje relativiza la versi\u00f3n oficial sobre los audios",
+        "Julio B\u00e1rbaro: Francisco y Kirchner nunca se dieron la mano",
+        "El Papa advirti\u00f3 al Gobierno argentino, seg\u00fan un obispo",
+        "Gremios y empresarios piden retomar la mesa multisectorial"
       ]
     }
   ],
   "orden1_ids": [
-    5070,
-    5071,
-    5072,
-    5073,
-    5074
+    5077,
+    5078,
+    5079,
+    5080,
+    5081
   ],
-  "cinta_id": 5075,
+  "cinta_id": 5082,
   "published_links": [
-    "https://www.clarin.com/politica/pablo-quirno-hablo-abrazo-milei-marco-patricia-bullrich-tiempo-ambiciones-personales_0_pGmosGiQxB.html",
-    "https://www.ambito.com/politica/diputados-reactiva-las-negociaciones-jefes-bloque-se-reunen-delinear-la-agenda-del-congreso-n6344363",
-    "https://www.ambito.com/politica/condenaron-e-inhabilitaron-al-policia-federal-que-gaseo-una-nena-10-anos-frente-al-congreso-n6344227",
-    "https://www.infobae.com/politica/2026/11/12/temores-internos-por-una-ruptura-con-bullrich-y-la-paso-vuelve-como-fantasma-en-la-camara-alta/",
-    "https://www.lanacion.com.ar/politica/el-papa-hizo-confluir-a-todas-las-vertientes-del-pj-y-pauso-por-un-momento-la-interna-nid11112026/",
-    "https://tn.com.ar/politica/2026/11/11/la-visita-del-papa-abrio-un-canal-de-dialogo-entre-el-gobierno-y-la-cgt-la-casa-rosada-espera-que-los-gremios-den-el-primer-paso/",
     "https://www.lanacion.com.ar/politica/estatuto-del-periodista-se-acerca-el-plazo-para-su-derogacion-y-las-iniciativas-para-revertirlo-nid12112026/",
-    "https://www.infobae.com/politica/2026/11/12/leon-xiv-y-la-historia-del-mensaje-argentina-tiene-dos-papas-que-el-vaticano-borro-de-las-redes-sociales/",
-    "https://tn.com.ar/politica/2026/11/12/no-se-altere-tanto-la-advertencia-de-la-fiscal-de-la-causa-cuadernos-al-custodio-de-cfk-en-medio-de-la-audiencia/",
+    "https://www.ambito.com/politica/condenaron-e-inhabilitaron-al-policia-federal-que-gaseo-una-nena-10-anos-frente-al-congreso-n6344227",
     "https://www.infobae.com/politica/2026/11/12/el-gobierno-lanzo-un-plan-de-retiros-voluntarios-para-continuar-con-el-cierre-de-la-ex-obra-social-de-las-ffaa/",
     "https://tn.com.ar/politica/2026/11/12/suspension-de-las-paso-el-gobierno-destrabo-las-negociaciones-con-los-aliados-y-convoco-a-la-comision-del-senado/",
-    "https://tn.com.ar/politica/2026/11/11/el-gobierno-minimiza-la-amenaza-de-iran-contra-las-fuerzas-armadas-y-no-preve-reforzar-las-custodias-de-los-jefes-militares/"
+    "https://tn.com.ar/politica/2026/11/11/la-visita-del-papa-abrio-un-canal-de-dialogo-entre-el-gobierno-y-la-cgt-la-casa-rosada-espera-que-los-gremios-den-el-primer-paso/",
+    "https://www.lanacion.com.ar/politica/el-papa-hizo-confluir-a-todas-las-vertientes-del-pj-y-pauso-por-un-momento-la-interna-nid11112026/",
+    "https://www.ambito.com/politica/suspension-las-paso-el-senado-retoma-el-debate-la-reforma-electoral-n6344453",
+    "https://www.ambito.com/politica/la-corte-suprema-ordeno-garantizar-la-educacion-inclusiva-una-adolescente-discapacidad-n6344674",
+    "https://www.lanacion.com.ar/politica/caso-andis-el-peritaje-sobre-los-audios-habla-de-posibles-alteraciones-y-relativiza-lo-que-habia-nid12112026/",
+    "https://www.infobae.com/politica/2026/11/12/julio-barbaro-nunca-pude-lograr-que-francisco-y-nestor-kirchner-se-dieran-la-mano/",
+    "https://www.lanacion.com.ar/politica/monsenor-jorge-lugones-el-papa-nos-hizo-advertencias-a-todos-y-tambien-al-gobierno-nid12112026/",
+    "https://www.infobae.com/politica/2026/11/12/el-gobierno-analiza-un-sorpresivo-pedido-de-gremios-y-empresarios-para-retomar-una-mesa-multisectorial/"
   ],
-  "used_img_hashes": [],
+  "used_img_hashes": [
+    "40b9e8cae0ede0e23ab93f6291e9d11c",
+    "f9adf067962c819930b5c135d105c9c1",
+    "1bd03652afb72f84312431e93cf75ebe",
+    "f17112034da2fa81e589ff242dc7cbb0",
+    "c28fcfa0483535327296f1056dde3616",
+    "5a1fb1230357c3ff2ab3b62113387890",
+    "b6e02de3876844c8dd209d9d566479ae",
+    "da2b5129d5519d3570d301630cdba71f",
+    "c272f2ac249a39bc479b27810ab7599b",
+    "23d02edb33a6b5b45c419779c0131faa",
+    "479207d9ac6fc26ea77473e0924b1072",
+    "40b9e8cae0ede0e23ab93f6291e9d11c",
+    "23d02edb33a6b5b45c419779c0131faa",
+    "5a1fb1230357c3ff2ab3b62113387890",
+    "f9adf067962c819930b5c135d105c9c1",
+    "75e0186c70ad7309858a81b9732e27e7",
+    "c272f2ac249a39bc479b27810ab7599b"
+  ],
   "published_titles": [
-    "Las CTA le enviaron una carta al papa León XIV contra Milei",
-    "Las CTA le escribieron una carta al papa León XIV con críticas al gobierno de Javier Milei",
-    "León XIV llega a Argentina con misas en tres ciudades",
-    "El Papa en la Argentina: la agenda oficial de LeÃ³n XIV dÃ­a a dÃ­a y hora a hora",
-    "Argentina bloquea tecnología china en telecomunicaciones del Estado",
-    "El Gobierno restringe la tecnología china en el sector de las telecomunicaciones y podría impactar en el mercado de los teléfonos celulares",
-    "La Legislatura porteña aprobó IA en las escuelas",
-    "La Legislatura porteña aprobó una ley para asegurar la educación digital en las escuelas de la Ciudad de Buenos Aires",
-    "Milei recibirá al Papa León XIV en Aeroparque el 8 de noviembre",
-    "Javier Milei recibirÃ¡ al papa LeÃ³n XIV al pie del aviÃ³n en Aeroparque: los detalles de su arribo a la Argentina",
-    "Karina Milei prepara represalias contra Patricia Bullrich",
-    "Karina Milei se hartÃ³ de Patricia Bullrich y LLA prepara represalias: \"Tiene una actitud cuasi mafiosa\"",
     "Senadora cercana a Karina Milei y Menem gana peso en el Gobierno",
-    "En medio de la tensión con Patricia Bullrich, una senadora cercana a Karina Milei y Martín Menem gana protagonismo en el Gobierno",
-    "Francisco quiso viajar a Argentina pero su salud se lo impidió",
-    "Una carta reservada del Papa Francisco revela que quiso viajar a la Argentina antes de morir pero su enfermedad se lo impidió",
-    "La Cámpora apoya frenar el aumento de tarifas eléctricas bonaerenses",
-    "Los aumentos en las tarifas eléctricas bonaerenses alimentan la tensión entre Kicillof y La Cámpora",
-    "Tapia y Toviggino: una jueza pidió datos financieros a EE.UU.",
-    "Un día después del fallo de la Corte, una jueza ordenó pedir a EE.UU. datos financieros sobre Tapia y Toviggino",
-    "La última visita de un Papa a la Argentina fue hace casi 40 años",
-    "CuÃ¡ndo fue la Ãºltima visita de un Papa a la Argentina: un viaje por 10 ciudades y una misa frente a 1 millÃ³n de fieles",
-    "El Gobierno descarta cambios en el vínculo con Paraguay",
-    "El Gobierno recibe con optimismo la asunción del nuevo presidente de Paraguay y descarta cambios en la relación bilateral",
-    "Milei dará un discurso conciliador tras pedido del Vaticano",
+    "En medio de la tensi\u00f3n con Patricia Bullrich, una senadora cercana a Karina Milei y Mart\u00edn Menem gana protagonismo en el Gobierno",
+    "Francisco quiso viajar a Argentina pero su salud se lo impidi\u00f3",
+    "Una carta reservada del Papa Francisco revela que quiso viajar a la Argentina antes de morir pero su enfermedad se lo impidi\u00f3",
+    "La C\u00e1mpora apoya frenar el aumento de tarifas el\u00e9ctricas bonaerenses",
+    "Los aumentos en las tarifas el\u00e9ctricas bonaerenses alimentan la tensi\u00f3n entre Kicillof y La C\u00e1mpora",
+    "Tapia y Toviggino: una jueza pidi\u00f3 datos financieros a EE.UU.",
+    "Un d\u00eda despu\u00e9s del fallo de la Corte, una jueza orden\u00f3 pedir a EE.UU. datos financieros sobre Tapia y Toviggino",
+    "La \u00faltima visita de un Papa a la Argentina fue hace casi 40 a\u00f1os",
+    "Cu\u00c3\u00a1ndo fue la \u00c3\u00baltima visita de un Papa a la Argentina: un viaje por 10 ciudades y una misa frente a 1 mill\u00c3\u00b3n de fieles",
+    "El Gobierno descarta cambios en el v\u00ednculo con Paraguay",
+    "El Gobierno recibe con optimismo la asunci\u00f3n del nuevo presidente de Paraguay y descarta cambios en la relaci\u00f3n bilateral",
+    "Milei dar\u00e1 un discurso conciliador tras pedido del Vaticano",
     "En el Gobierno esperan un mensaje breve y conciliador de Milei en el Palacio Libertad tras un pedido del Vaticano",
-    "Tensión en el Gabinete: aliados cuestionan y una senadora genera ruido",
-    "El día después de la visita papal: los próximos movimientos de Milei, las señales del mercado y la “manta corta” que preocupa al Gabinete",
-    "El Gobierno busca que la visita papal no genere conflicto político",
+    "Tensi\u00f3n en el Gabinete: aliados cuestionan y una senadora genera ruido",
+    "El d\u00eda despu\u00e9s de la visita papal: los pr\u00f3ximos movimientos de Milei, las se\u00f1ales del mercado y la \u201cmanta corta\u201d que preocupa al Gabinete",
+    "El Gobierno busca que la visita papal no genere conflicto pol\u00edtico",
     "La expectativa en Gobierno: mantener el tono pastoral",
-    "La SIDE detuvo a quien amenazó de muerte al Papa León XIV",
-    "La SIDE anunció la detención de una persona que amenazó de muerte al papa León XIV antes de su llegada a la Argentina",
-    "Poirier: esperemos que Argentina sepa escuchar al Papa León XIV",
-    "José María Poirier: “Un Papa no soluciona los problemas de la sociedad, pero esperemos que la Argentina sepa escucharlo”",
+    "La SIDE detuvo a quien amenaz\u00f3 de muerte al Papa Le\u00f3n XIV",
+    "La SIDE anunci\u00f3 la detenci\u00f3n de una persona que amenaz\u00f3 de muerte al papa Le\u00f3n XIV antes de su llegada a la Argentina",
+    "Poirier: esperemos que Argentina sepa escuchar al Papa Le\u00f3n XIV",
+    "Jos\u00e9 Mar\u00eda Poirier: \u201cUn Papa no soluciona los problemas de la sociedad, pero esperemos que la Argentina sepa escucharlo\u201d",
     "La hija de un juez federal defiende su cargo en La Rioja",
-    "Polémica en la Justicia federal de La Rioja: la hija de un juez salió al cruce de los cuestionamientos por su designación",
-    "Escándalos y derrotas erosionan el respaldo externo a Milei",
+    "Pol\u00e9mica en la Justicia federal de La Rioja: la hija de un juez sali\u00f3 al cruce de los cuestionamientos por su designaci\u00f3n",
+    "Esc\u00e1ndalos y derrotas erosionan el respaldo externo a Milei",
     "El abrupto derrumbe del mundo donde Milei era feliz",
-    "Juan Pablo II visitó Argentina en tiempos de Alfonsín",
-    "Entre altares, fieles y el barro político: la visita de Juan Pablo II que sacudió a la Argentina de Alfonsín",
-    "El periodista dijo que se sintió amenazado por Berni en una reunión",
-    "Marcelo Longobardi contó que se sintió amenazado en una reunión con Sergio Berni durante el gobierno de Cristina",
-    "El padrón provisorio 2027 ya está disponible para consulta",
-    "Dónde voto: publicaron el padrón provisorio para las elecciones de Argentina 2027",
-    "El Gobierno abre licitación para auditar las represas de Santa Cruz",
-    "El Gobierno activa un control externo sobre las represas en Santa Cruz con una licitación de $39.624 millones",
-    "Milei regresa de España y prepara la visita del papa León XIV",
-    "El presidente Milei regresa de España y supervisará los preparativos para la visita del papa León XIV",
-    "Macri dice que el acuerdo electoral con La Libertad Avanza no avanzó",
-    "Mauricio Macri dijo que “no se ha avanzado nada” en el acuerdo electoral con La Libertad Avanza para 2027",
+    "Juan Pablo II visit\u00f3 Argentina en tiempos de Alfons\u00edn",
+    "Entre altares, fieles y el barro pol\u00edtico: la visita de Juan Pablo II que sacudi\u00f3 a la Argentina de Alfons\u00edn",
+    "El periodista dijo que se sinti\u00f3 amenazado por Berni en una reuni\u00f3n",
+    "Marcelo Longobardi cont\u00f3 que se sinti\u00f3 amenazado en una reuni\u00f3n con Sergio Berni durante el gobierno de Cristina",
+    "El padr\u00f3n provisorio 2027 ya est\u00e1 disponible para consulta",
+    "D\u00f3nde voto: publicaron el padr\u00f3n provisorio para las elecciones de Argentina 2027",
+    "El Gobierno abre licitaci\u00f3n para auditar las represas de Santa Cruz",
+    "El Gobierno activa un control externo sobre las represas en Santa Cruz con una licitaci\u00f3n de $39.624 millones",
+    "Milei regresa de Espa\u00f1a y prepara la visita del papa Le\u00f3n XIV",
+    "El presidente Milei regresa de Espa\u00f1a y supervisar\u00e1 los preparativos para la visita del papa Le\u00f3n XIV",
+    "Macri dice que el acuerdo electoral con La Libertad Avanza no avanz\u00f3",
+    "Mauricio Macri dijo que \u201cno se ha avanzado nada\u201d en el acuerdo electoral con La Libertad Avanza para 2027",
     "Bullrich impulsa ley para que el abuso infantil no prescriba",
     "Patricia Bullrich impulsa en el Senado un proyecto para que los delitos de abuso sexual infantil no prescriban",
-    "Bullrich se mostró con diputados oficialistas en señal de poder",
+    "Bullrich se mostr\u00f3 con diputados oficialistas en se\u00f1al de poder",
     "La fractura silenciosa de La Libertad Avanza y sus consecuencias sobre la agenda legislativa del Gobierno",
-    "Defensa explicó cómo protegerá el espacio aéreo en la visita papal",
-    "El Ministerio de Defensa explicó cómo es la protección del espacio aéreo por el papa León XIV: “Hay restricciones en Buenos Aires y Córdoba”",
-    "Gobernadores patagónicos desdoblarán sus elecciones en 2027",
-    "Elecciones desdobladas y lejos de las nacionales: la estrategia de los gobernadores patagónicos en 2027",
-    "Karina Milei toma el control de la visita del Papa León XIV",
-    "Entretelones de la visita del papa LeÃ³n XIV: internas en el Gabinete, \"cholulismo\" y Karina en todas las actividades",
+    "Defensa explic\u00f3 c\u00f3mo proteger\u00e1 el espacio a\u00e9reo en la visita papal",
+    "El Ministerio de Defensa explic\u00f3 c\u00f3mo es la protecci\u00f3n del espacio a\u00e9reo por el papa Le\u00f3n XIV: \u201cHay restricciones en Buenos Aires y C\u00f3rdoba\u201d",
+    "Gobernadores patag\u00f3nicos desdoblar\u00e1n sus elecciones en 2027",
+    "Elecciones desdobladas y lejos de las nacionales: la estrategia de los gobernadores patag\u00f3nicos en 2027",
+    "Karina Milei toma el control de la visita del Papa Le\u00f3n XIV",
+    "Entretelones de la visita del papa Le\u00c3\u00b3n XIV: internas en el Gabinete, \"cholulismo\" y Karina en todas las actividades",
     "El Papa puede unir a una sociedad sufriente pese a las divisiones",
     "Un sanador para el alma herida de la Argentina",
     "Los gobernadores aliados le endurecen las exigencias a Milei",
     "Milei pierde margen en el Congreso: los gobernadores aliados toman distancia y endurecen sus exigencias",
-    "Milei encabezará la despedida oficial del Papa rumbo a Perú",
-    "El Gobierno prepara la ceremonia para la partida del Papa a Perú y confirma que será encabezada por Javier Milei",
-    "Evangélicos kirchneristas: 'No todos somos de derecha'",
-    "Los evangélicos de Kicillof: \"No somos la Iglesia Universal, tenemos la bendición de Axel\"",
-    "El discurso del Papa dividió los aplausos de la política argentina",
-    "El primer mensaje del Papa en la Argentina: el termómetro de aplausos, preocupación de los gobernadores y  un protocolo a prueba",
+    "Milei encabezar\u00e1 la despedida oficial del Papa rumbo a Per\u00fa",
+    "El Gobierno prepara la ceremonia para la partida del Papa a Per\u00fa y confirma que ser\u00e1 encabezada por Javier Milei",
+    "Evang\u00e9licos kirchneristas: 'No todos somos de derecha'",
+    "Los evang\u00e9licos de Kicillof: \"No somos la Iglesia Universal, tenemos la bendici\u00f3n de Axel\"",
+    "El discurso del Papa dividi\u00f3 los aplausos de la pol\u00edtica argentina",
+    "El primer mensaje del Papa en la Argentina: el term\u00f3metro de aplausos, preocupaci\u00f3n de los gobernadores y  un protocolo a prueba",
     "La visita del Papa tensiona al Gobierno y reactiva al peronismo",
-    "La visita del Papa abre tres frentes, reivindicación para Bergoglio y un gatillo a la campaña del peronismo",
-    "León XIV dejó en Uruguay señales de su agenda para la Argentina",
-    "Los mensajes en Uruguay, un anticipo de las preocupaciones que León XIV podría transmitir en la Argentina",
+    "La visita del Papa abre tres frentes, reivindicaci\u00f3n para Bergoglio y un gatillo a la campa\u00f1a del peronismo",
+    "Le\u00f3n XIV dej\u00f3 en Uruguay se\u00f1ales de su agenda para la Argentina",
+    "Los mensajes en Uruguay, un anticipo de las preocupaciones que Le\u00f3n XIV podr\u00eda transmitir en la Argentina",
     "El Congreso para por el Papa y vuelve con Bullrich vs. Karina Milei",
-    "Congreso: se viene otra semana de parÃ¡lisis, pero con nuevo capÃ­tulo de la interna libertaria en puerta",
-    "Marcelo Colombo: el nuevo Papa continuará la agenda de Francisco",
-    "“El Papa León XIV conoció de primera mano las inquietudes de Francisco y las traduce con su agenda”, definió la Conferencia Episcopal Argentina",
-    "El ministro provincial reveló qué pidió el Vaticano a Córdoba",
-    "El pedido especial del Vaticano al gobierno de CÃ³rdoba antes de la visita de LeÃ³n XIV",
-    "Kicillof saludó al papa León XIV e intercambiaron regalos",
-    "Así fue el saludo entre el papa León XIV y el gobernador Axel Kicillof",
-    "La CGT cree que el Papa apuntalará su protesta contra Milei",
-    "Por qué la CGT cree que el discurso del Papa apuntalará sus reclamos y le dará más fuerza a su nueva protesta contra Milei",
-    "Kicillof presentó el Presupuesto 2027 de la Provincia",
-    "Kicillof presentó el Presupuesto 2027 de la Provincia: ahora debe negociar por el endeudamiento y los fondos para los municipios",
-    "Figueroa adelanta las elecciones en Neuquén para febrero de 2027",
-    "Neuquén desdobló la elección y será la primera provincia en votar en 2027: elegirá gobernador el 14 de febrero",
-    "El Papa habló de la familia como semilla de renovación del país",
-    "La homilía completa del Papa en su primera misa en la Argentina: \"Cada familia puede convertirse en semilla de renovación para el país\"",
-    "Victoria Villarruel responde a críticos libertarios",
-    "Victoria Villarruel llamó \"fanáticos e ignorantes\" a los que la tildan de peronista por defender la justicia social: “Usan la fe para beneficio personal y político”",
-    "El intendente de Rafaela echó a un lavacoches de una plaza pública",
-    "El intendente de Rafaela se filmó echando a un lavacoches de una plaza y tuvo que salir a dar explicaciones",
-    "Milei habló en la recepción al papa León XIV",
-    "El discurso completo de Javier Milei en el Palacio Libertad durante la recepción al papa León XIV",
-    "León XIV visitó el Cottolengo y habló sobre discapacidad",
-    "El mensaje del papa León XIV en el Cottolengo: “El progreso de una Nación se mide por la acogida a las personas con discapacidad”",
+    "Congreso: se viene otra semana de par\u00c3\u00a1lisis, pero con nuevo cap\u00c3\u00adtulo de la interna libertaria en puerta",
+    "Marcelo Colombo: el nuevo Papa continuar\u00e1 la agenda de Francisco",
+    "\u201cEl Papa Le\u00f3n XIV conoci\u00f3 de primera mano las inquietudes de Francisco y las traduce con su agenda\u201d, defini\u00f3 la Conferencia Episcopal Argentina",
+    "El ministro provincial revel\u00f3 qu\u00e9 pidi\u00f3 el Vaticano a C\u00f3rdoba",
+    "El pedido especial del Vaticano al gobierno de C\u00c3\u00b3rdoba antes de la visita de Le\u00c3\u00b3n XIV",
+    "Kicillof salud\u00f3 al papa Le\u00f3n XIV e intercambiaron regalos",
+    "As\u00ed fue el saludo entre el papa Le\u00f3n XIV y el gobernador Axel Kicillof",
+    "La CGT cree que el Papa apuntalar\u00e1 su protesta contra Milei",
+    "Por qu\u00e9 la CGT cree que el discurso del Papa apuntalar\u00e1 sus reclamos y le dar\u00e1 m\u00e1s fuerza a su nueva protesta contra Milei",
+    "Kicillof present\u00f3 el Presupuesto 2027 de la Provincia",
+    "Kicillof present\u00f3 el Presupuesto 2027 de la Provincia: ahora debe negociar por el endeudamiento y los fondos para los municipios",
+    "Figueroa adelanta las elecciones en Neuqu\u00e9n para febrero de 2027",
+    "Neuqu\u00e9n desdobl\u00f3 la elecci\u00f3n y ser\u00e1 la primera provincia en votar en 2027: elegir\u00e1 gobernador el 14 de febrero",
+    "El Papa habl\u00f3 de la familia como semilla de renovaci\u00f3n del pa\u00eds",
+    "La homil\u00eda completa del Papa en su primera misa en la Argentina: \"Cada familia puede convertirse en semilla de renovaci\u00f3n para el pa\u00eds\"",
+    "Victoria Villarruel responde a cr\u00edticos libertarios",
+    "Victoria Villarruel llam\u00f3 \"fan\u00e1ticos e ignorantes\" a los que la tildan de peronista por defender la justicia social: \u201cUsan la fe para beneficio personal y pol\u00edtico\u201d",
+    "El intendente de Rafaela ech\u00f3 a un lavacoches de una plaza p\u00fablica",
+    "El intendente de Rafaela se film\u00f3 echando a un lavacoches de una plaza y tuvo que salir a dar explicaciones",
+    "Milei habl\u00f3 en la recepci\u00f3n al papa Le\u00f3n XIV",
+    "El discurso completo de Javier Milei en el Palacio Libertad durante la recepci\u00f3n al papa Le\u00f3n XIV",
+    "Le\u00f3n XIV visit\u00f3 el Cottolengo y habl\u00f3 sobre discapacidad",
+    "El mensaje del papa Le\u00f3n XIV en el Cottolengo: \u201cEl progreso de una Naci\u00f3n se mide por la acogida a las personas con discapacidad\u201d",
     "El Gobierno define su agenda para las sesiones extraordinarias",
     "El Gobierno acelera en el Congreso, pero ya se prepara para las extraordinarias: los proyectos pendientes",
-    "El Gobierno desmintió a Villarruel sobre la misa del Papa",
-    "El Gobierno salió a desmentir a Villarruel por la invitación a la misa del Papa en Palermo",
+    "El Gobierno desminti\u00f3 a Villarruel sobre la misa del Papa",
+    "El Gobierno sali\u00f3 a desmentir a Villarruel por la invitaci\u00f3n a la misa del Papa en Palermo",
     "Malvinas: el Gobierno espera un fallo favorable y prepara sanciones",
-    "Malvinas: el Gobierno espera un fallo favorable en el Tribunal del Derecho del Mar y prepara más sanciones contra empresas petroleras",
-    "El Papa reivindicó a Angelelli y pidió ocuparse de los pobres",
-    "El Papa reivindicó a Angelelli y les encargó a los obispos ocuparse de los pobres, desempleados y ancianos",
-    "Qué legisladores hablaron más en el Congreso durante 2026",
-    "Monitor del Congreso: qué legisladores hablaron más y cuáles fueron las palabras más usadas en 2026",
-    "Nadia Márquez tensionó al Senado por un cargo clave en Acuerdos",
-    "Pliegos judiciales: el Senado prepara dos audiencias en medio de la puja libertaria por la comisión de Acuerdos",
-    "El papa León XIV cenó con obispos en su segunda noche en el país",
-    "La intimidad de la cena del papa León XIV con obispos: empanadas, flan y música argentina",
+    "Malvinas: el Gobierno espera un fallo favorable en el Tribunal del Derecho del Mar y prepara m\u00e1s sanciones contra empresas petroleras",
+    "El Papa reivindic\u00f3 a Angelelli y pidi\u00f3 ocuparse de los pobres",
+    "El Papa reivindic\u00f3 a Angelelli y les encarg\u00f3 a los obispos ocuparse de los pobres, desempleados y ancianos",
+    "Qu\u00e9 legisladores hablaron m\u00e1s en el Congreso durante 2026",
+    "Monitor del Congreso: qu\u00e9 legisladores hablaron m\u00e1s y cu\u00e1les fueron las palabras m\u00e1s usadas en 2026",
+    "Nadia M\u00e1rquez tension\u00f3 al Senado por un cargo clave en Acuerdos",
+    "Pliegos judiciales: el Senado prepara dos audiencias en medio de la puja libertaria por la comisi\u00f3n de Acuerdos",
+    "El papa Le\u00f3n XIV cen\u00f3 con obispos en su segunda noche en el pa\u00eds",
+    "La intimidad de la cena del papa Le\u00f3n XIV con obispos: empanadas, flan y m\u00fasica argentina",
     "Unas 20 provincias separan sus elecciones de la nacional en 2027",
-    "Elecciones 2027: unas 20 provincias desdoblarán sus comicios para despegarse de la pelea nacional",
-    "Llaryora: más de un millón recibirían al papa León XIV en Córdoba",
-    "Martín Llaryora anticipó que más de un millón de personas podrían recibir al papa León XIV en Córdoba",
-    "Fernando Bravo leyó un pasaje en la misa de León XIV en Palermo",
-    "Un mes después de haber sido agraviado por Milei, Fernando Bravo leyó un pasaje en la misa de León XIV en Palermo",
-    "Un juzgado de La Matanza declaró ilegal un bloqueo sindical",
-    "Un juzgado laboral de La Matanza dictaminó que el bloqueo sindical está fuera del orden jurídico nacional e internacional",
-    "Intendentes kicillofistas piden eliminar el tope de reelección",
-    "Tensión en la Provincia: los intendentes presionan por las reelecciones indefinidas, mientras Kicillof negocia su presupuesto",
-    "Milei: la oposición votó 40 leyes para destruir el equilibrio",
-    "Milei, sobre el pedido de diálogo del Papa: “En la Argentina, los debates no son honestos intelectualmente”",
-    "León XIV recuerda a Enrique Shaw en su visita a Argentina",
-    "LeÃ³n XIV hablÃ³ en la UCA de Enrique Shaw, empresario argentino y futuro beato",
-    "El Gobierno niega que los mensajes del papa León XIV critiquen a Milei",
-    "El Gobierno niega que los mensajes del papa León XIV sean críticas a Milei y destaca puntos de coincidencia",
-    "Murió Héctor Aguer, arzobispo emérito de La Plata, a los 83 años",
-    "Murió Héctor Aguer, el arzobispo emérito de La Plata que fue una de las voces conservadoras de la Iglesia argentina",
-    "Bullrich y Milei: la alianza oficialista llega al límite",
-    "Crisis entre Milei y Bullrich: qué puede pasar después de la visita del Papa y cuántas chances hay de una ruptura",
-    "La ONU postergó el caso de Cristina Kirchner para el año que viene",
-    "El Comité de la ONU al que acudió Cristina Kirchner para ser candidata no trató su pedido y lo pasa para el año que viene",
-    "Empresarios y sindicalistas piden al Gobierno diálogo tras León XIV",
-    "Empresarios y sindicalistas piden al Gobierno abrir una mesa de diálogo tras la visita del Papa",
-    "Marta Torres, quien conmovió al Papa, le pidió a Milei más empatía",
-    "El reclamo a Milei de la mujer con parálisis cerebral que conmovió al Papa: \"El Presidente tendría que tener el corazón más blando\"",
-    "Allanan propiedades de Báez por narcotráfico y lavado",
-    "Allanan propiedades de Lázaro Báez en una causa por narcotráfico y lavado de dinero",
-    "Intendente adicto a cocaína: votan si puede seguir en el cargo",
-    "El intendente que reveló su adicción a la cocaína enfrenta una sesión clave para su continuidad en el cargo",
-    "Milei despedirá al Papa en Ezeiza tras la misa en Luján",
-    "Javier Milei monitoreó el operativo de seguridad por la visita del Papa y mañana lo despedirá en Ezeiza tras la misa en Luján",
-    "Débora Koraj le entregó una carta al Papa por los barrios",
-    "Una referente social de Córdoba le entregó una carta a León XIV por el desfinanciamiento de los barrios populares",
-    "La CGT marcó siete coincidencias con el mensaje del Papa León XIV",
-    "La CGT destacó el mensaje del Papa y marcó siete coincidencias con sus propuestas",
+    "Elecciones 2027: unas 20 provincias desdoblar\u00e1n sus comicios para despegarse de la pelea nacional",
+    "Llaryora: m\u00e1s de un mill\u00f3n recibir\u00edan al papa Le\u00f3n XIV en C\u00f3rdoba",
+    "Mart\u00edn Llaryora anticip\u00f3 que m\u00e1s de un mill\u00f3n de personas podr\u00edan recibir al papa Le\u00f3n XIV en C\u00f3rdoba",
+    "Fernando Bravo ley\u00f3 un pasaje en la misa de Le\u00f3n XIV en Palermo",
+    "Un mes despu\u00e9s de haber sido agraviado por Milei, Fernando Bravo ley\u00f3 un pasaje en la misa de Le\u00f3n XIV en Palermo",
+    "Un juzgado de La Matanza declar\u00f3 ilegal un bloqueo sindical",
+    "Un juzgado laboral de La Matanza dictamin\u00f3 que el bloqueo sindical est\u00e1 fuera del orden jur\u00eddico nacional e internacional",
+    "Intendentes kicillofistas piden eliminar el tope de reelecci\u00f3n",
+    "Tensi\u00f3n en la Provincia: los intendentes presionan por las reelecciones indefinidas, mientras Kicillof negocia su presupuesto",
+    "Milei: la oposici\u00f3n vot\u00f3 40 leyes para destruir el equilibrio",
+    "Milei, sobre el pedido de di\u00e1logo del Papa: \u201cEn la Argentina, los debates no son honestos intelectualmente\u201d",
+    "Le\u00f3n XIV recuerda a Enrique Shaw en su visita a Argentina",
+    "Le\u00c3\u00b3n XIV habl\u00c3\u00b3 en la UCA de Enrique Shaw, empresario argentino y futuro beato",
+    "El Gobierno niega que los mensajes del papa Le\u00f3n XIV critiquen a Milei",
+    "El Gobierno niega que los mensajes del papa Le\u00f3n XIV sean cr\u00edticas a Milei y destaca puntos de coincidencia",
+    "Muri\u00f3 H\u00e9ctor Aguer, arzobispo em\u00e9rito de La Plata, a los 83 a\u00f1os",
+    "Muri\u00f3 H\u00e9ctor Aguer, el arzobispo em\u00e9rito de La Plata que fue una de las voces conservadoras de la Iglesia argentina",
+    "Bullrich y Milei: la alianza oficialista llega al l\u00edmite",
+    "Crisis entre Milei y Bullrich: qu\u00e9 puede pasar despu\u00e9s de la visita del Papa y cu\u00e1ntas chances hay de una ruptura",
+    "La ONU posterg\u00f3 el caso de Cristina Kirchner para el a\u00f1o que viene",
+    "El Comit\u00e9 de la ONU al que acudi\u00f3 Cristina Kirchner para ser candidata no trat\u00f3 su pedido y lo pasa para el a\u00f1o que viene",
+    "Empresarios y sindicalistas piden al Gobierno di\u00e1logo tras Le\u00f3n XIV",
+    "Empresarios y sindicalistas piden al Gobierno abrir una mesa de di\u00e1logo tras la visita del Papa",
+    "Marta Torres, quien conmovi\u00f3 al Papa, le pidi\u00f3 a Milei m\u00e1s empat\u00eda",
+    "El reclamo a Milei de la mujer con par\u00e1lisis cerebral que conmovi\u00f3 al Papa: \"El Presidente tendr\u00eda que tener el coraz\u00f3n m\u00e1s blando\"",
+    "Allanan propiedades de B\u00e1ez por narcotr\u00e1fico y lavado",
+    "Allanan propiedades de L\u00e1zaro B\u00e1ez en una causa por narcotr\u00e1fico y lavado de dinero",
+    "Intendente adicto a coca\u00edna: votan si puede seguir en el cargo",
+    "El intendente que revel\u00f3 su adicci\u00f3n a la coca\u00edna enfrenta una sesi\u00f3n clave para su continuidad en el cargo",
+    "Milei despedir\u00e1 al Papa en Ezeiza tras la misa en Luj\u00e1n",
+    "Javier Milei monitore\u00f3 el operativo de seguridad por la visita del Papa y ma\u00f1ana lo despedir\u00e1 en Ezeiza tras la misa en Luj\u00e1n",
+    "D\u00e9bora Koraj le entreg\u00f3 una carta al Papa por los barrios",
+    "Una referente social de C\u00f3rdoba le entreg\u00f3 una carta a Le\u00f3n XIV por el desfinanciamiento de los barrios populares",
+    "La CGT marc\u00f3 siete coincidencias con el mensaje del Papa Le\u00f3n XIV",
+    "La CGT destac\u00f3 el mensaje del Papa y marc\u00f3 siete coincidencias con sus propuestas",
     "El Gobierno tiene menos de dos semanas para aprobar sus leyes",
-    "El oficialismo tiene solo trece jornadas para impulsar leyes antes del cierre del período ordinario",
-    "El papa León XIV pide superar la polarización en Argentina",
-    "El papa León XIV ante el mundo del trabajo: “Para construir la Argentina unida hay que superar la polarización dialéctica”",
-    "La Ley Malvinas se traba en Diputados por el capítulo electoral",
-    "Ley Malvinas: el trasfondo de las negociaciones en Diputados y las dudas por el capítulo electoral",
-    "Irán declaró terroristas a la Armada y la Fuerza Aérea argentinas",
-    "En el Gobierno ya evalúan medidas luego que Irán declaró a la Armada y a la Fuerza Aérea argentinas como  organizaciones terroristas",
-    "La Cámara Federal acelera el juicio por el atentado a la AMIA",
-    "AMIA: la Cámara Federal define si confirma los procesamientos de iraníes y libaneses procesados y se acerca más el juicio en ausencia",
-    "Ninguna alternativa política logra representar a la sociedad",
-    "La Argentina en busca de la brújula",
-    "El Gobierno desconfía de la CGT tras su comunicado",
-    "El Gobierno recibió con malestar el comunicado de la CGT y se enfría la posibilidad de una reunión: \"Te abrazan y te clavan un puñal\"",
-    "León XIV abrió una disputa entre el Gobierno y el peronismo",
-    "El final de la visita de León XIV a la Argentina: una tregua necesaria y el desafío de evitar una interpretación facciosa de sus mensajes",
-    "Encuesta del Papa: ganó 'El Congreso es un nido de ratas'",
-    "\"El Congreso es un nido de ratas\": hicieron una encuesta por la visita del Papa y ganó una frase muy polémica",
-    "El Gobierno busca media sanción a la reforma electoral en dos semanas",
-    "El Gobierno acelera el debate de la reforma electoral en el Senado y buscará la media sanción en dos semanas",
+    "El oficialismo tiene solo trece jornadas para impulsar leyes antes del cierre del per\u00edodo ordinario",
+    "El papa Le\u00f3n XIV pide superar la polarizaci\u00f3n en Argentina",
+    "El papa Le\u00f3n XIV ante el mundo del trabajo: \u201cPara construir la Argentina unida hay que superar la polarizaci\u00f3n dial\u00e9ctica\u201d",
+    "La Ley Malvinas se traba en Diputados por el cap\u00edtulo electoral",
+    "Ley Malvinas: el trasfondo de las negociaciones en Diputados y las dudas por el cap\u00edtulo electoral",
+    "Ir\u00e1n declar\u00f3 terroristas a la Armada y la Fuerza A\u00e9rea argentinas",
+    "En el Gobierno ya eval\u00faan medidas luego que Ir\u00e1n declar\u00f3 a la Armada y a la Fuerza A\u00e9rea argentinas como  organizaciones terroristas",
+    "La C\u00e1mara Federal acelera el juicio por el atentado a la AMIA",
+    "AMIA: la C\u00e1mara Federal define si confirma los procesamientos de iran\u00edes y libaneses procesados y se acerca m\u00e1s el juicio en ausencia",
+    "Ninguna alternativa pol\u00edtica logra representar a la sociedad",
+    "La Argentina en busca de la br\u00fajula",
+    "El Gobierno desconf\u00eda de la CGT tras su comunicado",
+    "El Gobierno recibi\u00f3 con malestar el comunicado de la CGT y se enfr\u00eda la posibilidad de una reuni\u00f3n: \"Te abrazan y te clavan un pu\u00f1al\"",
+    "Le\u00f3n XIV abri\u00f3 una disputa entre el Gobierno y el peronismo",
+    "El final de la visita de Le\u00f3n XIV a la Argentina: una tregua necesaria y el desaf\u00edo de evitar una interpretaci\u00f3n facciosa de sus mensajes",
+    "Encuesta del Papa: gan\u00f3 'El Congreso es un nido de ratas'",
+    "\"El Congreso es un nido de ratas\": hicieron una encuesta por la visita del Papa y gan\u00f3 una frase muy pol\u00e9mica",
+    "El Gobierno busca media sanci\u00f3n a la reforma electoral en dos semanas",
+    "El Gobierno acelera el debate de la reforma electoral en el Senado y buscar\u00e1 la media sanci\u00f3n en dos semanas",
     "Bullrich y el oficialismo: ruptura que alarma al bloque del Senado",
-    "Temores internos por una ruptura con Bullrich y la PASO vuelve como fantasma en la Cámara alta",
+    "Temores internos por una ruptura con Bullrich y la PASO vuelve como fantasma en la C\u00e1mara alta",
     "El fiscal Taiano se opuso a reabrir la causa $LIBRA",
-    "Caso $LIBRA: Eduardo Taiano se opuso al pedido de la fiscalÃ­a anticorrupciÃ³n para reabrir la causa",
+    "Caso $LIBRA: Eduardo Taiano se opuso al pedido de la fiscal\u00c3\u00ada anticorrupci\u00c3\u00b3n para reabrir la causa",
     "Jorge Macri cambia autoridades del organismo electoral de CABA",
     "Jorge Macri negocia el recambio de autoridades en el Instituto Electoral mientras gana fuerza el plan para no desdoblar",
     "Condenaron a activistas de Camioneros por bloqueo en Rosario",
     "Condenaron a dos activistas de Camioneros por el bloqueo contra una empresa en Rosario, en un fallo que cuestiona esas protestas",
     "El Congreso retoma la agenda con el Presupuesto 2027 en foco",
-    "Diputados reactiva negociaciones: jefes de bloque se reÃºnen para delinear la agenda del Congreso",
-    "Cristian Rivaldi, el policía que gaseó a una nena, fue condenado",
-    "Condenaron e inhabilitaron al policÃ­a federal que gaseÃ³ a una nena de 10 aÃ±os frente al Congreso",
-    "Abel Furlán viajó con la vecina de Cristina Kirchner",
-    "La Justicia investiga los viajes de Abel Furlán y la “vecina” de Cristina Kirchner de San José 1111",
-    "El funeral del Papa reunió a todo el PJ en un momento de tregua",
-    "El Papa hizo confluir a todas las vertientes del PJ y pausó por un momento la interna",
-    "El Gobierno no reabrirá el debate para derogar la ley del aborto",
-    "El Gobierno descarta reabrir el debate por la derogación de la Ley del aborto pese al mensaje del Papa",
-    "Quirno le marcó a Bullrich que no es tiempo de \"ambiciones personales",
-    "Pablo Quirno habló del abrazo con los Milei y le marcó a Patricia Bullrich que no es tiempo de \"ambiciones personales\"",
+    "Diputados reactiva negociaciones: jefes de bloque se re\u00c3\u00banen para delinear la agenda del Congreso",
+    "Cristian Rivaldi, el polic\u00eda que gase\u00f3 a una nena, fue condenado",
+    "Condenaron e inhabilitaron al polic\u00c3\u00ada federal que gase\u00c3\u00b3 a una nena de 10 a\u00c3\u00b1os frente al Congreso",
+    "Abel Furl\u00e1n viaj\u00f3 con la vecina de Cristina Kirchner",
+    "La Justicia investiga los viajes de Abel Furl\u00e1n y la \u201cvecina\u201d de Cristina Kirchner de San Jos\u00e9 1111",
+    "El funeral del Papa reuni\u00f3 a todo el PJ en un momento de tregua",
+    "El Papa hizo confluir a todas las vertientes del PJ y paus\u00f3 por un momento la interna",
+    "El Gobierno no reabrir\u00e1 el debate para derogar la ley del aborto",
+    "El Gobierno descarta reabrir el debate por la derogaci\u00f3n de la Ley del aborto pese al mensaje del Papa",
+    "Quirno le marc\u00f3 a Bullrich que no es tiempo de \"ambiciones personales",
+    "Pablo Quirno habl\u00f3 del abrazo con los Milei y le marc\u00f3 a Patricia Bullrich que no es tiempo de \"ambiciones personales\"",
     "El Estatuto del Periodista pierde vigencia sin avances en el Congreso",
-    "Estatuto del Periodista: se acerca el plazo para su derogación y las iniciativas para revertirlo permanecen sin avances en el Congreso",
-    "El Vaticano eliminó el posteo sobre Argentina con dos Papas",
-    "León XIV y la historia del mensaje “Argentina tiene dos Papas” que el Vaticano borró de las redes sociales",
-    "La fiscal de Cuadernos le pidió calma al custodio de Cristina",
+    "Estatuto del Periodista: se acerca el plazo para su derogaci\u00f3n y las iniciativas para revertirlo permanecen sin avances en el Congreso",
+    "El Vaticano elimin\u00f3 el posteo sobre Argentina con dos Papas",
+    "Le\u00f3n XIV y la historia del mensaje \u201cArgentina tiene dos Papas\u201d que el Vaticano borr\u00f3 de las redes sociales",
+    "La fiscal de Cuadernos le pidi\u00f3 calma al custodio de Cristina",
     "\"No se altere tanto\": la advertencia de la fiscal de la causa Cuadernos al custodio de Cristina Kirchner en medio de la audiencia",
     "El Gobierno ofrece retiros voluntarios para cerrar la IOSFA",
-    "El Gobierno lanzó un plan de retiros voluntarios para continuar con el cierre de la ex obra social de las FFAA",
-    "El Gobierno destrabó las PASO con aliados y convocó al Senado",
-    "Suspensión de las PASO: el Gobierno destrabó las negociaciones con los aliados y convocó a la comisión del Senado",
-    "El Gobierno no reforzará la custodia de jefes militares",
-    "El Gobierno minimiza la amenaza de Irán contra las Fuerzas Armadas y no prevé reforzar las custodias de los jefes militares"
+    "El Gobierno lanz\u00f3 un plan de retiros voluntarios para continuar con el cierre de la ex obra social de las FFAA",
+    "El Gobierno destrab\u00f3 las PASO con aliados y convoc\u00f3 al Senado",
+    "Suspensi\u00f3n de las PASO: el Gobierno destrab\u00f3 las negociaciones con los aliados y convoc\u00f3 a la comisi\u00f3n del Senado",
+    "El Gobierno no reforzar\u00e1 la custodia de jefes militares",
+    "El Gobierno minimiza la amenaza de Ir\u00e1n contra las Fuerzas Armadas y no prev\u00e9 reforzar las custodias de los jefes militares",
+    "Menem apura en Diputados la suspensi\u00f3n de las PASO",
+    "Suspensi\u00c3\u00b3n de las PASO: el Senado reinicia el debate de la reforma electoral",
+    "La Corte Suprema obliga a garantizar educaci\u00f3n inclusiva en Entre R\u00edos",
+    "La Corte Suprema orden\u00c3\u00b3 garantizar la educaci\u00c3\u00b3n inclusiva de una adolescente con discapacidad",
+    "Caso Andis: el peritaje relativiza la versi\u00f3n oficial sobre los audios",
+    "Caso Andis: el peritaje sobre los audios habla de \u201cposibles alteraciones\u201d y relativiza lo que hab\u00eda filtrado el Gobierno",
+    "Julio B\u00e1rbaro: Francisco y Kirchner nunca se dieron la mano",
+    "Julio B\u00e1rbaro: \u201cNunca pude lograr que Francisco y N\u00e9stor Kirchner se dieran la mano\u201d",
+    "El Papa advirti\u00f3 al Gobierno argentino, seg\u00fan un obispo",
+    "Monse\u00f1or Jorge Lugones: \u201cEl Papa nos hizo advertencias a todos y tambi\u00e9n al Gobierno\u201d",
+    "Gremios y empresarios piden retomar la mesa multisectorial",
+    "El Gobierno analiza un sorpresivo pedido de gremios y empresarios para retomar una mesa multisectorial"
   ]
 }
