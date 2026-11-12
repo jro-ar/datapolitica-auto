@@ -57,23 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-27 01:10",
-      "publicadas": 4,
-      "cinta": true,
-      "estado": "SIN NOVEDADES",
-      "detalle": [
-        "Sin foto de Pepe Scioli: Pepe Scioli felicit\u00f3 a Lula y expuso su ruptura co",
-        "Titulo malo: La confianza en el Gobierno sube levemente pero cae en el a\u00f1"
-      ],
-      "titulos": [
-        "La ausencia de Bullrich en gabinete expone fractura con el PRO",
-        "Una agrupaci\u00f3n c\u00edvica presiona al Senado por la ley antiludopat\u00eda",
-        "El 68% quiere que Milei abandone su choque con Brasil",
-        "Jorge Macri celebr\u00f3 la elecci\u00f3n del papa Le\u00f3n XIV",
-        "Estudiantes perdi\u00f3 con Uni\u00f3n y se aleja de los playoffs"
-      ]
-    },
-    {
       "fecha": "2026-10-27 02:08",
       "publicadas": 2,
       "cinta": true,
@@ -1287,67 +1270,79 @@
         "El Gobierno desconf\u00eda de la CGT tras su comunicado",
         "Le\u00f3n XIV abri\u00f3 una disputa entre el Gobierno y el peronismo"
       ]
+    },
+    {
+      "fecha": "2026-11-12 10:10",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: El Gobierno analiza el pedido de gremios y empresarios para "
+      ],
+      "titulos": [
+        "Encuesta del Papa: gan\u00f3 'El Congreso es un nido de ratas'",
+        "El Gobierno busca media sanci\u00f3n a la reforma electoral en dos semanas",
+        "Bullrich y el oficialismo: ruptura que alarma al bloque del Senado",
+        "El fiscal Taiano se opuso a reabrir la causa $LIBRA",
+        "Jorge Macri cambia autoridades del organismo electoral de CABA",
+        "Condenaron a activistas de Camioneros por bloqueo en Rosario"
+      ]
     }
   ],
   "orden1_ids": [
-    5051,
-    5052,
-    5053,
-    5054,
-    5055
+    5057,
+    5058,
+    5059,
+    5060,
+    5061
   ],
-  "cinta_id": 5056,
+  "cinta_id": 5062,
   "published_links": [
-    "https://tn.com.ar/politica/2026/11/10/javier-milei-monitoreo-el-operativo-de-seguridad-por-la-visita-del-papa-y-manana-lo-despedira-en-ezeiza-tras-la-misa-en-lujan/",
-    "https://www.lanacion.com.ar/politica/tension-en-la-provincia-los-intendentes-suben-la-presion-por-las-reelecciones-indefinidas-mientras-nid09112026/",
-    "https://www.lanacion.com.ar/politica/empresarios-y-sindicalistas-piden-al-gobierno-abrir-una-mesa-de-dialogo-tras-la-visita-del-papa-nid10112026/",
-    "https://www.infobae.com/politica/2026/11/11/una-referente-social-de-cordoba-le-entrego-una-carta-a-leon-xiv-por-el-desfinanciamiento-de-los-barrios-populares/",
-    "https://tn.com.ar/politica/2026/11/10/el-intendente-que-conto-su-lucha-contra-la-adiccion-a-la-cocaina-ya-tiene-fecha-para-la-sesion-que-definira-su-posible-destitucion/",
-    "https://www.clarin.com/politica/reclamo-milei-mujer-paralisis-cerebral-conmovio-papa-presidente-tener-corazon-blando_0_v0Ux8yN4MK.html",
     "https://www.clarin.com/politica/ley-malvinas-trasfondo-negociaciones-diputados-dudas-capitulo-electoral_0_BWcrWsqRil.html",
-    "https://www.clarin.com/politica/gobierno-evaluan-medidas-luego-iran-declaro-armada-fuerza-aerea-argentinas-organizaciones-terroristas_0_cVEuFRTqzT.html",
+    "https://www.lanacion.com.ar/politica/tension-en-la-provincia-los-intendentes-suben-la-presion-por-las-reelecciones-indefinidas-mientras-nid09112026/",
     "https://www.clarin.com/politica/amia-camara-federal-define-confirma-procesamientos-iranies-libaneses-procesados-acerca-juicio-ausencia_0_aimGVoTIdY.html",
     "https://www.lanacion.com.ar/politica/la-argentina-en-busca-de-la-brujula-nid11112026/",
     "https://tn.com.ar/politica/2026/11/11/la-visita-del-papa-abrio-un-canal-de-dialogo-entre-el-gobierno-y-la-cgt-la-casa-rosada-espera-que-los-gremios-den-el-primer-paso/",
-    "https://www.infobae.com/politica/2026/11/11/el-final-de-la-visita-de-leon-xiv-a-la-argentina-una-tregua-necesaria-y-el-desafio-de-evitar-una-interpretacion-facciosa-de-sus-mensajes/"
+    "https://www.clarin.com/politica/reclamo-milei-mujer-paralisis-cerebral-conmovio-papa-presidente-tener-corazon-blando_0_v0Ux8yN4MK.html",
+    "https://www.clarin.com/politica/congreso-nido-ratas-hicieron-encuesta-visita-papa-gano-frase-polemica_0_heNgEmrdHA.html",
+    "https://tn.com.ar/politica/2026/11/11/el-gobierno-acelera-el-tratamiento-de-la-reforma-electoral-en-el-senado-y-buscara-la-media-sancion-en-dos-semanas/",
+    "https://www.infobae.com/politica/2026/11/12/temores-internos-por-una-ruptura-con-bullrich-y-la-paso-vuelve-como-fantasma-en-la-camara-alta/",
+    "https://www.ambito.com/politica/caso-libra-eduardo-taiano-se-opuso-al-pedido-la-fiscalia-anticorrupcion-reabrir-la-causa-n6344250",
+    "https://www.ambito.com/politica/jorge-macri-negocia-el-recambio-autoridades-el-instituto-electoral-mientras-gana-fuerza-el-plan-no-desdoblar-n6344186",
+    "https://www.infobae.com/politica/2026/11/11/condenaron-a-dos-activistas-de-camioneros-por-el-bloqueo-contra-una-empresa-en-rosario-en-un-fallo-que-cuestiona-esas-protestas/"
   ],
   "used_img_hashes": [
-    "86f502db581f57d57348bfa3060119c8",
-    "3ea1d993e4b5995d29464ea085519747",
-    "0437ae9e56a0cab4cc3ea60ea51c0fd9",
-    "f97683c5d4e06ed7f3715405084069a7",
-    "8214530754db3571d5b35a463c90fe4d",
-    "0a9110e7c7b607b4691ac1602c9211f4",
-    "7ba9079dc6db0f23f51f0d68e9a69e75",
-    "f381d4bf6f9dd799b652903214dd7bc9",
+    "8156e1fa4368f7e46e6d965df5674fdf",
     "6973966831c112b96e653d621e09c4f9",
-    "194f2e0bc654e6875f7e259c275a51c7",
-    "13eda36528007b2590fd1dd97bc2b4c8",
-    "0fae70c5c0a00cf5b2e70ed6929a2988",
-    "0a9110e7c7b607b4691ac1602c9211f4",
-    "3ea1d993e4b5995d29464ea085519747",
+    "848400583bc57c5e2cb908efc7db0fff",
     "0437ae9e56a0cab4cc3ea60ea51c0fd9",
-    "194f2e0bc654e6875f7e259c275a51c7",
+    "c3e5f76a084f2fed36d1d76fafa8b461",
     "0fae70c5c0a00cf5b2e70ed6929a2988",
-    "13eda36528007b2590fd1dd97bc2b4c8",
-    "7ba9079dc6db0f23f51f0d68e9a69e75",
+    "87e4369c67179853fb1adbfac3a5703f",
+    "b6e02de3876844c8dd209d9d566479ae",
+    "281f3d0488b8f8db9635f1eb883c9a25",
+    "86f502db581f57d57348bfa3060119c8",
     "8214530754db3571d5b35a463c90fe4d",
+    "b903c5f398a9f6e10faefc99fe68e8f7",
+    "194f2e0bc654e6875f7e259c275a51c7",
+    "13eda36528007b2590fd1dd97bc2b4c8",
+    "0a9110e7c7b607b4691ac1602c9211f4",
+    "0c26bf3a444541daf46eab09694516d5",
+    "e7a7df087d6bae1516abcb8c9ca63572",
+    "da2b5129d5519d3570d301630cdba71f",
+    "3ea1d993e4b5995d29464ea085519747",
+    "0ba7359a8daf5b21d6f81b74c1b2c4a8",
     "f97683c5d4e06ed7f3715405084069a7",
-    "f381d4bf6f9dd799b652903214dd7bc9"
+    "f381d4bf6f9dd799b652903214dd7bc9",
+    "7ba9079dc6db0f23f51f0d68e9a69e75",
+    "c3e5f76a084f2fed36d1d76fafa8b461",
+    "87e4369c67179853fb1adbfac3a5703f",
+    "5f916f6620fb0d0e6d329d3eb4d6c16b",
+    "de557ee0cfe4679bb98b50e5a20b4d49",
+    "da2b5129d5519d3570d301630cdba71f",
+    "b903c5f398a9f6e10faefc99fe68e8f7"
   ],
   "published_titles": [
-    "Lafalla: Mendoza se acerca a Milei por influencia chilena",
-    "\u201cEn Mendoza, nuestra cercan\u00eda a Chile nos hace m\u00e1s proclives a las ideas de Milei\u201d",
-    "Nahuel Sotelo pide no politizar la visita del papa Le\u00f3n XIV",
-    "Un diputado libertario pidi\u00f3 no hacer una lectura partidaria de los discursos del papa",
-    "Adorni: fiscal descarta enriquecimiento pero pide investigar evasi\u00f3n",
-    "El fiscal Pollicita consider\u00f3 que no hay elementos para acusar a Adorni por enriquecimiento il\u00edcito, pero pidi\u00f3 investigarlo por posible evasi\u00f3n",
-    "Esc\u00e1ndalo en la UOM: citan a indagatoria al extitular por fraude",
-    "Citan a indagatoria al extitular de la UOM y a la \u201cvecina\u201d de Cristina Kirchner por una presunta defraudaci\u00f3n millonaria",
-    "El Gobierno va al Tribunal del Mar para frenar el petr\u00f3leo de Malvinas",
-    "El Gobierno defini\u00f3 la comitiva que defender\u00e1 ante el Tribunal del Mar el reclamo por el petr\u00f3leo de Malvinas",
-    "Caso Cuadernos: la fiscal\u00eda cree que el juicio terminar\u00e1 antes",
-    "Caso Cuadernos: quedan 208 testigos por declarar y la fiscal\u00eda cree que el juicio \u201cterminar\u00e1 antes de lo previsto\u201d",
     "Econom\u00eda pas\u00f3 a disponibilidad a m\u00e1s de diez empleados de planta",
     "El Ministerio de Econom\u00eda pas\u00f3 a disponibilidad a m\u00e1s de diez empleados de planta permanente",
     "Paraguay destituy\u00f3 a Santiago Pe\u00f1a y orden\u00f3 su detenci\u00f3n",
@@ -1535,6 +1530,18 @@
     "El Gobierno desconf\u00eda de la CGT tras su comunicado",
     "El Gobierno recibi\u00f3 con malestar el comunicado de la CGT y se enfr\u00eda la posibilidad de una reuni\u00f3n: \"Te abrazan y te clavan un pu\u00f1al\"",
     "Le\u00f3n XIV abri\u00f3 una disputa entre el Gobierno y el peronismo",
-    "El final de la visita de Le\u00f3n XIV a la Argentina: una tregua necesaria y el desaf\u00edo de evitar una interpretaci\u00f3n facciosa de sus mensajes"
+    "El final de la visita de Le\u00f3n XIV a la Argentina: una tregua necesaria y el desaf\u00edo de evitar una interpretaci\u00f3n facciosa de sus mensajes",
+    "Encuesta del Papa: gan\u00f3 'El Congreso es un nido de ratas'",
+    "\"El Congreso es un nido de ratas\": hicieron una encuesta por la visita del Papa y gan\u00f3 una frase muy pol\u00e9mica",
+    "El Gobierno busca media sanci\u00f3n a la reforma electoral en dos semanas",
+    "El Gobierno acelera el debate de la reforma electoral en el Senado y buscar\u00e1 la media sanci\u00f3n en dos semanas",
+    "Bullrich y el oficialismo: ruptura que alarma al bloque del Senado",
+    "Temores internos por una ruptura con Bullrich y la PASO vuelve como fantasma en la C\u00e1mara alta",
+    "El fiscal Taiano se opuso a reabrir la causa $LIBRA",
+    "Caso $LIBRA: Eduardo Taiano se opuso al pedido de la fiscal\u00c3\u00ada anticorrupci\u00c3\u00b3n para reabrir la causa",
+    "Jorge Macri cambia autoridades del organismo electoral de CABA",
+    "Jorge Macri negocia el recambio de autoridades en el Instituto Electoral mientras gana fuerza el plan para no desdoblar",
+    "Condenaron a activistas de Camioneros por bloqueo en Rosario",
+    "Condenaron a dos activistas de Camioneros por el bloqueo contra una empresa en Rosario, en un fallo que cuestiona esas protestas"
   ]
 }
