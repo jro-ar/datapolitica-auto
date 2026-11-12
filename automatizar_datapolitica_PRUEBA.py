@@ -1683,7 +1683,7 @@ _PALABRAS_SENSIBLES = (
     "sepelio", "exequia", "entierro", "sepult", "cremac", "cremad", "asesina", "restos mortales", "luto",
     "duelo nacional", "condolencia", "q.e.p.d", "descanse en paz", "perdio la vida", "sin vida",
     # nacimientos
-    "nacio", "nacimiento", "dio a luz", "embaraz", "fue padre", "fue madre", "fue papa ", "fue mama ",
+    "nacio", "nacimiento", "dio a luz", "embarazada", "fue padre", "fue madre",
     # tragedias
     "tragedia", "tragico", "accidente", "explosion", "incendio", "derrumbe", "atentado",
     "tiroteo", "masacre", "victimas fatales", "heridos", "desaparecid", "secuestr", "naufrag", "inundacion",
@@ -1691,6 +1691,16 @@ _PALABRAS_SENSIBLES = (
 )
 _NO_NOMBRES = {"el", "la", "los", "las", "un", "una", "en", "de", "del", "por", "para", "con", "tras", "que",
                "gobierno", "presidente", "argentina", "argentino", "nacional", "provincia", "ciudad", "hoy"}
+
+
+# Palabras que tienen que aparecer ENTERAS (ej.: "nacio" no debe confundirse con "nacional")
+_EXACTAS = {"nacio", "luto", "muere", "mueren", "deceso", "sismo", "nacimiento"}
+
+
+def _tiene(texto_norm: str, palabra: str) -> bool:
+    p = _normalize(palabra).strip()
+    patron = r"\b" + re.escape(p) + (r"\b" if p in _EXACTAS else "")
+    return re.search(patron, texto_norm) is not None
 
 
 def _nombres_clave(texto: str) -> list:
@@ -1713,11 +1723,11 @@ def candado_sensible(titulo: str, copete: str, cuerpo: str, art: dict) -> str:
     """Devuelve "" si se puede publicar, o el motivo por el que NO se publica."""
     fuente = _normalize((art.get("title") or "") + " " + (art.get("summary") or ""))
     nota = _normalize(f"{titulo} {copete} {cuerpo}")
-    hallados = [p for p in _PALABRAS_SENSIBLES if _normalize(p) in nota]
+    hallados = [p for p in _PALABRAS_SENSIBLES if _tiene(nota, p)]
     if not hallados:
         return ""
     for p in hallados:
-        if _normalize(p) not in fuente:
+        if not _tiene(fuente, p):
             return f"dice '{p.strip()}' y la noticia original no"
     nombres = _nombres_clave(titulo) or _nombres_clave(copete)
     if not nombres:
@@ -1729,7 +1739,7 @@ def candado_sensible(titulo: str, copete: str, cuerpo: str, art: dict) -> str:
         if not d or d == propio or d in confirman:
             continue
         txt = _normalize((a.get("title") or "") + " " + (a.get("summary") or ""))
-        if any(_normalize(p) in txt for p in hallados) and any(n in txt for n in nombres):
+        if any(_tiene(txt, p) for p in hallados) and any(_tiene(txt, n) for n in nombres):
             confirman.add(d)
     if len(confirman) < 2:
         return (f"tema sensible ('{hallados[0].strip()}') que no salio en otros 2 diarios "
