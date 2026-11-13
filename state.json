@@ -57,23 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-27 05:09",
-      "publicadas": 3,
-      "cinta": true,
-      "estado": "SIN NOVEDADES",
-      "detalle": [
-        "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
-        "Repetida: La confianza en el Gobierno subi\u00f3 en octubre pero cay\u00f3 7% in",
-        "Repetida: El papa Le\u00f3n XIV visitar\u00e1 la Argentina en noviembre"
-      ],
-      "titulos": [
-        "Massa us\u00f3 la victoria de Lula para interpelar al gobierno",
-        "El Gobierno no tiene votos para aprobar el Presupuesto",
-        "El Gobierno modifica su proyecto sobre Malvinas por presi\u00f3n de EE.UU.",
-        "El Vaticano visitar\u00e1 organizaciones sociales en La Matanza"
-      ]
-    },
-    {
       "fecha": "2026-10-27 06:05",
       "publicadas": 0,
       "cinta": false,
@@ -1305,62 +1288,78 @@
         "El Papa advirti\u00f3 al Gobierno argentino, seg\u00fan un obispo",
         "Gremios y empresarios piden retomar la mesa multisectorial"
       ]
+    },
+    {
+      "fecha": "2026-11-13 10:11",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: La Corte Interamericana conden\u00f3 a Argentina por destituir al",
+        "Repetida: Le\u00f3n XIV cit\u00f3 27 veces a Francisco en su visita a Argentina"
+      ],
+      "titulos": [
+        "El Gobierno orden\u00f3 el regreso del embajador en Emiratos \u00c1rabes",
+        "El kirchnerismo apuesta a que Cristina Kirchner sea candidata",
+        "Los obispos le agradecieron a Le\u00f3n XIV su visita a la Argentina",
+        "M\u00e1s de seis millones se movilizaron por la visita del Papa",
+        "La Iglesia argentina busca capitalizar el fervor por la visita papal",
+        "Milei fij\u00f3 meta de llegar al 90% de la poblaci\u00f3n mundial"
+      ]
     }
   ],
   "orden1_ids": [
-    5077,
-    5078,
-    5079,
-    5080,
-    5081
+    5083,
+    5084,
+    5085,
+    5086,
+    5087
   ],
-  "cinta_id": 5082,
+  "cinta_id": 5088,
   "published_links": [
-    "https://www.lanacion.com.ar/politica/estatuto-del-periodista-se-acerca-el-plazo-para-su-derogacion-y-las-iniciativas-para-revertirlo-nid12112026/",
-    "https://www.ambito.com/politica/condenaron-e-inhabilitaron-al-policia-federal-que-gaseo-una-nena-10-anos-frente-al-congreso-n6344227",
-    "https://www.infobae.com/politica/2026/11/12/el-gobierno-lanzo-un-plan-de-retiros-voluntarios-para-continuar-con-el-cierre-de-la-ex-obra-social-de-las-ffaa/",
-    "https://tn.com.ar/politica/2026/11/12/suspension-de-las-paso-el-gobierno-destrabo-las-negociaciones-con-los-aliados-y-convoco-a-la-comision-del-senado/",
+    "https://www.infobae.com/politica/2026/11/12/el-gobierno-analiza-un-sorpresivo-pedido-de-gremios-y-empresarios-para-retomar-una-mesa-multisectorial/",
     "https://tn.com.ar/politica/2026/11/11/la-visita-del-papa-abrio-un-canal-de-dialogo-entre-el-gobierno-y-la-cgt-la-casa-rosada-espera-que-los-gremios-den-el-primer-paso/",
     "https://www.lanacion.com.ar/politica/el-papa-hizo-confluir-a-todas-las-vertientes-del-pj-y-pauso-por-un-momento-la-interna-nid11112026/",
-    "https://www.ambito.com/politica/suspension-las-paso-el-senado-retoma-el-debate-la-reforma-electoral-n6344453",
-    "https://www.ambito.com/politica/la-corte-suprema-ordeno-garantizar-la-educacion-inclusiva-una-adolescente-discapacidad-n6344674",
-    "https://www.lanacion.com.ar/politica/caso-andis-el-peritaje-sobre-los-audios-habla-de-posibles-alteraciones-y-relativiza-lo-que-habia-nid12112026/",
     "https://www.infobae.com/politica/2026/11/12/julio-barbaro-nunca-pude-lograr-que-francisco-y-nestor-kirchner-se-dieran-la-mano/",
-    "https://www.lanacion.com.ar/politica/monsenor-jorge-lugones-el-papa-nos-hizo-advertencias-a-todos-y-tambien-al-gobierno-nid12112026/",
-    "https://www.infobae.com/politica/2026/11/12/el-gobierno-analiza-un-sorpresivo-pedido-de-gremios-y-empresarios-para-retomar-una-mesa-multisectorial/"
+    "https://www.lanacion.com.ar/politica/estatuto-del-periodista-se-acerca-el-plazo-para-su-derogacion-y-las-iniciativas-para-revertirlo-nid12112026/",
+    "https://www.ambito.com/politica/suspension-las-paso-el-senado-retoma-el-debate-la-reforma-electoral-n6344453",
+    "https://www.infobae.com/politica/2026/11/13/el-gobierno-ordeno-el-regreso-a-la-argentina-del-embajador-en-emiratos-arabes-unidos/",
+    "https://www.infobae.com/politica/2026/11/13/pese-al-silencio-de-la-onu-el-kirchnerismo-todavia-cree-que-hay-margen-para-una-candidatura-de-cfk/",
+    "https://www.lanacion.com.ar/politica/los-obispos-enviaron-una-carta-a-leon-xiv-para-agradecerle-la-visita-a-la-argentina-nid12112026/",
+    "https://tn.com.ar/politica/2026/11/11/el-gobierno-informo-el-papa-convoco-a-mas-de-seis-millones-de-personas-fue-una-de-las-mayores-movilizaciones-de-la-historia/",
+    "https://www.lanacion.com.ar/politica/la-iglesia-argentina-se-pregunta-ahora-como-canalizar-el-fervor-popular-que-suscito-la-visita-de-nid11112026/",
+    "https://www.ambito.com/politica/javier-milei-defendio-el-impacto-sus-medidas-y-afirmo-abrimos-500-mercados-y-llegamos-al-30-del-planeta-n6344722"
   ],
   "used_img_hashes": [
-    "40b9e8cae0ede0e23ab93f6291e9d11c",
-    "f9adf067962c819930b5c135d105c9c1",
     "1bd03652afb72f84312431e93cf75ebe",
     "f17112034da2fa81e589ff242dc7cbb0",
-    "c28fcfa0483535327296f1056dde3616",
-    "5a1fb1230357c3ff2ab3b62113387890",
-    "b6e02de3876844c8dd209d9d566479ae",
-    "da2b5129d5519d3570d301630cdba71f",
+    "848400583bc57c5e2cb908efc7db0fff",
+    "327cab6338c54dec62dde21673068586",
     "c272f2ac249a39bc479b27810ab7599b",
-    "23d02edb33a6b5b45c419779c0131faa",
-    "479207d9ac6fc26ea77473e0924b1072",
+    "b6e02de3876844c8dd209d9d566479ae",
     "40b9e8cae0ede0e23ab93f6291e9d11c",
-    "23d02edb33a6b5b45c419779c0131faa",
-    "5a1fb1230357c3ff2ab3b62113387890",
     "f9adf067962c819930b5c135d105c9c1",
+    "479207d9ac6fc26ea77473e0924b1072",
+    "4276eb0301ad028681bb2d9bd52f0ec3",
+    "c28fcfa0483535327296f1056dde3616",
+    "da2b5129d5519d3570d301630cdba71f",
+    "67363f990ee5892595a3cbf4736bff0d",
+    "6767276424cdc1e159f30efb01641475",
+    "13eda36528007b2590fd1dd97bc2b4c8",
+    "23d02edb33a6b5b45c419779c0131faa",
+    "a7cb46e2e47376c05107fe5e6b253145",
+    "6b009de723b38c69629faa3dae79e248",
+    "5a1fb1230357c3ff2ab3b62113387890",
     "75e0186c70ad7309858a81b9732e27e7",
-    "c272f2ac249a39bc479b27810ab7599b"
+    "4276eb0301ad028681bb2d9bd52f0ec3",
+    "e9b4f2534b1741bb0d083b983783b8b3",
+    "67363f990ee5892595a3cbf4736bff0d",
+    "6b009de723b38c69629faa3dae79e248",
+    "259384ba5391a0502e351a57cff59c40",
+    "13eda36528007b2590fd1dd97bc2b4c8",
+    "848400583bc57c5e2cb908efc7db0fff"
   ],
   "published_titles": [
-    "Senadora cercana a Karina Milei y Menem gana peso en el Gobierno",
-    "En medio de la tensi\u00f3n con Patricia Bullrich, una senadora cercana a Karina Milei y Mart\u00edn Menem gana protagonismo en el Gobierno",
-    "Francisco quiso viajar a Argentina pero su salud se lo impidi\u00f3",
-    "Una carta reservada del Papa Francisco revela que quiso viajar a la Argentina antes de morir pero su enfermedad se lo impidi\u00f3",
-    "La C\u00e1mpora apoya frenar el aumento de tarifas el\u00e9ctricas bonaerenses",
-    "Los aumentos en las tarifas el\u00e9ctricas bonaerenses alimentan la tensi\u00f3n entre Kicillof y La C\u00e1mpora",
-    "Tapia y Toviggino: una jueza pidi\u00f3 datos financieros a EE.UU.",
-    "Un d\u00eda despu\u00e9s del fallo de la Corte, una jueza orden\u00f3 pedir a EE.UU. datos financieros sobre Tapia y Toviggino",
-    "La \u00faltima visita de un Papa a la Argentina fue hace casi 40 a\u00f1os",
-    "Cu\u00c3\u00a1ndo fue la \u00c3\u00baltima visita de un Papa a la Argentina: un viaje por 10 ciudades y una misa frente a 1 mill\u00c3\u00b3n de fieles",
-    "El Gobierno descarta cambios en el v\u00ednculo con Paraguay",
-    "El Gobierno recibe con optimismo la asunci\u00f3n del nuevo presidente de Paraguay y descarta cambios en la relaci\u00f3n bilateral",
     "Milei dar\u00e1 un discurso conciliador tras pedido del Vaticano",
     "En el Gobierno esperan un mensaje breve y conciliador de Milei en el Palacio Libertad tras un pedido del Vaticano",
     "Tensi\u00f3n en el Gabinete: aliados cuestionan y una senadora genera ruido",
@@ -1548,6 +1547,18 @@
     "El Papa advirti\u00f3 al Gobierno argentino, seg\u00fan un obispo",
     "Monse\u00f1or Jorge Lugones: \u201cEl Papa nos hizo advertencias a todos y tambi\u00e9n al Gobierno\u201d",
     "Gremios y empresarios piden retomar la mesa multisectorial",
-    "El Gobierno analiza un sorpresivo pedido de gremios y empresarios para retomar una mesa multisectorial"
+    "El Gobierno analiza un sorpresivo pedido de gremios y empresarios para retomar una mesa multisectorial",
+    "El Gobierno orden\u00f3 el regreso del embajador en Emiratos \u00c1rabes",
+    "El Gobierno orden\u00f3 el regreso a la Argentina del embajador en Emiratos \u00c1rabes Unidos",
+    "El kirchnerismo apuesta a que Cristina Kirchner sea candidata",
+    "Pese al silencio de la ONU, el kirchnerismo todav\u00eda cree que hay margen para una candidatura de CFK",
+    "Los obispos le agradecieron a Le\u00f3n XIV su visita a la Argentina",
+    "Los obispos enviaron una carta a Le\u00f3n XIV para agradecerle la visita a la Argentina",
+    "M\u00e1s de seis millones se movilizaron por la visita del Papa",
+    "El Gobierno inform\u00f3 que m\u00e1s de seis millones de personas se movilizaron para ver al Papa durante los tres d\u00edas de visita a la Argentina",
+    "La Iglesia argentina busca capitalizar el fervor por la visita papal",
+    "La Iglesia argentina se pregunta ahora c\u00f3mo canalizar el fervor popular que suscit\u00f3 la visita de Le\u00f3n XIV",
+    "Milei fij\u00f3 meta de llegar al 90% de la poblaci\u00f3n mundial",
+    "Javier Milei defendi\u00c3\u00b3 la apertura econ\u00c3\u00b3mica y fij\u00c3\u00b3 una meta ambiciosa: llegar al 90% de la poblaci\u00c3\u00b3n mundial"
   ]
 }
