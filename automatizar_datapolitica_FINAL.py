@@ -18,7 +18,8 @@ import xml.etree.ElementTree as ET
 import anthropic
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
 
 # ── Configuracion ─────────────────────────────────────────────────────────────
 PANEL_BASE      = "https://datapolitica.com/panel"
@@ -61,6 +62,9 @@ ORDEN_CINTA = 5
 
 # Cuantos articulos publicar en Orden 1 por corrida
 N_ORDEN1 = 5   # v23: la portada muestra 5 notas de Orden 1 (+ Editorial manual + Cinta); con 6 la primera quedaba afuera
+
+# v28: noticias con mas de estas horas de publicadas NO se usan (evita notas viejas como nuevas)
+MAX_EDAD_HORAS = 36
 
 # MODO PRUEBA: con DRY_RUN=1 se arma todo (titulos, fotos, textos) pero NO se borra ni se publica nada,
 # y no se guarda el estado. Sirve para revisar una version nueva antes de que llegue al sitio.
@@ -168,7 +172,8 @@ def save_state(state: dict):
     try:
         with open(STATE_FILE, "w") as f:
             json.dump(state, f, indent=2)
-        print(f"   Estado guardado: {state}")
+        print(f"   Estado guardado: {len(state.get('orden1_ids', []))} notas de Orden 1, "
+              f"cinta {state.get('cinta_id')}, {len(state.get('published_titles', []))} titulos en historial")
     except Exception as e:
         print(f"   Aviso: No se pudo guardar {STATE_FILE}: {e}")
 
@@ -614,18 +619,73 @@ def get_viewstate(session: requests.Session) -> dict | None:
 
 
 # ── RSS ────────────────────────────────────────────────────────────────────────
-def _parse_rss(xml_text: str) -> list[dict]:
+def arreglar_letras(texto: str) -> str:
+    """v28: repara tildes rotas ("LeÃ³n" -> "León") cuando un diario manda el texto con la
+    codificacion equivocada. Si el texto esta bien, lo devuelve igual."""
+    if not texto or not any(c in texto for c in "ÃÂâ"):
+        return texto
+    try:
+        crudo = bytearray()
+        for c in texto:
+            try:
+                crudo += c.encode("cp1252")
+            except UnicodeEncodeError:
+                if ord(c) > 255:
+                    return texto
+                crudo.append(ord(c))  # caracteres que cp1252 no tiene (ej. el de la comilla de cierre)
+        return crudo.decode("utf-8")
+    except UnicodeDecodeError:
+        return texto
+
+
+def _leer_fecha(texto: str):
+    """Convierte la fecha de una noticia (formato RSS o ISO) a fecha con zona horaria. None si no se puede."""
+    texto = (texto or "").strip()
+    if not texto:
+        return None
+    try:
+        f = parsedate_to_datetime(texto)
+    except Exception:
+        f = None
+    if f is None:
+        try:
+            f = datetime.fromisoformat(texto.replace("Z", "+00:00"))
+        except Exception:
+            return None
+    if f.tzinfo is None:
+        f = f.replace(tzinfo=timezone(timedelta(hours=-3)))  # sin zona: hora argentina
+    return f
+
+
+def edad_horas(art: dict):
+    """Horas desde que se publico la noticia (segun el diario). None si no se sabe."""
+    f = art.get("_fecha") or art.get("_fecha_pagina")
+    if not f:
+        return None
+    return (datetime.now(timezone.utc) - f).total_seconds() / 3600
+
+
+def es_noticia_vieja(art: dict) -> bool:
+    e = edad_horas(art)
+    return e is not None and e > MAX_EDAD_HORAS
+
+
+def _parse_rss(xml_text) -> list[dict]:
+    """Recibe el feed como bytes (asi se respeta la codificacion que declara el diario)."""
     articles = []
     try:
         root = ET.fromstring(xml_text)
         ns = {"atom": "http://www.w3.org/2005/Atom",
-              "media": "http://search.yahoo.com/mrss/"}
+              "media": "http://search.yahoo.com/mrss/",
+              "dc": "http://purl.org/dc/elements/1.1/"}
         items = root.findall(".//item")
         for item in items:
-            title = (item.findtext("title") or "").strip()
-            desc  = (item.findtext("description") or
-                     item.findtext("content") or "").strip()
+            title = arreglar_letras((item.findtext("title") or "").strip())
+            desc  = arreglar_letras((item.findtext("description") or
+                     item.findtext("content") or "").strip())
             link  = (item.findtext("link") or "").strip()
+            fecha = _leer_fecha(item.findtext("pubDate") or
+                                item.findtext("dc:date", namespaces=ns) or "")
             img_url = ""
             media_content = item.find("media:content", ns)
             if media_content is not None:
@@ -636,19 +696,21 @@ def _parse_rss(xml_text: str) -> list[dict]:
                     img_url = enclosure.get("url", "")
             if title:
                 articles.append({"title": title, "summary": desc,
-                                  "link": link, "img_url": img_url})
+                                  "link": link, "img_url": img_url, "_fecha": fecha})
         if not articles:
             for entry in root.findall(".//atom:entry", ns):
-                title   = (entry.findtext("atom:title", namespaces=ns) or "").strip()
-                summary = (entry.findtext("atom:summary", namespaces=ns) or
-                           entry.findtext("atom:content", namespaces=ns) or "").strip()
+                title   = arreglar_letras((entry.findtext("atom:title", namespaces=ns) or "").strip())
+                summary = arreglar_letras((entry.findtext("atom:summary", namespaces=ns) or
+                           entry.findtext("atom:content", namespaces=ns) or "").strip())
+                fecha   = _leer_fecha(entry.findtext("atom:published", namespaces=ns) or
+                                      entry.findtext("atom:updated", namespaces=ns) or "")
                 link_el = entry.find("atom:link[@rel='alternate']", ns)
                 link    = link_el.get("href", "") if link_el is not None else ""
                 if title:
                     articles.append({"title": title, "summary": summary,
-                                     "link": link, "img_url": ""})
-    except Exception:
-        pass
+                                     "link": link, "img_url": "", "_fecha": fecha})
+    except Exception as e:
+        print(f"   Aviso: feed ilegible ({type(e).__name__}: {str(e)[:80]})")
     return articles
 
 
@@ -662,7 +724,11 @@ def fetch_articles(n: int = 40) -> list[dict]:
         try:
             resp = requests.get(url, headers=HEADERS, timeout=20)
             resp.raise_for_status()
-            items = _parse_rss(resp.text)
+            items = _parse_rss(resp.content)
+            viejas = [a for a in items if es_noticia_vieja(a)]
+            for a in viejas:
+                print(f"   Noticia vieja ({edad_horas(a):.0f} h), descartada: {a['title'][:60]}")
+            items = [a for a in items if not es_noticia_vieja(a)]
             for art in items:
                 if art.get("title"):
                     art["_fuente"] = url
@@ -717,7 +783,7 @@ def get_current_homepage_articles() -> list[dict]:
         resp = requests.get("http://datapolitica.com/index.aspx",
                             headers=HEADERS, timeout=20)
         resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = BeautifulSoup(resp.content, "html.parser")
         titles = set()
         for a in soup.find_all("a"):
             text = a.get_text(strip=True)
@@ -1037,11 +1103,39 @@ def _es_url_logo(url: str) -> bool:
     return False
 
 
-def _scrape_best_image(link: str) -> bytes | None:
+_PATRON_FECHA_JSON = re.compile(r'"datePublished"\s*:\s*"([^"]+)"')
+
+
+def _fecha_de_pagina(soup, html_bytes: bytes):
+    """v28: fecha de publicacion que declara la pagina de la noticia (si la tiene)."""
+    for attrs in ({"property": "article:published_time"}, {"name": "article:published_time"},
+                  {"itemprop": "datePublished"}, {"name": "date"}, {"name": "pubdate"},
+                  {"property": "og:article:published_time"}):
+        m = soup.find("meta", attrs)
+        if m and m.get("content"):
+            f = _leer_fecha(m["content"])
+            if f:
+                return f
+    t = soup.find("time", attrs={"datetime": True})
+    m = _PATRON_FECHA_JSON.search(html_bytes.decode("utf-8", errors="ignore"))
+    if m:
+        f = _leer_fecha(m.group(1))
+        if f:
+            return f
+    if t:
+        return _leer_fecha(t["datetime"])
+    return None
+
+
+def _scrape_best_image(link: str, art: dict | None = None) -> bytes | None:
     """Extrae la mejor imagen disponible del artículo: og:image, twitter:image, primera img grande."""
     try:
         resp = requests.get(link, headers=HEADERS, timeout=15)
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = BeautifulSoup(resp.content, "html.parser")
+        if art is not None and not art.get("_fecha"):
+            art["_fecha_pagina"] = _fecha_de_pagina(soup, resp.content)
+            if es_noticia_vieja(art):
+                return None
 
         # 1) og:image
         og = (soup.find("meta", {"property": "og:image"}) or
@@ -1309,9 +1403,11 @@ def fetch_article_image(art: dict) -> bytes | None:
     # Primero: scraping completo del artículo (og:image > twitter:image > img tag)
     link = art.get("link", "")
     if link:
-        data = _scrape_best_image(link)
+        data = _scrape_best_image(link, art)
         if data:
             return data
+        if es_noticia_vieja(art):
+            return None
 
     # Fallback: imagen del RSS
     img_url = art.get("img_url", "")
@@ -1370,11 +1466,22 @@ def registrar_foto_usada(data: bytes):
         _FIRMAS_FOTOS_USADAS.append(f)
 
 
+# v28: noticias ya rechazadas por la foto (repetida, con marca, mal encuadrada, sin foto) o por vieja.
+# Se recuerdan durante la corrida para no volver a bajarlas y revisarlas en cada intento
+# (antes eso se comia muchos minutos y la corrida se cortaba).
+_RECHAZADAS: set = set()
+
+
+def _clave_art(art: dict) -> str:
+    return art.get("link") or art.get("title", "")
+
+
 def find_article_with_photo(articles: list[dict],
                             exclude_similar_to: list[dict] | None = None,
                             used_indices: set | None = None,
                             require_argentina_politics: bool = True,
-                            used_img_hashes: set | None = None) -> tuple[dict | None, bytes | None, int]:
+                            used_img_hashes: set | None = None,
+                            limite_min: float | None = None) -> tuple[dict | None, bytes | None, int]:
     """
     Busca el primer articulo que:
     - No este en used_indices
@@ -1392,10 +1499,18 @@ def find_article_with_photo(articles: list[dict],
         used_img_hashes = set()
 
     for i, art in enumerate(articles):
+        if limite_min is not None and _minutos() > limite_min:
+            print(f"   Tiempo limite ({limite_min} min) buscando noticia con foto: se corta la busqueda.")
+            return None, None, -1
         if _minutos() > LIMITE_CINTA_MIN + 2:
             print("   Tiempo limite: se deja de buscar noticias para no cortar la corrida.")
             return None, None, -1
         if i in used_indices:
+            continue
+        if _clave_art(art) in _RECHAZADAS:
+            continue
+        if es_noticia_vieja(art):
+            _RECHAZADAS.add(_clave_art(art))
             continue
         if should_discard(art):
             continue
@@ -1404,19 +1519,27 @@ def find_article_with_photo(articles: list[dict],
         if any(articles_are_similar(prev, art) for prev in exclude_similar_to):
             continue
         img = fetch_article_image(art)
+        if es_noticia_vieja(art):
+            print(f"   Noticia vieja ({edad_horas(art):.0f} h segun el diario), descartada: {art['title'][:60]}")
+            _RECHAZADAS.add(_clave_art(art))
+            continue
         if img is not None:
             img_hash = hashlib.md5(img).hexdigest()
             if img_hash in used_img_hashes:
                 print(f"   Foto repetida, descartado: {art['title'][:60]}")
+                _RECHAZADAS.add(_clave_art(art))
                 continue
             if foto_muy_parecida(img):
                 print(f"   Foto casi igual a otra de esta actualizacion, descartado: {art['title'][:60]}")
+                _RECHAZADAS.add(_clave_art(art))
                 continue
             if foto_con_marca(img):
                 print(f"   Foto con marca de un medio, descartado: {art['title'][:60]}")
+                _RECHAZADAS.add(_clave_art(art))
                 continue
             if not encuadre_ok(img):
                 print(f"   Foto mal encuadrada (primer plano o cabeza cortada), descartado: {art['title'][:60]}")
+                _RECHAZADAS.add(_clave_art(art))
                 continue
             used_img_hashes.add(img_hash)
             registrar_foto_usada(img)
@@ -1424,6 +1547,7 @@ def find_article_with_photo(articles: list[dict],
             return art, img, i
         else:
             print(f"   Sin foto, descartado: {art['title'][:60]}")
+            _RECHAZADAS.add(_clave_art(art))
     return None, None, -1
 
 
@@ -2044,6 +2168,8 @@ def avisar_indexnow(ids: list) -> str:
 _T0 = time.time()
 LIMITE_ORDEN1_MIN = 17   # despues de esto no se arman mas notas de Orden 1
 LIMITE_CINTA_MIN = 21    # despues de esto no se arma la cinta
+LIMITE_FINAL_MIN = 24    # v28: despues de esto no se empieza NADA nuevo (el corte de GitHub es a los 30)
+_T0 = time.time()
 
 
 def _minutos():
@@ -2053,6 +2179,7 @@ def _minutos():
 def main():
     global _T0
     _T0 = time.time()
+    _fecha_corrida = datetime.utcnow().strftime("%Y-%m-%d %H:%M")
     print("=" * 55)
     print("  Automatizador datapolitica.com")
     print(f"  {datetime.now().strftime('%d/%m/%Y %H:%M')} (hora UTC)")
@@ -2259,6 +2386,44 @@ def main():
     nuevos_img_hashes = []
     nuevos_titulos = []
 
+    def armar_estado(cinta_id_actual, estado_corrida: str) -> dict:
+        """Arma el estado a guardar con lo publicado HASTA AHORA."""
+        _mias = ("orden1_ids", "cinta_id", "published_links", "used_img_hashes", "published_titles")
+        est = {k: v for k, v in state.items() if k not in _mias}
+        est["orden1_ids"] = list(orden1_ids)
+        if cinta_id_actual:
+            est["cinta_id"] = cinta_id_actual
+        # Solo recordar los articulos de las ultimas corridas para no agotar el RSS en runs seguidos
+        est["published_links"] = (list(published_links) + nuevos_links)[-12:]
+        # Hashes de imagenes usadas (ultimas 40) para no repetir fotos entre corridas
+        est["used_img_hashes"] = (list(used_img_hashes) + nuevos_img_hashes)[-40:]
+        # Historial de titulos publicados (ultimos 200) para no repetir temas entre dias
+        est["published_titles"] = (published_titles + [t for t in nuevos_titulos if t])[-200:]
+        # Registro de corridas (para el resumen diario): ultimas 72
+        detalle = (RESUMEN["errores"] + RESUMEN["descartes"])[:6]
+        if estado_corrida == "CORTADA":
+            detalle = ["La corrida se corto antes de terminar (quedo anotado lo publicado)"] + detalle[:5]
+        log = list(state.get("run_log", []))
+        log.append({"fecha": _fecha_corrida, "publicadas": RESUMEN["publicadas"],
+                    "cinta": RESUMEN["cinta"],
+                    "estado": "PROBLEMA" if estado_corrida == "CORTADA" else estado_corrida,
+                    "detalle": detalle,
+                    "titulos": [n["titulo"] for n in RESUMEN["notas"]]})
+        est["run_log"] = log[-72:]
+        return est
+
+    def guardar_estado_parcial(cinta_id_actual):
+        """v28: se anota cada nota apenas se publica. Si GitHub corta la corrida, lo publicado
+        queda registrado (la proxima corrida lo puede borrar y no lo repite)."""
+        if DRY_RUN:
+            return
+        try:
+            with open(STATE_FILE, "w") as f:
+                json.dump(armar_estado(cinta_id_actual, "CORTADA"), f, indent=2)
+            print("    (estado parcial guardado)")
+        except Exception as e:
+            print(f"    Aviso: no se pudo guardar el estado parcial: {e}")
+
     publicadas = 0
     intentos = 0
     # Si una nota se descarta (titulo malo, repetida, etc.) se prueba con la siguiente noticia
@@ -2276,9 +2441,14 @@ def main():
             used_indices=used_indices,
             require_argentina_politics=False,  # ya filtrado arriba
             used_img_hashes=used_img_hashes,
+            limite_min=LIMITE_ORDEN1_MIN + 1,
         )
         if art is None:
-            print(f"   No hay mas noticias disponibles para Orden 1.")
+            if _minutos() > LIMITE_ORDEN1_MIN:
+                print(f"   Tiempo limite ({LIMITE_ORDEN1_MIN} min): se cierra la corrida con {publicadas} notas para no cortarse.")
+                RESUMEN["descartes"].append(f"Tiempo limite: se publicaron {publicadas} notas para no cortar la corrida")
+            else:
+                print(f"   No hay mas noticias disponibles para Orden 1.")
             break
 
         used_indices.add(idx)
@@ -2360,6 +2530,8 @@ def main():
                 orden1_ids.append(note_id)
             if art.get("link"):
                 nuevos_links.append(art["link"])
+            if ok:
+                guardar_estado_parcial(None)
         except Exception as e:
             print(f"    Excepcion: {e}")
             RESUMEN["errores"].append(f"Error armando una nota: {str(e)[:120]}")
@@ -2386,6 +2558,7 @@ def main():
                     used_indices=_usados,
                     require_argentina_politics=False,
                     used_img_hashes=used_img_hashes,
+                    limite_min=LIMITE_FINAL_MIN,
                 )
                 if cand is None:
                     break
@@ -2406,6 +2579,13 @@ def main():
             break
         art_cinta, img_cinta = _siguiente_candidato_cinta()
         if art_cinta is None:
+            if _minutos() > LIMITE_CINTA_MIN:
+                print(f"   Tiempo limite ({LIMITE_CINTA_MIN} min): la cinta queda para la proxima corrida.")
+                motivos_cinta.append("tiempo limite, queda para la proxima corrida")
+            break
+        if _minutos() > LIMITE_FINAL_MIN:
+            print(f"   Tiempo limite ({LIMITE_FINAL_MIN} min): la cinta queda para la proxima corrida.")
+            motivos_cinta.append("tiempo limite, queda para la proxima corrida")
             break
         try:
             ct = rewrite_con_reintento(client, art_cinta, "cinta")
@@ -2450,6 +2630,7 @@ def main():
                 RESUMEN["cinta"] = True
                 RESUMEN["notas"].append({"tipo": "Cinta", "titulo": t2, "foto": bool(img_cinta), "persona": ""})
                 nuevos_titulos += [t2, art_cinta.get('title', '')]
+                guardar_estado_parcial(cinta_id)
                 break
             else:
                 RESUMEN["errores"].append(f"El panel no acepto la cinta: {t2[:60]}")
@@ -2473,39 +2654,27 @@ def main():
             RESUMEN["descartes"].append("Cinta: no hubo noticia nueva para la cinta")
 
     # 8. Guardar estado
-    # Conservar claves que no maneja este script (por ejemplo las del posteo en X)
-    _mias = ("orden1_ids", "cinta_id", "published_links", "used_img_hashes", "published_titles")
-    nuevo_estado = {k: v for k, v in state.items() if k not in _mias}
-    nuevo_estado["orden1_ids"] = orden1_ids
-    if cinta_id:
-        nuevo_estado["cinta_id"] = cinta_id
-
-    # Solo recordar los articulos de la corrida ACTUAL para evitar
-    # acumular historial que agota el RSS en runs seguidos
-    all_links = list(published_links) + nuevos_links
-    nuevo_estado["published_links"] = all_links[-12:]
-
-    # Persistir hashes de imagenes usadas (ultimas 40) para no repetir fotos entre corridas
-    all_hashes = list(used_img_hashes) + nuevos_img_hashes
-    nuevo_estado["used_img_hashes"] = all_hashes[-40:]
-    print(f"   Hashes de imagenes guardados: {len(nuevo_estado['used_img_hashes'])}")
-
-    # Historial de titulos publicados (ultimos 200) para no repetir temas entre dias
-    nuevo_estado["published_titles"] = (published_titles + [t for t in nuevos_titulos if t])[-200:]
-    print(f"   Titulos guardados en historial: {len(nuevo_estado['published_titles'])}")
-
     # v26: aviso a Bing de las notas nuevas (no cambia nada del sitio)
     RESUMEN["indexnow"] = avisar_indexnow(list(orden1_ids) + ([cinta_id] if cinta_id else []))
     print(f"   {RESUMEN['indexnow']}")
 
-    # Registro de corridas (para el resumen diario): ultimas 72
+    # v28: control de letras rotas en la portada (ej. "sÃ¡bado" en la fecha). Solo avisa.
+    try:
+        _home = requests.get("https://datapolitica.com/index.aspx", headers=HEADERS, timeout=20)
+        _txt = BeautifulSoup(_home.content, "html.parser").get_text(" ", strip=True)
+        _rotas = sorted(set(re.findall(r"\w*[ÃÂ][\x80-\xbf¡-¿]\w*", _txt)))[:5]
+        if _rotas:
+            _aviso = ("Aviso del sitio: la portada muestra letras rotas (" + ", ".join(_rotas) +
+                      "). Se arregla en el servidor (Plesk), no en el robot.")
+            print("   " + _aviso)
+            RESUMEN["descartes"].append(_aviso)
+    except Exception as _e:
+        print(f"   Control de letras de la portada no disponible: {_e}")
+
     estado_corrida = evaluar_corrida()
-    log = list(state.get("run_log", []))
-    log.append({"fecha": datetime.utcnow().strftime("%Y-%m-%d %H:%M"), "publicadas": RESUMEN["publicadas"],
-                "cinta": RESUMEN["cinta"], "estado": estado_corrida,
-                "detalle": (RESUMEN["errores"] + RESUMEN["descartes"])[:6],
-                "titulos": [n["titulo"] for n in RESUMEN["notas"]]})
-    nuevo_estado["run_log"] = log[-72:]
+    nuevo_estado = armar_estado(cinta_id, estado_corrida)
+    print(f"   Hashes de imagenes guardados: {len(nuevo_estado['used_img_hashes'])}")
+    print(f"   Titulos guardados en historial: {len(nuevo_estado['published_titles'])}")
 
     if DRY_RUN:
         print("\n>> [PRUEBA] No se guarda el estado.")

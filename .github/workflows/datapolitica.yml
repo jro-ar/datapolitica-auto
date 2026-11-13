@@ -62,6 +62,9 @@ jobs:
 
 
       - name: Guardar estado
+        # v28: se guarda SIEMPRE, aunque la corrida se haya cortado: el programa anota cada nota
+        # apenas la publica, y asi la proxima corrida sabe que hay en el sitio y no lo repite.
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -90,7 +93,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ "${{ job.status }}" != "success" ] && [ ! -f alerta.txt ]; then
-            printf "## La corrida de datapolitica se corto por un error\n\nVer el detalle: %s\n" "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" > alerta.txt
+            printf "## La corrida de datapolitica se corto por un error\n\nLas notas que alcanzo a publicar quedaron anotadas (la proxima corrida las tiene en cuenta).\n\nVer el detalle: %s\n" "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" > alerta.txt
           fi
           if [ -f alerta.txt ]; then
             echo "" >> alerta.txt
