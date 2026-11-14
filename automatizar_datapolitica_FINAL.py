@@ -509,6 +509,39 @@ def patch_css_tipografia():
         print(f"   Error inesperado en parche CSS: {e}")
 
 
+def diagnostico_servidor() -> dict:
+    """v29: SOLO LECTURA. Prueba si se puede entrar por FTP y si web.config fija utf-8.
+    No muestra el contenido del archivo (puede tener datos privados)."""
+    import ftplib
+    res = {"fecha": datetime.utcnow().strftime("%Y-%m-%d %H:%M")}
+    try:
+        r = requests.get("https://datapolitica.com/", headers=HEADERS, timeout=20)
+        res["home_charset_en_cabecera"] = "charset" in r.headers.get("Content-Type", "").lower()
+    except Exception as e:
+        res["home_error"] = type(e).__name__
+    passwd = os.environ.get("PLESK_PASS") or os.environ.get("DATAPOLITICA_PANEL_PASS", "")
+    try:
+        ftp = ftplib.FTP()
+        ftp.connect("datapolitica.com", 21, timeout=20)
+        ftp.login("admin", passwd)
+        res["ftp"] = "ok"
+        for path in ("httpdocs/web.config", "web.config"):
+            try:
+                buf = io.BytesIO()
+                ftp.retrbinary(f"RETR {path}", buf.write)
+                txt = buf.getvalue().decode("utf-8", errors="ignore").lower()
+                res["web_config"] = path
+                res["tiene_globalization"] = "<globalization" in txt
+                res["tiene_responseencoding_utf8"] = 'responseencoding="utf-8"' in txt
+                break
+            except ftplib.error_perm:
+                continue
+        ftp.quit()
+    except Exception as e:
+        res["ftp"] = f"no ({type(e).__name__})"
+    return res
+
+
 def delete_note(session: requests.Session, note_id: int) -> bool:
     url = f"{PANEL_DEL_URL}?mod=deletenews&ids={note_id}"
     try:
@@ -2732,6 +2765,12 @@ def main():
             RESUMEN["descartes"].append(_aviso)
     except Exception as _e:
         print(f"   Control de letras de la portada no disponible: {_e}")
+
+    # v29: revision (solo lectura, una vez) del acceso al servidor para poder fijar las tildes de la
+    # portada. No cambia nada; solo deja anotado si hay acceso y si web.config fija utf-8.
+    if not DRY_RUN and not state.get("diag_servidor"):
+        state["diag_servidor"] = diagnostico_servidor()
+        print(f"   Diagnostico servidor: {state['diag_servidor']}")
 
     estado_corrida = evaluar_corrida()
     nuevo_estado = armar_estado(cinta_id, estado_corrida)
