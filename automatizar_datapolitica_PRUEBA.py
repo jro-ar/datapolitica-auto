@@ -65,6 +65,12 @@ N_ORDEN1 = 5   # v23: la portada muestra 5 notas de Orden 1 (+ Editorial manual 
 
 # v28: noticias con mas de estas horas de publicadas NO se usan (evita notas viejas como nuevas)
 MAX_EDAD_HORAS = 36
+# v29: una noticia de un tema que YA publicamos hace dias (la "reserva") solo vuelve si es de verdad
+# nueva: con fecha conocida y de menos de estas horas. Si no se sabe la fecha, no se usa.
+MAX_EDAD_RESERVA_HORAS = 12
+# v29: notas a borrar una sola vez (id, palabra que debe estar en su titulo publico).
+# 4962 = "Patricia Walsh murio a los 74 anos" (7/11), repeticion de la 4912 del 5/11.
+NOTAS_A_BORRAR = [(4962, "walsh")]
 
 # MODO PRUEBA: con DRY_RUN=1 se arma todo (titulos, fotos, textos) pero NO se borra ni se publica nada,
 # y no se guarda el estado. Sirve para revisar una version nueva antes de que llegue al sitio.
@@ -503,6 +509,39 @@ def patch_css_tipografia():
         print(f"   Error inesperado en parche CSS: {e}")
 
 
+def diagnostico_servidor() -> dict:
+    """v29: SOLO LECTURA. Prueba si se puede entrar por FTP y si web.config fija utf-8.
+    No muestra el contenido del archivo (puede tener datos privados)."""
+    import ftplib
+    res = {"fecha": datetime.utcnow().strftime("%Y-%m-%d %H:%M")}
+    try:
+        r = requests.get("https://datapolitica.com/", headers=HEADERS, timeout=20)
+        res["home_charset_en_cabecera"] = "charset" in r.headers.get("Content-Type", "").lower()
+    except Exception as e:
+        res["home_error"] = type(e).__name__
+    passwd = os.environ.get("PLESK_PASS") or os.environ.get("DATAPOLITICA_PANEL_PASS", "")
+    try:
+        ftp = ftplib.FTP()
+        ftp.connect("datapolitica.com", 21, timeout=20)
+        ftp.login("admin", passwd)
+        res["ftp"] = "ok"
+        for path in ("httpdocs/web.config", "web.config"):
+            try:
+                buf = io.BytesIO()
+                ftp.retrbinary(f"RETR {path}", buf.write)
+                txt = buf.getvalue().decode("utf-8", errors="ignore").lower()
+                res["web_config"] = path
+                res["tiene_globalization"] = "<globalization" in txt
+                res["tiene_responseencoding_utf8"] = 'responseencoding="utf-8"' in txt
+                break
+            except ftplib.error_perm:
+                continue
+        ftp.quit()
+    except Exception as e:
+        res["ftp"] = f"no ({type(e).__name__})"
+    return res
+
+
 def delete_note(session: requests.Session, note_id: int) -> bool:
     url = f"{PANEL_DEL_URL}?mod=deletenews&ids={note_id}"
     try:
@@ -667,7 +706,20 @@ def edad_horas(art: dict):
 
 def es_noticia_vieja(art: dict) -> bool:
     e = edad_horas(art)
-    return e is not None and e > MAX_EDAD_HORAS
+    if e is not None and e > MAX_EDAD_HORAS:
+        return True
+    # v29: tema ya publicado hace dias -> solo si sabemos que la noticia es de las ultimas horas
+    if art.get("_reserva") and art.get("_fecha_revisada"):
+        return e is None or e > MAX_EDAD_RESERVA_HORAS
+    return False
+
+
+_PATRON_MUERTE = re.compile(r"\b(murio|muere|fallecio|fallece|fallecimiento|despiden|despidieron|velatorio)\b")
+
+
+def es_noticia_de_muerte(titulo: str) -> bool:
+    """v29: un fallecimiento es una noticia de una sola vez: si ya la publicamos, no vuelve."""
+    return bool(_PATRON_MUERTE.search(_normalize(titulo or "")))
 
 
 def _parse_rss(xml_text) -> list[dict]:
@@ -1132,8 +1184,15 @@ def _scrape_best_image(link: str, art: dict | None = None) -> bytes | None:
     try:
         resp = requests.get(link, headers=HEADERS, timeout=15)
         soup = BeautifulSoup(resp.content, "html.parser")
-        if art is not None and not art.get("_fecha"):
-            art["_fecha_pagina"] = _fecha_de_pagina(soup, resp.content)
+        if art is not None and (not art.get("_fecha") or art.get("_reserva")):
+            _fp = _fecha_de_pagina(soup, resp.content)
+            if _fp:
+                # v29: si el diario y el RSS no coinciden, vale la fecha MAS VIEJA (el RSS a veces
+                # pone la hora de la ultima actualizacion, no la de publicacion)
+                if art.get("_fecha"):
+                    art["_fecha"] = min(art["_fecha"], _fp)
+                art["_fecha_pagina"] = _fp
+            art["_fecha_revisada"] = True
             if es_noticia_vieja(art):
                 return None
 
@@ -1519,8 +1578,15 @@ def find_article_with_photo(articles: list[dict],
         if any(articles_are_similar(prev, art) for prev in exclude_similar_to):
             continue
         img = fetch_article_image(art)
+        if art.get("_reserva"):
+            art["_fecha_revisada"] = True
         if es_noticia_vieja(art):
-            print(f"   Noticia vieja ({edad_horas(art):.0f} h segun el diario), descartada: {art['title'][:60]}")
+            _e = edad_horas(art)
+            if art.get("_reserva"):
+                print(f"   Tema ya publicado y la noticia no es de las ultimas {MAX_EDAD_RESERVA_HORAS} h "
+                      f"({'fecha desconocida' if _e is None else f'{_e:.0f} h'}), descartada: {art['title'][:60]}")
+            else:
+                print(f"   Noticia vieja ({_e:.0f} h segun el diario), descartada: {art['title'][:60]}")
             _RECHAZADAS.add(_clave_art(art))
             continue
         if img is not None:
@@ -2304,9 +2370,17 @@ def main():
                 sin_repetir.append(art)
             elif por_texto:
                 print(f"   [repetido-texto] Descartado: {art.get('title','')[:60]}")
+            elif es_noticia_de_muerte(art.get('title', '')):
+                # v29: caso Patricia Walsh (5/11 y otra vez el 7/11): un fallecimiento no vuelve como novedad
+                print(f"   [repetido-muerte] Descartado (fallecimiento ya publicado): {art.get('title','')[:60]}")
             elif not es_tema_repetido(art.get('title', ''), recientes)[0]:
                 # tema que tratamos hace mas de un dia: puede volver como NOVEDAD si hace falta
+                e_res = edad_horas(art)
+                if e_res is not None and e_res > MAX_EDAD_RESERVA_HORAS:
+                    print(f"   [tema-viejo] Descartado: tema ya publicado y noticia de hace {e_res:.0f} h: {art.get('title','')[:60]}")
+                    continue
                 print(f"   [tema-viejo] En reserva (novedad de un tema de dias atras): {art.get('title','')[:60]}")
+                art["_reserva"] = True
                 reserva.append(art)
             else:
                 print(f"   [repetido-tema] Descartado: {art.get('title','')[:60]}")
@@ -2367,6 +2441,27 @@ def main():
                 RESUMEN["borrado"] += f"; nota borrada {_ids_previos[0]}: {'sigue visible' if _sigue else 'ya no existe en el sitio'}"
             except Exception as _e:
                 print(f"   Control de borrado no disponible: {_e}")
+
+    # v29: notas puntuales a borrar UNA sola vez (se anota en el estado). Antes de borrar se
+    # confirma por el titulo publico que sea la nota correcta.
+    if not DRY_RUN:
+        _hechas = set(state.get("borradas_a_mano", []))
+        for _nid, _palabra in NOTAS_A_BORRAR:
+            if _nid in _hechas:
+                continue
+            try:
+                _r = requests.get(f"https://datapolitica.com/{_nid}~x", headers=HEADERS, timeout=20)
+                _tit = BeautifulSoup(_r.content, "html.parser").title
+                _tit = _tit.get_text(" ", strip=True) if _tit else ""
+                if _palabra in _normalize(_tit):
+                    print(f"\n>> Borrando nota repetida {_nid}: {_tit[:70]}")
+                    delete_note(session, _nid)
+                else:
+                    print(f"\n>> Nota {_nid} no es la esperada ('{_tit[:50]}'): no se borra")
+                _hechas.add(_nid)
+            except Exception as _e:
+                print(f"   No se pudo revisar la nota {_nid}: {_e}")
+        state["borradas_a_mano"] = sorted(_hechas)
 
     # Borrar cinta anterior del estado
     prev_cinta_id = None if DRY_RUN else state.get("cinta_id")
@@ -2670,6 +2765,12 @@ def main():
             RESUMEN["descartes"].append(_aviso)
     except Exception as _e:
         print(f"   Control de letras de la portada no disponible: {_e}")
+
+    # v29: revision (solo lectura, una vez) del acceso al servidor para poder fijar las tildes de la
+    # portada. No cambia nada; solo deja anotado si hay acceso y si web.config fija utf-8.
+    if not DRY_RUN and not state.get("diag_servidor"):
+        state["diag_servidor"] = diagnostico_servidor()
+        print(f"   Diagnostico servidor: {state['diag_servidor']}")
 
     estado_corrida = evaluar_corrida()
     nuevo_estado = armar_estado(cinta_id, estado_corrida)
