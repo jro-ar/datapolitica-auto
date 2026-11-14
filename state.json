@@ -57,22 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-27 11:08",
-      "publicadas": 4,
-      "cinta": true,
-      "estado": "SIN NOVEDADES",
-      "detalle": [
-        "Sin foto de Juan Marchetto: Juan Marchetto apela el sobreseimiento de Milei en"
-      ],
-      "titulos": [
-        "Glencore invertir\u00e1 US$ 6.393 millones en miner\u00eda en Catamarca",
-        "El embajador en Tailandia suma tambi\u00e9n la representaci\u00f3n ante Camboya",
-        "Casi la mitad de los argentinos pide que el Papa priorice la pobreza",
-        "El Gobierno y el PJ pelean por la Magistratura",
-        "Brote de meningitis en Mendoza: 4 infectados y 2 muertos"
-      ]
-    },
-    {
       "fecha": "2026-10-27 12:08",
       "publicadas": 2,
       "cinta": true,
@@ -1337,71 +1321,92 @@
       "titulos": [
         "Naci\u00f3n y la Ciudad firmaron un acuerdo de cooperaci\u00f3n judicial"
       ]
+    },
+    {
+      "fecha": "2026-11-14 18:01",
+      "publicadas": 2,
+      "cinta": false,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Titulo distinto de la noticia original: Carri\u00f3 dijo que Bullrich busca el poder dentro del ofic",
+        "Titulo malo: Tensi\u00f3n en Devoto: proponen un sitio de Memoria donde el gob",
+        "Cinta: Candado: dice 'nacimiento' y la noticia original no."
+      ],
+      "titulos": [
+        "Kicillof, Massa y Bullrich: sus movimientos de cara a 2027",
+        "Karina Milei sube su perfil y apunta contra Patricia Bullrich"
+      ]
     }
   ],
-  "orden1_ids": [],
-  "cinta_id": 5114,
+  "borradas_a_mano": [
+    4962
+  ],
+  "diag_servidor": {
+    "fecha": "2026-11-14 18:07",
+    "home_charset_en_cabecera": false,
+    "ftp": "no (error_perm)"
+  },
+  "orden1_ids": [
+    5115,
+    5116
+  ],
   "published_links": [
-    "https://www.lanacion.com.ar/politica/leon-xiv-camino-en-la-argentina-sobre-las-huellas-del-papa-francisco-nid12112026/",
-    "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-lo-unico-que-le-faltaba-al-pais-eran-reglas-claras-dijo-el-nid13112026/",
-    "https://www.ambito.com/politica/el-sugestivo-like-javier-milei-que-volvio-alimentar-las-especulaciones-patricia-bullrich-n6344973",
-    "https://www.infobae.com/politica/2026/11/13/el-senador-diego-valenzuela-hablo-de-la-relacion-entre-milei-y-bullrich-y-descarto-una-interna-se-complementan/",
+    "https://tn.com.ar/politica/2026/11/14/mientras-negocia-una-posible-alianza-con-lla-el-pro-acelera-su-armado-bonaerense-y-busca-fortalecer-a-sus-candidatos/",
     "https://www.ambito.com/politica/el-gobierno-vuelve-reunir-la-mesa-semanas-paralisis-y-medio-tensiones-internas-n6345141",
-    "https://www.lanacion.com.ar/politica/la-cgt-y-los-movimientos-sociales-pronostican-un-aumento-de-la-conflictividad-social-nid13112026/",
     "https://www.infobae.com/politica/2026/11/14/suspension-de-las-paso-la-necesidad-urgente-del-gobierno-presiones-a-bullrich-y-el-viaje-clave-de-santilli/",
     "https://www.lanacion.com.ar/politica/la-justicia-ordeno-la-liquidacion-de-las-acciones-de-austral-agro-sa-para-ejecutar-las-multas-a-nid13112026/",
-    "https://tn.com.ar/politica/2026/11/14/mientras-negocia-una-posible-alianza-con-lla-el-pro-acelera-su-armado-bonaerense-y-busca-fortalecer-a-sus-candidatos/",
-    "https://www.infobae.com/politica/2026/11/13/el-director-de-fundacion-faro-planteo-como-sostener-las-reformas-mas-alla-de-milei-un-cambio-cultural/",
+    "https://www.ambito.com/politica/nacion-y-caba-firmaron-un-acuerdo-potenciar-el-acceso-la-justicia-y-la-asistencia-las-victimas-n6345068",
     "https://www.infobae.com/politica/2026/11/14/axel-kicillof-sigue-de-cerca-las-negociaciones-por-las-paso-para-definir-si-unifica-las-elecciones-bonaerenses/",
-    "https://www.ambito.com/politica/nacion-y-caba-firmaron-un-acuerdo-potenciar-el-acceso-la-justicia-y-la-asistencia-las-victimas-n6345068"
+    "https://www.lanacion.com.ar/politica/leon-xiv-camino-en-la-argentina-sobre-las-huellas-del-papa-francisco-nid12112026/",
+    "https://www.lanacion.com.ar/politica/la-cgt-y-los-movimientos-sociales-pronostican-un-aumento-de-la-conflictividad-social-nid13112026/",
+    "https://www.infobae.com/politica/2026/11/13/el-senador-diego-valenzuela-hablo-de-la-relacion-entre-milei-y-bullrich-y-descarto-una-interna-se-complementan/",
+    "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-lo-unico-que-le-faltaba-al-pais-eran-reglas-claras-dijo-el-nid13112026/",
+    "https://tn.com.ar/politica/2026/11/14/el-plan-electoral-de-kicillof-tras-la-visita-del-papa-la-apuesta-presidencial-de-massa-y-la-propuesta-de-bullrich-a-milei/",
+    "https://www.clarin.com/politica/nueva-karina-milei-levanto-perfil-cambio-foto-redes-apunta-patricia-bullrich_0_SFwDO76CS9.html"
   ],
   "used_img_hashes": [
+    "96fa80099a5976c6fccff830ed47de80",
+    "7be6696cdbef8eae5b521f238a69dcf4",
+    "894d0278df80835e440cdeb7a1e1677f",
+    "9a3f651b04f929cc92129820e7e88e2c",
     "ad6f6cff5107fdecefc6063916841166",
-    "58e7ed290c942210cc7402ad922c6845",
+    "60ac8ae3acafb1d2b6d601abe7bedb70",
+    "818bb46228e4ac7aa8a533ab5b673106",
+    "c0367b3f6bc1a3ebf5d5d785124deaf0",
+    "a8b43d21a128f08e918e227be0c0dc56",
+    "34cd9fe35b826931d94e6facb5d7b096",
     "298a326596bfc5c973f664934b29c5f9",
     "75daa6c9206021ee9757b21fedc7ae25",
-    "e7f342df30a408fbfbeadc69d5a40323",
-    "4d0399b1cf9fb70855fe659c56eb69e2",
-    "894d0278df80835e440cdeb7a1e1677f",
-    "29442068ebcbcf0d07e1b309bac1d581",
-    "51614d33dfc79ff03fa7c69ccbbc6fa0",
-    "85d32f636bfa629366479c4f8b07c02e",
-    "06fb182540e0d083e406c0b1e9a8f6a4",
-    "818bb46228e4ac7aa8a533ab5b673106",
-    "34cd9fe35b826931d94e6facb5d7b096",
-    "37c2a2c89e53702f7f56bee7180563c0",
-    "7be6696cdbef8eae5b521f238a69dcf4",
-    "b6e02de3876844c8dd209d9d566479ae",
-    "6b009de723b38c69629faa3dae79e248",
-    "39e06604ac390ec62dd158edc392ec76",
     "adbc8e3f113a6f357e627c9700a97a96",
-    "e47b0d701431790ea233b7c91e5b1814",
-    "bc0f88c01d977f04bfd9c818304a24aa",
-    "bcdd3e66b0a5a9fa0277c5b18c65cb85",
-    "9a3f651b04f929cc92129820e7e88e2c",
-    "12c49c5db73c4fd5a6dcac6dbe6e6c55",
-    "18b552f2a421136619cc2a417550dd48",
-    "a8b43d21a128f08e918e227be0c0dc56",
-    "c53eb445f9543acd862bda7a242734d2",
-    "7d25b12688189f43f494fbf9b3f7a419",
-    "23d02edb33a6b5b45c419779c0131faa",
-    "ca4e2b238ca30a4a913aa6a07489ef39",
-    "a1e1aa23b51f185d43e80e751fc1a9e0",
-    "35fdbd01e731b437cf9d39d9fc6e68da",
-    "809a590a12d76533b70428977ed3203d",
     "8fd2c9df97bfff912fa2297020263eaf",
-    "3568223bfaceea5b03927d379e416a5e",
-    "40b9e8cae0ede0e23ab93f6291e9d11c",
-    "75daa6c9206021ee9757b21fedc7ae25",
-    "bc0f88c01d977f04bfd9c818304a24aa",
+    "ba9059deb8b89d95634afe5a817d2cab",
+    "143b73b3139c0e233cb5b48514a8f698",
     "b6e02de3876844c8dd209d9d566479ae",
-    "e51c454dd40d7dbd26f40888c78e1380"
+    "3568223bfaceea5b03927d379e416a5e",
+    "da7c6d5752c7a0efbe3fb7fdd761b6c5",
+    "809a590a12d76533b70428977ed3203d",
+    "4ce5570d31fdb7873d3f8fe13cc7109a",
+    "ab06df9d24a2fac65050d95046aa5bcb",
+    "034055d6af0263f82a05cc2291bfe9d9",
+    "4d0399b1cf9fb70855fe659c56eb69e2",
+    "85d32f636bfa629366479c4f8b07c02e",
+    "e47b0d701431790ea233b7c91e5b1814",
+    "7d25b12688189f43f494fbf9b3f7a419",
+    "37c2a2c89e53702f7f56bee7180563c0",
+    "35fdbd01e731b437cf9d39d9fc6e68da",
+    "ab64a2195b81f7ff2acaafa9cbe72782",
+    "6ee3e6a0e277bf3bf2ef385bb2c9b65f",
+    "39e06604ac390ec62dd158edc392ec76",
+    "af770d7477dd4a0c303dd8d5a3349f1a",
+    "51614d33dfc79ff03fa7c69ccbbc6fa0",
+    "e51c454dd40d7dbd26f40888c78e1380",
+    "58e7ed290c942210cc7402ad922c6845",
+    "ab06df9d24a2fac65050d95046aa5bcb",
+    "60ac8ae3acafb1d2b6d601abe7bedb70",
+    "034055d6af0263f82a05cc2291bfe9d9",
+    "8cd79789cca01a44560bedaee82cc9b8"
   ],
   "published_titles": [
-    "El Congreso para por el Papa y vuelve con Bullrich vs. Karina Milei",
-    "Congreso: se viene otra semana de par\u00c3\u00a1lisis, pero con nuevo cap\u00c3\u00adtulo de la interna libertaria en puerta",
-    "Marcelo Colombo: el nuevo Papa continuar\u00e1 la agenda de Francisco",
-    "\u201cEl Papa Le\u00f3n XIV conoci\u00f3 de primera mano las inquietudes de Francisco y las traduce con su agenda\u201d, defini\u00f3 la Conferencia Episcopal Argentina",
     "El ministro provincial revel\u00f3 qu\u00e9 pidi\u00f3 el Vaticano a C\u00f3rdoba",
     "El pedido especial del Vaticano al gobierno de C\u00c3\u00b3rdoba antes de la visita de Le\u00c3\u00b3n XIV",
     "Kicillof salud\u00f3 al papa Le\u00f3n XIV e intercambiaron regalos",
@@ -1597,6 +1602,10 @@
     "La Justicia orden\u00f3 liquidar acciones de una empresa de B\u00e1ez",
     "La justicia orden\u00f3 la liquidaci\u00f3n de las acciones de Austral Agro SA, una de las empresas que operaba L\u00e1zaro B\u00e1ez desde la c\u00e1rcel",
     "Naci\u00f3n y la Ciudad firmaron un acuerdo de cooperaci\u00f3n judicial",
-    "Naci\u00f3n y CABA firmaron un acuerdo para potenciar el acceso a la justicia y la asistencia a las v\u00edctimas"
+    "Naci\u00f3n y CABA firmaron un acuerdo para potenciar el acceso a la justicia y la asistencia a las v\u00edctimas",
+    "Kicillof, Massa y Bullrich: sus movimientos de cara a 2027",
+    "El plan electoral de Kicillof tras la visita del Papa, la apuesta presidencial de Massa y la propuesta de Bullrich a Milei",
+    "Karina Milei sube su perfil y apunta contra Patricia Bullrich",
+    "La nueva Karina Milei: levant\u00f3 el perfil, cambi\u00f3 su foto en redes y le apunta con todo a Patricia Bullrich"
   ]
 }
