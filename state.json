@@ -57,19 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-27 13:07",
-      "publicadas": 2,
-      "cinta": false,
-      "estado": "SIN NOVEDADES",
-      "detalle": [
-        "Cinta: La cinta repite un tema ya publicado. NO se publica."
-      ],
-      "titulos": [
-        "Juan Acosta defiende los ataques de Milei a periodistas",
-        "El abogado de Bullrich renunci\u00f3 al Ministerio de Seguridad"
-      ]
-    },
-    {
       "fecha": "2026-10-27 14:07",
       "publicadas": 3,
       "cinta": true,
@@ -1340,6 +1327,21 @@
         "La Justicia orden\u00f3 a la AFA acreditar a TN para cubrir a la Selecci\u00f3n",
         "Abogados de CABA eligen su representaci\u00f3n en la Magistratura porte\u00f1a"
       ]
+    },
+    {
+      "fecha": "2026-11-15 10:01",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [],
+      "titulos": [
+        "El Senado, bot\u00edn de guerra entre internas y la presi\u00f3n por las PASO",
+        "Milei ordena a su gabinete y frena candidaturas provinciales fuertes",
+        "El Gobierno elimin\u00f3 el bono del 30% al GNC en colectivos",
+        "El Gobierno omiti\u00f3 la c\u00e1rcel y el Cottolengo del resumen de la visita",
+        "La UCR porte\u00f1a busca candidato propio a jefe de gobierno en 2027",
+        "La negociaci\u00f3n por las PASO expuso grietas en el oficialismo"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1351,61 +1353,58 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5117,
-    5118,
-    5119,
-    5120,
-    5121
+    5123,
+    5124,
+    5125,
+    5126,
+    5127
   ],
-  "cinta_id": 5122,
+  "cinta_id": 5128,
   "published_links": [
-    "https://tn.com.ar/politica/2026/11/14/el-plan-electoral-de-kicillof-tras-la-visita-del-papa-la-apuesta-presidencial-de-massa-y-la-propuesta-de-bullrich-a-milei/",
-    "https://www.lanacion.com.ar/politica/leon-xiv-camino-en-la-argentina-sobre-las-huellas-del-papa-francisco-nid12112026/",
-    "https://www.infobae.com/politica/2026/11/14/suspension-de-las-paso-la-necesidad-urgente-del-gobierno-presiones-a-bullrich-y-el-viaje-clave-de-santilli/",
-    "https://www.ambito.com/politica/nacion-y-caba-firmaron-un-acuerdo-potenciar-el-acceso-la-justicia-y-la-asistencia-las-victimas-n6345068",
-    "https://www.lanacion.com.ar/politica/la-justicia-ordeno-la-liquidacion-de-las-acciones-de-austral-agro-sa-para-ejecutar-las-multas-a-nid13112026/",
-    "https://www.clarin.com/politica/nueva-karina-milei-levanto-perfil-cambio-foto-redes-apunta-patricia-bullrich_0_SFwDO76CS9.html",
-    "https://www.infobae.com/politica/2026/11/14/javier-milei-inaugurara-una-muestra-sobre-manuel-belgrano-en-el-marco-de-la-noche-de-los-museos/",
-    "https://www.infobae.com/politica/2026/11/14/la-libertad-avanza-ya-tiene-candidato-definido-en-misiones-para-frenar-la-reeleccion-de-hugo-passalacqua/",
-    "https://www.ambito.com/politica/sandra-pettovello-advirtio-insistentes-presiones-y-agresiones-el-medio-la-disputa-el-gremio-luis-barrionuevo-n6345303",
     "https://www.clarin.com/politica/sigue-avance-gobierno-justicia-buscan-ocupar-cargos-clave-eleccion-2027_0_aaNmj8IPRh.html",
-    "https://www.clarin.com/politica/medida-cautelar-justicia-tn-podra-cubrir-partidos-seleccion-estadios-predio-afa-ezeiza_0_fC4kEzcLae.html",
-    "https://www.lanacion.com.ar/politica/alejandra-garcia-candidata-al-consejo-de-la-magistratura-porteno-estas-elecciones-son-fundacionales-nid13112026/"
+    "https://www.ambito.com/politica/sandra-pettovello-advirtio-insistentes-presiones-y-agresiones-el-medio-la-disputa-el-gremio-luis-barrionuevo-n6345303",
+    "https://tn.com.ar/politica/2026/11/14/el-plan-electoral-de-kicillof-tras-la-visita-del-papa-la-apuesta-presidencial-de-massa-y-la-propuesta-de-bullrich-a-milei/",
+    "https://www.lanacion.com.ar/politica/alejandra-garcia-candidata-al-consejo-de-la-magistratura-porteno-estas-elecciones-son-fundacionales-nid13112026/",
+    "https://www.infobae.com/politica/2026/11/14/suspension-de-las-paso-la-necesidad-urgente-del-gobierno-presiones-a-bullrich-y-el-viaje-clave-de-santilli/",
+    "https://www.infobae.com/politica/2026/11/14/javier-milei-inaugurara-una-muestra-sobre-manuel-belgrano-en-el-marco-de-la-noche-de-los-museos/",
+    "https://www.infobae.com/politica/2026/11/15/el-senado-quedo-atravesado-por-internas-y-las-paso-que-esta-en-juego-y-el-respaldo-de-los-aliados-a-bullrich/",
+    "https://www.infobae.com/politica/2026/11/15/el-proximo-fenomeno-politico-que-ve-el-gobierno-y-el-ultimatum-de-milei-a-sus-funcionarios/",
+    "https://www.lanacion.com.ar/economia/el-gobierno-elimino-el-pago-adicional-de-30-al-uso-del-gnc-en-los-colectivos-y-reavivo-la-guerra-por-nid15112026/",
+    "https://www.ambito.com/politica/seguiremos-ensenando-pescar-el-mensaje-del-gobierno-la-visita-leon-xiv-n6345227",
+    "https://www.lanacion.com.ar/politica/con-criticas-a-jorge-macri-la-ucr-portena-apuesta-a-tener-candidato-a-jefe-de-gobierno-y-explora-nid14112026/",
+    "https://www.infobae.com/politica/2026/11/15/circulo-rojo-milei-despues-del-papa-una-interna-sin-tregua-y-el-futuro-en-disputa/"
   ],
   "used_img_hashes": [
-    "18b552f2a421136619cc2a417550dd48",
-    "51614d33dfc79ff03fa7c69ccbbc6fa0",
-    "c53eb445f9543acd862bda7a242734d2",
+    "493fedea6a992ef76d53cb43dec10cbc",
     "7d25b12688189f43f494fbf9b3f7a419",
-    "6a4c7bda2a57ab29654126b74009d3d2",
-    "0d23f127cc550a3e1ced7015f8ee25e9",
-    "3e3736a62baf2730f02dcbd08f3a5858",
+    "71ad74b54b5949c20371913cf821c3d1",
+    "fdb66d84c3b4d04b892d91896cfbd86d",
+    "12c49c5db73c4fd5a6dcac6dbe6e6c55",
+    "6862ef12f578d45a81488dd869af9019",
+    "c53eb445f9543acd862bda7a242734d2",
     "36f48c477c1be3f284ef6c85207a66de",
     "7f8b5b38993139d1b35dde9e667fd9c6",
-    "493fedea6a992ef76d53cb43dec10cbc",
     "60ac8ae3acafb1d2b6d601abe7bedb70",
-    "51614d33dfc79ff03fa7c69ccbbc6fa0",
-    "7d25b12688189f43f494fbf9b3f7a419",
-    "984dfd3deefcfa024895b0d7c1934f9a",
-    "3e3736a62baf2730f02dcbd08f3a5858",
-    "493fedea6a992ef76d53cb43dec10cbc",
     "0d23f127cc550a3e1ced7015f8ee25e9",
-    "60ac8ae3acafb1d2b6d601abe7bedb70",
-    "36f48c477c1be3f284ef6c85207a66de"
+    "18b552f2a421136619cc2a417550dd48",
+    "6a4c7bda2a57ab29654126b74009d3d2",
+    "8aff1da4d15fc7a937dd5b7be2f76518",
+    "af770d7477dd4a0c303dd8d5a3349f1a",
+    "984dfd3deefcfa024895b0d7c1934f9a",
+    "3103408c7722e610707105d21af4f7b3",
+    "3e3736a62baf2730f02dcbd08f3a5858",
+    "f5ab72d233f6a6d0984036f6d8d2f7ae",
+    "51614d33dfc79ff03fa7c69ccbbc6fa0",
+    "eb7cdd94d1b1c3b29b435005ebeb796e",
+    "689f146776a8247bd3d267118dbc76eb",
+    "79a42581d519f4634ad15c64c2a138e1",
+    "8aff1da4d15fc7a937dd5b7be2f76518",
+    "b619a729a0aa7ede23747230981dac30",
+    "71ad74b54b5949c20371913cf821c3d1",
+    "af770d7477dd4a0c303dd8d5a3349f1a",
+    "3103408c7722e610707105d21af4f7b3"
   ],
   "published_titles": [
-    "Victoria Villarruel responde a cr\u00edticos libertarios",
-    "Victoria Villarruel llam\u00f3 \"fan\u00e1ticos e ignorantes\" a los que la tildan de peronista por defender la justicia social: \u201cUsan la fe para beneficio personal y pol\u00edtico\u201d",
-    "El intendente de Rafaela ech\u00f3 a un lavacoches de una plaza p\u00fablica",
-    "El intendente de Rafaela se film\u00f3 echando a un lavacoches de una plaza y tuvo que salir a dar explicaciones",
-    "Milei habl\u00f3 en la recepci\u00f3n al papa Le\u00f3n XIV",
-    "El discurso completo de Javier Milei en el Palacio Libertad durante la recepci\u00f3n al papa Le\u00f3n XIV",
-    "Le\u00f3n XIV visit\u00f3 el Cottolengo y habl\u00f3 sobre discapacidad",
-    "El mensaje del papa Le\u00f3n XIV en el Cottolengo: \u201cEl progreso de una Naci\u00f3n se mide por la acogida a las personas con discapacidad\u201d",
-    "El Gobierno define su agenda para las sesiones extraordinarias",
-    "El Gobierno acelera en el Congreso, pero ya se prepara para las extraordinarias: los proyectos pendientes",
-    "El Gobierno desminti\u00f3 a Villarruel sobre la misa del Papa",
-    "El Gobierno sali\u00f3 a desmentir a Villarruel por la invitaci\u00f3n a la misa del Papa en Palermo",
     "Malvinas: el Gobierno espera un fallo favorable y prepara sanciones",
     "Malvinas: el Gobierno espera un fallo favorable en el Tribunal del Derecho del Mar y prepara m\u00e1s sanciones contra empresas petroleras",
     "El Papa reivindic\u00f3 a Angelelli y pidi\u00f3 ocuparse de los pobres",
@@ -1593,6 +1592,18 @@
     "La Justicia orden\u00f3 a la AFA acreditar a TN para cubrir a la Selecci\u00f3n",
     "Medida cautelar de la Justicia: TN podr\u00e1 cubrir los partidos de la Selecci\u00f3n en estadios y en el predio de la AFA en Ezeiza",
     "Abogados de CABA eligen su representaci\u00f3n en la Magistratura porte\u00f1a",
-    "Alejandra Garc\u00eda, candidata al Consejo de la Magistratura porte\u00f1o: \u201cEstas elecciones son fundacionales\u201d"
+    "Alejandra Garc\u00eda, candidata al Consejo de la Magistratura porte\u00f1o: \u201cEstas elecciones son fundacionales\u201d",
+    "El Senado, bot\u00edn de guerra entre internas y la presi\u00f3n por las PASO",
+    "El Senado qued\u00f3 atravesado por internas y las PASO: qu\u00e9 est\u00e1 en juego y el respaldo de los aliados a Bullrich",
+    "Milei ordena a su gabinete y frena candidaturas provinciales fuertes",
+    "El pr\u00f3ximo fen\u00f3meno pol\u00edtico que ve el Gobierno y el ultim\u00e1tum de Milei a sus funcionarios",
+    "El Gobierno elimin\u00f3 el bono del 30% al GNC en colectivos",
+    "El Gobierno elimin\u00f3 el pago adicional de 30% al uso del GNC en los colectivos y reaviv\u00f3 la guerra por los subsidios",
+    "El Gobierno omiti\u00f3 la c\u00e1rcel y el Cottolengo del resumen de la visita",
+    "\"Seguiremos ense\u00f1ando a pescar\": el mensaje del Gobierno tras la visita de Le\u00f3n XIV",
+    "La UCR porte\u00f1a busca candidato propio a jefe de gobierno en 2027",
+    "Lejos de Jorge Macri, la UCR porte\u00f1a apuesta a tener candidato a jefe de gobierno y explora alianzas rumbo a 2027",
+    "La negociaci\u00f3n por las PASO expuso grietas en el oficialismo",
+    "C\u00edrculo rojo: Milei despu\u00e9s del Papa, una interna sin tregua y el futuro en disputa"
   ]
 }
