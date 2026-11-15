@@ -57,24 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-27 15:10",
-      "publicadas": 6,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [
-        "Mismo tema que otra nota: Milei no felicitar\u00e1 a Lula y rompe con la tradici\u00f3n dip"
-      ],
-      "titulos": [
-        "Milei se niega a felicitar a Lula y agrava la crisis con Brasil",
-        "Pichetto: en 2027 ganar\u00e1 un pol\u00edtico del sistema, no un outsider",
-        "Un inversor apela el sobreseimiento de Milei en el caso Libra",
-        "El PRO porte\u00f1o ir\u00e1 unido en 2027 con Jorge y Mauricio Macri",
-        "El vocero oficial se distanci\u00f3 del juicio a Bolsonaro",
-        "Roy\u00f3n celebr\u00f3 que el Senado aprob\u00f3 el pliego de Michelli",
-        "Acciones argentinas abren con leve rebote en bolsa"
-      ]
-    },
-    {
       "fecha": "2026-10-27 21:03",
       "publicadas": 6,
       "cinta": true,
@@ -1348,6 +1330,22 @@
         "El mensaje del Papa que el PJ decodific\u00f3 como se\u00f1al pol\u00edtica para 2027",
         "Francos no descarta ser vice de Milei en las elecciones"
       ]
+    },
+    {
+      "fecha": "2026-11-15 18:01",
+      "publicadas": 1,
+      "cinta": true,
+      "estado": "PROBLEMA",
+      "detalle": [
+        "Titulo malo: Argentina espera un fallo clave sobre Malvinas con tres plan",
+        "Titulo malo: Marcelo Colombo pide a Milei enfocarse en la situaci\u00f3n socia",
+        "Titulo malo: Elisa Carri\u00f3 advierte: Bullrich busca el poder para s\u00ed misma",
+        "Titulo malo: PRO no avalar\u00e1 cambios de \u00faltimo momento en la reforma elect"
+      ],
+      "titulos": [
+        "Elisa Carri\u00f3 dice que Patricia Bullrich busca el poder",
+        "C\u00f3mo vari\u00f3 la cantidad de cat\u00f3licos en las \u00faltimas dos d\u00e9cadas"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1359,72 +1357,66 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5129,
-    5130,
-    5131
+    5133
   ],
-  "cinta_id": 5132,
+  "cinta_id": 5134,
   "published_links": [
-    "https://www.clarin.com/politica/sigue-avance-gobierno-justicia-buscan-ocupar-cargos-clave-eleccion-2027_0_aaNmj8IPRh.html",
-    "https://www.lanacion.com.ar/economia/el-gobierno-elimino-el-pago-adicional-de-30-al-uso-del-gnc-en-los-colectivos-y-reavivo-la-guerra-por-nid15112026/",
-    "https://www.infobae.com/politica/2026/11/15/el-proximo-fenomeno-politico-que-ve-el-gobierno-y-el-ultimatum-de-milei-a-sus-funcionarios/",
-    "https://www.infobae.com/politica/2026/11/14/javier-milei-inaugurara-una-muestra-sobre-manuel-belgrano-en-el-marco-de-la-noche-de-los-museos/",
-    "https://www.lanacion.com.ar/politica/con-criticas-a-jorge-macri-la-ucr-portena-apuesta-a-tener-candidato-a-jefe-de-gobierno-y-explora-nid14112026/",
     "https://www.lanacion.com.ar/politica/alejandra-garcia-candidata-al-consejo-de-la-magistratura-porteno-estas-elecciones-son-fundacionales-nid13112026/",
-    "https://www.infobae.com/politica/2026/11/15/el-senado-quedo-atravesado-por-internas-y-las-paso-que-esta-en-juego-y-el-respaldo-de-los-aliados-a-bullrich/",
-    "https://www.ambito.com/politica/seguiremos-ensenando-pescar-el-mensaje-del-gobierno-la-visita-leon-xiv-n6345227",
-    "https://www.ambito.com/politica/en-la-recta-final-diputados-y-senado-buscan-sesionar-esta-semana-proyectos-clave-n6344943",
+    "https://www.infobae.com/politica/2026/11/15/el-proximo-fenomeno-politico-que-ve-el-gobierno-y-el-ultimatum-de-milei-a-sus-funcionarios/",
+    "https://www.clarin.com/politica/sigue-avance-gobierno-justicia-buscan-ocupar-cargos-clave-eleccion-2027_0_aaNmj8IPRh.html",
     "https://www.lanacion.com.ar/politica/donde-voto-publicaron-el-padron-provisorio-para-las-elecciones-de-argentina-2027-nid02112026/",
+    "https://www.infobae.com/politica/2026/11/15/guillermo-francos-aseguro-que-milei-va-a-ser-reelecto-y-no-descarto-acompanarlo-en-la-formula-presidencial/",
     "https://www.infobae.com/politica/2026/11/15/el-mensaje-del-papa-que-decodifico-el-pj-para-el-2027-y-el-futuro-de-los-intendentes-que-reavivan-la-interna/",
-    "https://www.infobae.com/politica/2026/11/15/guillermo-francos-aseguro-que-milei-va-a-ser-reelecto-y-no-descarto-acompanarlo-en-la-formula-presidencial/"
+    "https://www.ambito.com/politica/en-la-recta-final-diputados-y-senado-buscan-sesionar-esta-semana-proyectos-clave-n6344943",
+    "https://www.ambito.com/politica/seguiremos-ensenando-pescar-el-mensaje-del-gobierno-la-visita-leon-xiv-n6345227",
+    "https://www.infobae.com/politica/2026/11/15/el-senado-quedo-atravesado-por-internas-y-las-paso-que-esta-en-juego-y-el-respaldo-de-los-aliados-a-bullrich/",
+    "https://www.lanacion.com.ar/economia/el-gobierno-elimino-el-pago-adicional-de-30-al-uso-del-gnc-en-los-colectivos-y-reavivo-la-guerra-por-nid15112026/",
+    "https://www.lanacion.com.ar/politica/elisa-carrio-sobre-patricia-bullrich-la-quiero-mucho-pero-ella-siempre-busca-el-poder-nid15112026/",
+    "https://www.infobae.com/politica/2026/11/15/como-vario-la-cantidad-de-catolicos-en-las-ultimas-dos-decadas-en-el-pais/"
   ],
   "used_img_hashes": [
-    "fd3c346ab4e9d5a6966f3046e642f761",
-    "686d09f13d21f9dd5a62ba364603a350",
-    "ba9059deb8b89d95634afe5a817d2cab",
-    "12c49c5db73c4fd5a6dcac6dbe6e6c55",
-    "b619a729a0aa7ede23747230981dac30",
-    "8aff1da4d15fc7a937dd5b7be2f76518",
-    "6862ef12f578d45a81488dd869af9019",
-    "51614d33dfc79ff03fa7c69ccbbc6fa0",
-    "71ad74b54b5949c20371913cf821c3d1",
-    "7cabe2b336edcdd85c14b995ceff8506",
-    "f1f1ea0f3522822a25b33509cda3214b",
-    "c53eb445f9543acd862bda7a242734d2",
-    "af770d7477dd4a0c303dd8d5a3349f1a",
-    "493fedea6a992ef76d53cb43dec10cbc",
-    "eb7cdd94d1b1c3b29b435005ebeb796e",
-    "f5ab72d233f6a6d0984036f6d8d2f7ae",
-    "7f8b5b38993139d1b35dde9e667fd9c6",
-    "7d25b12688189f43f494fbf9b3f7a419",
+    "621090cd0d53896d90cf1f67c3b1b9fe",
     "36f48c477c1be3f284ef6c85207a66de",
+    "298a326596bfc5c973f664934b29c5f9",
+    "d000122819fc6ba259e585eb0bf38c9a",
+    "12c49c5db73c4fd5a6dcac6dbe6e6c55",
+    "aa359e95f2f0170fb33fd3a5302090eb",
+    "b20b550fcec14956cc714c02bab1c42c",
+    "3103408c7722e610707105d21af4f7b3",
+    "3e3736a62baf2730f02dcbd08f3a5858",
+    "71ad74b54b5949c20371913cf821c3d1",
+    "40b9e8cae0ede0e23ab93f6291e9d11c",
+    "7d25b12688189f43f494fbf9b3f7a419",
+    "79a42581d519f4634ad15c64c2a138e1",
+    "fd3c346ab4e9d5a6966f3046e642f761",
+    "f51d0d55c2dabdfc80fd89a120575fcf",
     "60ac8ae3acafb1d2b6d601abe7bedb70",
     "f132fcdd6a1832dd9ba68dbc7732e917",
-    "aa359e95f2f0170fb33fd3a5302090eb",
-    "3103408c7722e610707105d21af4f7b3",
-    "0d23f127cc550a3e1ced7015f8ee25e9",
-    "3e3736a62baf2730f02dcbd08f3a5858",
-    "984dfd3deefcfa024895b0d7c1934f9a",
-    "9fe71e588e89886d87d9fa80aca25a06",
+    "7cabe2b336edcdd85c14b995ceff8506",
+    "f5ab72d233f6a6d0984036f6d8d2f7ae",
     "8f71650d0a511e1b9722fb63d892e60a",
-    "6a4c7bda2a57ab29654126b74009d3d2",
     "689f146776a8247bd3d267118dbc76eb",
+    "af770d7477dd4a0c303dd8d5a3349f1a",
+    "0d23f127cc550a3e1ced7015f8ee25e9",
+    "f1f1ea0f3522822a25b33509cda3214b",
+    "eb7cdd94d1b1c3b29b435005ebeb796e",
+    "8aff1da4d15fc7a937dd5b7be2f76518",
+    "6862ef12f578d45a81488dd869af9019",
+    "7f8b5b38993139d1b35dde9e667fd9c6",
+    "c53eb445f9543acd862bda7a242734d2",
+    "36b65f618c6975e103442d99ce05243b",
+    "3568223bfaceea5b03927d379e416a5e",
     "fdb66d84c3b4d04b892d91896cfbd86d",
-    "79a42581d519f4634ad15c64c2a138e1",
-    "0d86d2549f7d9e061211c2ae7768a1e0",
+    "493fedea6a992ef76d53cb43dec10cbc",
+    "b619a729a0aa7ede23747230981dac30",
     "9fe71e588e89886d87d9fa80aca25a06",
-    "686d09f13d21f9dd5a62ba364603a350",
-    "298a326596bfc5c973f664934b29c5f9",
-    "fd3c346ab4e9d5a6966f3046e642f761",
-    "ba9059deb8b89d95634afe5a817d2cab",
-    "f132fcdd6a1832dd9ba68dbc7732e917",
-    "f1f1ea0f3522822a25b33509cda3214b"
+    "f51d0d55c2dabdfc80fd89a120575fcf",
+    "3568223bfaceea5b03927d379e416a5e",
+    "bd0b5c49c986174ba21522f470cfc907",
+    "ab06df9d24a2fac65050d95046aa5bcb",
+    "40b9e8cae0ede0e23ab93f6291e9d11c"
   ],
   "published_titles": [
-    "El papa Le\u00f3n XIV cen\u00f3 con obispos en su segunda noche en el pa\u00eds",
-    "La intimidad de la cena del papa Le\u00f3n XIV con obispos: empanadas, flan y m\u00fasica argentina",
-    "Unas 20 provincias separan sus elecciones de la nacional en 2027",
-    "Elecciones 2027: unas 20 provincias desdoblar\u00e1n sus comicios para despegarse de la pelea nacional",
     "Llaryora: m\u00e1s de un mill\u00f3n recibir\u00edan al papa Le\u00f3n XIV en C\u00f3rdoba",
     "Mart\u00edn Llaryora anticip\u00f3 que m\u00e1s de un mill\u00f3n de personas podr\u00edan recibir al papa Le\u00f3n XIV en C\u00f3rdoba",
     "Fernando Bravo ley\u00f3 un pasaje en la misa de Le\u00f3n XIV en Palermo",
@@ -1620,6 +1612,10 @@
     "El mensaje del Papa que el PJ decodific\u00f3 como se\u00f1al pol\u00edtica para 2027",
     "El mensaje del Papa que decodific\u00f3 el PJ para el 2027 y el futuro de los intendentes que reavivan la interna",
     "Francos no descarta ser vice de Milei en las elecciones",
-    "Guillermo Francos asegur\u00f3 que Milei \"va a ser reelecto\" y no descart\u00f3 acompa\u00f1arlo en la f\u00f3rmula presidencial"
+    "Guillermo Francos asegur\u00f3 que Milei \"va a ser reelecto\" y no descart\u00f3 acompa\u00f1arlo en la f\u00f3rmula presidencial",
+    "Elisa Carri\u00f3 dice que Patricia Bullrich busca el poder",
+    "Elisa Carri\u00f3, sobre Patricia Bullrich: \u201cLa quiero mucho, pero ella siempre busca el poder\u201d",
+    "C\u00f3mo vari\u00f3 la cantidad de cat\u00f3licos en las \u00faltimas dos d\u00e9cadas",
+    "C\u00f3mo vari\u00f3 la cantidad de cat\u00f3licos en las \u00faltimas dos d\u00e9cadas en el pa\u00eds"
   ]
 }
