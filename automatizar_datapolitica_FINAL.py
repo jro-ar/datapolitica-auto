@@ -160,6 +160,38 @@ ARGENTINA_POLITICS_KEYWORDS = [
 ]
 
 STATE_FILE = "state.json"
+
+
+# v30: cliente de Claude "a prueba de fallas": si Claude tarda, da error o devuelve una respuesta
+# vacia, se reintenta hasta 4 veces (antes una respuesta vacia hacia perder la nota entera).
+class _MensajesSeguros:
+    def __init__(self, real):
+        self._real = real
+
+    def create(self, **kw):
+        ultimo = None
+        for i in range(4):
+            try:
+                r = self._real.create(**kw)
+                txt = "".join(getattr(b, "text", "") or "" for b in (r.content or []))
+                if txt.strip():
+                    return r
+                ultimo = RuntimeError("respuesta vacia de Claude")
+            except Exception as e:
+                ultimo = e
+            print(f"    Aviso: Claude no respondio bien (intento {i + 1}/4): {str(ultimo)[:80]}")
+            time.sleep(3 * (i + 1))
+        raise ultimo
+
+
+class _ClienteSeguro:
+    def __init__(self):
+        self._c = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"], max_retries=3, timeout=120)
+        self.messages = _MensajesSeguros(self._c.messages)
+
+
+def _cliente_seguro():
+    return _ClienteSeguro()
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; automatizador/1.0)"}
 
 
@@ -226,7 +258,7 @@ def _get_dedup_client():
     """Singleton del cliente Anthropic para deteccion de duplicados."""
     global _dedup_client
     if _dedup_client is None:
-        _dedup_client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        _dedup_client = _cliente_seguro()
     return _dedup_client
 
 
@@ -913,7 +945,7 @@ def _encuadre_visual_ok(data: bytes) -> bool:
     ok = True
     try:
         import base64
-        cli = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        cli = _cliente_seguro()
         resp = cli.messages.create(
             model="claude-haiku-4-5",
             max_tokens=5,
@@ -1031,7 +1063,7 @@ def _is_journalist_studio_image(img) -> bool:
         buf = _io.BytesIO()
         img.convert("RGB").save(buf, format="JPEG", quality=60)
         b64 = base64.b64encode(buf.getvalue()).decode()
-        cli = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        cli = _cliente_seguro()
         resp = cli.messages.create(
             model="claude-haiku-4-5",
             max_tokens=5,
@@ -1069,7 +1101,7 @@ def foto_con_marca(data: bytes) -> bool:
         buf = _io.BytesIO()
         im.save(buf, format="JPEG", quality=80)
         b64 = base64.b64encode(buf.getvalue()).decode()
-        cli = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        cli = _cliente_seguro()
         resp = cli.messages.create(
             model="claude-haiku-4-5",
             max_tokens=5,
@@ -2000,8 +2032,9 @@ def control_calidad_titulo(client, titulo: str, copete: str, fuente: str = "") -
         print(f"    Control de titulo (ronda {ronda}): {res.get('problema', motivo)} -> {nuevo}")
         t = nuevo
         # el titulo corregido se vuelve a revisar en la ronda siguiente
-    # v24: si tras 4 rondas el titulo no quedo APROBADO, no se publica (antes salia sin la ultima revision)
-    return None
+    # v30: tras 4 rondas, si el ultimo titulo corregido pasa los controles automaticos se usa
+    # (quien llama vuelve a chequear que sea fiel a la noticia original antes de publicar).
+    return t if not _titulo_pasa_reglas_basicas(t) else None
 
 
 def rewrite_con_reintento(client, art: dict, tipo: str) -> dict:
@@ -2251,7 +2284,7 @@ def main():
     print(f"  {datetime.now().strftime('%d/%m/%Y %H:%M')} (hora UTC)")
     print("=" * 55)
 
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    client = _cliente_seguro()
 
     # v22: en modo prueba, autocontrol del detector de fotos con marca de medios
     if DRY_RUN:
