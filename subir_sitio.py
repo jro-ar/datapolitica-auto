@@ -43,21 +43,29 @@ def conectar():
     ctx = ssl.create_default_context()
     ctx.check_hostname = False          # el certificado del servidor compartido puede no coincidir con el nombre
     ctx.verify_mode = ssl.CERT_NONE
-    # En servidores Windows (IIS) compartidos, el usuario a veces tiene que ir con el dominio adelante:
-    # "datapolitica.com|github_deploy". Se prueba primero ese formato y despues el nombre solo.
-    variantes = [f"datapolitica.com|{USER}", USER, f"www.datapolitica.com|{USER}"]
+    # El sitio tiene su propia direccion (datapolitica.com = 190.105.238.109), distinta de la del
+    # servidor general (ar109). Se prueba primero la del sitio. En servidores Windows (IIS) el usuario
+    # a veces va con el dominio adelante ("datapolitica.com|github_deploy"), por eso hay 2 formatos.
+    intentos = [("datapolitica.com", USER),
+                ("datapolitica.com", f"datapolitica.com|{USER}"),
+                (HOST, f"datapolitica.com|{USER}")]
     ftp = None
     ultimo_error = None
-    for usuario in variantes:
+    for servidor, usuario in intentos:
         ftp = ftplib.FTP_TLS(context=ctx, timeout=60)
-        ftp.connect(HOST, 21)
+        try:
+            ftp.connect(servidor, 21)
+        except ftplib.all_errors as e:
+            log(f"  no conecta con {servidor}: {e}")
+            ftp = None
+            continue
         try:
             ftp.login(usuario, PASSWORD)    # FTP_TLS cifra el login antes de mandar la clave
-            log(f"Login OK con el usuario: {usuario}")
+            log(f"Login OK: servidor {servidor}, usuario {usuario}")
             break
         except ftplib.error_perm as e:
             ultimo_error = e
-            log(f"  no entra con el usuario '{usuario}': {e}")
+            log(f"  no entra en {servidor} con el usuario '{usuario}': {e}")
             try:
                 ftp.close()
             except Exception:
@@ -70,7 +78,7 @@ def conectar():
     ftp.prot_p()                        # cifra tambien los archivos
     ftp.set_pasv(True)
     ftp.voidcmd("TYPE I")               # modo binario: necesario para medir tamanos y comparar archivos
-    log(f"Conectado a {HOST} como {USER} (conexion cifrada).")
+    log("Conexion cifrada lista.")
     return ftp
 
 
