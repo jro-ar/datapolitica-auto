@@ -43,9 +43,30 @@ def conectar():
     ctx = ssl.create_default_context()
     ctx.check_hostname = False          # el certificado del servidor compartido puede no coincidir con el nombre
     ctx.verify_mode = ssl.CERT_NONE
-    ftp = ftplib.FTP_TLS(context=ctx, timeout=60)
-    ftp.connect(HOST, 21)
-    ftp.login(USER, PASSWORD)           # FTP_TLS cifra el login antes de mandar la clave
+    # En servidores Windows (IIS) compartidos, el usuario a veces tiene que ir con el dominio adelante:
+    # "datapolitica.com|github_deploy". Se prueba primero ese formato y despues el nombre solo.
+    variantes = [f"datapolitica.com|{USER}", USER, f"www.datapolitica.com|{USER}"]
+    ftp = None
+    ultimo_error = None
+    for usuario in variantes:
+        ftp = ftplib.FTP_TLS(context=ctx, timeout=60)
+        ftp.connect(HOST, 21)
+        try:
+            ftp.login(usuario, PASSWORD)    # FTP_TLS cifra el login antes de mandar la clave
+            log(f"Login OK con el usuario: {usuario}")
+            break
+        except ftplib.error_perm as e:
+            ultimo_error = e
+            log(f"  no entra con el usuario '{usuario}': {e}")
+            try:
+                ftp.close()
+            except Exception:
+                pass
+            ftp = None
+    if ftp is None:
+        log("ERROR: el servidor no acepta el usuario/clave. Revisar que la clave guardada en GitHub "
+            "(FTP_PASSWORD) sea exactamente la de la cuenta github_deploy en Plesk.")
+        raise SystemExit(f"Login rechazado: {ultimo_error}")
     ftp.prot_p()                        # cifra tambien los archivos
     ftp.set_pasv(True)
     ftp.voidcmd("TYPE I")               # modo binario: necesario para medir tamanos y comparar archivos
