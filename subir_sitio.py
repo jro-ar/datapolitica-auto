@@ -16,6 +16,7 @@ Modos (variable MODO):
 import ftplib
 import io
 import os
+import socket
 import ssl
 import sys
 import time
@@ -79,7 +80,40 @@ def conectar():
     ftp.set_pasv(True)
     ftp.voidcmd("TYPE I")               # modo binario: necesario para medir tamanos y comparar archivos
     log("Conexion cifrada lista.")
+    elegir_canal_de_datos(ftp)
     return ftp
+
+
+def elegir_canal_de_datos(ftp):
+    """Los archivos viajan por un segundo canal. Algunos servidores Windows lo abren en una
+    direccion distinta a la del sitio. Se prueban las 3 formas habituales y se queda con la que anda."""
+    try:
+        log(f"  respuesta del servidor para el canal de datos: {ftp.sendcmd('PASV')}")
+    except ftplib.all_errors as e:
+        log(f"  el servidor no respondio PASV: {e}")
+    formas = [
+        ("direccion del sitio", lambda f: setattr(f, "trust_server_pasv_ipv4_address", False)),
+        ("direccion que indica el servidor", lambda f: setattr(f, "trust_server_pasv_ipv4_address", True)),
+        ("modo extendido (EPSV)", None),
+    ]
+    tiempo_original = ftp.sock.gettimeout()
+    for nombre, ajustar in formas:
+        if ajustar:
+            ajustar(ftp)
+            ftp.af = socket.AF_INET
+        else:
+            ftp.af = socket.AF_INET6     # hace que ftplib use EPSV (sirve igual con IPv4)
+        ftp.timeout = 20
+        try:
+            ftp.nlst()
+            log(f"Canal de datos OK ({nombre}).")
+            ftp.timeout = tiempo_original
+            return
+        except Exception as e:  # timeout o rechazo: probar la siguiente forma
+            log(f"  canal de datos no anda con {nombre}: {e}")
+    raise SystemExit("ERROR: el login funciona pero el servidor no deja pasar archivos "
+                     "(canal de datos bloqueado). Hay que pedirle a LatinCloud que habilite el "
+                     "modo pasivo de FTP para conexiones externas.")
 
 
 def existe(ftp, ruta):
