@@ -1,0 +1,63 @@
+name: Subir arreglos al sitio
+
+# Sube a datapolitica.com (carpeta httpdocs) los archivos que se pongan en la carpeta "sitio/" del repo.
+# Nunca borra nada. Guarda copia de cada original y, si el sitio deja de responder, lo vuelve atras solo.
+# Para probar la conexion sin tocar nada: Actions > "Subir arreglos al sitio" > Run workflow > modo "probar".
+on:
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'probar = solo revisa la conexion (no cambia nada) / subir = sube todo lo de la carpeta sitio'
+        type: choice
+        default: probar
+        options:
+          - probar
+          - subir
+  push:
+    branches: [main]
+    paths:
+      - 'sitio/**'
+
+concurrency:
+  group: subir-sitio
+  cancel-in-progress: false
+
+jobs:
+  subir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Elegir archivos
+        id: archivos
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            BEFORE="${{ github.event.before }}"
+            if [ -n "$BEFORE" ] && [ "$BEFORE" != "0000000000000000000000000000000000000000" ]; then
+              LISTA=$(git diff --name-only --diff-filter=AM "$BEFORE" "${{ github.sha }}" -- sitio/ | tr '\n' ' ')
+            else
+              LISTA=""
+            fi
+            if [ -n "$LISTA" ]; then echo "modo=subir" >> "$GITHUB_OUTPUT"; else echo "modo=nada" >> "$GITHUB_OUTPUT"; fi
+            echo "lista=$LISTA" >> "$GITHUB_OUTPUT"
+            echo "Archivos cambiados: $LISTA"
+          else
+            echo "modo=${{ github.event.inputs.modo }}" >> "$GITHUB_OUTPUT"
+            echo "lista=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Subir
+        env:
+          FTP_HOST: ar109.xvserver.com
+          FTP_USER: github_deploy
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          MODO: ${{ steps.archivos.outputs.modo }}
+          ARCHIVOS: ${{ steps.archivos.outputs.lista }}
+        run: python subir_sitio.py
