@@ -57,24 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-27 23:10",
-      "publicadas": 6,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [
-        "Titulo malo: El Senado sesionar\u00eda el jueves con salud mental e incentivos"
-      ],
-      "titulos": [
-        "Lula felicit\u00f3 a Cristina y Massa por sus mensajes de apoyo",
-        "Milei visit\u00f3 Catamarca: recorri\u00f3 una mina y habl\u00f3 con militantes",
-        "Kogan pide unificar el voto bonaerense y nacional en 2027",
-        "Larreta se postula como candidato opositor en Buenos Aires",
-        "Comercio sube salarios 5,7% en tres cuotas m\u00e1s bono de $50.000",
-        "Urtubey: el peronismo debe renovarse para volver al poder",
-        "El senador Juez critic\u00f3 al fiscal Garz\u00f3n y a la justicia provincial"
-      ]
-    },
-    {
       "fecha": "2026-10-28 10:09",
       "publicadas": 6,
       "cinta": true,
@@ -1345,6 +1327,27 @@
         "La Iglesia marca agenda y Milei sostiene el ajuste sin cambios",
         "Milei juega su futuro pol\u00edtico con la reforma electoral"
       ]
+    },
+    {
+      "fecha": "2026-11-16 10:01",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: El Gobierno busca ordenar su estrategia para una semana clav",
+        "Repetida: Patricia Bullrich puede dejar sin votos clave a Milei",
+        "Titulo malo: S\u00e1enz critic\u00f3 la falta de empat\u00eda del Gobierno con los damni",
+        "Candado (dice 'accidente' y la noticia original no): S\u00e1enz denuncia que Naci\u00f3n ignor\u00f3 la emergencia en ",
+        "Titulo distinto de la noticia original: Melconian explic\u00f3 por qu\u00e9 ser\u00e1 candidato y pidi\u00f3 reform"
+      ],
+      "titulos": [
+        "Jos\u00e9 Ibarra exige que el PJ elija candidatos sin imposiciones",
+        "La Libertad Avanza duda si competir por la gobernaci\u00f3n de Neuqu\u00e9n",
+        "Milei termina el a\u00f1o sin f\u00f3rmula, sin leyes clave y con interna",
+        "El partido neuquino MPN no presentar\u00e1 candidato a gobernador",
+        "Tres crisis simult\u00e1neas asedian al Gobierno",
+        "Milei recibe empresarios y participa del lanzamiento de Tesla"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1356,59 +1359,62 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5135,
-    5136,
-    5137,
-    5138,
-    5139
+    5141,
+    5142,
+    5143,
+    5144,
+    5145
   ],
-  "cinta_id": 5140,
+  "cinta_id": 5146,
   "published_links": [
-    "https://www.infobae.com/politica/2026/11/15/el-proximo-fenomeno-politico-que-ve-el-gobierno-y-el-ultimatum-de-milei-a-sus-funcionarios/",
-    "https://www.clarin.com/politica/sigue-avance-gobierno-justicia-buscan-ocupar-cargos-clave-eleccion-2027_0_aaNmj8IPRh.html",
-    "https://www.infobae.com/politica/2026/11/15/como-vario-la-cantidad-de-catolicos-en-las-ultimas-dos-decadas-en-el-pais/",
-    "https://www.lanacion.com.ar/politica/elisa-carrio-sobre-patricia-bullrich-la-quiero-mucho-pero-ella-siempre-busca-el-poder-nid15112026/",
-    "https://www.ambito.com/politica/en-la-recta-final-diputados-y-senado-buscan-sesionar-esta-semana-proyectos-clave-n6344943",
-    "https://www.infobae.com/politica/2026/11/15/guillermo-francos-aseguro-que-milei-va-a-ser-reelecto-y-no-descarto-acompanarlo-en-la-formula-presidencial/",
-    "https://www.infobae.com/politica/2026/11/15/la-juventud-de-la-libertad-avanza-prepara-un-congreso-nacional-en-rosario-con-la-mira-en-2027/",
-    "https://www.infobae.com/politica/2026/11/15/las-prioridades-del-gobierno-para-el-cierre-del-ano-legislativo-y-los-proyectos-que-podrian-quedar-en-espera/",
     "https://www.infobae.com/politica/2026/11/15/el-kirchnerismo-volvio-a-rechazar-la-eliminacion-de-las-paso-y-desafio-al-gobierno-vamos-a-ganar-en-primera-vuelta/",
+    "https://www.lanacion.com.ar/politica/una-prueba-de-fuego-para-el-futuro-del-gobierno-nid14112026/",
+    "https://www.lanacion.com.ar/politica/elisa-carrio-sobre-patricia-bullrich-la-quiero-mucho-pero-ella-siempre-busca-el-poder-nid15112026/",
     "https://www.infobae.com/politica/2026/11/15/el-juez-ricardo-lorenzetti-la-gran-revolucion-del-siglo-xxi-es-proteger-lo-humano/",
-    "https://www.infobae.com/politica/2026/11/15/sacudon-papal-el-gobierno-quedo-en-alerta-por-la-hoja-de-ruta-que-dejo-leon-xiv/",
-    "https://www.lanacion.com.ar/politica/una-prueba-de-fuego-para-el-futuro-del-gobierno-nid14112026/"
+    "https://www.infobae.com/politica/2026/11/15/guillermo-francos-aseguro-que-milei-va-a-ser-reelecto-y-no-descarto-acompanarlo-en-la-formula-presidencial/",
+    "https://www.infobae.com/politica/2026/11/15/como-vario-la-cantidad-de-catolicos-en-las-ultimas-dos-decadas-en-el-pais/",
+    "https://www.infobae.com/politica/2026/11/16/no-queremos-que-los-candidatos-del-pj-se-designen-a-dedo-o-por-whatsapp-la-advertencia-del-lider-de-las-62-organizaciones/",
+    "https://tn.com.ar/politica/2026/11/16/neuquen-va-a-elecciones-el-14-de-febrero-lla-empieza-a-definir-su-estrategia-y-hay-dudas-sobre-si-competira-por-la-gobernacion/",
+    "https://www.infobae.com/politica/2026/11/16/que-desafios-le-quedan-al-gobierno-de-aca-a-fin-de-ano-las-leyes-por-aprobar-y-la-decision-crucial-de-cara-al-2027/",
+    "https://www.clarin.com/politica/primera-vez-historico-partido-movimiento-popular-neuquino-presentara-candidatos-gobernador_0_SgjdWAEcSy.html",
+    "https://www.lanacion.com.ar/politica/las-tres-crisis-simultaneas-que-asedian-al-gobierno-nid14112026/",
+    "https://www.ambito.com/politica/la-agenda-javier-milei-reuniones-empresarios-actos-oficiales-y-el-lanzamiento-tesla-la-argentina-n6345457"
   ],
   "used_img_hashes": [
-    "6862ef12f578d45a81488dd869af9019",
-    "3ee3cc342cd9357d41dff41004edb54a",
-    "84c7ef7c149843923b171fe70fbe1496",
-    "aa359e95f2f0170fb33fd3a5302090eb",
-    "ba9059deb8b89d95634afe5a817d2cab",
+    "2dec4f9a8b808b13f14d0918dea6785d",
+    "7ccf42821c95809bddbd43bbc7b89b5c",
     "ed6e596d271aebdbfaa097a266cc24c1",
     "fd3c346ab4e9d5a6966f3046e642f761",
-    "eb7cdd94d1b1c3b29b435005ebeb796e",
-    "2dec4f9a8b808b13f14d0918dea6785d",
-    "84c7ef7c149843923b171fe70fbe1496",
-    "aa359e95f2f0170fb33fd3a5302090eb",
-    "3ee3cc342cd9357d41dff41004edb54a",
-    "2dec4f9a8b808b13f14d0918dea6785d",
-    "0960c0ae5828ba3027dd7023a03ff874",
+    "042e2d582d589080982b2ca05e62eeb2",
     "ba9059deb8b89d95634afe5a817d2cab",
-    "ed6e596d271aebdbfaa097a266cc24c1",
-    "564338c3b56bc847d156202c3fecaf92"
+    "f456c6d0d933a9212679081e4c739b33",
+    "6862ef12f578d45a81488dd869af9019",
+    "eb7cdd94d1b1c3b29b435005ebeb796e",
+    "e4eab0b84fcef4cbe2bab4a18f5836a5",
+    "bedc66adf942e2a9042c5be20ff3405a",
+    "564338c3b56bc847d156202c3fecaf92",
+    "aa359e95f2f0170fb33fd3a5302090eb",
+    "1f5df3a9fef46d560e1dc98f9740825b",
+    "4c38e4fd5caa0ed427ac837b541312af",
+    "84c7ef7c149843923b171fe70fbe1496",
+    "fdb66d84c3b4d04b892d91896cfbd86d",
+    "0960c0ae5828ba3027dd7023a03ff874",
+    "3ee3cc342cd9357d41dff41004edb54a",
+    "2c9c35519e18c4b0ae13046326855a0f",
+    "589dd603252125a18d4600837c709911",
+    "124d6ab9fce94467f4c116558ca58712",
+    "1f5df3a9fef46d560e1dc98f9740825b",
+    "46c0f63382df1e6eabadb9f430795f4c",
+    "9e15b11f87bc499723249421ab001fc9",
+    "e4eab0b84fcef4cbe2bab4a18f5836a5",
+    "7ccf42821c95809bddbd43bbc7b89b5c",
+    "a3142714fdfb68e640e155a00b0b7370",
+    "13cb8a3f100d91023a57b73290ece5c1",
+    "bedc66adf942e2a9042c5be20ff3405a",
+    "589dd603252125a18d4600837c709911",
+    "fdb66d84c3b4d04b892d91896cfbd86d"
   ],
   "published_titles": [
-    "El Gobierno niega que los mensajes del papa Le\u00f3n XIV critiquen a Milei",
-    "El Gobierno niega que los mensajes del papa Le\u00f3n XIV sean cr\u00edticas a Milei y destaca puntos de coincidencia",
-    "Muri\u00f3 H\u00e9ctor Aguer, arzobispo em\u00e9rito de La Plata, a los 83 a\u00f1os",
-    "Muri\u00f3 H\u00e9ctor Aguer, el arzobispo em\u00e9rito de La Plata que fue una de las voces conservadoras de la Iglesia argentina",
-    "Bullrich y Milei: la alianza oficialista llega al l\u00edmite",
-    "Crisis entre Milei y Bullrich: qu\u00e9 puede pasar despu\u00e9s de la visita del Papa y cu\u00e1ntas chances hay de una ruptura",
-    "La ONU posterg\u00f3 el caso de Cristina Kirchner para el a\u00f1o que viene",
-    "El Comit\u00e9 de la ONU al que acudi\u00f3 Cristina Kirchner para ser candidata no trat\u00f3 su pedido y lo pasa para el a\u00f1o que viene",
-    "Empresarios y sindicalistas piden al Gobierno di\u00e1logo tras Le\u00f3n XIV",
-    "Empresarios y sindicalistas piden al Gobierno abrir una mesa de di\u00e1logo tras la visita del Papa",
-    "Marta Torres, quien conmovi\u00f3 al Papa, le pidi\u00f3 a Milei m\u00e1s empat\u00eda",
-    "El reclamo a Milei de la mujer con par\u00e1lisis cerebral que conmovi\u00f3 al Papa: \"El Presidente tendr\u00eda que tener el coraz\u00f3n m\u00e1s blando\"",
     "Allanan propiedades de B\u00e1ez por narcotr\u00e1fico y lavado",
     "Allanan propiedades de L\u00e1zaro B\u00e1ez en una causa por narcotr\u00e1fico y lavado de dinero",
     "Intendente adicto a coca\u00edna: votan si puede seguir en el cargo",
@@ -1596,6 +1602,18 @@
     "La Iglesia marca agenda y Milei sostiene el ajuste sin cambios",
     "Sacud\u00f3n papal: el Gobierno qued\u00f3 en alerta por la hoja de ruta que dej\u00f3 Le\u00f3n XIV",
     "Milei juega su futuro pol\u00edtico con la reforma electoral",
-    "Una prueba de fuego para el futuro del Gobierno"
+    "Una prueba de fuego para el futuro del Gobierno",
+    "Jos\u00e9 Ibarra exige que el PJ elija candidatos sin imposiciones",
+    "\u201cNo queremos que los candidatos del PJ se designen a dedo o por WhatsApp\u201d: la advertencia del l\u00edder de las 62 Organizaciones",
+    "La Libertad Avanza duda si competir por la gobernaci\u00f3n de Neuqu\u00e9n",
+    "Neuqu\u00e9n va a elecciones el 14 de febrero: La Libertad Avanza empieza a definir su estrategia y hay dudas sobre si competir\u00e1 por la gobernaci\u00f3n",
+    "Milei termina el a\u00f1o sin f\u00f3rmula, sin leyes clave y con interna",
+    "Qu\u00e9 desaf\u00edos le quedan al Gobierno de ac\u00e1 a fin de a\u00f1o: las leyes por aprobar y la decisi\u00f3n crucial de cara al 2027",
+    "El partido neuquino MPN no presentar\u00e1 candidato a gobernador",
+    "Por primera vez el hist\u00f3rico partido Movimiento Popular Neuquino no presentar\u00e1 candidatos a gobernador",
+    "Tres crisis simult\u00e1neas asedian al Gobierno",
+    "Las tres crisis simult\u00e1neas que asedian al Gobierno",
+    "Milei recibe empresarios y participa del lanzamiento de Tesla",
+    "La agenda de Javier Milei: reuniones con empresarios, actos oficiales y el lanzamiento de Tesla en la Argentina"
   ]
 }
