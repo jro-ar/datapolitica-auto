@@ -57,22 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-29 10:09",
-      "publicadas": 6,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [],
-      "titulos": [
-        "Javier Milei regresa a Corrientes para cerrar un congreso libertario",
-        "La CGT qued\u00f3 afuera de la cumbre del PJ sobre el 2027",
-        "El peronismo patag\u00f3nico apuesta a tres candidatos para 2027",
-        "El Senado debatir\u00e1 salud mental y un proyecto pro mercado",
-        "El caso Bolsonaro expuso fisuras en la coalici\u00f3n de Milei",
-        "Alberto Weretilneck adelanta elecciones en R\u00edo Negro",
-        "Presentan un libro sobre el Congreso argentino desde 1983"
-      ]
-    },
-    {
       "fecha": "2026-10-29 14:09",
       "publicadas": 6,
       "cinta": true,
@@ -1351,6 +1335,21 @@
         "El Gobierno descarta terceras v\u00edas y va por la polarizaci\u00f3n en 2027",
         "Cristina Kirchner elige a Guillermo Michel para la Magistratura"
       ]
+    },
+    {
+      "fecha": "2026-11-17 14:01",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [],
+      "titulos": [
+        "Karina Milei y Bullrich definen la agenda de sesiones extraordinarias",
+        "Macri aline\u00f3 a Pro detr\u00e1s de la reforma electoral de Milei",
+        "M\u00e9dicos residentes paran 48 horas contra el ajuste en salud",
+        "El barco chileno que ir\u00e1 a Malvinas ya est\u00e1 en un astillero",
+        "El Frente Renovador convoca al peronismo y excluye al gobernador",
+        "Jurista argentino Santiago Cant\u00f3n gan\u00f3 premio internacional"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1362,56 +1361,49 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5166,
-    5167,
-    5168,
-    5169,
-    5170
+    5172,
+    5173,
+    5174,
+    5175,
+    5176
   ],
-  "cinta_id": 5171,
+  "cinta_id": 5177,
   "published_links": [
+    "https://www.infobae.com/politica/2026/11/17/el-gobierno-se-abraza-a-la-polarizacion-electoral-y-ya-habla-de-un-boca-river-contra-el-peronismo/",
+    "https://www.lanacion.com.ar/politica/javier-milei-anuncio-la-llegada-de-lego-a-la-argentina-nid16112026/",
+    "https://www.ambito.com/politica/cristina-kirchner-impulsa-guillermo-michel-abroquelar-al-pj-el-consejo-la-magistratura-n6345930",
     "https://www.infobae.com/politica/2026/11/16/que-desafios-le-quedan-al-gobierno-de-aca-a-fin-de-ano-las-leyes-por-aprobar-y-la-decision-crucial-de-cara-al-2027/",
     "https://www.ambito.com/politica/javier-milei-participara-una-cena-contra-el-antisemitismo-que-reunira-mas-300-personalidades-n6345916",
-    "https://www.ambito.com/politica/presupuesto-2027-caba-el-pro-negociara-cambios-la-libertad-avanza-que-reclama-mas-ajuste-y-baja-impuestos-n6345847",
-    "https://www.lanacion.com.ar/politica/javier-milei-anuncio-la-llegada-de-lego-a-la-argentina-nid16112026/",
     "https://www.lanacion.com.ar/politica/elisa-carrio-sobre-patricia-bullrich-la-quiero-mucho-pero-ella-siempre-busca-el-poder-nid15112026/",
-    "https://www.lanacion.com.ar/politica/cordoba-llaryora-envia-senales-a-la-rosada-con-el-presupuesto-provincial-2027-nid16112026/",
-    "https://www.lanacion.com.ar/politica/la-campana-civica-para-reclamar-cambios-en-los-concursos-judiciales-llego-al-senado-nid16112026/",
-    "https://www.infobae.com/politica/2026/11/17/leon-xiv-hablo-sobre-argentina-va-a-haber-diferencias-de-opinion-pero-no-es-necesario-llegar-a-odiarnos-a-usar-un-lenguaje-tan-violento/",
-    "https://tn.com.ar/politica/2026/11/17/leon-xiv-hizo-un-balance-de-su-viaje-a-la-argentina-y-conto-el-pedido-que-le-hizo-a-javier-milei-sobre-los-mas-necesitados/",
-    "https://www.clarin.com/politica/salta-sumo-provincias-desdoblan-elecciones-votara-16-mayo_0_cDdYJicGHn.html",
-    "https://www.infobae.com/politica/2026/11/17/el-gobierno-se-abraza-a-la-polarizacion-electoral-y-ya-habla-de-un-boca-river-contra-el-peronismo/",
-    "https://www.ambito.com/politica/cristina-kirchner-impulsa-guillermo-michel-abroquelar-al-pj-el-consejo-la-magistratura-n6345930"
+    "https://tn.com.ar/politica/2026/11/17/en-medio-de-la-tension-karina-milei-y-bullrich-se-reunen-en-la-mesa-politica-para-definir-la-agenda-de-sesiones-extraordinarias/",
+    "https://www.lanacion.com.ar/politica/en-un-giro-sorpresivo-pro-definio-su-acompanamiento-a-la-reforma-electoral-de-milei-nid17112026/",
+    "https://www.ambito.com/politica/medicos-residentes-volveran-marchar-caba-contra-el-gobierno-y-haran-un-paro-48-horas-un-ajuste-que-golpea-n6346020",
+    "https://www.clarin.com/politica/barco-chileno-abrira-nueva-ruta-malvinas-llego-punta-arenas-entro-astillero-argentina-sigue-movimientos_0_c7m5i4DXoV.html",
+    "https://www.clarin.com/politica/nueva-cumbre-peronista-massa-centro-presencia-kirchnerista-kicillof_0_0ZnRVpWv0f.html",
+    "https://www.clarin.com/politica/reconocieron-jurista-argentino-santiago-canton-premio-internacional-legado_0_P9d3NTbQzw.html"
   ],
   "used_img_hashes": [
     "938c176bd4586e89571566faf2510dcc",
+    "e470195b36a83aab03fe04c3eaa0c9df",
+    "c3ac138e6bc0026fffb0280fb050689c",
+    "e35c7f8b370689aad624de55c430db6c",
     "a2875f3de3b58f12710f17a01802da84",
+    "8c2313cb92c3bb2bb410f5a4bee6c521",
     "53b5dfb25e0fbf6dd2b651965f57428c",
+    "87e4369c67179853fb1adbfac3a5703f",
+    "6c24b3d5e6bb1b816d718795405515dc",
     "1abf3e1531cbba7ec7af0201977f92cb",
-    "5493ff34bccf382773473966b67b3d4f",
     "60430333c13db6855b7a318e2c0bd4b8",
-    "f373b0aafefc8d78ba9c89e2e901d7b1",
-    "8c2313cb92c3bb2bb410f5a4bee6c521",
-    "938c176bd4586e89571566faf2510dcc",
-    "8c2313cb92c3bb2bb410f5a4bee6c521",
     "5493ff34bccf382773473966b67b3d4f",
-    "1abf3e1531cbba7ec7af0201977f92cb",
-    "a2875f3de3b58f12710f17a01802da84",
-    "f373b0aafefc8d78ba9c89e2e901d7b1"
+    "cbd1a7c79a6044dacb56f975c40d0af2",
+    "f373b0aafefc8d78ba9c89e2e901d7b1",
+    "eb4a8a595271efa326845242d5e5a16d",
+    "cbd1a7c79a6044dacb56f975c40d0af2",
+    "e470195b36a83aab03fe04c3eaa0c9df",
+    "e35c7f8b370689aad624de55c430db6c",
+    "c3ac138e6bc0026fffb0280fb050689c"
   ],
   "published_titles": [
-    "Quirno le marc\u00f3 a Bullrich que no es tiempo de \"ambiciones personales",
-    "Pablo Quirno habl\u00f3 del abrazo con los Milei y le marc\u00f3 a Patricia Bullrich que no es tiempo de \"ambiciones personales\"",
-    "El Estatuto del Periodista pierde vigencia sin avances en el Congreso",
-    "Estatuto del Periodista: se acerca el plazo para su derogaci\u00f3n y las iniciativas para revertirlo permanecen sin avances en el Congreso",
-    "El Vaticano elimin\u00f3 el posteo sobre Argentina con dos Papas",
-    "Le\u00f3n XIV y la historia del mensaje \u201cArgentina tiene dos Papas\u201d que el Vaticano borr\u00f3 de las redes sociales",
-    "La fiscal de Cuadernos le pidi\u00f3 calma al custodio de Cristina",
-    "\"No se altere tanto\": la advertencia de la fiscal de la causa Cuadernos al custodio de Cristina Kirchner en medio de la audiencia",
-    "El Gobierno ofrece retiros voluntarios para cerrar la IOSFA",
-    "El Gobierno lanz\u00f3 un plan de retiros voluntarios para continuar con el cierre de la ex obra social de las FFAA",
-    "El Gobierno destrab\u00f3 las PASO con aliados y convoc\u00f3 al Senado",
-    "Suspensi\u00f3n de las PASO: el Gobierno destrab\u00f3 las negociaciones con los aliados y convoc\u00f3 a la comisi\u00f3n del Senado",
     "El Gobierno no reforzar\u00e1 la custodia de jefes militares",
     "El Gobierno minimiza la amenaza de Ir\u00e1n contra las Fuerzas Armadas y no prev\u00e9 reforzar las custodias de los jefes militares",
     "Menem apura en Diputados la suspensi\u00f3n de las PASO",
@@ -1599,6 +1591,18 @@
     "El Gobierno descarta terceras v\u00edas y va por la polarizaci\u00f3n en 2027",
     "El Gobierno se abraza a la polarizaci\u00f3n electoral y ya habla de un \u201cBoca-River\u201d contra el peronismo",
     "Cristina Kirchner elige a Guillermo Michel para la Magistratura",
-    "Cristina Kirchner impulsa a Guillermo Michel para abroquelar al PJ en el Consejo de la Magistratura"
+    "Cristina Kirchner impulsa a Guillermo Michel para abroquelar al PJ en el Consejo de la Magistratura",
+    "Karina Milei y Bullrich definen la agenda de sesiones extraordinarias",
+    "En medio de la tensi\u00f3n, Karina Milei y Bullrich se re\u00fanen en la mesa pol\u00edtica para definir la agenda de las sesiones extraordinarias",
+    "Macri aline\u00f3 a Pro detr\u00e1s de la reforma electoral de Milei",
+    "En un giro sorpresivo, Pro defini\u00f3 su acompa\u00f1amiento a la reforma electoral de Milei",
+    "M\u00e9dicos residentes paran 48 horas contra el ajuste en salud",
+    "M\u00e9dicos residentes volver\u00e1n a marchar en CABA contra el Gobierno y har\u00e1n un paro de 48 horas: \"Un ajuste que golpea\"",
+    "El barco chileno que ir\u00e1 a Malvinas ya est\u00e1 en un astillero",
+    "El barco chileno que abrir\u00e1 una nueva ruta a Malvinas lleg\u00f3 a Punta Arenas y entr\u00f3 a un astillero: la Argentina sigue sus movimientos",
+    "El Frente Renovador convoca al peronismo y excluye al gobernador",
+    "Nueva cumbre peronista con Massa en el centro, presencia kirchnerista y sin Kicillof",
+    "Jurista argentino Santiago Cant\u00f3n gan\u00f3 premio internacional",
+    "Reconocieron al jurista argentino Santiago Cant\u00f3n con un premio internacional por su legado"
   ]
 }
