@@ -57,22 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-30 10:10",
-      "publicadas": 6,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [],
-      "titulos": [
-        "Las PASO podr\u00edan no cambiar antes de las elecciones de 2027",
-        "Ning\u00fan candidato presidencial tiene m\u00e1s apoyo que rechazo",
-        "Kicillof re\u00fane a intendentes para consolidar su armado electoral",
-        "El Gobierno pag\u00f3 una deuda al hogar Don Orione tras un embargo",
-        "El Senado debatir\u00e1 el proyecto para controlar el fentanilo",
-        "El Senado exige que Villarruel reciba al papa Le\u00f3n XIV",
-        "Muri\u00f3 Carlos Rinke, h\u00e9roe de Malvinas y leyenda de la aviaci\u00f3n"
-      ]
-    },
-    {
       "fecha": "2026-10-30 14:11",
       "publicadas": 6,
       "cinta": true,
@@ -1348,6 +1332,24 @@
         "El Gobierno rechaz\u00f3 la visita de la princesa Ana a Malvinas",
         "El Gobierno modifica el dictamen de las PASO sin votos garantizados"
       ]
+    },
+    {
+      "fecha": "2026-11-18 14:01",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: El PJ bonaerense enfrenta un proceso m\u00e1s complejo y costoso ",
+        "Candado (dice 'accidente' y la noticia original no): Rafecas conden\u00f3 al polic\u00eda que gase\u00f3 a una nena si"
+      ],
+      "titulos": [
+        "Milei enviar\u00e1 al Congreso el acuerdo comercial con EE.UU.",
+        "Tolosa Paz defendi\u00f3 el acto peronista en San Fernando",
+        "Claudio Vidal posterga la fecha electoral 2027 en Santa Cruz",
+        "Secretaria de Energ\u00eda, denunciada por habilitar firma sancionada",
+        "El oficialismo pidi\u00f3 cuarto intermedio en el Senado sin firmas",
+        "Bullrich volvi\u00f3 a pedir un refuerzo econ\u00f3mico para las familias"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1359,69 +1361,63 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5190,
-    5191,
-    5192,
-    5193,
-    5194
+    5196,
+    5197,
+    5198,
+    5199,
+    5200
   ],
-  "cinta_id": 5195,
+  "cinta_id": 5201,
   "published_links": [
-    "https://www.infobae.com/politica/2026/11/17/el-gobierno-se-abraza-a-la-polarizacion-electoral-y-ya-habla-de-un-boca-river-contra-el-peronismo/",
-    "https://www.infobae.com/politica/2026/11/17/los-25-anos-de-la-caf-en-argentina-respaldo-politico-compromiso-ambiental-e-integracion-regional/",
-    "https://www.ambito.com/politica/se-presento-diputados-un-proyecto-ley-beneficios-impositivos-el-sistema-privado-salud-n6346214",
-    "https://www.lanacion.com.ar/politica/hernan-lacunza-se-desmarca-de-pro-defiende-las-paso-y-mantiene-su-candidatura-hoy-mi-partido-eligio-nid17112026/",
     "https://www.ambito.com/politica/poroteo-las-paso-la-libertad-avanza-acaricia-dictamen-comision-del-senado-n6346052",
-    "https://tn.com.ar/politica/2026/11/16/ley-de-soberania-nacional-el-proyecto-llega-este-miercoles-a-diputados-con-diferencias-entre-el-oficialismo-y-sus-aliados/",
+    "https://www.ambito.com/politica/se-presento-diputados-un-proyecto-ley-beneficios-impositivos-el-sistema-privado-salud-n6346214",
+    "https://www.infobae.com/politica/2026/11/17/los-25-anos-de-la-caf-en-argentina-respaldo-politico-compromiso-ambiental-e-integracion-regional/",
     "https://tn.com.ar/politica/2026/11/17/pese-a-las-tensiones-la-casa-rosada-puso-a-patricia-bullrich-al-frente-de-las-negociaciones-por-la-reforma-electoral-en-el-senado/",
-    "https://www.infobae.com/politica/2026/11/18/tras-la-renuncia-de-carlos-terrado-designaron-al-nuevo-vicepresidente-del-directorio-de-la-autoridad-regulatoria-nuclear/",
-    "https://www.lanacion.com.ar/politica/un-intendente-bonaerense-caminara-350-kilometros-hasta-la-plata-como-propuesta-de-campana-para-ser-nid18112026/",
+    "https://www.infobae.com/politica/2026/11/17/el-gobierno-se-abraza-a-la-polarizacion-electoral-y-ya-habla-de-un-boca-river-contra-el-peronismo/",
     "https://www.infobae.com/politica/2026/11/18/imputaron-a-una-concejal-de-neuquen-por-haberse-adjudicado-un-lote-fiscal-en-san-patricio-del-chanar/",
-    "https://www.infobae.com/politica/2026/11/18/el-gobierno-rechazo-la-visita-de-la-princesa-ana-a-las-islas-malvinas-y-califico-el-viaje-como-una-provocacion/",
-    "https://www.infobae.com/politica/2026/11/18/el-gobierno-prepara-los-cambios-para-sacar-las-paso-a-contrarreloj-y-enfrenta-el-dilema-de-la-sabana-corta/"
+    "https://tn.com.ar/politica/2026/11/17/en-medio-de-la-tension-karina-milei-y-bullrich-se-reunen-en-la-mesa-politica-para-definir-la-agenda-de-sesiones-extraordinarias/",
+    "https://www.infobae.com/politica/2026/11/18/tolosa-paz-resalto-el-acto-del-peronismo-en-san-fernando-y-envio-un-mensaje-a-kicillof-nadie-puede-sentirse-ofendido/",
+    "https://www.infobae.com/politica/2026/11/18/santa-cruz-todavia-no-definio-la-fecha-de-las-elecciones-de-2027-y-la-supedito-a-una-reforma-electoral/",
+    "https://www.lanacion.com.ar/politica/un-fiscal-anticorrupcion-denuncio-a-la-secretaria-de-energia-la-acuso-de-favorecer-a-una-empresa-nid17112026/",
+    "https://www.infobae.com/politica/2026/11/17/reforma-politica-el-oficialismo-pidio-un-cuarto-intermedio-por-falta-de-firmas-y-buscaria-dictaminar-manana/",
+    "https://tn.com.ar/politica/2026/11/17/bullrich-volvio-a-pedir-un-refuerzo-para-las-familias-el-factor-mas-importante-para-ganar-una-eleccion-es-la-economia/"
   ],
   "used_img_hashes": [
-    "c923c4566703fb28736a4e25dee0f639",
     "df005a7d2b40c10a10d066ef17670e50",
-    "0e84080b7ed8ce60876e0ba77209e0aa",
-    "d8df62311a6b97ecdac22329a3ea43c1",
-    "e499f7583a09beea0e1e18721513ce41",
-    "1e1e9890b9f66047450251f2cd56ec79",
-    "938c176bd4586e89571566faf2510dcc",
-    "ef8e717c597a76a55ae71e52ac561165",
-    "5dcbd2ee1711d42daf6991e5c32d192d",
+    "6fefcfffa6408b1db9deb4c94c3a9667",
+    "7f431eb4ba84a97d952254f022693be6",
     "d3f7415f649ecbe31b0ee25bacc014a8",
-    "538d98c32f56d6c2c76d378dcb39be89",
-    "ab726364a4e4eb94b9c1c96176990871",
-    "68b99513794be5cd6b6eb11b2e530187",
-    "7f431eb4ba84a97d952254f022693be6",
-    "31dc100c4af24bed92a97484bae0e5f0",
+    "d8df62311a6b97ecdac22329a3ea43c1",
+    "0dacde9ed7e4844f9f0d524a86c644c3",
     "801dabd86f1ed73eb37c4d0f25e24488",
+    "576fcaf96eb382ef6e5ef2da73973f6c",
+    "31dc100c4af24bed92a97484bae0e5f0",
+    "e499f7583a09beea0e1e18721513ce41",
+    "04c31ea2885579c1fc60a5200dd7213f",
+    "193549dc7c89e5bac8165b727441d1e4",
+    "c923c4566703fb28736a4e25dee0f639",
+    "6a903b30d51412b23e47bf9633649f18",
     "df7704401631d3b4be5acf63dd697d7e",
-    "ac9723b4b0230c7aec79907021c962dd",
-    "7f431eb4ba84a97d952254f022693be6",
+    "87e4369c67179853fb1adbfac3a5703f",
     "ef8e717c597a76a55ae71e52ac561165",
-    "0e84080b7ed8ce60876e0ba77209e0aa",
-    "5dcbd2ee1711d42daf6991e5c32d192d",
+    "1e1e9890b9f66047450251f2cd56ec79",
+    "ac9723b4b0230c7aec79907021c962dd",
     "ab726364a4e4eb94b9c1c96176990871",
     "538d98c32f56d6c2c76d378dcb39be89",
-    "df7704401631d3b4be5acf63dd697d7e",
-    "ac9723b4b0230c7aec79907021c962dd",
-    "801dabd86f1ed73eb37c4d0f25e24488"
+    "68b99513794be5cd6b6eb11b2e530187",
+    "5e110134166af96c8885c05be72e4fd7",
+    "938c176bd4586e89571566faf2510dcc",
+    "5dcbd2ee1711d42daf6991e5c32d192d",
+    "0e84080b7ed8ce60876e0ba77209e0aa",
+    "298a326596bfc5c973f664934b29c5f9",
+    "b3682ec24cdd3609dc89cde73ae9e91d",
+    "576fcaf96eb382ef6e5ef2da73973f6c",
+    "9b3638ae582674414f46fd3c9e91f3a1",
+    "c6c174358d6e0192df83ba770b38073a",
+    "0dacde9ed7e4844f9f0d524a86c644c3",
+    "5e110134166af96c8885c05be72e4fd7"
   ],
   "published_titles": [
-    "Milei mejor\u00f3 su imagen pero sigue relegado en ranking regional",
-    "Nueva encuesta: Javier Milei repunt\u00f3, pero sigue relegado en un ranking de presidentes",
-    "Neuqu\u00e9n fija el 4 de diciembre como plazo para inscribir alianzas",
-    "Confirmado: el 2027 electoral empieza en tres semanas con el cierre de alianzas en una provincia",
-    "El desempleo supera a la corrupci\u00f3n como preocupaci\u00f3n principal",
-    "El desempleo se convirti\u00f3 en la principal preocupaci\u00f3n de los argentinos, seg\u00fan una encuestadora",
-    "CGT y movimientos sociales advierten m\u00e1s protestas callejeras",
-    "La CGT y los movimientos sociales pronostican un aumento de la conflictividad social",
-    "Banco Central respondi\u00f3 por el oro y se prepara una auditor\u00eda",
-    "Oro: la AGN recibi\u00c3\u00b3 la respuesta del BCRA y prepara una dura auditor\u00c3\u00ada sobre los env\u00c3\u00ados al exterior",
-    "Una jueza proh\u00edbe pescar en Malvinas a 19 empresas",
-    "Una jueza de R\u00edo Grande orden\u00f3 a 19 empresas que dejen de pescar en aguas de Malvinas sin permiso argentino",
     "Milei llam\u00f3 al nuevo presidente de Paraguay y ofreci\u00f3 alianza",
     "Javier Milei se comunic\u00c3\u00b3 con el nuevo presidente de Paraguay: \"Tiene en nosotros un socio, un aliado y un amigo\"",
     "Diego Valenzuela niega interna entre Milei y Bullrich",
@@ -1609,6 +1605,18 @@
     "El Gobierno rechaz\u00f3 la visita de la princesa Ana a Malvinas",
     "El Gobierno rechaz\u00f3 la visita de la princesa Ana a las Islas Malvinas y calific\u00f3 el viaje como \u201cuna provocaci\u00f3n\u201d",
     "El Gobierno modifica el dictamen de las PASO sin votos garantizados",
-    "El Gobierno prepara los cambios para sacar las PASO a contrarreloj y enfrenta el dilema de la s\u00e1bana corta"
+    "El Gobierno prepara los cambios para sacar las PASO a contrarreloj y enfrenta el dilema de la s\u00e1bana corta",
+    "Milei enviar\u00e1 al Congreso el acuerdo comercial con EE.UU.",
+    "El Gobierno reuni\u00f3 a su mesa pol\u00edtica y defini\u00f3 que en los pr\u00f3ximos d\u00edas enviar\u00e1 al Congreso el acuerdo comercial con EE.UU.",
+    "Tolosa Paz defendi\u00f3 el acto peronista en San Fernando",
+    "Tolosa Paz resalt\u00f3 el acto del peronismo en San Fernando y envi\u00f3 un mensaje a Kicillof: \"Nadie puede sentirse ofendido\"",
+    "Claudio Vidal posterga la fecha electoral 2027 en Santa Cruz",
+    "Santa Cruz todav\u00eda no defini\u00f3 la fecha de las elecciones de 2027 y la supedit\u00f3 a una reforma electoral",
+    "Secretaria de Energ\u00eda, denunciada por habilitar firma sancionada",
+    "Un fiscal anticorrupci\u00f3n denunci\u00f3 a la secretaria de Energ\u00eda: la acus\u00f3 de favorecer a una empresa sancionada por operar en Malvinas",
+    "El oficialismo pidi\u00f3 cuarto intermedio en el Senado sin firmas",
+    "Reforma pol\u00edtica: el oficialismo pidi\u00f3 un cuarto intermedio por falta de firmas y buscar\u00eda dictaminar ma\u00f1ana",
+    "Bullrich volvi\u00f3 a pedir un refuerzo econ\u00f3mico para las familias",
+    "Bullrich volvi\u00f3 a pedir un \u201crefuerzo\u201d para las familias: \u201cEl factor m\u00e1s importante para ganar una elecci\u00f3n es la econom\u00eda\u201d"
   ]
 }
