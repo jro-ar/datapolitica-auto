@@ -57,22 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-29 23:10",
-      "publicadas": 6,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [],
-      "titulos": [
-        "Milei viaja a Neuqu\u00e9n para respaldar a su senadora",
-        "La UBA lanz\u00f3 un monitor para rastrear la actividad legislativa",
-        "Pettovello asegur\u00f3 que el papa Le\u00f3n XIV no vendr\u00e1 a hacer pol\u00edtica",
-        "Sindicatos peronistas denuncian a Caputo por fondos de obras sociales",
-        "El Gobierno reuni\u00f3 a 12 gobernadores para impulsar megaproyectos",
-        "Milei viajar\u00e1 a Espa\u00f1a y coincidir\u00e1 con el canciller brasile\u00f1o",
-        "Milei y el gobernador de La Rioja se cruzaron en redes"
-      ]
-    },
-    {
       "fecha": "2026-10-30 10:10",
       "publicadas": 6,
       "cinta": true,
@@ -1344,6 +1328,26 @@
         "El intendente de Fraile Pintado resiste su juicio pol\u00edtico",
         "Lacunza defiende las PASO y critica a Pro por las colectoras"
       ]
+    },
+    {
+      "fecha": "2026-11-18 10:01",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: Oficialismo de abogados gan\u00f3 y retiene el Jurado de Enjuicia",
+        "Titulo malo: Hotesur-Los Sauces: retoma el juicio contra Cristina y M\u00e1xim",
+        "Candado (dice 'muert' y la noticia original no): La princesa Ana visit\u00f3 Malvinas y el Gobierno habl",
+        "Titulo malo: Premian a dos tribunales federales por su calidad judicial"
+      ],
+      "titulos": [
+        "Bullrich lidera la negociaci\u00f3n por la reforma electoral en el Senado",
+        "La Autoridad Regulatoria Nuclear tiene nuevo vicepresidente",
+        "El intendente de Los Toldos caminar\u00e1 350 km hasta La Plata",
+        "Imputaron a una concejal de Neuqu\u00e9n que vot\u00f3 un lote y se lo adjudic\u00f3",
+        "El Gobierno rechaz\u00f3 la visita de la princesa Ana a Malvinas",
+        "El Gobierno modifica el dictamen de las PASO sin votos garantizados"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1355,55 +1359,57 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5184,
-    5185,
-    5186,
-    5187,
-    5188
+    5190,
+    5191,
+    5192,
+    5193,
+    5194
   ],
-  "cinta_id": 5189,
+  "cinta_id": 5195,
   "published_links": [
     "https://www.infobae.com/politica/2026/11/17/el-gobierno-se-abraza-a-la-polarizacion-electoral-y-ya-habla-de-un-boca-river-contra-el-peronismo/",
+    "https://www.infobae.com/politica/2026/11/17/los-25-anos-de-la-caf-en-argentina-respaldo-politico-compromiso-ambiental-e-integracion-regional/",
     "https://www.ambito.com/politica/se-presento-diputados-un-proyecto-ley-beneficios-impositivos-el-sistema-privado-salud-n6346214",
-    "https://www.infobae.com/politica/2026/11/17/gustavo-saenz-presento-su-libro-federalismo-y-progreso-argentina-no-empieza-y-termina-en-la-general-paz/",
-    "https://www.ambito.com/politica/cristina-kirchner-impulsa-guillermo-michel-abroquelar-al-pj-el-consejo-la-magistratura-n6345930",
-    "https://www.clarin.com/politica/justicia-electoral-mira-cerca-congreso-paso-puede-cambiar-eleccion-2027_0_OIP3AXiZUX.html",
-    "https://tn.com.ar/politica/2026/11/17/en-medio-de-la-tension-karina-milei-y-bullrich-se-reunen-en-la-mesa-politica-para-definir-la-agenda-de-sesiones-extraordinarias/",
+    "https://www.lanacion.com.ar/politica/hernan-lacunza-se-desmarca-de-pro-defiende-las-paso-y-mantiene-su-candidatura-hoy-mi-partido-eligio-nid17112026/",
     "https://www.ambito.com/politica/poroteo-las-paso-la-libertad-avanza-acaricia-dictamen-comision-del-senado-n6346052",
     "https://tn.com.ar/politica/2026/11/16/ley-de-soberania-nacional-el-proyecto-llega-este-miercoles-a-diputados-con-diferencias-entre-el-oficialismo-y-sus-aliados/",
-    "https://www.infobae.com/politica/2026/11/17/los-25-anos-de-la-caf-en-argentina-respaldo-politico-compromiso-ambiental-e-integracion-regional/",
-    "https://www.clarin.com/politica/justicia-devuelve-celular-juan-grabois-quiere-saber-dio-ordenes-tomar-instituto-peron_0_XzoyoP8BxY.html",
-    "https://www.clarin.com/politica/escandalo-fraile-pintado-iniciaron-juicio-politico-intendente-atrinchero-municipalidad_0_xZwZJiJkRV.html",
-    "https://www.lanacion.com.ar/politica/hernan-lacunza-se-desmarca-de-pro-defiende-las-paso-y-mantiene-su-candidatura-hoy-mi-partido-eligio-nid17112026/"
+    "https://tn.com.ar/politica/2026/11/17/pese-a-las-tensiones-la-casa-rosada-puso-a-patricia-bullrich-al-frente-de-las-negociaciones-por-la-reforma-electoral-en-el-senado/",
+    "https://www.infobae.com/politica/2026/11/18/tras-la-renuncia-de-carlos-terrado-designaron-al-nuevo-vicepresidente-del-directorio-de-la-autoridad-regulatoria-nuclear/",
+    "https://www.lanacion.com.ar/politica/un-intendente-bonaerense-caminara-350-kilometros-hasta-la-plata-como-propuesta-de-campana-para-ser-nid18112026/",
+    "https://www.infobae.com/politica/2026/11/18/imputaron-a-una-concejal-de-neuquen-por-haberse-adjudicado-un-lote-fiscal-en-san-patricio-del-chanar/",
+    "https://www.infobae.com/politica/2026/11/18/el-gobierno-rechazo-la-visita-de-la-princesa-ana-a-las-islas-malvinas-y-califico-el-viaje-como-una-provocacion/",
+    "https://www.infobae.com/politica/2026/11/18/el-gobierno-prepara-los-cambios-para-sacar-las-paso-a-contrarreloj-y-enfrenta-el-dilema-de-la-sabana-corta/"
   ],
   "used_img_hashes": [
-    "e499f7583a09beea0e1e18721513ce41",
-    "d3f7415f649ecbe31b0ee25bacc014a8",
     "c923c4566703fb28736a4e25dee0f639",
-    "31dc100c4af24bed92a97484bae0e5f0",
     "df005a7d2b40c10a10d066ef17670e50",
-    "938c176bd4586e89571566faf2510dcc",
+    "0e84080b7ed8ce60876e0ba77209e0aa",
+    "d8df62311a6b97ecdac22329a3ea43c1",
+    "e499f7583a09beea0e1e18721513ce41",
     "1e1e9890b9f66047450251f2cd56ec79",
-    "df005a7d2b40c10a10d066ef17670e50",
     "938c176bd4586e89571566faf2510dcc",
+    "ef8e717c597a76a55ae71e52ac561165",
+    "5dcbd2ee1711d42daf6991e5c32d192d",
     "d3f7415f649ecbe31b0ee25bacc014a8",
+    "538d98c32f56d6c2c76d378dcb39be89",
+    "ab726364a4e4eb94b9c1c96176990871",
     "68b99513794be5cd6b6eb11b2e530187",
+    "7f431eb4ba84a97d952254f022693be6",
     "31dc100c4af24bed92a97484bae0e5f0",
-    "1e1e9890b9f66047450251f2cd56ec79"
+    "801dabd86f1ed73eb37c4d0f25e24488",
+    "df7704401631d3b4be5acf63dd697d7e",
+    "ac9723b4b0230c7aec79907021c962dd",
+    "7f431eb4ba84a97d952254f022693be6",
+    "ef8e717c597a76a55ae71e52ac561165",
+    "0e84080b7ed8ce60876e0ba77209e0aa",
+    "5dcbd2ee1711d42daf6991e5c32d192d",
+    "ab726364a4e4eb94b9c1c96176990871",
+    "538d98c32f56d6c2c76d378dcb39be89",
+    "df7704401631d3b4be5acf63dd697d7e",
+    "ac9723b4b0230c7aec79907021c962dd",
+    "801dabd86f1ed73eb37c4d0f25e24488"
   ],
   "published_titles": [
-    "Milei fij\u00f3 meta de llegar al 90% de la poblaci\u00f3n mundial",
-    "Javier Milei defendi\u00c3\u00b3 la apertura econ\u00c3\u00b3mica y fij\u00c3\u00b3 una meta ambiciosa: llegar al 90% de la poblaci\u00c3\u00b3n mundial",
-    "C\u00f3mo y cu\u00e1ndo la Corte Interamericana condena a Argentina",
-    "Cu\u00c3\u00a1ndo interviene la Corte Interamericana y por qu\u00c3\u00a9 puede condenar a la Argentina",
-    "Milei apuesta a la agenda legislativa tras una semana de tropiezos",
-    "No fue como lo imagin\u00c3\u00b3: Javier Milei busca olvidar una semana de obst\u00c3\u00a1culos con el impulso de la agenda legislativa",
-    "La CGT amenaza con m\u00e1s medidas de fuerza y pide di\u00e1logo al Gobierno",
-    "La CGT redobla las cr\u00edticas al modelo de Milei, analiza nuevas medidas de fuerza y exige la convocatoria al di\u00e1logo",
-    "Bullrich anticipa aprobaci\u00f3n holgada del proyecto de discapacidad",
-    "Mientras el mile\u00c3\u00adsmo promete el fin de las PASO, Patricia Bullrich anticipa el tratamiento del proyecto por discapacidad",
-    "Patricia Bullrich pierde peso dentro del Gobierno de Milei",
-    "Crecen los desmarques contra Bullrich en el Gobierno y se gener\u00f3 un in\u00e9dito consenso en el c\u00edrculo de Milei",
     "Milei mejor\u00f3 su imagen pero sigue relegado en ranking regional",
     "Nueva encuesta: Javier Milei repunt\u00f3, pero sigue relegado en un ranking de presidentes",
     "Neuqu\u00e9n fija el 4 de diciembre como plazo para inscribir alianzas",
@@ -1591,6 +1597,18 @@
     "El intendente de Fraile Pintado resiste su juicio pol\u00edtico",
     "Esc\u00e1ndalo en Fraile Pintado: iniciaron juicio pol\u00edtico al intendente y se atrinchero en la Municipalidad",
     "Lacunza defiende las PASO y critica a Pro por las colectoras",
-    "Hern\u00e1n Lacunza se desmarca de Pro, defiende las PASO y mantiene su candidatura: \u201cHoy mi partido eligi\u00f3 otro camino\u201d"
+    "Hern\u00e1n Lacunza se desmarca de Pro, defiende las PASO y mantiene su candidatura: \u201cHoy mi partido eligi\u00f3 otro camino\u201d",
+    "Bullrich lidera la negociaci\u00f3n por la reforma electoral en el Senado",
+    "Pese a las tensiones internas, la Casa Rosada puso a Bullrich al frente de las negociaciones por la reforma electoral en el Senado",
+    "La Autoridad Regulatoria Nuclear tiene nuevo vicepresidente",
+    "Tras la renuncia de Carlos Terrado, designaron al nuevo vicepresidente del directorio de la Autoridad Regulatoria Nuclear",
+    "El intendente de Los Toldos caminar\u00e1 350 km hasta La Plata",
+    "Un intendente bonaerense caminar\u00e1 350 kil\u00f3metros hasta La Plata como propuesta de campa\u00f1a para ser gobernador",
+    "Imputaron a una concejal de Neuqu\u00e9n que vot\u00f3 un lote y se lo adjudic\u00f3",
+    "Imputaron a una concejal de Neuqu\u00e9n por haberse adjudicado un lote fiscal en San Patricio del Cha\u00f1ar",
+    "El Gobierno rechaz\u00f3 la visita de la princesa Ana a Malvinas",
+    "El Gobierno rechaz\u00f3 la visita de la princesa Ana a las Islas Malvinas y calific\u00f3 el viaje como \u201cuna provocaci\u00f3n\u201d",
+    "El Gobierno modifica el dictamen de las PASO sin votos garantizados",
+    "El Gobierno prepara los cambios para sacar las PASO a contrarreloj y enfrenta el dilema de la s\u00e1bana corta"
   ]
 }
