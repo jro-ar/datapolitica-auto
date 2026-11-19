@@ -57,22 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-30 23:09",
-      "publicadas": 6,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [],
-      "titulos": [
-        "Diputados bonaerenses lideran el ranking de vuelos oficiales",
-        "Santilli afirma tener votos para eliminar las PASO, pero la UCR duda",
-        "Subsecretario de Ciencia renunci\u00f3 con cr\u00edticas al Gobierno",
-        "Grossi logr\u00f3 9 votos en el Consejo de Seguridad y sigue en carrera",
-        "Gabriela Est\u00e9vez lleva al Congreso ley para etiquetar huevos",
-        "El Gobierno contrat\u00f3 una auditor\u00eda externa sobre represas con China",
-        "Intendentes del interior denuncian trato desigual en subsidios"
-      ]
-    },
-    {
       "fecha": "2026-10-31 10:10",
       "publicadas": 6,
       "cinta": true,
@@ -1352,6 +1336,26 @@
         "La Libertad Avanza y Patria Grande debatieron sobre empleo juvenil",
         "C\u00e1mara Federal renovada reuni\u00f3 a jueces de Comodoro Py"
       ]
+    },
+    {
+      "fecha": "2026-11-19 10:01",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: Bullrich y Santilli, protagonistas de un dictamen que al Gob",
+        "Titulo malo: Sindicatos piden salario m\u00ednimo de $3,2 millones y reclaman ",
+        "Titulo distinto de la noticia original: El Gobierno aval\u00f3 US$150 millones para agua en Chubut y",
+        "Candado (dice 'muert' y la noticia original no): Un concejal de LLA busca derogar la prohibici\u00f3n de"
+      ],
+      "titulos": [
+        "Javier Milei usa el furor por GTA 6 para atacar al kirchnerismo",
+        "El Tribunal Superior de CABA avala el tope indemnizatorio",
+        "Jorge Macri excluye a trabajadores de Moyano de indemnizaciones",
+        "El peronismo mantiene dos bancas clave en la Magistratura",
+        "De Andreis: acordar con Macri es muy importante para el Gobierno",
+        "Furl\u00e1n niega delito en contrato millonario de la UOM"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1363,62 +1367,61 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5209,
-    5210,
-    5211,
-    5212,
-    5213
+    5215,
+    5216,
+    5217,
+    5218,
+    5219
   ],
-  "cinta_id": 5214,
+  "cinta_id": 5220,
   "published_links": [
-    "https://www.ambito.com/politica/se-presento-diputados-un-proyecto-ley-beneficios-impositivos-el-sistema-privado-salud-n6346214",
-    "https://www.ambito.com/politica/luis-caputo-apunto-contra-la-cumbre-peronista-no-debe-haber-cosa-mas-estupida-que-combatir-el-capital-n6346612",
-    "https://www.lanacion.com.ar/politica/un-fiscal-anticorrupcion-denuncio-a-la-secretaria-de-energia-la-acuso-de-favorecer-a-una-empresa-nid17112026/",
-    "https://tn.com.ar/politica/2026/11/18/por-una-decision-judicial-cristina-kirchner-cobrara-3-millones-mas-por-mes-en-su-pension-de-privilegio/",
     "https://www.lanacion.com.ar/economia/la-reaccion-del-dueno-de-los-bloques-de-juguetes-rasti-ante-la-apertura-de-una-tienda-lego-en-la-nid18112026/",
     "https://tn.com.ar/politica/2026/11/18/el-gobierno-asegura-que-tiene-los-votos-para-darle-media-sancion-a-la-ley-malvinas-y-espera-que-el-pj-acompane-parte-del-proyecto/",
-    "https://www.infobae.com/politica/2026/11/18/el-senado-sesiona-manana-para-sancionar-las-leyes-de-discapacidad-propiedad-privada-y-el-tratado-sobre-patentes/",
-    "https://www.ambito.com/politica/el-colegio-abogados-cuestiono-la-abstencion-argentina-la-onu-la-violencia-genero-n6346895",
+    "https://www.ambito.com/politica/luis-caputo-apunto-contra-la-cumbre-peronista-no-debe-haber-cosa-mas-estupida-que-combatir-el-capital-n6346612",
     "https://www.ambito.com/politica/eduardo-riggi-es-el-nuevo-fiscal-general-adjunto-lo-penal-contravencional-y-faltas-n6346870",
-    "https://tn.com.ar/politica/2026/11/18/el-gobierno-bonaerense-admitio-que-elegir-al-candidato-del-pj-sin-las-paso-sera-mas-complejo-y-costoso/",
-    "https://www.infobae.com/politica/2026/11/18/con-un-trabajo-no-alcanza-el-cruce-entre-dos-jovenes-dirigentes-por-el-empleo-y-las-oportunidades-en-la-argentina/",
-    "https://www.lanacion.com.ar/politica/la-camara-federal-con-su-nueva-composicion-recibio-a-los-jueces-de-primera-instancia-de-comodoro-py-nid18112026/"
+    "https://www.lanacion.com.ar/politica/un-fiscal-anticorrupcion-denuncio-a-la-secretaria-de-energia-la-acuso-de-favorecer-a-una-empresa-nid17112026/",
+    "https://www.ambito.com/politica/el-colegio-abogados-cuestiono-la-abstencion-argentina-la-onu-la-violencia-genero-n6346895",
+    "https://www.ambito.com/politica/gta-6-version-libertaria-el-video-animado-donde-javier-milei-promete-destruir-el-banco-central-n6346942",
+    "https://www.clarin.com/politica/tribunal-superior-ciudad-ratifico-articulo-reforma-laboral-fijo-tope-indemnizaciones_0_Gi4plzA9c2.html",
+    "https://www.infobae.com/politica/2026/11/19/el-gobierno-porteno-se-prepara-para-el-inicio-de-la-guerra-con-los-moyano-por-usd-200-millones-en-indemnizaciones/",
+    "https://www.clarin.com/politica/patricia-bullrich-cede-pj-cristina-kirchner-conservaria-bancas-clave-magistratura_0_ot5prLctEW.html",
+    "https://tn.com.ar/politica/2026/11/17/en-medio-de-las-negociaciones-con-lla-de-andreis-aseguro-que-para-el-gobierno-es-muy-importante-un-acuerdo-con-mauricio-macri/",
+    "https://www.lanacion.com.ar/politica/fraude-en-la-uom-abel-furlan-dijo-que-no-hubo-delito-en-el-contrato-millonario-con-la-empresa-que-nid18112026/"
   ],
   "used_img_hashes": [
-    "75f743521dd904edd6ac989a9b7810ae",
+    "8411edf98fa20cd1dfbaab7b9b78c55b",
     "85ca6e913342a268e645ace6a91c2dff",
-    "679ffbe3a1298efaf3d733800f0b214b",
+    "b16d0fe3c62653a4de213f4658df0d5c",
     "576fcaf96eb382ef6e5ef2da73973f6c",
-    "306c20ba8c2d432d23229d87ce4f526b",
-    "740ab1f7c1e4b8b34e3d4d017178ba8c",
     "894d0278df80835e440cdeb7a1e1677f",
-    "b13dbbd9f34a51bea40eea275b19317c",
-    "726ae896ee115bbba19d5193d2b5142b",
-    "edf5466a4bb87e7d9426c2348cc06664",
-    "5614d407b011998b600fa447757b54c0",
+    "b084b8f622f70e493b09c612278db05a",
+    "6426073eeb39fcb8be53665101f1da43",
     "0fb259f024a7983083910c4e669569fc",
-    "edf5466a4bb87e7d9426c2348cc06664",
-    "5614d407b011998b600fa447757b54c0",
+    "87cd8b5925d940258de8c0583c098d63",
+    "726ae896ee115bbba19d5193d2b5142b",
+    "cc4a1d58fdd50567284efa2023557336",
+    "4859d3aff2e951a71f9eae64106872df",
     "75f743521dd904edd6ac989a9b7810ae",
-    "740ab1f7c1e4b8b34e3d4d017178ba8c",
     "306c20ba8c2d432d23229d87ce4f526b",
-    "576fcaf96eb382ef6e5ef2da73973f6c",
+    "9bd413b1774d63bbeb7c0fdbce5e8a58",
+    "5614d407b011998b600fa447757b54c0",
+    "edf5466a4bb87e7d9426c2348cc06664",
+    "eb367efbd276591a71de0a95417ad9e9",
+    "c9efc7041dbdfa3bc2ab08ed7bd16380",
+    "679ffbe3a1298efaf3d733800f0b214b",
+    "740ab1f7c1e4b8b34e3d4d017178ba8c",
     "b13dbbd9f34a51bea40eea275b19317c",
-    "679ffbe3a1298efaf3d733800f0b214b"
+    "b16d0fe3c62653a4de213f4658df0d5c",
+    "bcb650e91199f01cd2fab1a28e8895cc",
+    "9bd413b1774d63bbeb7c0fdbce5e8a58",
+    "8411edf98fa20cd1dfbaab7b9b78c55b",
+    "c9efc7041dbdfa3bc2ab08ed7bd16380",
+    "b084b8f622f70e493b09c612278db05a",
+    "e177278336396918386b75847a1694e4",
+    "4859d3aff2e951a71f9eae64106872df",
+    "8573a71fd3c10ce649e27f4ce6fb22df"
   ],
   "published_titles": [
-    "La Justicia orden\u00f3 liquidar acciones de una empresa de B\u00e1ez",
-    "La justicia orden\u00f3 la liquidaci\u00f3n de las acciones de Austral Agro SA, una de las empresas que operaba L\u00e1zaro B\u00e1ez desde la c\u00e1rcel",
-    "Naci\u00f3n y la Ciudad firmaron un acuerdo de cooperaci\u00f3n judicial",
-    "Naci\u00f3n y CABA firmaron un acuerdo para potenciar el acceso a la justicia y la asistencia a las v\u00edctimas",
-    "Kicillof, Massa y Bullrich: sus movimientos de cara a 2027",
-    "El plan electoral de Kicillof tras la visita del Papa, la apuesta presidencial de Massa y la propuesta de Bullrich a Milei",
-    "Karina Milei sube su perfil y apunta contra Patricia Bullrich",
-    "La nueva Karina Milei: levant\u00f3 el perfil, cambi\u00f3 su foto en redes y le apunta con todo a Patricia Bullrich",
-    "Javier Milei confirma que buscar\u00e1 la reelecci\u00f3n en 2027",
-    "Milei inaugur\u00f3 una muestra sobre Belgrano y volvi\u00f3 a hablar del 2027: \u201cPara los que dudan, s\u00ed, voy por la reelecci\u00f3n\u201d",
-    "El jefe de LLA en Misiones ir\u00e1 por la gobernaci\u00f3n en 2027",
-    "La Libertad Avanza ya tiene candidato definido en Misiones para frenar la reelecci\u00f3n de Hugo Passalacqua",
     "Sandra Pettovello lleva el conflicto gremial a la Corte Suprema",
     "Sandra Pettovello advirti\u00f3 por \"insistentes presiones y agresiones\", en el medio de la disputa con el gremio de Luis Barrionuevo",
     "El Gobierno avanza para cubrir juzgados federales clave antes de 2027",
@@ -1606,6 +1609,18 @@
     "La Libertad Avanza y Patria Grande debatieron sobre empleo juvenil",
     "\u201cCon un trabajo no alcanza\u201d: el cruce entre dos j\u00f3venes dirigentes por el empleo y las oportunidades en la Argentina",
     "C\u00e1mara Federal renovada reuni\u00f3 a jueces de Comodoro Py",
-    "La C\u00e1mara Federal, con su nueva composici\u00f3n, recibi\u00f3 a los jueces de primera instancia de Comodoro Py"
+    "La C\u00e1mara Federal, con su nueva composici\u00f3n, recibi\u00f3 a los jueces de primera instancia de Comodoro Py",
+    "Javier Milei usa el furor por GTA 6 para atacar al kirchnerismo",
+    "GTA 6 versi\u00f3n libertaria: el video animado donde Javier Milei promete destruir el Banco Central",
+    "El Tribunal Superior de CABA avala el tope indemnizatorio",
+    "El Tribunal Superior de la Ciudad ratific\u00f3 un art\u00edculo de la reforma laboral que fija un tope a las indemnizaciones",
+    "Jorge Macri excluye a trabajadores de Moyano de indemnizaciones",
+    "El gobierno porte\u00f1o se prepara para el inicio de la guerra con los Moyano por USD 200 millones en indemnizaciones",
+    "El peronismo mantiene dos bancas clave en la Magistratura",
+    "El oficialismo se baja de la pelea con el PJ y Cristina Kirchner conservar\u00e1 dos bancas clave en la Magistratura",
+    "De Andreis: acordar con Macri es muy importante para el Gobierno",
+    "En medio de las negociaciones con LLA, De Andreis asegur\u00f3 que para el Gobierno \u201ces muy importante un acuerdo con Mauricio Macri\u201d",
+    "Furl\u00e1n niega delito en contrato millonario de la UOM",
+    "Fraude en la UOM: Abel Furl\u00e1n dijo que no hubo delito en el contrato millonario con la empresa que administr\u00f3 la caja del gremio"
   ]
 }
