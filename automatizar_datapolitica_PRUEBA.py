@@ -192,6 +192,24 @@ class _ClienteSeguro:
 
 def _cliente_seguro():
     return _ClienteSeguro()
+
+# v31: comillas de los titulos. Antes se sacaban TODAS las comillas de los bordes del titulo
+# (.strip('"')) y un titulo que terminaba en una cita quedaba sin la comilla de cierre
+# (ej.: Villarruel: "Sin industria no hay trabajo). Ahora solo se quitan las comillas que
+# envuelven todo el texto y, si queda una comilla sin cerrar, se cierra.
+def _limpiar_comillas(s) -> str:
+    s = str(s or "").strip()
+    if len(s) >= 2 and s[0] in '"\u201c' and s[-1] in '"\u201d':
+        interior = s[1:-1]
+        n = interior.count('"')
+        if n == 0 or (n % 2 == 0 and interior.strip()[:1] != '"'):
+            s = interior.strip()
+    if s.count('"') % 2 == 1:
+        s = s + '"'
+    if s.count('\u201c') > s.count('\u201d'):
+        s = s + '\u201d'
+    return s
+
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; automatizador/1.0)"}
 
 
@@ -1455,7 +1473,7 @@ def titulo_sin_nombre(client, titulo: str, copete: str) -> str:
                 f"Titulo: {titulo}\nCopete: {copete}"
             )}]
         )
-        nuevo = resp.content[0].text.strip().strip('"').strip()
+        nuevo = _limpiar_comillas(resp.content[0].text)
         nuevo = corregir_conjunciones(nuevo)
         if not nuevo or len(nuevo) > MAX_TITULO or len(nuevo.split()) < 4:
             return ""
@@ -1815,7 +1833,7 @@ REGLAS ESTRICTAS:
                 f"estilo telegrafico argentino. Solo el titulo, sin comillas."
             )}]
         )
-        data["titulo"] = fix_resp.content[0].text.strip().strip('"')
+        data["titulo"] = _limpiar_comillas(fix_resp.content[0].text)
 
     data["titulo"] = corregir_conjunciones(data["titulo"])
     data["copete"] = corregir_conjunciones(data["copete"])
@@ -1841,6 +1859,8 @@ def _titulo_pasa_reglas_basicas(t: str) -> str:
         return "muy corto"
     if t.endswith(("...", "…", ",", ":", ";", "-")):
         return "termina cortado"
+    if t.count('"') % 2 == 1 or t.count("\u201c") != t.count("\u201d"):
+        return "comillas sin cerrar"
     ultima = t.split()[-1].lower().strip(".,;:!?\"'")
     if ultima in _PALABRAS_FINALES_INVALIDAS:
         return f"termina en '{ultima}' (queda incompleto)"
@@ -1887,7 +1907,7 @@ def verificar_fidelidad(client, titulo: str, copete: str, art: dict):
         return titulo, copete
     if res.get("ok"):
         return titulo, copete
-    t2 = corregir_conjunciones(str(res.get("titulo") or titulo).strip().strip('"'))
+    t2 = corregir_conjunciones(_limpiar_comillas(res.get("titulo") or titulo))
     c2 = str(res.get("copete") or copete).strip()
     print(f"    Chequeo de datos: {str(res.get('problema', ''))[:120]}")
     print(f"      -> Titulo: {t2}")
@@ -1987,7 +2007,7 @@ def titulo_fiel_final(client, titulo: str, copete: str, art: dict) -> bool:
 def control_calidad_titulo(client, titulo: str, copete: str, fuente: str = "") -> str | None:
     """Ultimo filtro antes de publicar. Devuelve un titulo correcto, o None si no se logra
     (en ese caso la nota NO se publica: es preferible una nota menos que un titulo malo)."""
-    t = (titulo or "").strip().strip('"')
+    t = _limpiar_comillas(titulo)
     for ronda in range(1, 5):
         motivo = _titulo_pasa_reglas_basicas(t)
         try:
@@ -2024,7 +2044,7 @@ def control_calidad_titulo(client, titulo: str, copete: str, fuente: str = "") -
         except Exception as e:
             print(f"    Aviso: control de titulo no disponible ({e}).")
             return t if not motivo else None
-        nuevo = corregir_conjunciones(str(res.get("titulo", "")).strip().strip('"'))
+        nuevo = corregir_conjunciones(_limpiar_comillas(res.get("titulo", "")))
         if res.get("ok") and not motivo:
             return t
         if not nuevo:
@@ -2066,7 +2086,7 @@ copete actual ({len(data['copete'])} caracteres; limite {MAX_COPETE}): {data['co
     nuevo = json.loads(m.group() if m else raw)
     out = dict(data)
     if nuevo.get("titulo"):
-        out["titulo"] = str(nuevo["titulo"]).strip().strip('"')
+        out["titulo"] = _limpiar_comillas(nuevo["titulo"])
     if nuevo.get("copete"):
         out["copete"] = str(nuevo["copete"]).strip()
     return out
