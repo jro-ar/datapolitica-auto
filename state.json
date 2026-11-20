@@ -57,24 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-10-31 23:10",
-      "publicadas": 6,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [
-        "Mismo tema que otra nota: Los hermanos Passaglia lanzan su campa\u00f1a desde San Nico"
-      ],
-      "titulos": [
-        "Cuatro partidos bonaerenses ya compiten por los votos de 2027",
-        "Passaglia y su dupla santafesina lanzan su candidatura presidencial",
-        "Patricia Bullrich frena el nombramiento de jueces federales",
-        "Seis gobernadores no podr\u00e1n reelegirse en 2027",
-        "Urtubey ve al peronismo como una tercera opci\u00f3n electoral",
-        "Juez acusa a la justicia de C\u00f3rdoba de encubrir funcionarios",
-        "El Senado aprob\u00f3 un pliego que Milei no quer\u00eda"
-      ]
-    },
-    {
       "fecha": "2026-11-01 10:11",
       "publicadas": 6,
       "cinta": true,
@@ -1360,6 +1342,23 @@
         "La CGT moviliza por la crisis en las obras sociales sindicales",
         "Tucum\u00e1n entreg\u00f3 al Gobierno una carta hist\u00f3rica sobre Malvinas"
       ]
+    },
+    {
+      "fecha": "2026-11-20 10:01",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: Presti firma con Italia una Carta de Intenci\u00f3n para renovar "
+      ],
+      "titulos": [
+        "El Senado eligi\u00f3 sus cuatro representantes para la Magistratura",
+        "U\u00f1ac, Quintela y Capitanich se re\u00fanen para mostrar unidad peronista",
+        "El Gobierno negoci\u00f3 lugares en listas de 2027 para suspender las PASO",
+        "El Senado aprob\u00f3 el r\u00e9gimen de cabotaje y marina mercante",
+        "Villarruel, tras cierre de planta Arcor: \"Sin industria no hay trabajo",
+        "El Senado aprob\u00f3 la reforma que restablece la Ley de Tierras"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1371,59 +1370,54 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5233,
-    5234,
-    5235,
-    5236,
-    5237
+    5239,
+    5240,
+    5241,
+    5242,
+    5243
   ],
-  "cinta_id": 5238,
+  "cinta_id": 5244,
   "published_links": [
-    "https://tn.com.ar/politica/2026/11/19/dura-acusacion-de-leila-gianni-a-una-dirigenta-social-a-ustedes-los-utilizan-para-fundar-cooperativas-y-recibir-plata/",
-    "https://www.clarin.com/politica/puede-decir-senadora-libertaria-anoto-carrera-ir-vice-javier-milei-2027_0_oMMd93c7Wk.html",
-    "https://www.ambito.com/politica/javier-milei-destaco-el-rol-pablo-quirno-saben-lo-que-es-hacer-la-diplomacia-semejante-personaje-n6346636",
-    "https://tn.com.ar/politica/2026/11/17/en-medio-de-las-negociaciones-con-lla-de-andreis-aseguro-que-para-el-gobierno-es-muy-importante-un-acuerdo-con-mauricio-macri/",
-    "https://www.infobae.com/politica/2026/11/19/patricia-bullrich-reclamo-cambios-impositivos-para-aliviar-la-situacion-de-las-pymes/",
-    "https://www.ambito.com/politica/devoto-presos-una-promesa-cumplida-los-vecinos-n6347203",
-    "https://tn.com.ar/politica/2026/11/19/ley-de-ludopatia-el-senado-acordo-debatir-el-proyecto-el-proximo-jueves-tras-los-reclamos-de-la-iglesia/",
-    "https://www.clarin.com/politica/pelea-banca-consejo-magistratura-pro-provincias-unidas-debe-dirimir-martin-menem_0_t9sXRvtORa.html",
     "https://tn.com.ar/politica/2026/11/19/la-corte-suprema-ordeno-al-estado-hacer-publicos-los-resultados-de-las-pruebas-aprender-y-ensenar/",
-    "https://www.infobae.com/politica/2026/11/19/hay-buenos-dias-y-no-tan-buenos-el-embajador-britanico-se-refirio-al-conflicto-con-argentina-por-malvinas/",
+    "https://www.clarin.com/politica/pelea-banca-consejo-magistratura-pro-provincias-unidas-debe-dirimir-martin-menem_0_t9sXRvtORa.html",
+    "https://www.infobae.com/politica/2026/11/19/tucuman-le-entrego-al-gobierno-la-carta-historica-que-denuncio-la-ocupacion-ilegal-de-las-islas-malvinas-en-1833/",
+    "https://tn.com.ar/politica/2026/11/19/dura-acusacion-de-leila-gianni-a-una-dirigenta-social-a-ustedes-los-utilizan-para-fundar-cooperativas-y-recibir-plata/",
     "https://www.infobae.com/politica/2026/11/19/la-cgt-saldra-a-la-calle-por-la-crisis-de-las-obras-sociales-y-definio-como-sera-su-protesta-sin-paros-en-diciembre/",
-    "https://www.infobae.com/politica/2026/11/19/tucuman-le-entrego-al-gobierno-la-carta-historica-que-denuncio-la-ocupacion-ilegal-de-las-islas-malvinas-en-1833/"
+    "https://tn.com.ar/politica/2026/11/19/ley-de-ludopatia-el-senado-acordo-debatir-el-proyecto-el-proximo-jueves-tras-los-reclamos-de-la-iglesia/",
+    "https://www.ambito.com/politica/el-senado-definio-sus-cuatro-representantes-el-consejo-la-magistratura-n6347374",
+    "https://www.infobae.com/politica/2026/11/20/el-peronismo-suma-gestos-de-unidad-en-el-interior-y-se-distancia-de-la-interna-bonaerense/",
+    "https://www.infobae.com/politica/2026/11/20/los-lugares-que-el-gobierno-pacto-con-las-provincias-para-2027-y-el-pedido-desesperado-que-asoma/",
+    "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-nid19112026/",
+    "https://www.ambito.com/politica/victoria-villarruel-se-pronuncio-el-cierre-una-planta-fabril-sin-industria-no-hay-trabajo-n6347344",
+    "https://www.lanacion.com.ar/politica/el-senado-aprobo-la-reforma-del-regimen-de-propiedad-privada-que-restablece-la-ley-de-tierras-nid19112026/"
   ],
   "used_img_hashes": [
-    "9b21636702944cdda9a5bf91df293baf",
-    "17cf4c38285db1133e3c681f5727d464",
-    "59f3a2849036d1d16fb936fb4dfbd485",
-    "cf177c8438ec0405d1b9ee6337b2f3a9",
-    "a3f6acd97ddb8e75a41283edb5876106",
     "cc7f996b7840a8a9e847f3870bc398f4",
+    "51796fa5aa414cb3447180effe688185",
+    "9a0d104b732a3a6fe795fc2a1ec3cdbf",
+    "cf177c8438ec0405d1b9ee6337b2f3a9",
+    "bc7211aed0b3e3d02c854818cf6361e9",
+    "ff1ae34cf31b0d9df1631546120b212c",
+    "f5cf5f61476cac0a466d5386c44b79d8",
     "fc41d1da7578a846d70c20656d727b9e",
     "3715bac0c29ffaa061b9562f4920e569",
-    "bc7211aed0b3e3d02c854818cf6361e9",
-    "59f3a2849036d1d16fb936fb4dfbd485",
+    "d4a7bd2255534bd1709df98924610f57",
+    "04fadc425a6906a4863c578381d9ecae",
+    "946840dd3362fe9f147ac85701742101",
+    "7b302edc833f38c19980e5da0a84450f",
     "a3f6acd97ddb8e75a41283edb5876106",
-    "ff1ae34cf31b0d9df1631546120b212c",
-    "cf177c8438ec0405d1b9ee6337b2f3a9",
-    "9b21636702944cdda9a5bf91df293baf",
-    "3715bac0c29ffaa061b9562f4920e569",
+    "ac7d12e0fa984edd0d9f35222f24197a",
     "17cf4c38285db1133e3c681f5727d464",
-    "fc41d1da7578a846d70c20656d727b9e"
+    "59f3a2849036d1d16fb936fb4dfbd485",
+    "9b21636702944cdda9a5bf91df293baf",
+    "51796fa5aa414cb3447180effe688185",
+    "9a0d104b732a3a6fe795fc2a1ec3cdbf",
+    "f92e1571125bbbf1027b278c8fd798c8",
+    "d4a7bd2255534bd1709df98924610f57",
+    "7b302edc833f38c19980e5da0a84450f",
+    "f5cf5f61476cac0a466d5386c44b79d8"
   ],
   "published_titles": [
-    "Mart\u00ednez desafi\u00f3 al Gobierno y dijo que ganar\u00e1n en primera vuelta",
-    "El kirchnerismo volvi\u00f3 a rechazar la eliminaci\u00f3n de las PASO y desafi\u00f3 al Gobierno: \u201cVamos a ganar en primera vuelta\u201d",
-    "Lorenzetti critica a la dirigencia por hablar de s\u00ed misma",
-    "El juez Ricardo Lorenzetti: \u201cLa gran revoluci\u00f3n del siglo XXI es proteger lo humano\u201d",
-    "La Iglesia marca agenda y Milei sostiene el ajuste sin cambios",
-    "Sacud\u00f3n papal: el Gobierno qued\u00f3 en alerta por la hoja de ruta que dej\u00f3 Le\u00f3n XIV",
-    "Milei juega su futuro pol\u00edtico con la reforma electoral",
-    "Una prueba de fuego para el futuro del Gobierno",
-    "Jos\u00e9 Ibarra exige que el PJ elija candidatos sin imposiciones",
-    "\u201cNo queremos que los candidatos del PJ se designen a dedo o por WhatsApp\u201d: la advertencia del l\u00edder de las 62 Organizaciones",
-    "La Libertad Avanza duda si competir por la gobernaci\u00f3n de Neuqu\u00e9n",
-    "Neuqu\u00e9n va a elecciones el 14 de febrero: La Libertad Avanza empieza a definir su estrategia y hay dudas sobre si competir\u00e1 por la gobernaci\u00f3n",
     "Milei termina el a\u00f1o sin f\u00f3rmula, sin leyes clave y con interna",
     "Qu\u00e9 desaf\u00edos le quedan al Gobierno de ac\u00e1 a fin de a\u00f1o: las leyes por aprobar y la decisi\u00f3n crucial de cara al 2027",
     "El partido neuquino MPN no presentar\u00e1 candidato a gobernador",
@@ -1611,6 +1605,18 @@
     "La CGT moviliza por la crisis en las obras sociales sindicales",
     "La CGT saldr\u00e1 a la calle por la crisis de las obras sociales y defini\u00f3 c\u00f3mo ser\u00e1 su protesta sin paros en diciembre",
     "Tucum\u00e1n entreg\u00f3 al Gobierno una carta hist\u00f3rica sobre Malvinas",
-    "Tucum\u00e1n le entreg\u00f3 al Gobierno la carta hist\u00f3rica que denunci\u00f3 la ocupaci\u00f3n ilegal de las Islas Malvinas en 1833"
+    "Tucum\u00e1n le entreg\u00f3 al Gobierno la carta hist\u00f3rica que denunci\u00f3 la ocupaci\u00f3n ilegal de las Islas Malvinas en 1833",
+    "El Senado eligi\u00f3 sus cuatro representantes para la Magistratura",
+    "El Senado defini\u00f3 a sus cuatro representantes para el Consejo de la Magistratura",
+    "U\u00f1ac, Quintela y Capitanich se re\u00fanen para mostrar unidad peronista",
+    "El peronismo suma gestos de unidad en el interior y se distancia de la interna bonaerense",
+    "El Gobierno negoci\u00f3 lugares en listas de 2027 para suspender las PASO",
+    "Los lugares que el Gobierno pact\u00f3 con las provincias para 2027 y el pedido desesperado que asoma",
+    "El Senado aprob\u00f3 el r\u00e9gimen de cabotaje y marina mercante",
+    "Luego de una marat\u00f3nica sesi\u00f3n, el Senado aprob\u00f3 el R\u00e9gimen de cabotaje y marina mercante",
+    "Villarruel, tras cierre de planta Arcor: \"Sin industria no hay trabajo",
+    "Victoria Villarruel se pronunci\u00f3 tras el cierre de una planta fabril: \"Sin industria no hay trabajo\"",
+    "El Senado aprob\u00f3 la reforma que restablece la Ley de Tierras",
+    "El Senado aprob\u00f3 la reforma del r\u00e9gimen de propiedad privada que restablece la Ley de Tierras"
   ]
 }
