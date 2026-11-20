@@ -1,0 +1,460 @@
+{
+ "actualizado": "2026-11-20T16:12Z",
+ "procesadas": [
+  "https://www.clarin.com/politica/alerta-gobierno-hicieron-encuesta-votantes-libertarios-milei-quedo-cuarto_0_KKgOtDH0tA.html",
+  "https://www.clarin.com/politica/nueva-encuesta-electoral-dato-clave-milei-kicillof-ganaron-bullrich-massa_0_qpYfi0kcE2.html",
+  "https://www.clarin.com/politica/nueva-encuesta-electoral-polarizacion-light-notable-diferencia-voto-hombres-mujeres_0_jHTqC5h12S.html",
+  "https://www.clarin.com/politica/nueva-encuesta-electoral-sorpresa-empate-primera-vuelta-10-puntos-diferencia-balotaje_0_vzolPbfAOh.html",
+  "https://www.clarin.com/politica/nueva-encuesta-enfrento-milei-kicillof-bullrich-pais-ganadores_0_a0OBefTUun.html",
+  "https://www.clarin.com/politica/sorpresa-ahora-nueva-encuesta-pone-javier-milei-16-puntos-arriba-balotaje_0_SDuoxqy2mC.html"
+ ],
+ "encuestas": [
+  {
+   "consultora": "CB Global Data",
+   "alcance": "Nacional",
+   "fecha_campo": "",
+   "casos": "884 a 1.171",
+   "metodologia": "Relevamiento en 23 provincias + CABA con margen de error +/- 2,9% a 3,3%",
+   "preguntas": [
+    {
+     "pregunta": "Imagen positiva de Javier Milei",
+     "opciones": [
+      {
+       "nombre": "Córdoba",
+       "valor": "53,8%"
+      },
+      {
+       "nombre": "Mendoza",
+       "valor": "52,6%"
+      },
+      {
+       "nombre": "Neuquén",
+       "valor": "48,5%"
+      },
+      {
+       "nombre": "Tierra del Fuego",
+       "valor": "31,4%"
+      },
+      {
+       "nombre": "Formosa",
+       "valor": "22,5%"
+      },
+      {
+       "nombre": "Santiago del Estero",
+       "valor": "19,8%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Imagen positiva de Axel Kicillof",
+     "opciones": [
+      {
+       "nombre": "Santiago del Estero",
+       "valor": "51,9%"
+      },
+      {
+       "nombre": "Formosa",
+       "valor": "47,3%"
+      },
+      {
+       "nombre": "provincia de Buenos Aires",
+       "valor": "43,7%"
+      },
+      {
+       "nombre": "Entre Ríos",
+       "valor": "23,1%"
+      },
+      {
+       "nombre": "Mendoza",
+       "valor": "21,0%"
+      },
+      {
+       "nombre": "Córdoba",
+       "valor": "20,6%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Imagen positiva de Patricia Bullrich",
+     "opciones": [
+      {
+       "nombre": "Mendoza",
+       "valor": "48,1%"
+      },
+      {
+       "nombre": "Ciudad Autónoma de Buenos Aires",
+       "valor": "47,2%"
+      },
+      {
+       "nombre": "Neuquén",
+       "valor": "46,1%"
+      },
+      {
+       "nombre": "Misiones",
+       "valor": "26,4%"
+      },
+      {
+       "nombre": "Santiago del Estero",
+       "valor": "25,6%"
+      },
+      {
+       "nombre": "Formosa",
+       "valor": "23,1%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-20",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-enfrento-milei-kicillof-bullrich-pais-ganadores_0_a0OBefTUun.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "D'Alessio IROL - Berensztein",
+   "alcance": "Nacional",
+   "fecha_campo": "29 y 31 de octubre",
+   "casos": "800",
+   "metodologia": "online",
+   "preguntas": [
+    {
+     "pregunta": "¿Cómo evalúa la situación económica actual comparada con el año pasado?",
+     "opciones": [
+      {
+       "nombre": "Peor que el año pasado",
+       "valor": "70%"
+      },
+      {
+       "nombre": "Mejor",
+       "valor": "29%"
+      }
+     ]
+    },
+    {
+     "pregunta": "¿Cómo evalúa la aprobación de la gestión del gobierno de Javier Milei?",
+     "opciones": [
+      {
+       "nombre": "Negativamente",
+       "valor": "62%"
+      },
+      {
+       "nombre": "Apoyo al equipo libertario",
+       "valor": "36%"
+      }
+     ]
+    },
+    {
+     "pregunta": "¿Cuáles son las principales preocupaciones de los ciudadanos?",
+     "opciones": [
+      {
+       "nombre": "Costo de los servicios públicos",
+       "valor": "63%"
+      },
+      {
+       "nombre": "Incertidumbre económica",
+       "valor": "60%"
+      },
+      {
+       "nombre": "Que los ingresos no alcancen",
+       "valor": "60%"
+      },
+      {
+       "nombre": "Costos en la salud",
+       "valor": "58%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-19",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/alerta-gobierno-hicieron-encuesta-votantes-libertarios-milei-quedo-cuarto_0_KKgOtDH0tA.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "Universidad de San Andrés (Udesa)",
+   "alcance": "Nacional",
+   "fecha_campo": "",
+   "casos": "1.003",
+   "metodologia": "Margen de error +/- 3,15%",
+   "preguntas": [
+    {
+     "pregunta": "Intención de voto para elecciones nacionales 2027",
+     "opciones": [
+      {
+       "nombre": "Peronismo",
+       "valor": "25%"
+      },
+      {
+       "nombre": "La Libertad Avanza",
+       "valor": "24%"
+      },
+      {
+       "nombre": "Indecisos",
+       "valor": "19%"
+      },
+      {
+       "nombre": "Frente de Izquierda",
+       "valor": "4%"
+      },
+      {
+       "nombre": "Voto en blanco",
+       "valor": "5%"
+      },
+      {
+       "nombre": "No irían a votar",
+       "valor": "4%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Aprobación del Gobierno",
+     "opciones": [
+      {
+       "nombre": "Aprobación",
+       "valor": "34%"
+      },
+      {
+       "nombre": "Desaprobación",
+       "valor": "62%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Satisfacción con la marcha general del país",
+     "opciones": [
+      {
+       "nombre": "Satisfecho",
+       "valor": "28%"
+      },
+      {
+       "nombre": "Insatisfecho",
+       "valor": "69%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-19",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-electoral-polarizacion-light-notable-diferencia-voto-hombres-mujeres_0_jHTqC5h12S.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "Facultad de Psicología de la Universidad de Buenos Aires",
+   "alcance": "Nacional",
+   "fecha_campo": "",
+   "casos": "2.098",
+   "metodologia": "+/- 2,1% de margen de error",
+   "preguntas": [
+    {
+     "pregunta": "¿Quién creés que tiene más chances reales de mejorar la Argentina?",
+     "opciones": [
+      {
+       "nombre": "Javier Milei",
+       "valor": "32%"
+      },
+      {
+       "nombre": "Axel Kicillof",
+       "valor": "26%"
+      },
+      {
+       "nombre": "Sergio Massa",
+       "valor": "7%"
+      },
+      {
+       "nombre": "Patricia Bullrich",
+       "valor": "3%"
+      },
+      {
+       "nombre": "Ninguno",
+       "valor": "28%"
+      },
+      {
+       "nombre": "No sabe",
+       "valor": "4%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Intención de voto por espacio",
+     "opciones": [
+      {
+       "nombre": "La Libertad Avanza",
+       "valor": "33%"
+      },
+      {
+       "nombre": "PJ Kirchnerista",
+       "valor": "17%"
+      },
+      {
+       "nombre": "PJ no Kirchnerista",
+       "valor": "14%"
+      },
+      {
+       "nombre": "PRO",
+       "valor": "10%"
+      },
+      {
+       "nombre": "Frente de Izquierda",
+       "valor": "10%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Balotaje Milei vs Kicillof",
+     "opciones": [
+      {
+       "nombre": "Javier Milei",
+       "valor": "42%"
+      },
+      {
+       "nombre": "Axel Kicillof",
+       "valor": "42%"
+      },
+      {
+       "nombre": "En blanco/no iría a votar",
+       "valor": "13%"
+      },
+      {
+       "nombre": "No sé",
+       "valor": "3%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-18",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-electoral-dato-clave-milei-kicillof-ganaron-bullrich-massa_0_qpYfi0kcE2.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "Proyección",
+   "alcance": "Nacional",
+   "fecha_campo": "1 al 9 de noviembre",
+   "casos": "1.461",
+   "metodologia": "+/- 2,66% de margen de error",
+   "preguntas": [
+    {
+     "pregunta": "Si hoy hubiera elecciones nacionales, ¿a qué espacio elegiría?",
+     "opciones": [
+      {
+       "nombre": "Milei/LLA",
+       "valor": "35%"
+      },
+      {
+       "nombre": "Kicillof/espacio opositor",
+       "valor": "35%"
+      },
+      {
+       "nombre": "Blanco/impugnado",
+       "valor": "17,1%"
+      },
+      {
+       "nombre": "Frente de Izquierda",
+       "valor": "5,3%"
+      },
+      {
+       "nombre": "PRO",
+       "valor": "5%"
+      },
+      {
+       "nombre": "Provincias Unidas",
+       "valor": "2,6%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Elección general: Milei vs Kicillof",
+     "opciones": [
+      {
+       "nombre": "Milei",
+       "valor": "34,5%"
+      },
+      {
+       "nombre": "Kicillof",
+       "valor": "31,2%"
+      },
+      {
+       "nombre": "Myriam Bregman",
+       "valor": "7,9%"
+      },
+      {
+       "nombre": "Blanco/impugnado",
+       "valor": "11%"
+      },
+      {
+       "nombre": "No lo sé",
+       "valor": "11,8%"
+      },
+      {
+       "nombre": "Maximiliano Pullaro",
+       "valor": "3,6%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Balotaje: Milei vs Kicillof",
+     "opciones": [
+      {
+       "nombre": "Milei",
+       "valor": "40,7%"
+      },
+      {
+       "nombre": "Kicillof",
+       "valor": "39,1%"
+      },
+      {
+       "nombre": "Blanco/impugnado",
+       "valor": "13,1%"
+      },
+      {
+       "nombre": "No lo sé",
+       "valor": "7,1%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-17",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/sorpresa-ahora-nueva-encuesta-pone-javier-milei-16-puntos-arriba-balotaje_0_SDuoxqy2mC.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "Tendencias",
+   "alcance": "Nacional",
+   "fecha_campo": "26 de octubre al 2 de noviembre",
+   "casos": "5.578",
+   "metodologia": "online",
+   "preguntas": [
+    {
+     "pregunta": "Intención de voto para primera vuelta presidencial 2027",
+     "opciones": [
+      {
+       "nombre": "Axel Kicillof",
+       "valor": "34%"
+      },
+      {
+       "nombre": "Javier Milei",
+       "valor": "33,8%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Balotaje Milei vs Kicillof",
+     "opciones": [
+      {
+       "nombre": "Axel Kicillof",
+       "valor": "47,4%"
+      },
+      {
+       "nombre": "Javier Milei",
+       "valor": "36,9%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-16",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-electoral-sorpresa-empate-primera-vuelta-10-puntos-diferencia-balotaje_0_vzolPbfAOh.html",
+   "titulo_fuente": ""
+  }
+ ]
+}
