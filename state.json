@@ -57,22 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-11-01 10:11",
-      "publicadas": 6,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [],
-      "titulos": [
-        "El Gobierno quiere que el Papa no amplifique cr\u00edticas sociales",
-        "Un libro re\u00fane cr\u00edticas internas al peronismo sobre su rumbo",
-        "Camioneros va a juicio en Rosario por bloquear una empresa tres meses",
-        "Radicales de C\u00f3rdoba negocian candidaturas con el Gobierno",
-        "La Iglesia argentina quiere m\u00e1s que una foto con el Papa Le\u00f3n XIV",
-        "Lula domina la agenda latinoamericana y Milei queda al margen",
-        "Milei rechaz\u00f3 cambiar el rumbo econ\u00f3mico ante las presiones"
-      ]
-    },
-    {
       "fecha": "2026-11-01 14:10",
       "publicadas": 6,
       "cinta": true,
@@ -1359,6 +1343,23 @@
         "Villarruel, tras cierre de planta Arcor: \"Sin industria no hay trabajo",
         "El Senado aprob\u00f3 la reforma que restablece la Ley de Tierras"
       ]
+    },
+    {
+      "fecha": "2026-11-20 14:01",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: La Corte declar\u00f3 inconstitucionales los art\u00edculos del DNU qu"
+      ],
+      "titulos": [
+        "El diputado que dej\u00f3 LLA quiere gobernar Tucum\u00e1n y apoya a Bullrich",
+        "El Gobierno eval\u00faa retomar la ley Malvinas tras fracaso en Diputados",
+        "El 41% de hogares con chicos no cubre sus gastos corrientes",
+        "Sobrina de Insfr\u00e1n fue designada en el Superior Tribunal de Formosa",
+        "Milei culpa al exterior por la inestabilidad financiera",
+        "Pelea Cornejo-Petri por Mendoza: la Casa Rosada no interviene"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1370,66 +1371,63 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5239,
-    5240,
-    5241,
-    5242,
-    5243
+    5245,
+    5246,
+    5247,
+    5248,
+    5249
   ],
-  "cinta_id": 5244,
+  "cinta_id": 5250,
   "published_links": [
-    "https://tn.com.ar/politica/2026/11/19/la-corte-suprema-ordeno-al-estado-hacer-publicos-los-resultados-de-las-pruebas-aprender-y-ensenar/",
-    "https://www.clarin.com/politica/pelea-banca-consejo-magistratura-pro-provincias-unidas-debe-dirimir-martin-menem_0_t9sXRvtORa.html",
     "https://www.infobae.com/politica/2026/11/19/tucuman-le-entrego-al-gobierno-la-carta-historica-que-denuncio-la-ocupacion-ilegal-de-las-islas-malvinas-en-1833/",
-    "https://tn.com.ar/politica/2026/11/19/dura-acusacion-de-leila-gianni-a-una-dirigenta-social-a-ustedes-los-utilizan-para-fundar-cooperativas-y-recibir-plata/",
-    "https://www.infobae.com/politica/2026/11/19/la-cgt-saldra-a-la-calle-por-la-crisis-de-las-obras-sociales-y-definio-como-sera-su-protesta-sin-paros-en-diciembre/",
-    "https://tn.com.ar/politica/2026/11/19/ley-de-ludopatia-el-senado-acordo-debatir-el-proyecto-el-proximo-jueves-tras-los-reclamos-de-la-iglesia/",
+    "https://www.clarin.com/politica/pelea-banca-consejo-magistratura-pro-provincias-unidas-debe-dirimir-martin-menem_0_t9sXRvtORa.html",
     "https://www.ambito.com/politica/el-senado-definio-sus-cuatro-representantes-el-consejo-la-magistratura-n6347374",
-    "https://www.infobae.com/politica/2026/11/20/el-peronismo-suma-gestos-de-unidad-en-el-interior-y-se-distancia-de-la-interna-bonaerense/",
-    "https://www.infobae.com/politica/2026/11/20/los-lugares-que-el-gobierno-pacto-con-las-provincias-para-2027-y-el-pedido-desesperado-que-asoma/",
-    "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-nid19112026/",
-    "https://www.ambito.com/politica/victoria-villarruel-se-pronuncio-el-cierre-una-planta-fabril-sin-industria-no-hay-trabajo-n6347344",
-    "https://www.lanacion.com.ar/politica/el-senado-aprobo-la-reforma-del-regimen-de-propiedad-privada-que-restablece-la-ley-de-tierras-nid19112026/"
+    "https://www.infobae.com/politica/2026/11/19/la-cgt-saldra-a-la-calle-por-la-crisis-de-las-obras-sociales-y-definio-como-sera-su-protesta-sin-paros-en-diciembre/",
+    "https://tn.com.ar/politica/2026/11/19/la-corte-suprema-ordeno-al-estado-hacer-publicos-los-resultados-de-las-pruebas-aprender-y-ensenar/",
+    "https://tn.com.ar/politica/2026/11/19/dura-acusacion-de-leila-gianni-a-una-dirigenta-social-a-ustedes-los-utilizan-para-fundar-cooperativas-y-recibir-plata/",
+    "https://tn.com.ar/politica/2026/11/19/el-diputado-que-rompio-con-lla-dijo-que-quiere-ser-gobernador-de-tucuman-y-respaldo-una-candidatura-presidencial-de-bullrich/",
+    "https://tn.com.ar/politica/2026/11/19/tras-el-fracaso-de-la-sesion-el-gobierno-enfrenta-tensiones-internas-y-evalua-retomar-la-ley-malvinas-la-proxima-semana/",
+    "https://www.infobae.com/politica/2026/11/20/unicef-argentina-advirtio-que-el-41-de-los-hogares-con-chicos-no-logra-cubrir-sus-gastos-corrientes/",
+    "https://www.lanacion.com.ar/politica/una-sobrina-del-gobernador-gildo-insfran-fue-designada-en-el-superior-tribunal-de-formosa-nid20112026/",
+    "https://www.infobae.com/politica/2026/11/20/ruidos-en-el-mercado-el-gobierno-culpa-al-riesgo-kuka-pero-crecen-dos-preocupaciones-politicas/",
+    "https://www.clarin.com/politica/mendoza-gobierno-corre-crece-pelea-cornejo-petri-gobernacion_0_vKUdo34wce.html"
   ],
   "used_img_hashes": [
-    "cc7f996b7840a8a9e847f3870bc398f4",
     "51796fa5aa414cb3447180effe688185",
-    "9a0d104b732a3a6fe795fc2a1ec3cdbf",
     "cf177c8438ec0405d1b9ee6337b2f3a9",
-    "bc7211aed0b3e3d02c854818cf6361e9",
-    "ff1ae34cf31b0d9df1631546120b212c",
-    "f5cf5f61476cac0a466d5386c44b79d8",
-    "fc41d1da7578a846d70c20656d727b9e",
-    "3715bac0c29ffaa061b9562f4920e569",
-    "d4a7bd2255534bd1709df98924610f57",
-    "04fadc425a6906a4863c578381d9ecae",
-    "946840dd3362fe9f147ac85701742101",
-    "7b302edc833f38c19980e5da0a84450f",
-    "a3f6acd97ddb8e75a41283edb5876106",
-    "ac7d12e0fa984edd0d9f35222f24197a",
+    "94159052d1f9e6947e57966ab06ad286",
     "17cf4c38285db1133e3c681f5727d464",
     "59f3a2849036d1d16fb936fb4dfbd485",
+    "cc7f996b7840a8a9e847f3870bc398f4",
+    "e9f1c85a8f2d8cd763b33487e780042c",
+    "f5cf5f61476cac0a466d5386c44b79d8",
+    "a3f6acd97ddb8e75a41283edb5876106",
+    "bc7211aed0b3e3d02c854818cf6361e9",
+    "3715bac0c29ffaa061b9562f4920e569",
     "9b21636702944cdda9a5bf91df293baf",
-    "51796fa5aa414cb3447180effe688185",
     "9a0d104b732a3a6fe795fc2a1ec3cdbf",
+    "7705ac8600aa814f494a37913805b7cf",
+    "b8b1044241c97585d803212c7a363ee5",
+    "946840dd3362fe9f147ac85701742101",
     "f92e1571125bbbf1027b278c8fd798c8",
-    "d4a7bd2255534bd1709df98924610f57",
+    "fc41d1da7578a846d70c20656d727b9e",
+    "f4c4ed8afd7705f7e956a9df2950812c",
+    "8e9cb140ea849744aab60fb5bcbca784",
+    "ff1ae34cf31b0d9df1631546120b212c",
+    "ac7d12e0fa984edd0d9f35222f24197a",
     "7b302edc833f38c19980e5da0a84450f",
-    "f5cf5f61476cac0a466d5386c44b79d8"
+    "d4a7bd2255534bd1709df98924610f57",
+    "04fadc425a6906a4863c578381d9ecae",
+    "f8d1a66134674ef3f90336a43f1ecd6f",
+    "83a3ebfe1bf980d7e39a84468c24157b",
+    "f8d1a66134674ef3f90336a43f1ecd6f",
+    "83a3ebfe1bf980d7e39a84468c24157b",
+    "f4c4ed8afd7705f7e956a9df2950812c",
+    "8e9cb140ea849744aab60fb5bcbca784",
+    "417207f5662429b4edd38e0edc017fc1",
+    "40a93acf01c95508505780c856f97594"
   ],
   "published_titles": [
-    "Milei termina el a\u00f1o sin f\u00f3rmula, sin leyes clave y con interna",
-    "Qu\u00e9 desaf\u00edos le quedan al Gobierno de ac\u00e1 a fin de a\u00f1o: las leyes por aprobar y la decisi\u00f3n crucial de cara al 2027",
-    "El partido neuquino MPN no presentar\u00e1 candidato a gobernador",
-    "Por primera vez el hist\u00f3rico partido Movimiento Popular Neuquino no presentar\u00e1 candidatos a gobernador",
-    "Tres crisis simult\u00e1neas asedian al Gobierno",
-    "Las tres crisis simult\u00e1neas que asedian al Gobierno",
-    "Milei recibe empresarios y participa del lanzamiento de Tesla",
-    "La agenda de Javier Milei: reuniones con empresarios, actos oficiales y el lanzamiento de Tesla en la Argentina",
-    "Gerardo Milman defiende a Bullrich dentro de La Libertad Avanza",
-    "Un dirigente cercano a Bullrich descart\u00f3 un quiebre con el oficialismo en el Congreso",
-    "Gabriel Bornoroni pide sesi\u00f3n por Malvinas y el Banco Central",
-    "Diputados convoc\u00f3 a una sesi\u00f3n especial para tratar la ley de Malvinas y la reforma del Banco Central",
     "C\u00faneo pedir\u00e1 internas en el PJ bonaerense en un acto en Gaspar Campos",
     "Santiago C\u00faneo homenajear\u00e1 a Per\u00f3n en Gaspar Campos y pedir\u00e1 que Kicillof rechace la unidad y exija internas en el PJ",
     "Mauricio Macri toma distancia del Gobierno y relanza el PRO para 2027",
@@ -1617,6 +1615,18 @@
     "Villarruel, tras cierre de planta Arcor: \"Sin industria no hay trabajo",
     "Victoria Villarruel se pronunci\u00f3 tras el cierre de una planta fabril: \"Sin industria no hay trabajo\"",
     "El Senado aprob\u00f3 la reforma que restablece la Ley de Tierras",
-    "El Senado aprob\u00f3 la reforma del r\u00e9gimen de propiedad privada que restablece la Ley de Tierras"
+    "El Senado aprob\u00f3 la reforma del r\u00e9gimen de propiedad privada que restablece la Ley de Tierras",
+    "El diputado que dej\u00f3 LLA quiere gobernar Tucum\u00e1n y apoya a Bullrich",
+    "El diputado que rompi\u00f3 con LLA dijo que quiere ser gobernador de Tucum\u00e1n y respald\u00f3 una candidatura presidencial de Patricia Bullrich",
+    "El Gobierno eval\u00faa retomar la ley Malvinas tras fracaso en Diputados",
+    "Tras el fracaso de la sesi\u00f3n en Diputados, el Gobierno enfrenta tensiones internas y eval\u00faa retomar la ley Malvinas la pr\u00f3xima semana",
+    "El 41% de hogares con chicos no cubre sus gastos corrientes",
+    "UNICEF Argentina advirti\u00f3 que el 41% de los hogares con chicos no logra cubrir sus gastos corrientes",
+    "Sobrina de Insfr\u00e1n fue designada en el Superior Tribunal de Formosa",
+    "Una sobrina del gobernador Gildo Insfr\u00e1n fue designada en el Superior Tribunal de Formosa",
+    "Milei culpa al exterior por la inestabilidad financiera",
+    "Ruidos en el mercado: el Gobierno culpa al \u201criesgo kuka\u201d, pero crecen dos preocupaciones pol\u00edticas",
+    "Pelea Cornejo-Petri por Mendoza: la Casa Rosada no interviene",
+    "Mendoza: el Gobierno se corre y crece la pelea entre Cornejo y Petri por la gobernaci\u00f3n"
   ]
 }
