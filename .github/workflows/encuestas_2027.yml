@@ -1,0 +1,44 @@
+name: Encuestas 2027 (datos de Paladini en Clarin)
+
+# Una vez por dia junta las encuestas nuevas que publica Eduardo Paladini en Clarin
+# y actualiza encuestas_2027.json (lo lee la pagina datapolitica.com/encuestas-2027.aspx).
+on:
+  schedule:
+    - cron: '47 14 * * *'
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'guardar o probar (probar no guarda)'
+        default: 'probar'
+
+concurrency:
+  group: encuestas-2027
+  cancel-in-progress: false
+
+jobs:
+  encuestas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install anthropic requests
+      - name: Juntar encuestas
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DRY_RUN: ${{ github.event.inputs.modo == 'probar' && '1' || '0' }}
+          PYTHONUNBUFFERED: "1"
+        run: python encuestas_paladini.py
+      - name: Guardar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          [ -f encuestas_2027.json ] || exit 0
+          git add encuestas_2027.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: encuestas 2027 actualizadas"
+          for i in 1 2 3 4; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done
