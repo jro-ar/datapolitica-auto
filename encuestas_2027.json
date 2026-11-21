@@ -1,14 +1,83 @@
 {
- "actualizado": "2026-11-20T16:12Z",
+ "actualizado": "2026-11-21T20:40Z",
  "procesadas": [
   "https://www.clarin.com/politica/alerta-gobierno-hicieron-encuesta-votantes-libertarios-milei-quedo-cuarto_0_KKgOtDH0tA.html",
+  "https://www.clarin.com/politica/congreso-nido-ratas-hicieron-encuesta-visita-papa-gano-frase-polemica_0_heNgEmrdHA.html",
+  "https://www.clarin.com/politica/nueva-encuesta-consultor-anti-k-inesperado-empate-punta_0_heYF0KbS67.html",
+  "https://www.clarin.com/politica/nueva-encuesta-consultora-mejor-anticipo-fenomeno-milei-alerta-caidas_0_eTvbVOnCc3.html",
   "https://www.clarin.com/politica/nueva-encuesta-electoral-dato-clave-milei-kicillof-ganaron-bullrich-massa_0_qpYfi0kcE2.html",
   "https://www.clarin.com/politica/nueva-encuesta-electoral-polarizacion-light-notable-diferencia-voto-hombres-mujeres_0_jHTqC5h12S.html",
   "https://www.clarin.com/politica/nueva-encuesta-electoral-sorpresa-empate-primera-vuelta-10-puntos-diferencia-balotaje_0_vzolPbfAOh.html",
   "https://www.clarin.com/politica/nueva-encuesta-enfrento-milei-kicillof-bullrich-pais-ganadores_0_a0OBefTUun.html",
+  "https://www.clarin.com/politica/nueva-encuesta-javier-milei-repunto-sigue-relegado-ranking-presidentes_0_i3SN3KuvO2.html",
+  "https://www.clarin.com/politica/nueva-encuesta-pregunto-elecciones-2027-aparecio-grieta-exacta-46-46_0_lFp9lV9HTG.html",
+  "https://www.clarin.com/politica/nuevas-encuestas-crecen-criticas-economia-salarios-empleo-convirtieron-principal-preocupacion_0_T73546RJWN.html",
   "https://www.clarin.com/politica/sorpresa-ahora-nueva-encuesta-pone-javier-milei-16-puntos-arriba-balotaje_0_SDuoxqy2mC.html"
  ],
  "encuestas": [
+  {
+   "consultora": "Jorge Giacobbe",
+   "alcance": "Nacional",
+   "fecha_campo": "",
+   "casos": "2.500",
+   "metodologia": "Entrevistas a dispositivos móviles, +/- 2% de margen de error",
+   "preguntas": [
+    {
+     "pregunta": "Imagen de referentes políticos",
+     "opciones": [
+      {
+       "nombre": "Patricia Bullrich - Positiva",
+       "valor": "35,1%"
+      },
+      {
+       "nombre": "Patricia Bullrich - Negativa",
+       "valor": "51,1%"
+      },
+      {
+       "nombre": "Axel Kicillof - Positiva",
+       "valor": "35,1%"
+      },
+      {
+       "nombre": "Axel Kicillof - Negativa",
+       "valor": "53,5%"
+      },
+      {
+       "nombre": "Javier Milei - Positiva",
+       "valor": "34,9%"
+      },
+      {
+       "nombre": "Javier Milei - Negativa",
+       "valor": "56,8%"
+      }
+     ]
+    },
+    {
+     "pregunta": "¿Qué opinás de los liberales?",
+     "opciones": [
+      {
+       "nombre": "Me gustan sus ideas y sus formas",
+       "valor": "25,8%"
+      },
+      {
+       "nombre": "Me gustan sus ideas pero no sus formas",
+       "valor": "13,9%"
+      },
+      {
+       "nombre": "No me gustan sus ideas pero sí sus formas",
+       "valor": "5,9%"
+      },
+      {
+       "nombre": "No me gustan sus ideas ni sus formas",
+       "valor": "48,4%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-21",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-consultor-anti-k-inesperado-empate-punta_0_heYF0KbS67.html",
+   "titulo_fuente": ""
+  },
   {
    "consultora": "CB Global Data",
    "alcance": "Nacional",
@@ -454,6 +523,256 @@
    "publicada": "2026-11-16",
    "fuente": "Clarín (Eduardo Paladini)",
    "url": "https://www.clarin.com/politica/nueva-encuesta-electoral-sorpresa-empate-primera-vuelta-10-puntos-diferencia-balotaje_0_vzolPbfAOh.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "Atlas Intel / Bloomberg",
+   "alcance": "Nacional",
+   "fecha_campo": "5 al 9 de noviembre",
+   "casos": "2.364",
+   "metodologia": "+/- 2% de margen de error",
+   "preguntas": [
+    {
+     "pregunta": "¿Aprueba o desaprueba el desempeño del Presidente Milei?",
+     "opciones": [
+      {
+       "nombre": "Aprueba",
+       "valor": "36,2%"
+      },
+      {
+       "nombre": "Desaprueba",
+       "valor": "60,2%"
+      }
+     ]
+    },
+    {
+     "pregunta": "¿Cómo evalúa la administración del Gobierno nacional?",
+     "opciones": [
+      {
+       "nombre": "Bueno/Excelente",
+       "valor": "28,9%"
+      },
+      {
+       "nombre": "Regular",
+       "valor": "15,4%"
+      },
+      {
+       "nombre": "Malo/Muy malo",
+       "valor": "55,7%"
+      }
+     ]
+    },
+    {
+     "pregunta": "¿Cuál es la situación actual de la economía?",
+     "opciones": [
+      {
+       "nombre": "Buena",
+       "valor": "19%"
+      },
+      {
+       "nombre": "Normal",
+       "valor": "21%"
+      },
+      {
+       "nombre": "Mala",
+       "valor": "60%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-15",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-consultora-mejor-anticipo-fenomeno-milei-alerta-caidas_0_eTvbVOnCc3.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "QSocial",
+   "alcance": "Nacional",
+   "fecha_campo": "noviembre",
+   "casos": "4.000",
+   "metodologia": "+/- 1,6% de margen de error",
+   "preguntas": [
+    {
+     "pregunta": "¿Qué sería lo peor para el país? ¿Que gane el peronismo o que gane Milei?",
+     "opciones": [
+      {
+       "nombre": "Que gane Milei",
+       "valor": "46%"
+      },
+      {
+       "nombre": "Que gane el peronismo",
+       "valor": "46%"
+      },
+      {
+       "nombre": "No sabe",
+       "valor": "8%"
+      }
+     ]
+    },
+    {
+     "pregunta": "¿Usted prefiere que Milei sea reelecto o no?",
+     "opciones": [
+      {
+       "nombre": "Que sea reelecto",
+       "valor": "36%"
+      },
+      {
+       "nombre": "Que no sea reelecto",
+       "valor": "56%"
+      }
+     ]
+    },
+    {
+     "pregunta": "¿Qué debería hacer el próximo gobierno con las políticas de Milei?",
+     "opciones": [
+      {
+       "nombre": "Continuar la mayoría",
+       "valor": "27%"
+      },
+      {
+       "nombre": "Continuar algunas y cambiar otras",
+       "valor": "24%"
+      },
+      {
+       "nombre": "Cambiar la mayoría",
+       "valor": "45%"
+      },
+      {
+       "nombre": "No sabe",
+       "valor": "4%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-14",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-pregunto-elecciones-2027-aparecio-grieta-exacta-46-46_0_lFp9lV9HTG.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "CB Global Data",
+   "alcance": "América Latina",
+   "fecha_campo": "4 al 9 de noviembre",
+   "casos": "1.930 a 3.931 casos por país",
+   "metodologia": "Margen de error +/- 1,6% a 2,2%",
+   "preguntas": [
+    {
+     "pregunta": "Imagen positiva de presidentes latinoamericanos",
+     "opciones": [
+      {
+       "nombre": "Claudia Sheinbaum (México)",
+       "valor": "+69,8%"
+      },
+      {
+       "nombre": "Nayib Bukele (El Salvador)",
+       "valor": "+69,5%"
+      },
+      {
+       "nombre": "Laura Fernández (Costa Rica)",
+       "valor": "+52,3%"
+      },
+      {
+       "nombre": "Javier Milei (Argentina)",
+       "valor": "+37,4%"
+      },
+      {
+       "nombre": "Bernardo Arévalo (Guatemala)",
+       "valor": "+31,4%"
+      },
+      {
+       "nombre": "Santiago Peña (Paraguay)",
+       "valor": "+24,7%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Imagen de Javier Milei - desglose",
+     "opciones": [
+      {
+       "nombre": "Imagen muy buena",
+       "valor": "23,8%"
+      },
+      {
+       "nombre": "Imagen buena",
+       "valor": "13,6%"
+      },
+      {
+       "nombre": "Imagen mala",
+       "valor": "16,3%"
+      },
+      {
+       "nombre": "Imagen muy mala",
+       "valor": "41,4%"
+      },
+      {
+       "nombre": "ns/nc",
+       "valor": "4,9%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-13",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-javier-milei-repunto-sigue-relegado-ranking-presidentes_0_i3SN3KuvO2.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "QSocial",
+   "alcance": "Nacional",
+   "fecha_campo": "7 al 9 de este mes",
+   "casos": "1.175",
+   "metodologia": "+/- 2,9% de margen de error",
+   "preguntas": [
+    {
+     "pregunta": "El Congreso es un nido de ratas",
+     "opciones": [
+      {
+       "nombre": "Muy de acuerdo",
+       "valor": "48%"
+      },
+      {
+       "nombre": "Bastante de acuerdo",
+       "valor": "15%"
+      },
+      {
+       "nombre": "Poco de acuerdo",
+       "valor": "14%"
+      },
+      {
+       "nombre": "Nada de acuerdo",
+       "valor": "22%"
+      },
+      {
+       "nombre": "No sabe",
+       "valor": "1%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Los impuestos son un robo",
+     "opciones": [
+      {
+       "nombre": "Muy de acuerdo",
+       "valor": "41%"
+      },
+      {
+       "nombre": "Bastante de acuerdo",
+       "valor": "16%"
+      },
+      {
+       "nombre": "Poco de acuerdo",
+       "valor": "9%"
+      },
+      {
+       "nombre": "Nada de acuerdo",
+       "valor": "34%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-12",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/congreso-nido-ratas-hicieron-encuesta-visita-papa-gano-frase-polemica_0_heNgEmrdHA.html",
    "titulo_fuente": ""
   }
  ]
