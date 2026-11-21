@@ -57,25 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-11-01 23:09",
-      "publicadas": 6,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [
-        "Titulo malo: Caso Cuadernos: las pruebas que complican a Cristina Kirchne",
-        "Titulo malo: La Libertad Avanza intenta infiltrarse en la Justicia porte\u00f1"
-      ],
-      "titulos": [
-        "Le\u00f3n XIV celebrar\u00e1 una misa masiva en Palermo en su visita a Argentina",
-        "Kicillof y gobernadores presionan a Milei por fondos retenidos",
-        "Mahiques impulsa el ascenso de Rafecas a la C\u00e1mara de Casaci\u00f3n",
-        "El PRO descarta la alianza con Milei y marca diferencias",
-        "El Vaticano difundi\u00f3 un video que anticipa la visita del papa Le\u00f3n XIV",
-        "Le\u00f3n XIV visitar\u00e1 Argentina en noviembre: BA, C\u00f3rdoba y Luj\u00e1n",
-        "Milei defendi\u00f3 a Maratea tras su cruce con la China Ansaldi"
-      ]
-    },
-    {
       "fecha": "2026-11-02 10:09",
       "publicadas": 6,
       "cinta": true,
@@ -1358,6 +1339,24 @@
         "El intendente de Berazategui declar\u00f3 por una oferta para atacarlo",
         "Posadas derog\u00f3 la Ley de Lemas gracias a La Libertad Avanza"
       ]
+    },
+    {
+      "fecha": "2026-11-21 10:01",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: Conflicto de intereses traba dos proyectos clave en Diputado",
+        "Candado (dice 'muert' y la noticia original no): Noem\u00ed Geminiani, legisladora peronista porte\u00f1a, mu"
+      ],
+      "titulos": [
+        "M\u00e1ximo Kirchner toma el Congreso del PJ sin acto ni militantes",
+        "Tesla llega a Argentina con autos desde u$s40.990",
+        "Fracas\u00f3 el intento de restaurar las listas colectoras",
+        "Bullrich choca con Caputo por cambios en la Ley Malvinas",
+        "Egu\u00eda lanz\u00f3 un spot con astronauta para ser diputado en Neuqu\u00e9n",
+        "CGT y Gobierno en conflicto por dirigentes con triunfos judicializados"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1369,58 +1368,57 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5257,
-    5258,
-    5259,
-    5260,
-    5261
+    5263,
+    5264,
+    5265,
+    5266,
+    5267
   ],
-  "cinta_id": 5262,
+  "cinta_id": 5268,
   "published_links": [
-    "https://www.lanacion.com.ar/politica/una-sobrina-del-gobernador-gildo-insfran-fue-designada-en-el-superior-tribunal-de-formosa-nid20112026/",
-    "https://tn.com.ar/politica/2026/11/20/con-las-candidaturas-sin-resolver-la-libertad-avanza-de-neuquen-reune-a-su-congreso-provincial/",
-    "https://www.ambito.com/politica/el-senado-definio-sus-cuatro-representantes-el-consejo-la-magistratura-n6347374",
-    "https://www.infobae.com/politica/2026/11/19/tucuman-le-entrego-al-gobierno-la-carta-historica-que-denuncio-la-ocupacion-ilegal-de-las-islas-malvinas-en-1833/",
     "https://www.clarin.com/politica/mendoza-gobierno-corre-crece-pelea-cornejo-petri-gobernacion_0_vKUdo34wce.html",
-    "https://tn.com.ar/politica/2026/11/19/la-corte-suprema-ordeno-al-estado-hacer-publicos-los-resultados-de-las-pruebas-aprender-y-ensenar/",
     "https://www.infobae.com/politica/2026/11/20/la-camara-de-diputados-le-otorgo-su-maxima-distincion-a-la-teologa-emilce-cuda/",
-    "https://www.ambito.com/politica/shaca-la-bashura-la-llamativa-campana-concientizacion-san-isidro-la-recoleccion-residuos-n6347676",
-    "https://www.clarin.com/politica/massa-acelera-armado-federal-frente-renovador-rumbo-2027-rearmo-partido-bendijo-hombre-tierra-fuego_0_8uBTR8SCA2.html",
+    "https://tn.com.ar/politica/2026/11/19/la-corte-suprema-ordeno-al-estado-hacer-publicos-los-resultados-de-las-pruebas-aprender-y-ensenar/",
+    "https://www.ambito.com/politica/el-senado-definio-sus-cuatro-representantes-el-consejo-la-magistratura-n6347374",
     "https://www.infobae.com/politica/2026/11/19/jorge-asis-es-una-verguenza-que-el-gobierno-que-viene-contra-la-casta-necesite-cancelar-las-paso-para-subsistir/",
-    "https://www.lanacion.com.ar/politica/el-intendente-de-berazategui-declaro-como-testigo-en-una-causa-que-investiga-una-supuesta-oferta-nid19112026/",
-    "https://www.lanacion.com.ar/politica/posadas-elimino-la-ley-de-lemas-y-el-resultado-podria-condicionar-la-negociacion-de-santilli-con-un-nid19112026/"
+    "https://www.lanacion.com.ar/politica/posadas-elimino-la-ley-de-lemas-y-el-resultado-podria-condicionar-la-negociacion-de-santilli-con-un-nid19112026/",
+    "https://www.infobae.com/politica/2026/11/21/maximo-kirchner-asumira-al-frente-del-congreso-del-pj-en-una-reunion-de-baja-intensidad-para-calmar-la-interna/",
+    "https://www.ambito.com/politica/tesla-desembarco-argentina-aparicion-elon-musk-javier-milei-aseguro-que-estamos-mirando-frente-al-mundo-n6347819",
+    "https://www.infobae.com/opinion/2026/11/21/las-manas-de-la-casta-las-internas-sin-fin-y-los-riesgos-de-insistir-con-el-riesgo-kuka/",
+    "https://www.infobae.com/politica/2026/11/21/ley-malvinas-bullrich-pretende-hacerle-mas-cambios-al-texto-y-tensiona-su-vinculo-con-santiago-caputo/",
+    "https://www.clarin.com/politica/insolito-spot-astronauta-marciano-arranco-campana-electoral-neuquen_0_nlqH6iH8ki.html",
+    "https://www.infobae.com/politica/2026/11/21/que-son-las-acefalias-gremiales-de-facto-y-por-que-se-convirtieron-en-el-gran-conflicto-que-divide-hoy-al-gobierno-y-la-cgt/"
   ],
   "used_img_hashes": [
+    "78e280051ba4f1d2277af6bedc906fcd",
     "acc2af43e1c2cf39a1ca98d19c6b7984",
-    "5a8be7eeeee7091f3fa6b1148a288d0d",
     "73ccf3e6d666b404cdf4187f3d308f62",
-    "1805a79868dfbd854ebd22b9ac4f4454",
-    "d721b60278b8247defbf52043b23d5cb",
-    "81784d8ee7b2b0245b0dbbe493b39daa",
-    "853fc97231f71eddd2cc2a0d1367530a",
     "2a9245b4d28f05ab1159051d47e7d936",
-    "b4140cba7917c29122071852183c2440",
-    "73ccf3e6d666b404cdf4187f3d308f62",
-    "33c3bba79154e14cf7b68c81278d918a",
-    "5a8be7eeeee7091f3fa6b1148a288d0d",
-    "68b24c07663561e831ffeb07a9f82fa6",
     "d721b60278b8247defbf52043b23d5cb",
+    "853fc97231f71eddd2cc2a0d1367530a",
+    "68b24c07663561e831ffeb07a9f82fa6",
+    "33c3bba79154e14cf7b68c81278d918a",
+    "81784d8ee7b2b0245b0dbbe493b39daa",
+    "60fc5bbdccf6cd44e19311ec0992e4a4",
+    "6634a2fdb587621d2315bb715ff02e15",
+    "a98a0a3275f702fe6a3958c80dc4ae54",
+    "aa912591c2ae1dbd8c88a8e46a7e3b72",
+    "29f6e02738fe502ec38aa0ed0ff9c76c",
+    "86314115c6514c4640cf13d6e61f28b2",
+    "1805a79868dfbd854ebd22b9ac4f4454",
     "2ee8430c4cd26a5d1e2db055626374d0",
-    "853fc97231f71eddd2cc2a0d1367530a"
+    "5a8be7eeeee7091f3fa6b1148a288d0d",
+    "2472862b16aa12ac6a355a56ccc1ab28",
+    "b4140cba7917c29122071852183c2440",
+    "78e280051ba4f1d2277af6bedc906fcd",
+    "2a41592b063f8b3c74c72d2caed13568",
+    "86314115c6514c4640cf13d6e61f28b2",
+    "29f6e02738fe502ec38aa0ed0ff9c76c",
+    "ae616b9031efa0e9e53ac066933e363b",
+    "a98a0a3275f702fe6a3958c80dc4ae54",
+    "6634a2fdb587621d2315bb715ff02e15"
   ],
   "published_titles": [
-    "Un diputado de La Libertad Avanza impulsa eliminar Ingresos Brutos",
-    "Impulsan un proyecto de ley en la Legislatura bonaerense para eliminar el impuesto de Ingresos Brutos",
-    "Pilar Ram\u00edrez negociar\u00e1 cambios en el Presupuesto 2027 de CABA",
-    "Presupuesto 2027 de CABA: el PRO negociar\u00e1 cambios con La Libertad Avanza, que reclama m\u00e1s ajuste y baja de impuestos",
-    "Adorni: el fiscal aval\u00f3 su explicaci\u00f3n de ganancias con bitcoin",
-    "La defensa de Adorni que acept\u00f3 el fiscal abre interrogantes sobre el futuro del delito de enriquecimiento il\u00edcito",
-    "Llaryora baja 26,3% la al\u00edcuota de Ingresos Brutos en C\u00f3rdoba",
-    "C\u00f3rdoba: Llaryora env\u00eda se\u00f1ales a la Rosada con el presupuesto provincial 2027",
-    "M\u00e1s de 100 organizaciones piden cambiar c\u00f3mo se eligen jueces",
-    "La campa\u00f1a c\u00edvica para reclamar cambios en los concursos judiciales lleg\u00f3 al Senado",
-    "Le\u00f3n XIV: \"No es necesario odiarnos ni usar lenguaje violento",
-    "Le\u00f3n XIV habl\u00f3 sobre Argentina: \u201cVa a haber diferencias de opini\u00f3n, pero no es necesario llegar a odiarnos, a usar un lenguaje tan violento\u201d",
     "Le\u00f3n XIV balance\u00f3 su viaje y cont\u00f3 qu\u00e9 le pidi\u00f3 a Milei",
     "Le\u00f3n XIV hizo un balance de su viaje a la Argentina y cont\u00f3 qu\u00e9 le pidi\u00f3 a Javier Milei sobre \u201clos m\u00e1s necesitados\u201d",
     "Salta desdoblar\u00e1 sus elecciones y votar\u00e1 el 16 de mayo",
@@ -1608,6 +1606,18 @@
     "El intendente de Berazategui declar\u00f3 por una oferta para atacarlo",
     "El intendente de Berazategui declar\u00f3 como testigo en una causa que investiga una supuesta oferta econ\u00f3mica para atacarlo",
     "Posadas derog\u00f3 la Ley de Lemas gracias a La Libertad Avanza",
-    "Posadas elimin\u00f3 la Ley de Lemas y el resultado podr\u00eda condicionar la negociaci\u00f3n de Santilli con un gobernador"
+    "Posadas elimin\u00f3 la Ley de Lemas y el resultado podr\u00eda condicionar la negociaci\u00f3n de Santilli con un gobernador",
+    "M\u00e1ximo Kirchner toma el Congreso del PJ sin acto ni militantes",
+    "M\u00e1ximo Kirchner asumir\u00e1 al frente del Congreso del PJ en una reuni\u00f3n de baja intensidad para calmar la interna",
+    "Tesla llega a Argentina con autos desde u$s40.990",
+    "Tesla desembarc\u00f3 en Argentina: con aparici\u00f3n de Elon Musk, Javier Milei asegur\u00f3 que \"estamos mirando de frente al mundo\"",
+    "Fracas\u00f3 el intento de restaurar las listas colectoras",
+    "Las ma\u00f1as de la casta, las internas sin fin y los riesgos de insistir con el \u201criesgo kuka\u201d",
+    "Bullrich choca con Caputo por cambios en la Ley Malvinas",
+    "Ley Malvinas: Bullrich pretende hacerle m\u00e1s cambios al texto y tensiona su v\u00ednculo con Santiago Caputo",
+    "Egu\u00eda lanz\u00f3 un spot con astronauta para ser diputado en Neuqu\u00e9n",
+    "Con el ins\u00f3lito spot de un astronauta y un marciano, arranc\u00f3 la campa\u00f1a electoral en Neuqu\u00e9n",
+    "CGT y Gobierno en conflicto por dirigentes con triunfos judicializados",
+    "Qu\u00e9 son las acefal\u00edas gremiales de facto y por qu\u00e9 se convirtieron en el gran conflicto que divide hoy al Gobierno y la CGT"
   ]
 }
