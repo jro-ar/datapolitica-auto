@@ -1,17 +1,23 @@
 {
- "actualizado": "2026-11-21T20:40Z",
+ "actualizado": "2026-11-22T20:50Z",
  "procesadas": [
   "https://www.clarin.com/politica/alerta-gobierno-hicieron-encuesta-votantes-libertarios-milei-quedo-cuarto_0_KKgOtDH0tA.html",
   "https://www.clarin.com/politica/congreso-nido-ratas-hicieron-encuesta-visita-papa-gano-frase-polemica_0_heNgEmrdHA.html",
+  "https://www.clarin.com/politica/dice-ultima-encuesta-llego-milei-hizo-consultor-anticipo-triunfo-2023_0_DTtICcH71Z.html",
   "https://www.clarin.com/politica/nueva-encuesta-consultor-anti-k-inesperado-empate-punta_0_heYF0KbS67.html",
   "https://www.clarin.com/politica/nueva-encuesta-consultora-mejor-anticipo-fenomeno-milei-alerta-caidas_0_eTvbVOnCc3.html",
+  "https://www.clarin.com/politica/nueva-encuesta-consultores-preferidos-pj-anticipa-definiran-eleccion-2027_0_Bv6CDWJc3M.html",
+  "https://www.clarin.com/politica/nueva-encuesta-dio-mal-milei-dato-clave-oposicion_0_MgquvC2QEa.html",
   "https://www.clarin.com/politica/nueva-encuesta-electoral-dato-clave-milei-kicillof-ganaron-bullrich-massa_0_qpYfi0kcE2.html",
   "https://www.clarin.com/politica/nueva-encuesta-electoral-polarizacion-light-notable-diferencia-voto-hombres-mujeres_0_jHTqC5h12S.html",
   "https://www.clarin.com/politica/nueva-encuesta-electoral-sorpresa-empate-primera-vuelta-10-puntos-diferencia-balotaje_0_vzolPbfAOh.html",
+  "https://www.clarin.com/politica/nueva-encuesta-enfrento-kicillof-milei-bullrich-conurbano-paliza-20-4_0_7t91iiMxGs.html",
   "https://www.clarin.com/politica/nueva-encuesta-enfrento-milei-kicillof-bullrich-pais-ganadores_0_a0OBefTUun.html",
   "https://www.clarin.com/politica/nueva-encuesta-javier-milei-repunto-sigue-relegado-ranking-presidentes_0_i3SN3KuvO2.html",
+  "https://www.clarin.com/politica/nueva-encuesta-midio-afectan-milei-candidaturas-bullrich-villarruel-macri_0_YqOS4YhKSb.html",
   "https://www.clarin.com/politica/nueva-encuesta-pregunto-elecciones-2027-aparecio-grieta-exacta-46-46_0_lFp9lV9HTG.html",
   "https://www.clarin.com/politica/nuevas-encuestas-crecen-criticas-economia-salarios-empleo-convirtieron-principal-preocupacion_0_T73546RJWN.html",
+  "https://www.clarin.com/politica/nuevas-encuestas-midieron-puede-impactar-visita-papa-beneficia-perjudica-milei_0_pQ7TtpB4Ng.html",
   "https://www.clarin.com/politica/sorpresa-ahora-nueva-encuesta-pone-javier-milei-16-puntos-arriba-balotaje_0_SDuoxqy2mC.html"
  ],
  "encuestas": [
@@ -773,6 +779,295 @@
    "publicada": "2026-11-12",
    "fuente": "Clarín (Eduardo Paladini)",
    "url": "https://www.clarin.com/politica/congreso-nido-ratas-hicieron-encuesta-visita-papa-gano-frase-polemica_0_heNgEmrdHA.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "Equipo Mide",
+   "alcance": "Nacional",
+   "fecha_campo": "28 de octubre al 26 de noviembre",
+   "casos": "1.911",
+   "metodologia": "+/- 2,1% de margen de error",
+   "preguntas": [
+    {
+     "pregunta": "Intención de voto por espacio político",
+     "opciones": [
+      {
+       "nombre": "La Libertad Avanza",
+       "valor": "32%"
+      },
+      {
+       "nombre": "Peronismo no kirchnerista",
+       "valor": "17%"
+      },
+      {
+       "nombre": "Kirchnerismo",
+       "valor": "17%"
+      },
+      {
+       "nombre": "PRO",
+       "valor": "7%"
+      },
+      {
+       "nombre": "Izquierda",
+       "valor": "6%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Primera vuelta con 11 candidatos",
+     "opciones": [
+      {
+       "nombre": "Javier Milei",
+       "valor": "28%"
+      },
+      {
+       "nombre": "Axel Kicillof",
+       "valor": "23%"
+      },
+      {
+       "nombre": "Myriam Bregman",
+       "valor": "7%"
+      },
+      {
+       "nombre": "Patricia Bullrich",
+       "valor": "8%"
+      },
+      {
+       "nombre": "Sergio Massa",
+       "valor": "5%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Balotaje Milei vs Kicillof",
+     "opciones": [
+      {
+       "nombre": "Axel Kicillof",
+       "valor": "42%"
+      },
+      {
+       "nombre": "Javier Milei",
+       "valor": "39%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-11",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-midio-afectan-milei-candidaturas-bullrich-villarruel-macri_0_YqOS4YhKSb.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "Pulso Research",
+   "alcance": "Nacional",
+   "fecha_campo": "10 al 17 de octubre",
+   "casos": "1.500",
+   "metodologia": "online, +/- 3% de margen de error",
+   "preguntas": [
+    {
+     "pregunta": "Evaluación del Gobierno",
+     "opciones": [
+      {
+       "nombre": "Mal",
+       "valor": "15,9%"
+      },
+      {
+       "nombre": "Muy mal",
+       "valor": "50,5%"
+      },
+      {
+       "nombre": "Bien",
+       "valor": "15,9%"
+      },
+      {
+       "nombre": "Muy bien",
+       "valor": "13%"
+      },
+      {
+       "nombre": "No sabe/No contesta",
+       "valor": "4,7%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Rumbo del Gobierno",
+     "opciones": [
+      {
+       "nombre": "Correcto",
+       "valor": "26,4%"
+      },
+      {
+       "nombre": "Incorrecto",
+       "valor": "61,9%"
+      },
+      {
+       "nombre": "No sabe/No contesta",
+       "valor": "11,7%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Imagen de Javier Milei",
+     "opciones": [
+      {
+       "nombre": "Apoyo",
+       "valor": "32,4%"
+      },
+      {
+       "nombre": "Rechazo",
+       "valor": "64,5%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-07",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-dio-mal-milei-dato-clave-oposicion_0_MgquvC2QEa.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "Opina Argentina",
+   "alcance": "Nacional",
+   "fecha_campo": "23 al 25 de octubre",
+   "casos": "2.205",
+   "metodologia": "+/- 2% de margen de error",
+   "preguntas": [
+    {
+     "pregunta": "¿Cuál es su imagen del Papa León XIV?",
+     "opciones": [
+      {
+       "nombre": "Imagen positiva entre peronistas",
+       "valor": "71%"
+      },
+      {
+       "nombre": "Imagen positiva entre libertarios",
+       "valor": "55%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-06",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nuevas-encuestas-midieron-puede-impactar-visita-papa-beneficia-perjudica-milei_0_pQ7TtpB4Ng.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "Aresco",
+   "alcance": "Nacional",
+   "fecha_campo": "octubre",
+   "casos": "",
+   "metodologia": "",
+   "preguntas": [
+    {
+     "pregunta": "Evaluación de la gestión del Presidente (balance positivo vs negativo)",
+     "opciones": [
+      {
+       "nombre": "Positivo",
+       "valor": "+ 41%"
+      },
+      {
+       "nombre": "Negativo",
+       "valor": "- 56,3%"
+      }
+     ]
+    },
+    {
+     "pregunta": "¿Cómo evalúa la situación económica nacional?",
+     "opciones": [
+      {
+       "nombre": "Positiva",
+       "valor": "30%"
+      },
+      {
+       "nombre": "Negativa",
+       "valor": "68%"
+      },
+      {
+       "nombre": "No sabe / No contesta",
+       "valor": "2%"
+      }
+     ]
+    },
+    {
+     "pregunta": "¿Qué expectativas tiene con la economía nacional?",
+     "opciones": [
+      {
+       "nombre": "Favorables",
+       "valor": "35%"
+      },
+      {
+       "nombre": "Desfavorables",
+       "valor": "57%"
+      },
+      {
+       "nombre": "No sabe / No contesta",
+       "valor": "8%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-05",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/dice-ultima-encuesta-llego-milei-hizo-consultor-anticipo-triunfo-2023_0_DTtICcH71Z.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "CB Global Data",
+   "alcance": "Gran Buenos Aires",
+   "fecha_campo": "",
+   "casos": "503 a 754",
+   "metodologia": "Margen de error de 3% a 4%",
+   "preguntas": [
+    {
+     "pregunta": "Imagen positiva en el Gran Buenos Aires",
+     "opciones": [
+      {
+       "nombre": "Axel Kicillof - La Matanza",
+       "valor": "52,7%"
+      },
+      {
+       "nombre": "Axel Kicillof - Florencio Varela",
+       "valor": "52,2%"
+      },
+      {
+       "nombre": "Axel Kicillof - Almirante Brown",
+       "valor": "51,5%"
+      },
+      {
+       "nombre": "Patricia Bullrich - San Miguel",
+       "valor": "43,5%"
+      },
+      {
+       "nombre": "Patricia Bullrich - San Isidro",
+       "valor": "43,1%"
+      },
+      {
+       "nombre": "Javier Milei - San Isidro",
+       "valor": "42,5%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Municipios donde cada dirigente lidera en imagen positiva",
+     "opciones": [
+      {
+       "nombre": "Kicillof lidera",
+       "valor": "20"
+      },
+      {
+       "nombre": "Bullrich lidera",
+       "valor": "4"
+      },
+      {
+       "nombre": "Milei lidera",
+       "valor": "0"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-04",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-enfrento-kicillof-milei-bullrich-conurbano-paliza-20-4_0_7t91iiMxGs.html",
    "titulo_fuente": ""
   }
  ]
