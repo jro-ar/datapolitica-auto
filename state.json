@@ -57,23 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-11-02 23:09",
-      "publicadas": 5,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [
-        "Mismo tema que otra nota: El estratega digital de Lula se reuni\u00f3 con Cristina y M"
-      ],
-      "titulos": [
-        "Cristina Kirchner busca en Brasil la estrategia para 2027",
-        "Oficialismo y oposici\u00f3n porte\u00f1a acuerdan una ley de educaci\u00f3n digital",
-        "El Senado frena la ley de discapacidad por falta de qu\u00f3rum",
-        "Cristian Ritondo quiere bloquear celulares en todas las c\u00e1rceles",
-        "La Justicia define si los acusados por el AMIA van a juicio oral",
-        "Turista argentino muri\u00f3 en accidente de ala delta en Brasil"
-      ]
-    },
-    {
       "fecha": "2026-11-03 10:10",
       "publicadas": 5,
       "cinta": true,
@@ -1363,6 +1346,24 @@
         "Sergio Massa intenta conducir al peronismo rumbo a 2027",
         "Chiarella inaugur\u00f3 el Encuentro de Mujeres Radicales en Trelew"
       ]
+    },
+    {
+      "fecha": "2026-11-22 10:01",
+      "publicadas": 3,
+      "cinta": true,
+      "estado": "SIN NOVEDADES",
+      "detalle": [
+        "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
+        "Titulo distinto de la noticia original: Las PASO cumplen 15 a\u00f1os y ning\u00fan gobierno pudo cambiar",
+        "Candado (dice 'incendio' y la noticia original no): Karina Milei negoci\u00f3 para evitar un traspi\u00e9 del of",
+        "Mismo tema que otra nota: El Gobierno atribuye la turbulencia a dudas sobre reele"
+      ],
+      "titulos": [
+        "Las sesiones terminan con Presupuesto y PASO sin resolver",
+        "Milei pierde el control pol\u00edtico mientras la econom\u00eda no repunta",
+        "El oficialismo articula apoyos con el riesgo pa\u00eds en 1.000 puntos",
+        "Pol\u00edticos de izquierda y derecha festejaron el t\u00edtulo de Boca"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1374,59 +1375,59 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5280,
-    5281,
-    5282,
-    5283,
-    5284
+    5286,
+    5287,
+    5288
   ],
-  "cinta_id": 5285,
+  "cinta_id": 5289,
   "published_links": [
-    "https://www.infobae.com/politica/2026/11/20/kicillof-se-aferra-a-sostener-las-paso-en-buenos-aires-para-negociar-a-nivel-nacional-con-massa-y-cfk/",
+    "https://www.ambito.com/politica/la-corte-suprema-frena-los-aumentos-las-prepagas-cuando-se-implementa-el-cambio-y-que-hacer-si-no-se-respeta-n6347534",
+    "https://www.lanacion.com.ar/politica/posadas-elimino-la-ley-de-lemas-y-el-resultado-podria-condicionar-la-negociacion-de-santilli-con-un-nid19112026/",
+    "https://tn.com.ar/politica/2026/11/21/el-pj-se-reorganiza-para-2027-y-massa-busca-liderar-el-armado-mientras-javier-milei-negocia-concesiones-con-los-gobernadores/",
     "https://www.clarin.com/politica/mendoza-gobierno-corre-crece-pelea-cornejo-petri-gobernacion_0_vKUdo34wce.html",
     "https://www.lanacion.com.ar/politica/kicillof-nombro-a-cristina-kirchner-en-un-acto-con-intendentes-de-la-campora-nid20112026/",
-    "https://www.ambito.com/politica/la-corte-suprema-frena-los-aumentos-las-prepagas-cuando-se-implementa-el-cambio-y-que-hacer-si-no-se-respeta-n6347534",
-    "https://www.lanacion.com.ar/politica/nadia-marquez-busca-ser-la-candidata-a-gobernadora-de-milei-en-neuquen-pero-la-ley-de-ficha-limpia-nid20112026/",
-    "https://www.lanacion.com.ar/politica/posadas-elimino-la-ley-de-lemas-y-el-resultado-podria-condicionar-la-negociacion-de-santilli-con-un-nid19112026/",
-    "https://www.clarin.com/politica/interna-cordobesa-luis-juez-burla-video-loredo-pasea-fiat-600-manda-asiento_0_qxJfWXVoN9.html",
-    "https://www.lanacion.com.ar/politica/peronismo-massa-y-cristina-kirchner-consolidan-su-alianza-interna-y-vuelcan-la-presion-sobre-axel-nid21112026/",
+    "https://www.infobae.com/politica/2026/11/21/la-union-civica-radical-pidio-mas-y-mejor-educacion-publica-para-reducir-las-desigualdades/",
     "https://www.infobae.com/politica/2026/11/21/semana-clave-karina-milei-volvio-a-convocar-a-la-mesa-politica-y-se-definen-los-proyectos-que-va-a-priorizar-la-casa-rosada/",
-    "https://www.ambito.com/politica/habra-alianza-cordoba-un-video-humoristico-luis-juez-y-gabriel-bornoroni-convocan-rodrigo-loredo-la-unidad-n6347940",
-    "https://tn.com.ar/politica/2026/11/21/el-pj-se-reorganiza-para-2027-y-massa-busca-liderar-el-armado-mientras-javier-milei-negocia-concesiones-con-los-gobernadores/",
-    "https://www.infobae.com/politica/2026/11/21/la-union-civica-radical-pidio-mas-y-mejor-educacion-publica-para-reducir-las-desigualdades/"
+    "https://www.lanacion.com.ar/politica/nadia-marquez-busca-ser-la-candidata-a-gobernadora-de-milei-en-neuquen-pero-la-ley-de-ficha-limpia-nid20112026/",
+    "https://www.infobae.com/politica/2026/11/22/el-gobierno-encara-la-ultima-semana-legislativa-con-agenda-inconclusa-y-dudas-por-el-temario-de-extraordinarias/",
+    "https://www.infobae.com/politica/2026/11/22/milei-en-su-trampa-el-desorden-politico-y-una-economia-en-recesion-apuntalan-la-desconfianza/",
+    "https://www.infobae.com/politica/2026/11/22/la-turbulencia-financiera-antes-de-tiempo-que-numeros-mira-milei-y-los-planes-politicos-de-la-casa-rosada/",
+    "https://www.clarin.com/politica/siempre-boca-mensajes-politicos-triunfo-final-copa-sudamericana_0_pUdIeqe8kq.html"
   ],
   "used_img_hashes": [
-    "78e280051ba4f1d2277af6bedc906fcd",
-    "f447938c91f2a29b625884fe7f8755de",
-    "2292c46b6bcf5f6f089ff2009aeec730",
-    "740ab1f7c1e4b8b34e3d4d017178ba8c",
-    "375eb63dfa8d53c00504eb13a79e9d72",
     "e8527bb1597d3d568f86335c729b280d",
-    "54f9bdad7102aa717dc2de1b5491042c",
-    "ad25d1b8f01779d3b14e1c930960a3d2",
-    "baef22c7b73bba145b2cfcbbce829a88",
-    "40b19a37e0086f1b38bd728d03980784",
+    "f0bc1d02f36dfe635302919668fca25d",
     "20ddddd2fcfc8832ccecf20ed6519944",
-    "a98a0a3275f702fe6a3958c80dc4ae54",
-    "a98a0a3275f702fe6a3958c80dc4ae54",
-    "78e280051ba4f1d2277af6bedc906fcd",
     "9f89d1c25df984944edd3212f272b29d",
-    "54f9bdad7102aa717dc2de1b5491042c",
+    "baef22c7b73bba145b2cfcbbce829a88",
+    "2f38c08654401fe1e240d2414a09fb4c",
+    "65f49a51ca2cccbaed57e3348156d483",
+    "740ab1f7c1e4b8b34e3d4d017178ba8c",
+    "9df9f9f70da205999ab81cd489f10cc8",
+    "f447938c91f2a29b625884fe7f8755de",
+    "aff4bb2d91e0cd52a90908e6a7a85b58",
     "ceaadffd1274eb9db6b59d8fcaf005bd",
+    "54f9bdad7102aa717dc2de1b5491042c",
+    "2292c46b6bcf5f6f089ff2009aeec730",
+    "2fb411c86147372850ecfa69d480f125",
     "375eb63dfa8d53c00504eb13a79e9d72",
-    "e8527bb1597d3d568f86335c729b280d",
-    "20ddddd2fcfc8832ccecf20ed6519944",
-    "aff4bb2d91e0cd52a90908e6a7a85b58"
+    "40b19a37e0086f1b38bd728d03980784",
+    "cedf0aa579bebde0592e2b317a35ab8d",
+    "6c7aa021438ba6a620f7c9397892075e",
+    "036f125dca94d2c47038a8d3feefe2b5",
+    "49ad8569f2f0014b1d96e4abd3e77fc0",
+    "78e280051ba4f1d2277af6bedc906fcd",
+    "ad25d1b8f01779d3b14e1c930960a3d2",
+    "a98a0a3275f702fe6a3958c80dc4ae54",
+    "9df9f9f70da205999ab81cd489f10cc8",
+    "298a326596bfc5c973f664934b29c5f9",
+    "65f49a51ca2cccbaed57e3348156d483",
+    "950427c981e300781d4a1f321675b0c4",
+    "036f125dca94d2c47038a8d3feefe2b5",
+    "f0bc1d02f36dfe635302919668fca25d",
+    "cedf0aa579bebde0592e2b317a35ab8d"
   ],
   "published_titles": [
-    "Ley de Soberan\u00eda Nacional llega a Diputados con diferencias",
-    "Ley de Soberan\u00eda Nacional: el proyecto llega este mi\u00e9rcoles a Diputados con diferencias entre el oficialismo y sus aliados",
-    "La CAF cumpli\u00f3 25 a\u00f1os en Argentina con apoyo pol\u00edtico un\u00e1nime",
-    "Los 25 a\u00f1os de la CAF en Argentina: respaldo pol\u00edtico, compromiso ambiental e integraci\u00f3n regional",
-    "La Justicia no le devuelve el celular a Grabois",
-    "La Justicia no le devuelve el celular a Juan Grabois: quiere saber si dio \u00f3rdenes para tomar el Instituto Per\u00f3n",
-    "El intendente de Fraile Pintado resiste su juicio pol\u00edtico",
-    "Esc\u00e1ndalo en Fraile Pintado: iniciaron juicio pol\u00edtico al intendente y se atrinchero en la Municipalidad",
     "Lacunza defiende las PASO y critica a Pro por las colectoras",
     "Hern\u00e1n Lacunza se desmarca de Pro, defiende las PASO y mantiene su candidatura: \u201cHoy mi partido eligi\u00f3 otro camino\u201d",
     "Bullrich lidera la negociaci\u00f3n por la reforma electoral en el Senado",
@@ -1618,6 +1619,14 @@
     "Sergio Massa intenta conducir al peronismo rumbo a 2027",
     "El peronismo se reorganiza para 2027 y Sergio Massa busca liderar el armado mientras Javier Milei negocia concesiones con los gobernadores en medio de las tensiones pol\u00edticas",
     "Chiarella inaugur\u00f3 el Encuentro de Mujeres Radicales en Trelew",
-    "La Uni\u00f3n C\u00edvica Radical pidi\u00f3 \u201cm\u00e1s y mejor educaci\u00f3n p\u00fablica\u201d para reducir las desigualdades"
+    "La Uni\u00f3n C\u00edvica Radical pidi\u00f3 \u201cm\u00e1s y mejor educaci\u00f3n p\u00fablica\u201d para reducir las desigualdades",
+    "Las sesiones terminan con Presupuesto y PASO sin resolver",
+    "El Gobierno encara la \u00faltima semana legislativa con agenda inconclusa y dudas por el temario de extraordinarias",
+    "Milei pierde el control pol\u00edtico mientras la econom\u00eda no repunta",
+    "Milei en su trampa: el desorden pol\u00edtico y una econom\u00eda en recesi\u00f3n apuntalan la desconfianza",
+    "El oficialismo articula apoyos con el riesgo pa\u00eds en 1.000 puntos",
+    "La turbulencia financiera antes de tiempo: qu\u00e9 n\u00fameros mira Milei y los planes pol\u00edticos de la Casa Rosada",
+    "Pol\u00edticos de izquierda y derecha festejaron el t\u00edtulo de Boca",
+    "\"\u00a1Por siempre Boca!\": los mensajes de los pol\u00edticos tras el triunfo en la final de la Copa Sudamericana"
   ]
 }
