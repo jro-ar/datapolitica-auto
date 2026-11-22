@@ -57,23 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-11-03 10:10",
-      "publicadas": 5,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [
-        "Sin foto de Carlos Melconian: Melconian se postula como candidato para 2027"
-      ],
-      "titulos": [
-        "Navarro esper\u00f3 un a\u00f1o para ser nombrado vicecanciller",
-        "Milei busca recomponer v\u00ednculos antes de la visita del Papa",
-        "Green Umbrella se queda con las radios p\u00fablicas de la Ciudad",
-        "El Congreso debate si los abusos a menores deben prescribir",
-        "Milei invit\u00f3 al papa Le\u00f3n XIV e incluy\u00f3 a Villarruel e intendentes",
-        "Milei recibi\u00f3 un reconocimiento de Argentinos por la Educaci\u00f3n"
-      ]
-    },
-    {
       "fecha": "2026-11-03 14:09",
       "publicadas": 5,
       "cinta": true,
@@ -1364,6 +1347,22 @@
         "El oficialismo articula apoyos con el riesgo pa\u00eds en 1.000 puntos",
         "Pol\u00edticos de izquierda y derecha festejaron el t\u00edtulo de Boca"
       ]
+    },
+    {
+      "fecha": "2026-11-22 14:01",
+      "publicadas": 2,
+      "cinta": true,
+      "estado": "PROBLEMA",
+      "detalle": [
+        "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
+        "Titulo malo: Se profundiza la interna macrista en CABA: De Andreis desaf\u00ed",
+        "Titulo malo: El kicillofismo elige evitar la confrontaci\u00f3n tras quedar fu"
+      ],
+      "titulos": [
+        "Salta desdobla las elecciones y vota gobernador en 2027",
+        "El padr\u00f3n provisorio 2027 ya est\u00e1 disponible para consulta",
+        "El juicio de N\u00faremberg estuvo a punto de no realizarse"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1375,65 +1374,67 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5286,
-    5287,
-    5288
+    5290,
+    5291
   ],
-  "cinta_id": 5289,
+  "cinta_id": 5292,
   "published_links": [
-    "https://www.ambito.com/politica/la-corte-suprema-frena-los-aumentos-las-prepagas-cuando-se-implementa-el-cambio-y-que-hacer-si-no-se-respeta-n6347534",
-    "https://www.lanacion.com.ar/politica/posadas-elimino-la-ley-de-lemas-y-el-resultado-podria-condicionar-la-negociacion-de-santilli-con-un-nid19112026/",
-    "https://tn.com.ar/politica/2026/11/21/el-pj-se-reorganiza-para-2027-y-massa-busca-liderar-el-armado-mientras-javier-milei-negocia-concesiones-con-los-gobernadores/",
-    "https://www.clarin.com/politica/mendoza-gobierno-corre-crece-pelea-cornejo-petri-gobernacion_0_vKUdo34wce.html",
-    "https://www.lanacion.com.ar/politica/kicillof-nombro-a-cristina-kirchner-en-un-acto-con-intendentes-de-la-campora-nid20112026/",
-    "https://www.infobae.com/politica/2026/11/21/la-union-civica-radical-pidio-mas-y-mejor-educacion-publica-para-reducir-las-desigualdades/",
-    "https://www.infobae.com/politica/2026/11/21/semana-clave-karina-milei-volvio-a-convocar-a-la-mesa-politica-y-se-definen-los-proyectos-que-va-a-priorizar-la-casa-rosada/",
     "https://www.lanacion.com.ar/politica/nadia-marquez-busca-ser-la-candidata-a-gobernadora-de-milei-en-neuquen-pero-la-ley-de-ficha-limpia-nid20112026/",
-    "https://www.infobae.com/politica/2026/11/22/el-gobierno-encara-la-ultima-semana-legislativa-con-agenda-inconclusa-y-dudas-por-el-temario-de-extraordinarias/",
+    "https://www.clarin.com/politica/mendoza-gobierno-corre-crece-pelea-cornejo-petri-gobernacion_0_vKUdo34wce.html",
+    "https://www.infobae.com/politica/2026/11/21/la-union-civica-radical-pidio-mas-y-mejor-educacion-publica-para-reducir-las-desigualdades/",
+    "https://www.ambito.com/politica/la-corte-suprema-frena-los-aumentos-las-prepagas-cuando-se-implementa-el-cambio-y-que-hacer-si-no-se-respeta-n6347534",
     "https://www.infobae.com/politica/2026/11/22/milei-en-su-trampa-el-desorden-politico-y-una-economia-en-recesion-apuntalan-la-desconfianza/",
+    "https://www.lanacion.com.ar/politica/posadas-elimino-la-ley-de-lemas-y-el-resultado-podria-condicionar-la-negociacion-de-santilli-con-un-nid19112026/",
+    "https://www.infobae.com/politica/2026/11/21/semana-clave-karina-milei-volvio-a-convocar-a-la-mesa-politica-y-se-definen-los-proyectos-que-va-a-priorizar-la-casa-rosada/",
+    "https://tn.com.ar/politica/2026/11/21/el-pj-se-reorganiza-para-2027-y-massa-busca-liderar-el-armado-mientras-javier-milei-negocia-concesiones-con-los-gobernadores/",
     "https://www.infobae.com/politica/2026/11/22/la-turbulencia-financiera-antes-de-tiempo-que-numeros-mira-milei-y-los-planes-politicos-de-la-casa-rosada/",
-    "https://www.clarin.com/politica/siempre-boca-mensajes-politicos-triunfo-final-copa-sudamericana_0_pUdIeqe8kq.html"
+    "https://www.lanacion.com.ar/politica/calendario-electoral-2027-cuando-se-vota-gobernador-en-salta-nid17112026/",
+    "https://www.lanacion.com.ar/politica/donde-voto-publicaron-el-padron-provisorio-para-las-elecciones-de-argentina-2027-nid02112026/",
+    "https://tn.com.ar/politica/2026/11/22/a-81-anos-del-juicio-de-nuremberg-la-historia-del-proceso-contra-los-jerarcas-nazis-que-estuvo-a-punto-de-no-hacerse/"
   ],
   "used_img_hashes": [
-    "e8527bb1597d3d568f86335c729b280d",
-    "f0bc1d02f36dfe635302919668fca25d",
-    "20ddddd2fcfc8832ccecf20ed6519944",
-    "9f89d1c25df984944edd3212f272b29d",
-    "baef22c7b73bba145b2cfcbbce829a88",
-    "2f38c08654401fe1e240d2414a09fb4c",
-    "65f49a51ca2cccbaed57e3348156d483",
-    "740ab1f7c1e4b8b34e3d4d017178ba8c",
-    "9df9f9f70da205999ab81cd489f10cc8",
-    "f447938c91f2a29b625884fe7f8755de",
     "aff4bb2d91e0cd52a90908e6a7a85b58",
-    "ceaadffd1274eb9db6b59d8fcaf005bd",
+    "298a326596bfc5c973f664934b29c5f9",
+    "a98a0a3275f702fe6a3958c80dc4ae54",
+    "6b99997aab9fd165c5af4ecc25244cb7",
+    "be47229338b0a33d71622256f9e16c5b",
+    "2f38c08654401fe1e240d2414a09fb4c",
+    "f447938c91f2a29b625884fe7f8755de",
+    "686d09f13d21f9dd5a62ba364603a350",
+    "cedf0aa579bebde0592e2b317a35ab8d",
+    "ad25d1b8f01779d3b14e1c930960a3d2",
+    "740ab1f7c1e4b8b34e3d4d017178ba8c",
+    "1abf3e1531cbba7ec7af0201977f92cb",
+    "950427c981e300781d4a1f321675b0c4",
+    "9e6dcaeb8990eaefe428694aa1164d4b",
+    "24480c7fcb9d0b37e010b1fbefe7000d",
+    "910530b6014fa311d2f5b650e5f1bc89",
+    "baef22c7b73bba145b2cfcbbce829a88",
     "54f9bdad7102aa717dc2de1b5491042c",
+    "65f49a51ca2cccbaed57e3348156d483",
+    "6c7aa021438ba6a620f7c9397892075e",
     "2292c46b6bcf5f6f089ff2009aeec730",
-    "2fb411c86147372850ecfa69d480f125",
+    "9f89d1c25df984944edd3212f272b29d",
+    "e8527bb1597d3d568f86335c729b280d",
+    "f6e3c5f3a9882096bbf9a76222fe4eb4",
+    "036f125dca94d2c47038a8d3feefe2b5",
+    "20ddddd2fcfc8832ccecf20ed6519944",
+    "78e280051ba4f1d2277af6bedc906fcd",
+    "2043c0bcaa77fa70f6d116fa3cdea2b6",
+    "8a3d0e712233dee69b5921cb3f916ad4",
+    "ceaadffd1274eb9db6b59d8fcaf005bd",
     "375eb63dfa8d53c00504eb13a79e9d72",
     "40b19a37e0086f1b38bd728d03980784",
-    "cedf0aa579bebde0592e2b317a35ab8d",
-    "6c7aa021438ba6a620f7c9397892075e",
-    "036f125dca94d2c47038a8d3feefe2b5",
-    "49ad8569f2f0014b1d96e4abd3e77fc0",
-    "78e280051ba4f1d2277af6bedc906fcd",
-    "ad25d1b8f01779d3b14e1c930960a3d2",
-    "a98a0a3275f702fe6a3958c80dc4ae54",
+    "2f10e1a98c3b01b3c07dd55e8da7df33",
+    "2fb411c86147372850ecfa69d480f125",
     "9df9f9f70da205999ab81cd489f10cc8",
-    "298a326596bfc5c973f664934b29c5f9",
-    "65f49a51ca2cccbaed57e3348156d483",
-    "950427c981e300781d4a1f321675b0c4",
-    "036f125dca94d2c47038a8d3feefe2b5",
-    "f0bc1d02f36dfe635302919668fca25d",
-    "cedf0aa579bebde0592e2b317a35ab8d"
+    "1abf3e1531cbba7ec7af0201977f92cb",
+    "9e6dcaeb8990eaefe428694aa1164d4b",
+    "686d09f13d21f9dd5a62ba364603a350",
+    "910530b6014fa311d2f5b650e5f1bc89",
+    "24480c7fcb9d0b37e010b1fbefe7000d"
   ],
   "published_titles": [
-    "Lacunza defiende las PASO y critica a Pro por las colectoras",
-    "Hern\u00e1n Lacunza se desmarca de Pro, defiende las PASO y mantiene su candidatura: \u201cHoy mi partido eligi\u00f3 otro camino\u201d",
-    "Bullrich lidera la negociaci\u00f3n por la reforma electoral en el Senado",
-    "Pese a las tensiones internas, la Casa Rosada puso a Bullrich al frente de las negociaciones por la reforma electoral en el Senado",
-    "La Autoridad Regulatoria Nuclear tiene nuevo vicepresidente",
-    "Tras la renuncia de Carlos Terrado, designaron al nuevo vicepresidente del directorio de la Autoridad Regulatoria Nuclear",
     "El intendente de Los Toldos caminar\u00e1 350 km hasta La Plata",
     "Un intendente bonaerense caminar\u00e1 350 kil\u00f3metros hasta La Plata como propuesta de campa\u00f1a para ser gobernador",
     "Imputaron a una concejal de Neuqu\u00e9n que vot\u00f3 un lote y se lo adjudic\u00f3",
@@ -1627,6 +1628,12 @@
     "El oficialismo articula apoyos con el riesgo pa\u00eds en 1.000 puntos",
     "La turbulencia financiera antes de tiempo: qu\u00e9 n\u00fameros mira Milei y los planes pol\u00edticos de la Casa Rosada",
     "Pol\u00edticos de izquierda y derecha festejaron el t\u00edtulo de Boca",
-    "\"\u00a1Por siempre Boca!\": los mensajes de los pol\u00edticos tras el triunfo en la final de la Copa Sudamericana"
+    "\"\u00a1Por siempre Boca!\": los mensajes de los pol\u00edticos tras el triunfo en la final de la Copa Sudamericana",
+    "Salta desdobla las elecciones y vota gobernador en 2027",
+    "Calendario electoral 2027: cu\u00e1ndo se vota gobernador en Salta",
+    "El padr\u00f3n provisorio 2027 ya est\u00e1 disponible para consulta",
+    "D\u00f3nde voto: publicaron el padr\u00f3n provisorio para las elecciones de Argentina 2027",
+    "El juicio de N\u00faremberg estuvo a punto de no realizarse",
+    "A 81 a\u00f1os del juicio de N\u00faremberg: la historia del proceso contra los jerarcas nazis que estuvo a punto de no hacerse"
   ]
 }
