@@ -57,23 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-11-03 23:12",
-      "publicadas": 5,
-      "cinta": false,
-      "estado": "SIN NOVEDADES",
-      "detalle": [
-        "Error armando la cinta: La cinta repite un tema ya publicado. NO se publica.",
-        "Cinta: Titulo de cinta sin la calidad necesaria. / Titulo de cinta sin la calidad necesaria. / Titulo de cinta sin la calidad necesaria."
-      ],
-      "titulos": [
-        "Passalacqua logr\u00f3 en Misiones una ley de transparencia estatal",
-        "Milei mand\u00f3 el pliego de Rafecas al Senado para Casaci\u00f3n",
-        "El Senado tiene plazo para votar una ley contra la violencia infantil",
-        "Kicillof prometi\u00f3 cubrir las vacantes en la Corte bonaerense",
-        "Militares chilenos temen que Argentina multe un barco a Malvinas"
-      ]
-    },
-    {
       "fecha": "2026-11-04 10:10",
       "publicadas": 5,
       "cinta": true,
@@ -1371,6 +1354,24 @@
         "Milei llega a 2027 con las PASO suspendidas y el riesgo pa\u00eds en alza",
         "Karina Milei negoci\u00f3 para evitar un traspi\u00e9 del Gobierno"
       ]
+    },
+    {
+      "fecha": "2026-11-23 10:01",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: Milei y Santilli cierran el congreso de LLA bonaerense con u",
+        "Titulo malo: La Casa Rosada \"vaci\u00f3\" el festejo del cumplea\u00f1os del rey Car"
+      ],
+      "titulos": [
+        "El Gobierno pide a la UBA cancelar un homenaje a Santucho",
+        "El Gobierno recorta obras viales y acelera la concesi\u00f3n de rutas",
+        "H\u00e9ctor Salomon censura prensa y lo premian con un cargo",
+        "El Gobierno busca recomponer lazos con gobernadores y el PRO",
+        "Milei demora las propuestas de Lijo, Borinsky y Mahiques",
+        "Argentina conden\u00f3 las amenazas de Ir\u00e1n contra Grossi"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1382,65 +1383,61 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5297,
-    5298,
-    5299,
-    5300,
-    5301
+    5303,
+    5304,
+    5305,
+    5306,
+    5307
   ],
-  "cinta_id": 5302,
+  "cinta_id": 5308,
   "published_links": [
+    "https://www.clarin.com/politica/tembladeral-desordena-planes-javier-milei-pactos-urgencia-karina_0_YnZbOaNe65.html",
     "https://www.lanacion.com.ar/politica/un-guernica-politico-y-un-mercado-implacable-nid21112026/",
+    "https://www.infobae.com/politica/2026/11/22/la-turbulencia-financiera-antes-de-tiempo-que-numeros-mira-milei-y-los-planes-politicos-de-la-casa-rosada/",
     "https://www.infobae.com/politica/2026/11/22/milei-en-su-trampa-el-desorden-politico-y-una-economia-en-recesion-apuntalan-la-desconfianza/",
     "https://www.ambito.com/politica/la-corte-suprema-frena-los-aumentos-las-prepagas-cuando-se-implementa-el-cambio-y-que-hacer-si-no-se-respeta-n6347534",
-    "https://www.lanacion.com.ar/politica/donde-voto-publicaron-el-padron-provisorio-para-las-elecciones-de-argentina-2027-nid02112026/",
     "https://www.lanacion.com.ar/politica/calendario-electoral-2027-cuando-se-vota-gobernador-en-salta-nid17112026/",
-    "https://www.infobae.com/politica/2026/11/22/la-turbulencia-financiera-antes-de-tiempo-que-numeros-mira-milei-y-los-planes-politicos-de-la-casa-rosada/",
-    "https://www.infobae.com/politica/2026/11/22/el-debut-de-santilli-en-el-senado-mas-de-1200-preguntas-y-el-orden-como-eje-de-su-informe-de-gestion/",
-    "https://www.clarin.com/politica/gobierno-resigna-economia-va-ganar-eleccion-vuelve-polarizar-k_0_Ry9NaWzT9S.html",
-    "https://www.infobae.com/politica/2026/11/22/hernan-lacunza-el-gobierno-cambia-el-sistema-electoral-porque-la-paciencia-social-no-le-va-a-alcanzar/",
-    "https://www.lanacion.com.ar/politica/los-jueces-y-fiscales-de-comodoro-py-esperan-la-cuarta-postergacion-del-sistema-acusatorio-nid22112026/",
-    "https://www.ambito.com/politica/las-paso-y-el-precio-llegar-2027-javier-milei-los-gobernadores-y-el-mercado-n6347969",
-    "https://www.clarin.com/politica/tembladeral-desordena-planes-javier-milei-pactos-urgencia-karina_0_YnZbOaNe65.html"
+    "https://www.clarin.com/politica/gobierno-exige-uba-frene-provocacion-politica_0_FB2ncIENHj.html",
+    "https://www.infobae.com/politica/2026/11/23/rutas-nacionales-mientras-el-gobierno-busca-acelerar-su-privatizacion-continua-la-reduccion-de-partidas-para-obras-viales/",
+    "https://www.clarin.com/politica/buscan-premiar-juez-cercano-gerardo-zamora-impuso-censura-prensa-favor-toviggino_0_Ad7eGc0PMh.html",
+    "https://www.infobae.com/politica/2026/11/23/una-etapa-de-mas-dialogo-y-nuevos-acercamientos-a-la-espera-de-como-seran-las-elecciones-el-gobierno-empieza-a-reordenarse/",
+    "https://www.lanacion.com.ar/politica/justicia-se-acaba-el-tiempo-para-el-ministro-que-quiere-ser-procurador-y-dos-jueces-que-aspiran-a-la-nid22112026/",
+    "https://tn.com.ar/politica/2026/11/22/el-gobierno-condeno-las-amenazas-de-iran-contra-rafael-grossi-el-titular-del-organismo-nuclear-de-la-onu-es-inadmisible/"
   ],
   "used_img_hashes": [
-    "1abf3e1531cbba7ec7af0201977f92cb",
-    "f858fde3496248947759e0b782ea52f6",
-    "abaf71b25dc34c7d079544138774a6f7",
-    "65f49a51ca2cccbaed57e3348156d483",
-    "01a78ba22f09ab24bf8c0791e2957a37",
-    "c13f1765e2271c818562decaf313c0ae",
     "c3a95c6a56cd763f89394203b8083e8a",
-    "904b3284e2caab7d00dc2a7b6e9f32f7",
-    "6c7aa021438ba6a620f7c9397892075e",
-    "ff0600057e74d586a06174f3c92a5fef",
-    "db4d3bef0919ecef1f59fd9df5337235",
+    "01a78ba22f09ab24bf8c0791e2957a37",
+    "c6f1272f0f1f2df6c071af006c188b43",
     "515c42059843d0a6ea6b016b97801f0c",
-    "f858fde3496248947759e0b782ea52f6",
-    "749ba7925a43b547b8f87440da370292",
-    "abaf71b25dc34c7d079544138774a6f7",
+    "686a76a8a3bec25f6ae9cdf699bae3aa",
+    "6c7aa021438ba6a620f7c9397892075e",
     "f6d99cf02ea755dafc07ce9f878f9f6a",
-    "89973ee3c946985bf7b95d6f0d93bafd",
-    "4cd654ebb8b14eca63d261ba1df4724e",
     "ff0600057e74d586a06174f3c92a5fef",
     "c13f1765e2271c818562decaf313c0ae",
-    "1abf3e1531cbba7ec7af0201977f92cb",
     "65f49a51ca2cccbaed57e3348156d483",
-    "01a78ba22f09ab24bf8c0791e2957a37"
+    "1abf3e1531cbba7ec7af0201977f92cb",
+    "f858fde3496248947759e0b782ea52f6",
+    "0774ed8e49642d74ca1de6f2e3b8e110",
+    "7dcb2d9cd11d8677eafcfdd8e66d8786",
+    "35409e62a0543458e16d30850ba7a339",
+    "db4d3bef0919ecef1f59fd9df5337235",
+    "a3d24d397510ca6c807094009ea878cd",
+    "89973ee3c946985bf7b95d6f0d93bafd",
+    "f609a3ae6476feaaa3ff3c06cc144f58",
+    "4cd654ebb8b14eca63d261ba1df4724e",
+    "992f87bb672dcd45ab5ed63c8276a43b",
+    "abaf71b25dc34c7d079544138774a6f7",
+    "749ba7925a43b547b8f87440da370292",
+    "904b3284e2caab7d00dc2a7b6e9f32f7",
+    "7dcb2d9cd11d8677eafcfdd8e66d8786",
+    "f609a3ae6476feaaa3ff3c06cc144f58",
+    "992f87bb672dcd45ab5ed63c8276a43b",
+    "5382baaddf58b81934ac17ffdb09db2b",
+    "c6f1272f0f1f2df6c071af006c188b43",
+    "35409e62a0543458e16d30850ba7a339",
+    "686a76a8a3bec25f6ae9cdf699bae3aa"
   ],
   "published_titles": [
-    "El Gobierno culpa a C\u00f3rdoba y Santa Fe por una sesi\u00f3n ca\u00edda",
-    "El Gobierno responsabiliza a los diputados de C\u00f3rdoba y Santa Fe por la sesi\u00f3n ca\u00edda en Diputados",
-    "M\u00e1ximo Kirchner y Ziliotto se reunieron en La Pampa",
-    "M\u00e1ximo Kirchner se mostr\u00f3 junto a Sergio Ziliotto en la Pampa",
-    "Cristina Kirchner suma $3 millones m\u00e1s por mes a su pensi\u00f3n",
-    "Por una decisi\u00f3n judicial, Cristina Kirchner cobrar\u00e1 $3 millones m\u00e1s por mes en su pensi\u00f3n de privilegio",
-    "El due\u00f1o de Rasti minimiz\u00f3 la apertura de una tienda Lego en Argentina",
-    "La reacci\u00f3n del due\u00f1o de los bloques de juguetes Rasti ante la apertura de una tienda Lego en la Argentina",
-    "Argentina tomar\u00e1 la presidencia del organismo antidrogas de la OEA",
-    "Argentina presidir\u00e1 durante un a\u00f1o la comisi\u00f3n antidrogas de la OEA",
-    "Caputo: combatir el capital es una estupidez",
-    "Luis Caputo apunt\u00f3 contra la cumbre peronista: \"No debe haber cosa m\u00e1s est\u00fapida que combatir el capital\"",
     "El Senado vota leyes de discapacidad y patentes con Villarruel",
     "El Senado sesiona ma\u00f1ana para sancionar las leyes de discapacidad, propiedad privada y el Tratado sobre Patentes",
     "El Colegio de Abogados critic\u00f3 la abstenci\u00f3n argentina en la ONU",
@@ -1628,6 +1625,18 @@
     "Milei llega a 2027 con las PASO suspendidas y el riesgo pa\u00eds en alza",
     "Las PASO y el precio de llegar a 2027: Javier Milei entre los gobernadores y el mercado",
     "Karina Milei negoci\u00f3 para evitar un traspi\u00e9 del Gobierno",
-    "El tembladeral que desordena los planes de Javier Milei y los pactos de urgencia de Karina"
+    "El tembladeral que desordena los planes de Javier Milei y los pactos de urgencia de Karina",
+    "El Gobierno pide a la UBA cancelar un homenaje a Santucho",
+    "El Gobierno le exige a la UBA que frene una provocaci\u00f3n pol\u00edtica",
+    "El Gobierno recorta obras viales y acelera la concesi\u00f3n de rutas",
+    "Rutas Nacionales: mientras el Gobierno busca acelerar su privatizaci\u00f3n, contin\u00faa la reducci\u00f3n de partidas para obras viales",
+    "H\u00e9ctor Salomon censura prensa y lo premian con un cargo",
+    "Buscan premiar al juez cercano a Gerardo Zamora que impuso una censura a la prensa a favor de Toviggino",
+    "El Gobierno busca recomponer lazos con gobernadores y el PRO",
+    "Una etapa de m\u00e1s di\u00e1logo y nuevos acercamientos a la espera de c\u00f3mo ser\u00e1n las elecciones: el Gobierno empieza a reordenarse",
+    "Milei demora las propuestas de Lijo, Borinsky y Mahiques",
+    "Justicia: se acaba el tiempo para el ministro que quiere ser procurador y dos jueces que aspiran a la Corte",
+    "Argentina conden\u00f3 las amenazas de Ir\u00e1n contra Grossi",
+    "El Gobierno conden\u00f3 las amenazas de Ir\u00e1n contra Rafael Grossi, el titular del organismo nuclear de la ONU: \u201cEs inadmisible\u201d"
   ]
 }
