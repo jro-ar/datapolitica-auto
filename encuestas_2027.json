@@ -1,6 +1,7 @@
 {
- "actualizado": "2026-11-24T01:55Z",
+ "actualizado": "2026-11-24T23:38Z",
  "procesadas": [
+  "https://www.clarin.com/politica/acabo-sueno-outsider-2027-ultimas-encuestas-dan-mal-famosos_0_oq8JyTt8SL.html",
   "https://www.clarin.com/politica/alerta-gobierno-hicieron-encuesta-votantes-libertarios-milei-quedo-cuarto_0_KKgOtDH0tA.html",
   "https://www.clarin.com/politica/congreso-nido-ratas-hicieron-encuesta-visita-papa-gano-frase-polemica_0_heNgEmrdHA.html",
   "https://www.clarin.com/politica/dice-ultima-encuesta-llego-milei-hizo-consultor-anticipo-triunfo-2023_0_DTtICcH71Z.html",
@@ -1516,6 +1517,53 @@
    "publicada": "2026-10-28",
    "fuente": "Clarín (Eduardo Paladini)",
    "url": "https://www.clarin.com/politica/nueva-encuesta-incluyo-patricia-bullrich-presidencial-mal-escenario-bien_0_a7WO868fV9.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "Zuban Córdoba, RDT, Facultad de Psicología de la UBA, Universidad de San Andrés (Udesa)",
+   "alcance": "Nacional",
+   "fecha_campo": "",
+   "casos": "",
+   "metodologia": "",
+   "preguntas": [
+    {
+     "pregunta": "Potencial electoral - Voto seguro / Piso",
+     "opciones": [
+      {
+       "nombre": "Hadad",
+       "valor": "0,9%"
+      },
+      {
+       "nombre": "Brito",
+       "valor": "1,1%"
+      },
+      {
+       "nombre": "Gebel",
+       "valor": "1,3%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Potencial electoral - Rechazo / Nunca votaría",
+     "opciones": [
+      {
+       "nombre": "Hadad",
+       "valor": "60,2%"
+      },
+      {
+       "nombre": "Brito",
+       "valor": "60,6%"
+      },
+      {
+       "nombre": "Gebel",
+       "valor": "75,5%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-10-26",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/acabo-sueno-outsider-2027-ultimas-encuestas-dan-mal-famosos_0_oq8JyTt8SL.html",
    "titulo_fuente": ""
   }
  ]
