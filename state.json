@@ -57,21 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-11-05 10:09",
-      "publicadas": 5,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [],
-      "titulos": [
-        "Milei apuesta a la visita del Papa para recuperar protagonismo",
-        "El Gobierno confirm\u00f3 la Argentina Week 2027 para marzo",
-        "Macri choca con los gobernadores del PRO por los pactos con Milei",
-        "Expertos globales debatieron en la UBA sobre compras estatales",
-        "Urtubey: el peronismo se degrad\u00f3 y debe ser la tercera v\u00eda",
-        "Juez critic\u00f3 a la justicia de C\u00f3rdoba y al fiscal Garz\u00f3n"
-      ]
-    },
-    {
       "fecha": "2026-11-05 14:13",
       "publicadas": 5,
       "cinta": true,
@@ -1373,6 +1358,27 @@
         "El Gobierno busca incluir fondos para la Ley de Discapacidad en 2027",
         "Quintela convoc\u00f3 al peronismo unido contra Milei en Chaco"
       ]
+    },
+    {
+      "fecha": "2026-11-24 14:01",
+      "publicadas": 4,
+      "cinta": true,
+      "estado": "PROBLEMA",
+      "detalle": [
+        "Titulo malo: El Senado prev\u00e9 aprobar 139 ascensos diplom\u00e1ticos, 16 sin av",
+        "Candado (dice 'accidente' y la noticia original no): Naviera chilena ir\u00e1 a Malvinas sin pedir permiso a",
+        "Titulo malo: El mercado le marca l\u00edmites a Milei y crecen las dudas sobre",
+        "Repetida: La Iglesia reclama al Senado que trate el proyecto contra la",
+        "Titulo malo: El Gobierno desplaz\u00f3 a la c\u00fapula del PAMI y design\u00f3 a sus re",
+        "Candado (dice 'asesina' y la noticia original no): La Justicia revisar\u00e1 hoy los procesamientos por el"
+      ],
+      "titulos": [
+        "El Gobierno quiere suspender las PASO antes de 2027",
+        "Ver\u00f3nica P\u00e9rez asume como nueva directora ejecutiva del PAMI",
+        "El Gobierno reemplaza a las dos autoridades m\u00e1ximas del PAMI",
+        "Milei enfrenta crisis con Brasil y se\u00f1ales de alarma econ\u00f3mica",
+        "El PJ debate c\u00f3mo repartir candidaturas sin PASO"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1384,51 +1390,66 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5321,
-    5322,
-    5323,
-    5324,
-    5325
+    5327,
+    5328,
+    5329,
+    5330
   ],
-  "cinta_id": 5326,
+  "cinta_id": 5331,
   "published_links": [
-    "https://www.lanacion.com.ar/politica/hernan-lacunza-dijo-que-si-el-pro-se-une-a-milei-desaparece-como-partido-politico-nid22112026/",
-    "https://www.infobae.com/politica/2026/11/23/la-confianza-en-el-gobierno-aumento-41-en-noviembre-y-registro-su-segunda-mejora-mensual-consecutiva-segun-la-universidad-di-tella/",
-    "https://tn.com.ar/politica/2026/11/23/a-dias-del-debate-en-el-senado-la-iglesia-pidio-que-se-apruebe-la-ley-contra-la-ludopatia-la-sociedad-necesita-respuestas/",
-    "https://www.lanacion.com.ar/politica/la-interna-peronista-tambien-se-disputa-en-las-provincias-kicillof-y-massa-buscan-sumar-gobernadores-nid23112026/",
+    "https://tn.com.ar/politica/2026/11/24/el-gobierno-busca-asegurar-en-el-presupuesto-2027-los-fondos-para-la-nueva-ley-de-discapacidad/",
     "https://www.clarin.com/politica/enfrentamiento-sturzenegger-sector-pesca-ministro-llama-casta-empresarios-aseguran-fundiendo_0_XdNjswh098.html",
     "https://www.clarin.com/politica/gobierno-exige-uba-frene-provocacion-politica_0_FB2ncIENHj.html",
+    "https://www.infobae.com/politica/2026/11/23/la-confianza-en-el-gobierno-aumento-41-en-noviembre-y-registro-su-segunda-mejora-mensual-consecutiva-segun-la-universidad-di-tella/",
+    "https://www.ambito.com/politica/ricardo-quintela-pidio-un-peronismo-unido-enfrentar-javier-milei-hay-otro-camino-n6348395",
     "https://www.infobae.com/politica/2026/11/24/con-un-escenario-incierto-kicillof-buscara-avanzar-en-extraordinarias-con-las-reelecciones-indefinidas/",
-    "https://tn.com.ar/politica/2026/11/24/la-cgt-prepara-nuevas-medidas-de-fuerza-para-mediados-de-diciembre-y-evalua-realizar-paros-de-cuatro-horas/",
-    "https://www.ambito.com/politica/andis-declara-indagatoria-este-martes-pablo-atchabahian-el-gran-soldado-la-suizo-argentina-que-daba-ordenes-dentro-la-agencia-n6348421",
     "https://www.infobae.com/politica/2026/11/24/el-gobierno-posterga-las-diferencias-internas-evita-confrontar-con-bullrich-y-apuesta-a-ordenar-la-tropa/",
-    "https://tn.com.ar/politica/2026/11/24/el-gobierno-busca-asegurar-en-el-presupuesto-2027-los-fondos-para-la-nueva-ley-de-discapacidad/",
-    "https://www.ambito.com/politica/ricardo-quintela-pidio-un-peronismo-unido-enfrentar-javier-milei-hay-otro-camino-n6348395"
+    "https://www.infobae.com/politica/2026/11/23/el-gobierno-ante-una-nueva-prueba-legislativa-el-desafio-por-las-paso-y-las-negociaciones-con-los-aliados-rumbo-a-2027/",
+    "https://www.lanacion.com.ar/politica/el-gobierno-nombro-a-veronica-gabriela-perez-como-la-nueva-directora-ejecutiva-del-pami-nid23112026/",
+    "https://www.infobae.com/politica/2026/11/24/cambio-en-la-cupula-del-pami-el-gobierno-desplazo-a-las-dos-maximas-autoridades-y-designo-una-nueva-directora-ejecutiva/",
+    "https://www.lanacion.com.ar/lnmas/milei-ante-senderos-que-se-bifurcan-nid24112026/",
+    "https://www.infobae.com/politica/2026/11/24/el-pj-empieza-a-transitar-la-discusion-sobre-como-ordenarse-sin-paso-la-compleja-tarea-para-conservar-la-unidad/"
   ],
   "used_img_hashes": [
-    "15565d6d24e925f00d0dc0459c46835a",
-    "43b5deed44902e007d778b296e6e48e8",
-    "fd60e91b11b116c3dfc26b8b16c38939",
+    "00b2c399a294595373e6d953fd4d2f56",
     "4ce5570d31fdb7873d3f8fe13cc7109a",
-    "e6c6324c714473816559604f3d99e598",
-    "80718a58b3dbf19d6a4fb80b0d36315b",
     "35fdbd01e731b437cf9d39d9fc6e68da",
-    "43b5deed44902e007d778b296e6e48e8",
+    "354e5b20e8867ff7c3990b97997541ab",
+    "7fba901b2ab931ffcc1cf4027649baa4",
+    "3c28f29a8c5232ce2f327048d94b169a",
     "d113da2ee990f6a3c0008e6f7b677876",
+    "fd3c346ab4e9d5a6966f3046e642f761",
+    "79bc28732bfb2c943c71edda6036b978",
+    "43b5deed44902e007d778b296e6e48e8",
+    "1fe06c7489414b1c7aa9026baa3da89b",
+    "c879f0ec6023ab9aa18d048bf4af2e9e",
+    "eeb120713cc35daf27ac9113ee702c10",
+    "15565d6d24e925f00d0dc0459c46835a",
+    "e6c6324c714473816559604f3d99e598",
+    "ba257c462e85d325f57ffd373f30ba6c",
+    "62eb11befc09844a71a1621013a09935",
     "80718a58b3dbf19d6a4fb80b0d36315b",
-    "15565d6d24e925f00d0dc0459c46835a"
+    "ef610162713f999132ef432b899ae021",
+    "fd60e91b11b116c3dfc26b8b16c38939",
+    "072cbfff6d5db74532a95554512e0c25",
+    "ded4e28f1071d221b48ac6cd3b1060a9",
+    "cbb76aac9a9f55c43a7f635c276bf37f",
+    "00ae5506b52fabf19884e5516a7d3cc9",
+    "ef610162713f999132ef432b899ae021",
+    "cbb76aac9a9f55c43a7f635c276bf37f",
+    "354e5b20e8867ff7c3990b97997541ab",
+    "072cbfff6d5db74532a95554512e0c25",
+    "ded4e28f1071d221b48ac6cd3b1060a9",
+    "1fe06c7489414b1c7aa9026baa3da89b",
+    "79bc28732bfb2c943c71edda6036b978",
+    "00b2c399a294595373e6d953fd4d2f56",
+    "3c28f29a8c5232ce2f327048d94b169a",
+    "ba257c462e85d325f57ffd373f30ba6c",
+    "fd3c346ab4e9d5a6966f3046e642f761",
+    "7fba901b2ab931ffcc1cf4027649baa4",
+    "00ae5506b52fabf19884e5516a7d3cc9"
   ],
   "published_titles": [
-    "Nadia M\u00e1rquez se ofrece como vice de Milei en 2027",
-    "\u201c\u00bfQui\u00e9n le puede decir que no?\u201d: una senadora libertaria se anot\u00f3 en la carrera para ir de vice de Javier Milei en 2027",
-    "Vandalismo Rural avanza en el Senado pero con cambios pendientes",
-    "El proyecto de Vandalismo Rural obtuvo dictamen en el Senado, pero plantean la necesidad de modificaciones en el texto",
-    "Campero deja La Libertad Avanza por un pacto con el PJ tucumano",
-    "Un aliado de Bullrich se va del bloque libertario: denunci\u00f3 un acuerdo entre LLA y el PJ en su provincia",
-    "La Corte Suprema apart\u00f3 a un juez af\u00edn a la AFA de una causa clave",
-    "La Corte Suprema le sac\u00f3 la causa de la mansi\u00f3n de Pilar al juez cercano a la AFA y resolvi\u00f3 que sea investigada por Rafecas",
-    "Jorge Macri complet\u00f3 el traslado de presos del penal de Devoto",
-    "Devoto sin presos: una promesa cumplida para los vecinos",
     "El PJ logr\u00f3 incluir la ley contra apuestas online en el Senado",
     "El PJ forz\u00f3 el debate por la ley contra las apuestas online y ser\u00e1 tratado en la pr\u00f3xima sesi\u00f3n del Senado",
     "Tras reclamos de la Iglesia, el Senado debatir\u00e1 la ley de ludopat\u00eda",
@@ -1618,6 +1639,16 @@
     "El Gobierno busca incluir fondos para la Ley de Discapacidad en 2027",
     "El Gobierno busca asegurar en el Presupuesto 2027 los fondos para la nueva Ley de Discapacidad",
     "Quintela convoc\u00f3 al peronismo unido contra Milei en Chaco",
-    "Ricardo Quintela pidi\u00f3 un peronismo unido para enfrentar a Javier Milei: \"Hay otro camino\""
+    "Ricardo Quintela pidi\u00f3 un peronismo unido para enfrentar a Javier Milei: \"Hay otro camino\"",
+    "El Gobierno quiere suspender las PASO antes de 2027",
+    "El Gobierno, ante una nueva prueba legislativa: el desaf\u00edo por las PASO y las negociaciones con los aliados rumbo a 2027",
+    "Ver\u00f3nica P\u00e9rez asume como nueva directora ejecutiva del PAMI",
+    "El Gobierno nombr\u00f3 a Ver\u00f3nica Gabriela P\u00e9rez como la nueva Directora Ejecutiva del PAMI",
+    "El Gobierno reemplaza a las dos autoridades m\u00e1ximas del PAMI",
+    "Cambio en la c\u00fapula del PAMI: el Gobierno desplaz\u00f3 a las dos m\u00e1ximas autoridades y design\u00f3 una nueva directora ejecutiva",
+    "Milei enfrenta crisis con Brasil y se\u00f1ales de alarma econ\u00f3mica",
+    "Milei ante senderos que se bifurcan",
+    "El PJ debate c\u00f3mo repartir candidaturas sin PASO",
+    "El PJ empieza a transitar la discusi\u00f3n sobre c\u00f3mo ordenarse sin PASO: la compleja tarea para conservar la unidad"
   ]
 }
