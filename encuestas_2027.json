@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T20:50Z",
+ "actualizado": "2026-11-24T01:55Z",
  "procesadas": [
   "https://www.clarin.com/politica/alerta-gobierno-hicieron-encuesta-votantes-libertarios-milei-quedo-cuarto_0_KKgOtDH0tA.html",
   "https://www.clarin.com/politica/congreso-nido-ratas-hicieron-encuesta-visita-papa-gano-frase-polemica_0_heNgEmrdHA.html",
@@ -9,16 +9,22 @@
   "https://www.clarin.com/politica/nueva-encuesta-consultores-preferidos-pj-anticipa-definiran-eleccion-2027_0_Bv6CDWJc3M.html",
   "https://www.clarin.com/politica/nueva-encuesta-dio-mal-milei-dato-clave-oposicion_0_MgquvC2QEa.html",
   "https://www.clarin.com/politica/nueva-encuesta-electoral-dato-clave-milei-kicillof-ganaron-bullrich-massa_0_qpYfi0kcE2.html",
+  "https://www.clarin.com/politica/nueva-encuesta-electoral-midio-formulas-2027-milei-bullrich-vs-kicillof-massa_0_zf92ve9O2q.html",
   "https://www.clarin.com/politica/nueva-encuesta-electoral-polarizacion-light-notable-diferencia-voto-hombres-mujeres_0_jHTqC5h12S.html",
   "https://www.clarin.com/politica/nueva-encuesta-electoral-sorpresa-empate-primera-vuelta-10-puntos-diferencia-balotaje_0_vzolPbfAOh.html",
   "https://www.clarin.com/politica/nueva-encuesta-enfrento-kicillof-milei-bullrich-conurbano-paliza-20-4_0_7t91iiMxGs.html",
   "https://www.clarin.com/politica/nueva-encuesta-enfrento-milei-kicillof-bullrich-pais-ganadores_0_a0OBefTUun.html",
+  "https://www.clarin.com/politica/nueva-encuesta-incluyo-patricia-bullrich-presidencial-mal-escenario-bien_0_a7WO868fV9.html",
   "https://www.clarin.com/politica/nueva-encuesta-javier-milei-repunto-sigue-relegado-ranking-presidentes_0_i3SN3KuvO2.html",
+  "https://www.clarin.com/politica/nueva-encuesta-midio-10-politicos-top-inesperada-grieta-mujeres_0_A3brYIICOK.html",
   "https://www.clarin.com/politica/nueva-encuesta-midio-afectan-milei-candidaturas-bullrich-villarruel-macri_0_YqOS4YhKSb.html",
+  "https://www.clarin.com/politica/nueva-encuesta-midio-balotajes-2027-dejo-sorpresas-milei-bullrich-vs-kicillof-massa_0_rD6rtCvD6x.html",
   "https://www.clarin.com/politica/nueva-encuesta-pregunto-elecciones-2027-aparecio-grieta-exacta-46-46_0_lFp9lV9HTG.html",
   "https://www.clarin.com/politica/nuevas-encuestas-crecen-criticas-economia-salarios-empleo-convirtieron-principal-preocupacion_0_T73546RJWN.html",
+  "https://www.clarin.com/politica/nuevas-encuestas-electorales-caba-santa-fe-mendoza-viene-pelea-2027_0_4yQvZBU9zZ.html",
   "https://www.clarin.com/politica/nuevas-encuestas-midieron-puede-impactar-visita-papa-beneficia-perjudica-milei_0_pQ7TtpB4Ng.html",
-  "https://www.clarin.com/politica/sorpresa-ahora-nueva-encuesta-pone-javier-milei-16-puntos-arriba-balotaje_0_SDuoxqy2mC.html"
+  "https://www.clarin.com/politica/sorpresa-ahora-nueva-encuesta-pone-javier-milei-16-puntos-arriba-balotaje_0_SDuoxqy2mC.html",
+  "https://www.clarin.com/politica/votaria-nueva-encuesta-midio-15-posibles-candidatos-reprobaron_0_EZRECyVMY6.html"
  ],
  "encuestas": [
   {
@@ -1068,6 +1074,448 @@
    "publicada": "2026-11-04",
    "fuente": "Clarín (Eduardo Paladini)",
    "url": "https://www.clarin.com/politica/nueva-encuesta-enfrento-kicillof-milei-bullrich-conurbano-paliza-20-4_0_7t91iiMxGs.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "RDT Consultores",
+   "alcance": "Nacional",
+   "fecha_campo": "22 a 28 de octubre",
+   "casos": "1.107",
+   "metodologia": "Relevamiento a través de redes sociales, margen de error +/- 3,8%",
+   "preguntas": [
+    {
+     "pregunta": "Pisos y techos de intención de voto",
+     "opciones": [
+      {
+       "nombre": "Javier Milei (techo)",
+       "valor": "37,2%"
+      },
+      {
+       "nombre": "Sergio Massa (techo)",
+       "valor": "33,8%"
+      },
+      {
+       "nombre": "Axel Kicillof (techo)",
+       "valor": "33,7%"
+      },
+      {
+       "nombre": "Patricia Bullrich (techo)",
+       "valor": "32,4%"
+      },
+      {
+       "nombre": "Victoria Villarruel (techo)",
+       "valor": "29,5%"
+      },
+      {
+       "nombre": "Myriam Bregman (techo)",
+       "valor": "28,8%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Primera vuelta (candidatos por separado)",
+     "opciones": [
+      {
+       "nombre": "Axel Kicillof",
+       "valor": "19,8%"
+      },
+      {
+       "nombre": "Javier Milei",
+       "valor": "28,9%"
+      },
+      {
+       "nombre": "Sergio Massa",
+       "valor": "11,4%"
+      },
+      {
+       "nombre": "Myriam Bregman",
+       "valor": "7,5%"
+      },
+      {
+       "nombre": "Victoria Villarruel",
+       "valor": "6,4%"
+      },
+      {
+       "nombre": "Blanco/Ninguno",
+       "valor": "13,9%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Balotaje Milei vs. Kicillof",
+     "opciones": [
+      {
+       "nombre": "Axel Kicillof",
+       "valor": "36,2%"
+      },
+      {
+       "nombre": "Javier Milei",
+       "valor": "37,2%"
+      },
+      {
+       "nombre": "Blanco/Ninguno",
+       "valor": "15,9%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-02",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-electoral-midio-formulas-2027-milei-bullrich-vs-kicillof-massa_0_zf92ve9O2q.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "DC",
+   "alcance": "Ciudad de Buenos Aires, Santa Fe y Mendoza",
+   "fecha_campo": "22 al 26 de octubre (CABA), 17 al 23 de octubre (Santa Fe), 19 al 22 de octubre (Mendoza)",
+   "casos": "1.360 (CABA), 1.050 (Santa Fe), 1.270 (Mendoza)",
+   "metodologia": "Encuesta de opinión",
+   "preguntas": [
+    {
+     "pregunta": "Si el próximo domingo se votara para jefe de Gobierno de CABA, ¿a qué espacio elegiría?",
+     "opciones": [
+      {
+       "nombre": "La Libertad Avanza",
+       "valor": "29,9%"
+      },
+      {
+       "nombre": "PRO",
+       "valor": "28,3%"
+      },
+      {
+       "nombre": "Peronismo",
+       "valor": "13,7%"
+      },
+      {
+       "nombre": "Kirchnerismo",
+       "valor": "5,2%"
+      },
+      {
+       "nombre": "Otro",
+       "valor": "22,9%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Intención de voto para gobernador en Santa Fe",
+     "opciones": [
+      {
+       "nombre": "Unidos por Santa Fe",
+       "valor": "35,8%"
+      },
+      {
+       "nombre": "La Libertad Avanza",
+       "valor": "28,6%"
+      },
+      {
+       "nombre": "Peronismo",
+       "valor": "11,7%"
+      },
+      {
+       "nombre": "Kirchnerismo",
+       "valor": "9,4%"
+      },
+      {
+       "nombre": "Indeciso",
+       "valor": "11%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Intención de voto para gobernador en Mendoza",
+     "opciones": [
+      {
+       "nombre": "Luis Petri",
+       "valor": "48,3%"
+      },
+      {
+       "nombre": "Ulpiano Suárez",
+       "valor": "22,8%"
+      },
+      {
+       "nombre": "Matías Stevanato",
+       "valor": "12,4%"
+      },
+      {
+       "nombre": "Tadeo García Zalazar",
+       "valor": "7,6%"
+      },
+      {
+       "nombre": "Natalio Mema",
+       "valor": "4,8%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-01",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nuevas-encuestas-electorales-caba-santa-fe-mendoza-viene-pelea-2027_0_4yQvZBU9zZ.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "Synopsis",
+   "alcance": "Nacional",
+   "fecha_campo": "12 al 17 de octubre",
+   "casos": "1.259",
+   "metodologia": "+/- 2,8% de margen de error",
+   "preguntas": [
+    {
+     "pregunta": "Frente a una elección presidencial, mi posición actual sería...",
+     "opciones": [
+      {
+       "nombre": "Continuidad",
+       "valor": "41%"
+      },
+      {
+       "nombre": "Cambio",
+       "valor": "56,7%"
+      },
+      {
+       "nombre": "No sabe/No contesta",
+       "valor": "2,3%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Intención de voto por espacio político",
+     "opciones": [
+      {
+       "nombre": "Peronismo",
+       "valor": "36%"
+      },
+      {
+       "nombre": "La Libertad Avanza",
+       "valor": "33,5%"
+      },
+      {
+       "nombre": "Izquierda",
+       "valor": "10%"
+      },
+      {
+       "nombre": "PRO",
+       "valor": "5,8%"
+      },
+      {
+       "nombre": "Otro",
+       "valor": "8,2%"
+      },
+      {
+       "nombre": "Ns/Nc",
+       "valor": "4,6%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-10-31",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-midio-balotajes-2027-dejo-sorpresas-milei-bullrich-vs-kicillof-massa_0_rD6rtCvD6x.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "Zuban Córdoba",
+   "alcance": "Nacional",
+   "fecha_campo": "16 al 19 de este mes",
+   "casos": "1.600",
+   "metodologia": "+/- 2,45% de margen de error",
+   "preguntas": [
+    {
+     "pregunta": "Piso electoral: ¿Seguro lo votaría + Podría votarlo?",
+     "opciones": [
+      {
+       "nombre": "Axel Kicillof",
+       "valor": "32,5%"
+      },
+      {
+       "nombre": "Cristina Kirchner",
+       "valor": "27,6%"
+      },
+      {
+       "nombre": "Javier Milei",
+       "valor": "26,1%"
+      },
+      {
+       "nombre": "Patricia Bullrich",
+       "valor": "17,5%"
+      },
+      {
+       "nombre": "Myriam Bregman",
+       "valor": "12,1%"
+      },
+      {
+       "nombre": "Sergio Massa",
+       "valor": "10,3%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Rechazo: ¿Nunca lo votaría?",
+     "opciones": [
+      {
+       "nombre": "Dante Gebel",
+       "valor": "73,6%"
+      },
+      {
+       "nombre": "Martín Lousteau",
+       "valor": "68,2%"
+      },
+      {
+       "nombre": "Daniel Hadad",
+       "valor": "64,7%"
+      },
+      {
+       "nombre": "Victoria Villarruel",
+       "valor": "64,4%"
+      },
+      {
+       "nombre": "Mauricio Macri",
+       "valor": "63,2%"
+      },
+      {
+       "nombre": "Myriam Bregman",
+       "valor": "49,5%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-10-30",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/votaria-nueva-encuesta-midio-15-posibles-candidatos-reprobaron_0_EZRECyVMY6.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "Synopsis",
+   "alcance": "Nacional",
+   "fecha_campo": "12 al 17 de octubre",
+   "casos": "1.259",
+   "metodologia": "+/- 2,8% de desvío estadístico",
+   "preguntas": [
+    {
+     "pregunta": "Desempeño del Gobierno",
+     "opciones": [
+      {
+       "nombre": "Aprobación",
+       "valor": "33,6%"
+      },
+      {
+       "nombre": "Desaprobación",
+       "valor": "55,6%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Principal preocupación",
+     "opciones": [
+      {
+       "nombre": "Desempleo",
+       "valor": "39,2%"
+      },
+      {
+       "nombre": "Corrupción",
+       "valor": "23,2%"
+      },
+      {
+       "nombre": "Educación",
+       "valor": "9,2%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Imagen positiva de figuras políticas",
+     "opciones": [
+      {
+       "nombre": "Myriam Bregman",
+       "valor": "+ 43%"
+      },
+      {
+       "nombre": "Patricia Bullrich",
+       "valor": "+ 41%"
+      },
+      {
+       "nombre": "Cristina Kirchner",
+       "valor": "+ 39%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-10-29",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-midio-10-politicos-top-inesperada-grieta-mujeres_0_A3brYIICOK.html",
+   "titulo_fuente": ""
+  },
+  {
+   "consultora": "CB Global Data",
+   "alcance": "Nacional",
+   "fecha_campo": "21 al 25 de este mes",
+   "casos": "1.151",
+   "metodologia": "+/- 2,9% de margen de error",
+   "preguntas": [
+    {
+     "pregunta": "¿Continuidad vs. cambio?",
+     "opciones": [
+      {
+       "nombre": "Sigan los que están",
+       "valor": "33,8%"
+      },
+      {
+       "nombre": "Que haya un cambio",
+       "valor": "57,5%"
+      },
+      {
+       "nombre": "No sabe",
+       "valor": "8,7%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Intención de voto para presidente",
+     "opciones": [
+      {
+       "nombre": "Javier Milei",
+       "valor": "27,1%"
+      },
+      {
+       "nombre": "Axel Kicillof",
+       "valor": "16,5%"
+      },
+      {
+       "nombre": "Candidato de Cristina",
+       "valor": "12,1%"
+      },
+      {
+       "nombre": "Patricia Bullrich",
+       "valor": "8,5%"
+      },
+      {
+       "nombre": "Myriam Bregman",
+       "valor": "7,3%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Balotaje: Kicillof vs. Bullrich",
+     "opciones": [
+      {
+       "nombre": "Bullrich",
+       "valor": "47,3%"
+      },
+      {
+       "nombre": "Kicillof",
+       "valor": "40,1%"
+      },
+      {
+       "nombre": "Blanco/Nulo",
+       "valor": "5,7%"
+      },
+      {
+       "nombre": "No sabe",
+       "valor": "6,9%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-10-28",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-incluyo-patricia-bullrich-presidencial-mal-escenario-bien_0_a7WO868fV9.html",
    "titulo_fuente": ""
   }
  ]
