@@ -1734,6 +1734,58 @@ def otros_diarios(art: dict, maximo: int = 3) -> str:
         return ""
 
 
+# v33: CONTROLES FIJOS (sin IA) antes de publicar.
+# 1) NUMEROS: todo numero de la nota (cifras, porcentajes, anos, fechas) tiene que estar en las fuentes.
+# 2) COPIA: la nota no puede repetir frases de 8 o mas palabras seguidas de la nota original (evita plagio).
+def _numeros(texto: str) -> set:
+    t = (texto or "").replace("\u00a0", " ")
+    nums = set()
+    for m in re.findall(r"\d[\d.,]*", t):
+        n = m.strip(".,")
+        n = re.sub(r"(?<=\d)\.(?=\d{3}\b)", "", n)
+        n = n.replace(",", ".")
+        if n:
+            nums.add(n.rstrip("0").rstrip(".") if "." in n else n)
+    return nums
+
+
+def _palabras(texto: str) -> list:
+    return re.findall(r"\w+", _normalize(texto or ""))
+
+
+def _sin_citas(texto: str) -> str:
+    """Saca las declaraciones entre comillas: citar textual a alguien (con atribucion) no es plagio."""
+    return re.sub(r'["\u201c\u00ab][^"\u201d\u00bb]{0,400}["\u201d\u00bb]', " ", texto or "")
+
+
+def frase_copiada(nota: str, fuente: str, largo: int = 12) -> str:
+    nota = _sin_citas(nota)
+    fp = _palabras(fuente)
+    if len(fp) < largo:
+        return ""
+    tejas = {" ".join(fp[i:i + largo]) for i in range(len(fp) - largo + 1)}
+    npal = _palabras(nota)
+    for i in range(len(npal) - largo + 1):
+        frag = " ".join(npal[i:i + largo])
+        if frag in tejas:
+            return frag
+    return ""
+
+
+def control_datos_y_copia(titulo: str, copete: str, cuerpo: str, art: dict) -> str:
+    """Devuelve "" si se puede publicar, o el motivo por el que NO se publica."""
+    fuentes = (art.get("title") or "") + " " + (art.get("summary") or "") + " " + (art.get("_fuentes_texto") or "")
+    en_fuentes = _numeros(fuentes)
+    for n in sorted(_numeros(f"{titulo} {copete} {cuerpo}")):
+        if n not in en_fuentes:
+            return f"tiene el numero {n} que no esta en ninguna fuente"
+    original = (art.get("summary") or "") + " " + (art.get("_fuentes_texto") or "")
+    copia = frase_copiada(f"{titulo} {copete} {cuerpo}", original)
+    if copia:
+        return f"copia una frase de la nota original ('{copia}')"
+    return ""
+
+
 def rewrite(client: anthropic.Anthropic, art: dict, tipo: str) -> dict:
     if tipo == "cinta":
         prompt = f"""Sos editor de DATAPOLITICA, sitio argentino de analisis politico. \
@@ -1752,6 +1804,8 @@ REGLAS:
 - copete: max 90 caracteres. El dato clave en una frase.
 - cuerpo: max 200 caracteres. Una sola oracion de contexto.
 - No uses verbos de cita. Narra el hecho.
+- NUNCA INVENTES DATOS: cada nombre, cargo, cifra, porcentaje, fecha y ano tiene que estar en el ARTICULO, la NOTA ORIGINAL u OTROS DIARIOS. Si no esta, no lo escribas. Un control automatico descarta la nota si aparece un numero que no esta en las fuentes.
+- SIN PLAGIO: redacta con tus propias palabras. No copies frases de la nota original ni de otros diarios (un control automatico descarta la nota si repite 8 palabras seguidas de la fuente).
 - FIDELIDAD: no agregues nombres propios, cargos, cifras ni datos que no esten en el articulo (si dice 'el Papa', no escribas el nombre del Papa; no cambies 'gobernadores' por 'intendentes').
 - Tono: directo, politico, argentino.
 - ORTOGRAFIA: Usa 'u' en lugar de 'o' ante palabras que empiecen con 'o' u 'ho'. Usa 'e' en lugar de 'y' ante palabras que empiecen con 'i' u 'hi'."""
@@ -1785,6 +1839,8 @@ REGLAS ESTRICTAS:
 - copete: max {MAX_COPETE} caracteres. Lead periodistico que amplia el titulo.
 - cuerpo: entre {MIN_CUERPO} y {MAX_CUERPO} caracteres, en 4 a 6 parrafos separados por \\n, con piramide invertida: el PRIMER PARRAFO dice que paso, quienes son los protagonistas y por que importa; los siguientes suman los DATOS concretos de la NOTA ORIGINAL y de OTROS DIARIOS (cifras, declaraciones resumidas sin verbos de cita, posiciones de cada actor, proximos pasos). IMPORTANTE: el cuerpo se arma SOLO con informacion que este en el articulo, en la NOTA ORIGINAL o en OTROS DIARIOS. NO agregues antecedentes, fechas, cifras ni hechos de tu propio conocimiento. Si un dato aparece en un solo diario y contradice a otro, usa el de la nota original. Si no hay datos suficientes, es preferible un cuerpo de {MIN_CUERPO} caracteres antes que rellenar.
 - No uses verbos de cita. Narra los hechos directamente.
+- NUNCA INVENTES DATOS: cada nombre, cargo, cifra, porcentaje, fecha y ano tiene que estar en el ARTICULO, la NOTA ORIGINAL u OTROS DIARIOS. Si no esta, no lo escribas. Un control automatico descarta la nota si aparece un numero que no esta en las fuentes.
+- SIN PLAGIO: redacta con tus propias palabras. No copies frases de la nota original ni de otros diarios (un control automatico descarta la nota si repite 8 palabras seguidas de la fuente).
 - FIDELIDAD: no agregues nombres propios, cargos, cifras ni datos que no esten en el articulo (si dice 'el Papa', no escribas el nombre del Papa; no cambies 'gobernadores' por 'intendentes').
 - Tono: analitico, critico, con voz editorial propia.
 - ORTOGRAFIA: Usa 'u' en lugar de 'o' ante palabras que empiecen con 'o' u 'ho'. Usa 'e' en lugar de 'y' ante palabras que empiecen con 'i' u 'hi'."""
@@ -2710,6 +2766,23 @@ def main():
                 print("    Mismo tema que otra nota de esta actualizacion. NO se publica.")
                 RESUMEN["descartes"].append(f"Mismo tema que otra nota: {t[:55]}")
                 continue
+            _motivo_dc = control_datos_y_copia(t, c, b, art)
+            if _motivo_dc.startswith("copia"):
+                try:
+                    _rr = client.messages.create(model=CLAUDE_MODEL, max_tokens=2500, messages=[{"role": "user", "content": (
+                        "Reescribi este cuerpo de nota con otras palabras, sin repetir frases de la fuente (por ejemplo, esta: '"
+                        + _motivo_dc.split("('")[-1].rstrip("')") + "'), sin agregar ni quitar datos "
+                        "y sin cambiar ningun numero. Las declaraciones entre comillas se pueden dejar igual. Responde SOLO con el texto del cuerpo:\n\n" + b)}])
+                    _b2 = "".join(getattr(x, "text", "") for x in _rr.content).strip()
+                    if _b2 and not control_datos_y_copia(t, c, _b2, art):
+                        b = _b2
+                        _motivo_dc = ""
+                except Exception as _e:
+                    print(f"    Aviso: no se pudo reescribir el cuerpo ({str(_e)[:60]})")
+            if _motivo_dc:
+                print(f"    CONTROL: la nota {_motivo_dc}. NO se publica.")
+                RESUMEN["descartes"].append(f"Control ({_motivo_dc[:70]}): {t[:45]}")
+                continue
             _motivo = candado_sensible(t, c, b, art)
             if _motivo:
                 print(f"    CANDADO: {_motivo}. NO se publica.")
@@ -2818,6 +2891,9 @@ def main():
                         raise RuntimeError(f"Cinta sin foto verificada de {nombre_c}. NO se publica.")
             if titulo_final_repetido(t2, _previos_cinta) or es_tema_repetido(t2, _previos_cinta)[0]:
                 raise RuntimeError("La cinta repite un tema ya publicado. NO se publica.")
+            _motivo_dc2 = control_datos_y_copia(t2, c2, b2, art_cinta)
+            if _motivo_dc2:
+                raise RuntimeError(f"Control: la cinta {_motivo_dc2}. NO se publica.")
             _motivo2 = candado_sensible(t2, c2, b2, art_cinta)
             if _motivo2:
                 raise RuntimeError(f"Candado: {_motivo2}. NO se publica.")

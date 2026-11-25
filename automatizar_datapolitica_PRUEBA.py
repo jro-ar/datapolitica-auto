@@ -1753,7 +1753,13 @@ def _palabras(texto: str) -> list:
     return re.findall(r"\w+", _normalize(texto or ""))
 
 
-def frase_copiada(nota: str, fuente: str, largo: int = 8) -> str:
+def _sin_citas(texto: str) -> str:
+    """Saca las declaraciones entre comillas: citar textual a alguien (con atribucion) no es plagio."""
+    return re.sub(r'["\u201c\u00ab][^"\u201d\u00bb]{0,400}["\u201d\u00bb]', " ", texto or "")
+
+
+def frase_copiada(nota: str, fuente: str, largo: int = 12) -> str:
+    nota = _sin_citas(nota)
     fp = _palabras(fuente)
     if len(fp) < largo:
         return ""
@@ -2764,8 +2770,9 @@ def main():
             if _motivo_dc.startswith("copia"):
                 try:
                     _rr = client.messages.create(model=CLAUDE_MODEL, max_tokens=2500, messages=[{"role": "user", "content": (
-                        "Reescribi este cuerpo de nota con otras palabras, sin repetir frases de la fuente, sin agregar ni quitar datos "
-                        "y sin cambiar ningun numero. Responde SOLO con el texto del cuerpo:\n\n" + b)}])
+                        "Reescribi este cuerpo de nota con otras palabras, sin repetir frases de la fuente (por ejemplo, esta: '"
+                        + _motivo_dc.split("('")[-1].rstrip("')") + "'), sin agregar ni quitar datos "
+                        "y sin cambiar ningun numero. Las declaraciones entre comillas se pueden dejar igual. Responde SOLO con el texto del cuerpo:\n\n" + b)}])
                     _b2 = "".join(getattr(x, "text", "") for x in _rr.content).strip()
                     if _b2 and not control_datos_y_copia(t, c, _b2, art):
                         b = _b2
