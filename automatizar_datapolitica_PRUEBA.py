@@ -53,8 +53,8 @@ RSS_SOURCES = [
 
 MAX_TITULO = 70
 MAX_COPETE = 160
-MIN_CUERPO = 2200
-MAX_CUERPO = 3800
+MIN_CUERPO = 2000
+MAX_CUERPO = 3200
 
 # 1=Orden1  4=Editorial(NUNCA TOCAR)  5=Cinta Testigo
 ORDEN_NOTA  = 1
@@ -1696,7 +1696,7 @@ def corregir_conjunciones(texto: str) -> str:
 
 # v32: NOTAS MAS COMPLETAS Y FIELES. El cuerpo se arma con el texto real de la nota original
 # y con lo que publicaron otros diarios sobre el mismo tema (no con "analisis" de conocimiento propio).
-def texto_nota_original(art: dict, maximo: int = 7000) -> str:
+def texto_nota_original(art: dict, maximo: int = 5000) -> str:
     try:
         r = requests.get(art.get("link") or "", headers=HEADERS, timeout=15)
         r.raise_for_status()
@@ -1770,6 +1770,28 @@ def frase_copiada(nota: str, fuente: str, largo: int = 12) -> str:
         if frag in tejas:
             return frag
     return ""
+
+
+def frases_copiadas(nota: str, fuente: str, largo: int = 12) -> list:
+    """Todas las frases copiadas (para pedir una sola reescritura que las corrija todas)."""
+    nota = _sin_citas(nota)
+    fp = _palabras(fuente)
+    if len(fp) < largo:
+        return []
+    tejas = {" ".join(fp[i:i + largo]) for i in range(len(fp) - largo + 1)}
+    npal = _palabras(nota)
+    res, i = [], 0
+    while i <= len(npal) - largo:
+        frag = " ".join(npal[i:i + largo])
+        if frag in tejas:
+            j = i + largo
+            while j < len(npal) and " ".join(npal[j - largo + 1:j + 1]) in tejas:
+                j += 1
+            res.append(" ".join(npal[i:j]))
+            i = j
+        else:
+            i += 1
+    return res
 
 
 def control_datos_y_copia(titulo: str, copete: str, cuerpo: str, art: dict) -> str:
@@ -2771,8 +2793,9 @@ def main():
             if _motivo_dc.startswith("copia"):
                 try:
                     _rr = client.messages.create(model=CLAUDE_MODEL, max_tokens=5000, messages=[{"role": "user", "content": (
-                        "Reescribi este cuerpo de nota con otras palabras, sin repetir frases de la fuente (por ejemplo, esta: '"
-                        + _motivo_dc.split("('")[-1].rstrip("')") + "'), sin agregar ni quitar datos "
+                        "Reescribi este cuerpo de nota con otras palabras. Estas frases estan copiadas de la fuente y hay que redactarlas distinto: "
+                        + " | ".join("'" + _f + "'" for _f in (frases_copiadas(b, (art.get("summary") or "") + " " + (art.get("_fuentes_texto") or "")) or [_motivo_dc.split("('")[-1].rstrip("')")])[:12])
+                        + ". Cambia tambien el orden de las ideas dentro de cada parrafo. Sin agregar ni quitar datos "
                         "y sin cambiar ningun numero. Las declaraciones entre comillas se pueden dejar igual. Responde SOLO con el texto del cuerpo:\n\n" + b)}])
                     _b2 = "".join(getattr(x, "text", "") for x in _rr.content).strip()
                     if _b2 and not control_datos_y_copia(t, c, _b2, art):
