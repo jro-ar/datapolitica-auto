@@ -2352,9 +2352,9 @@ def escribir_resumen(estado: str):
         if RESUMEN["borrado"]:
             lineas.append(f"- Borrado previo: {RESUMEN['borrado']}")
         if RESUMEN["notas"]:
-            lineas += ["", "| Tipo | Título | Foto | Persona del título |", "|---|---|---|---|"]
+            lineas += ["", "| Tipo | Título | Foto | Persona del título | Largo |", "|---|---|---|---|---|"]
             for n in RESUMEN["notas"]:
-                lineas.append(f"| {n['tipo']} | {n['titulo']} | {'sí' if n['foto'] else 'NO'} | {n['persona'] or '-'} |")
+                lineas.append(f"| {n['tipo']} | {n['titulo']} | {'sí' if n['foto'] else 'NO'} | {n['persona'] or '-'} | {n.get('largo', '-')} |")
         if RESUMEN["descartes"]:
             lineas += ["", "**Descartadas:**"] + [f"- {d}" for d in RESUMEN["descartes"]]
         if RESUMEN["errores"]:
@@ -2791,18 +2791,24 @@ def main():
                 continue
             _motivo_dc = control_datos_y_copia(t, c, b, art)
             if _motivo_dc.startswith("copia"):
-                try:
-                    _rr = client.messages.create(model=CLAUDE_MODEL, max_tokens=5000, messages=[{"role": "user", "content": (
-                        "Reescribi este cuerpo de nota con otras palabras. Estas frases estan copiadas de la fuente y hay que redactarlas distinto: "
-                        + " | ".join("'" + _f + "'" for _f in (frases_copiadas(b, (art.get("summary") or "") + " " + (art.get("_fuentes_texto") or "")) or [_motivo_dc.split("('")[-1].rstrip("')")])[:12])
-                        + ". Cambia tambien el orden de las ideas dentro de cada parrafo. Sin agregar ni quitar datos "
-                        "y sin cambiar ningun numero. Las declaraciones entre comillas se pueden dejar igual. Responde SOLO con el texto del cuerpo:\n\n" + b)}])
-                    _b2 = "".join(getattr(x, "text", "") for x in _rr.content).strip()
-                    if _b2 and not control_datos_y_copia(t, c, _b2, art):
-                        b = _b2
-                        _motivo_dc = ""
-                except Exception as _e:
-                    print(f"    Aviso: no se pudo reescribir el cuerpo ({str(_e)[:60]})")
+                for _intento_rr in range(2):
+                    try:
+                        _frs = frases_copiadas(b, (art.get("summary") or "") + " " + (art.get("_fuentes_texto") or "")) or [_motivo_dc.split("('")[-1].rstrip("')")]
+                        _rr = client.messages.create(model=CLAUDE_MODEL, max_tokens=5000, messages=[{"role": "user", "content": (
+                            "Reescribi este cuerpo de nota con otras palabras. Estas frases estan copiadas de la fuente y hay que redactarlas distinto: "
+                            + " | ".join("'" + _f + "'" for _f in _frs[:12])
+                            + f". Cambia tambien el orden de las ideas dentro de cada parrafo. MANTENE EL MISMO LARGO (unos {len(b)} caracteres) "
+                            "y la misma cantidad de parrafos separados por \\n. Sin agregar ni quitar datos "
+                            "y sin cambiar ningun numero. Las declaraciones entre comillas se pueden dejar igual. Responde SOLO con el texto del cuerpo:\n\n" + b)}])
+                        _b2 = "".join(getattr(x, "text", "") for x in _rr.content).strip()
+                        if _b2 and len(_b2) >= 0.85 * len(b) and not control_datos_y_copia(t, c, _b2, art):
+                            b = _b2
+                            _motivo_dc = ""
+                            break
+                        print(f"    Reescritura no sirvio (largo {len(_b2)} de {len(b)}), intento {_intento_rr + 1}")
+                    except Exception as _e:
+                        print(f"    Aviso: no se pudo reescribir el cuerpo ({str(_e)[:60]})")
+                        break
             if _motivo_dc:
                 print(f"    CONTROL: la nota {_motivo_dc}. NO se publica.")
                 RESUMEN["descartes"].append(f"Control ({_motivo_dc[:70]}): {t[:45]}")
@@ -2818,7 +2824,7 @@ def main():
                 publicadas += 1
                 RESUMEN["publicadas"] += 1
                 RESUMEN["notas"].append({"tipo": "Orden 1", "titulo": t, "foto": bool(img),
-                                         "persona": nombre_t or ""})
+                                         "persona": nombre_t or "", "largo": len(b)})
                 nuevos_titulos += [t, art.get('title', '')]
             else:
                 RESUMEN["errores"].append(f"El panel no acepto la nota: {t[:60]}")
