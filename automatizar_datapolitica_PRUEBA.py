@@ -53,7 +53,7 @@ RSS_SOURCES = [
 
 MAX_TITULO = 70
 MAX_COPETE = 160
-MIN_CUERPO = 700
+MIN_CUERPO = 900
 MAX_CUERPO = 1600
 
 # 1=Orden1  4=Editorial(NUNCA TOCAR)  5=Cinta Testigo
@@ -1694,6 +1694,46 @@ def corregir_conjunciones(texto: str) -> str:
     return texto
 
 
+# v32: NOTAS MAS COMPLETAS Y FIELES. El cuerpo se arma con el texto real de la nota original
+# y con lo que publicaron otros diarios sobre el mismo tema (no con "analisis" de conocimiento propio).
+def texto_nota_original(art: dict, maximo: int = 3500) -> str:
+    try:
+        r = requests.get(art.get("link") or "", headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        parrafos = []
+        for p in re.findall(r"<p[^>]*>(.*?)</p>", r.text, re.S):
+            t = re.sub(r"<[^>]+>", " ", p)
+            t = re.sub(r"\s+", " ", t.replace("&nbsp;", " ")).strip()
+            if len(t) > 60 and "JavaScript" not in t and "cookies" not in t.lower():
+                parrafos.append(t)
+        import html as _html
+        return _html.unescape("\n".join(parrafos))[:maximo]
+    except Exception as e:
+        print(f"   Aviso: no se pudo leer la nota original ({str(e)[:60]})")
+        return ""
+
+
+def otros_diarios(art: dict, maximo: int = 3) -> str:
+    """Titulos y resumenes de OTROS diarios sobre el mismo tema (del pool ya leido, sin costo)."""
+    try:
+        claves = _palabras_clave(art.get("title", "") + " " + (art.get("summary") or "")[:200])
+        propio = _dominio(art)
+        elegidos, vistos = [], set()
+        for a in POOL_COMPLETO:
+            d = _dominio(a)
+            if not d or d == propio or d in vistos:
+                continue
+            comun = claves & _palabras_clave(a.get("title", "") + " " + (a.get("summary") or "")[:200])
+            if len(comun) >= 3:
+                vistos.add(d)
+                elegidos.append(f"- {d}: {a.get('title', '')}. {(a.get('summary') or '')[:300]}")
+            if len(elegidos) >= maximo:
+                break
+        return "\n".join(elegidos)
+    except Exception:
+        return ""
+
+
 def rewrite(client: anthropic.Anthropic, art: dict, tipo: str) -> dict:
     if tipo == "cinta":
         prompt = f"""Sos editor de DATAPOLITICA, sitio argentino de analisis politico. \
@@ -1717,7 +1757,15 @@ REGLAS:
 - ORTOGRAFIA: Usa 'u' en lugar de 'o' ante palabras que empiecen con 'o' u 'ho'. Usa 'e' en lugar de 'y' ante palabras que empiecen con 'i' u 'hi'."""
 
     else:
-        _fuentes = textos_de_fuentes(art)
+        _orig = texto_nota_original(art)
+        _otros = otros_diarios(art)
+        _bloque_fuentes = ""
+        if _orig:
+            _bloque_fuentes += f"\nNOTA ORIGINAL (texto):\n{_orig}\n"
+        if _otros:
+            _bloque_fuentes += f"\nOTROS DIARIOS sobre el mismo tema:\n{_otros}\n"
+        art["_fuentes_texto"] = _bloque_fuentes
+        print(f"   Fuentes para el cuerpo: nota original {len(_orig)} chars, otros diarios {_otros.count(chr(10)) + 1 if _otros else 0}")
         prompt = f"""Sos editor jefe de DATAPOLITICA, sitio argentino de analisis politico.
 
 Reescribi esta noticia con perspectiva analitica propia, angulo DIFERENTE al original.
@@ -1725,9 +1773,7 @@ Reescribi esta noticia con perspectiva analitica propia, angulo DIFERENTE al ori
 Articulo:
 Titulo: {art['title']}
 Resumen: {art['summary'][:600]}
-
-{_fuentes}
-
+{_bloque_fuentes}
 Responde SOLO con JSON valido, sin markdown:
 {{"titulo": "...", "copete": "...", "cuerpo": "..."}}
 
@@ -1737,7 +1783,7 @@ REGLAS ESTRICTAS:
 - NOMBRE PROPIO EN EL TITULO: si la noticia tiene un protagonista politico identificable (una persona), el titulo DEBE empezar con su NOMBRE Y APELLIDO COMPLETOS (por ejemplo 'Miguel Siciliano: ...' o 'Axel Kicillof: ...'), seguidos de dos puntos o de un verbo. Usa SOLO nombres que figuren en el articulo; nunca inventes nombres ni cargos. Si el articulo solo trae el apellido y no estas seguro del nombre, usa el apellido solo. Si no hay una persona protagonista clara, no fuerces ningun nombre.
 - FECHAS Y ANOS: hoy es {datetime.now().strftime('%d/%m/%Y')} (ano {datetime.now().year}). NUNCA cambies ni inventes anos, fechas ni cifras del articulo: si el articulo habla de 2027, el titulo dice 2027. Si no estas seguro de un ano, no lo menciones.
 - copete: max {MAX_COPETE} caracteres. Lead periodistico que amplia el titulo.
-- cuerpo: OBLIGATORIO entre {MIN_CUERPO} y {MAX_CUERPO} caracteres. NO menos. ESTRUCTURA OBLIGATORIA: usa piramide invertida. El PRIMER PARRAFO concentra que paso, quienes son los protagonistas y que significa politicamente. El SEGUNDO PARRAFO da contexto. Los siguientes desarrollan el analisis. Escribi 5-7 parrafos separados por \\n. Usa los TEXTOS DE LAS FUENTES de arriba (si los hay): datos, declaraciones resumidas, cifras, antecedentes y posiciones que aparezcan ahi. Todo hecho, cifra, nombre o antecedente del cuerpo tiene que estar en esos textos o en el resumen; NO completes con conocimiento propio ni con suposiciones. El analisis solo puede explicar lo que dicen las fuentes, sin agregar hechos. Si las fuentes no alcanzan para llegar al largo, es mejor un cuerpo mas corto y fiel que uno largo con relleno.
+- cuerpo: entre {MIN_CUERPO} y {MAX_CUERPO} caracteres, en 4 a 6 parrafos separados por \\n, con piramide invertida: el PRIMER PARRAFO dice que paso, quienes son los protagonistas y por que importa; los siguientes suman los DATOS concretos de la NOTA ORIGINAL y de OTROS DIARIOS (cifras, declaraciones resumidas sin verbos de cita, posiciones de cada actor, proximos pasos). IMPORTANTE: el cuerpo se arma SOLO con informacion que este en el articulo, en la NOTA ORIGINAL o en OTROS DIARIOS. NO agregues antecedentes, fechas, cifras ni hechos de tu propio conocimiento. Si un dato aparece en un solo diario y contradice a otro, usa el de la nota original. Si no hay datos suficientes, es preferible un cuerpo de {MIN_CUERPO} caracteres antes que rellenar.
 - No uses verbos de cita. Narra los hechos directamente.
 - FIDELIDAD: no agregues nombres propios, cargos, cifras ni datos que no esten en el articulo (si dice 'el Papa', no escribas el nombre del Papa; no cambies 'gobernadores' por 'intendentes').
 - Tono: analitico, critico, con voz editorial propia.
@@ -1809,8 +1855,10 @@ REGLAS ESTRICTAS:
                 max_tokens=2500,
                 messages=[{"role": "user", "content": (
                     f"El siguiente cuerpo de nota periodistica es muy corto ({len(data.get('cuerpo',''))} caracteres). "
-                    f"Expandilo a entre {MIN_CUERPO} y {MAX_CUERPO} caracteres explicando mejor lo que ya dice, SIN agregar hechos, nombres, cargos, cifras ni antecedentes nuevos. "
-                    f"Responde SOLO con el texto del cuerpo (sin JSON, sin comillas, sin titulo):\n\n{data.get('cuerpo','')}"
+                    f"Expandilo a entre {MIN_CUERPO} y {MAX_CUERPO} caracteres usando SOLO datos de las fuentes de abajo "
+                    f"(no agregues hechos, fechas ni cifras de tu propio conocimiento). "
+                    f"Responde SOLO con el texto del cuerpo (sin JSON, sin comillas, sin titulo):\n\n{data.get('cuerpo','')}\n\n"
+                    f"FUENTES:\nTitulo: {art.get('title','')}\nResumen: {(art.get('summary') or '')[:600]}\n{art.get('_fuentes_texto','')}"
                 )}]
             )
             cuerpo_expandido = expand_resp.content[0].text.strip()
@@ -1969,7 +2017,7 @@ def _dominio(a: dict) -> str:
 
 def candado_sensible(titulo: str, copete: str, cuerpo: str, art: dict) -> str:
     """Devuelve "" si se puede publicar, o el motivo por el que NO se publica."""
-    fuente = _normalize((art.get("title") or "") + " " + (art.get("summary") or ""))
+    fuente = _normalize((art.get("title") or "") + " " + (art.get("summary") or "") + " " + (art.get("_fuentes_texto") or ""))
     nota = _normalize(f"{titulo} {copete} {cuerpo}")
     hallados = [p for p in _PALABRAS_SENSIBLES if _tiene(nota, p)]
     if not hallados:
@@ -1994,52 +2042,6 @@ def candado_sensible(titulo: str, copete: str, cuerpo: str, art: dict) -> str:
                 f"(confirmaron: {', '.join(sorted(confirman)) or 'ninguno'})")
     print(f"    Tema sensible confirmado por: {', '.join(sorted(confirman))}")
     return ""
-
-
-# v32: NOTAS MAS COMPLETAS Y MAS FIELES. Antes la nota se escribia solo con el resumen del RSS
-# (unas pocas lineas) y el resto lo "completaba" la IA. Ahora se leen los parrafos de la nota original
-# y, si hay, de OTRO diario que cuenta lo mismo. La nota se arma solo con hechos de esos textos.
-def _parrafos_de(url: str, maximo: int = 2500) -> str:
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
-        partes, total = [], 0
-        for p in soup.find_all("p"):
-            t = re.sub(r"\s+", " ", p.get_text(" ")).strip()
-            if len(t) < 60 or re.search(r"(?i)javascript|suscrib|newsletter|cookies|registrate|©", t):
-                continue
-            partes.append(t)
-            total += len(t)
-            if total >= maximo:
-                break
-        return "\n".join(partes)[:maximo]
-    except Exception as e:
-        print(f"    (no se pudo leer el texto completo: {str(e)[:60]})")
-        return ""
-
-
-def textos_de_fuentes(art: dict) -> str:
-    """Texto de la noticia original + el de otro diario que cuenta lo mismo (si lo hay)."""
-    bloques = []
-    t1 = _parrafos_de(art.get("link", ""), 2500) if art.get("link") else ""
-    if len(t1) >= 300:
-        bloques.append(f"TEXTO DE LA NOTICIA ORIGINAL ({_dominio(art)}):\n{t1}")
-    clave = _palabras_clave(art.get("title", ""))
-    mejor, puntos = None, 0
-    for a in POOL_COMPLETO:
-        if a is art or _dominio(a) == _dominio(art) or not a.get("link"):
-            continue
-        comun = len(clave & _palabras_clave(a.get("title", "") + " " + (a.get("summary") or "")))
-        if comun > puntos:
-            mejor, puntos = a, comun
-    if mejor is not None and puntos >= 3:
-        t2 = _parrafos_de(mejor["link"], 1500)
-        if len(t2) >= 300:
-            bloques.append(f"TEXTO DE OTRO DIARIO SOBRE EL MISMO TEMA ({_dominio(mejor)}):\n{t2}")
-    if bloques:
-        print(f"    Fuentes leidas para la nota: {len(bloques)}")
-    return "\n\n".join(bloques)
 
 
 def titulo_fiel_final(client, titulo: str, copete: str, art: dict) -> bool:
