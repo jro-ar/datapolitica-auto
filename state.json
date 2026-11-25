@@ -57,24 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-11-06 10:10",
-      "publicadas": 5,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [
-        "Titulo malo: Econom\u00eda pas\u00f3 a disponibilidad a m\u00e1s de diez empleados de pl",
-        "Titulo malo: Bullrich: La Libertad Avanza no resuelve su crisis interna"
-      ],
-      "titulos": [
-        "La visita del Papa tapa las peleas internas del Gobierno",
-        "El Senado bonaerense cre\u00f3 un laboratorio estatal de medicamentos",
-        "Kicillof y M\u00e1ximo Kirchner se reunieron y baj\u00f3 la tensi\u00f3n",
-        "Jorge Macri le entregar\u00e1 las llaves de Buenos Aires al Papa Le\u00f3n XIV",
-        "Un exjugador de River dej\u00f3 La Libertad Avanza por los Passaglia",
-        "La Corte orden\u00f3 aplicar la reforma laboral para indemnizaciones"
-      ]
-    },
-    {
       "fecha": "2026-11-06 14:22",
       "publicadas": 5,
       "cinta": true,
@@ -1375,6 +1357,28 @@
         "La Libertad Avanza busca aliados en cuatro provincias para 2027",
         "Caso fentanilo: juez rechaz\u00f3 nulidad pedida por la defensa"
       ]
+    },
+    {
+      "fecha": "2026-11-25 14:01",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Error armando una nota: HTTPSConnectionPool(host='datapolitica.com', port=443): Read timed out. (read timeout=30)",
+        "Titulo malo: Lorena Villaverde dice que la forzaron a renunciar al Senado",
+        "Titulo malo: Vidal habilit\u00f3 la venta de tierras protegidas frente al Peri",
+        "Sin foto de Maurice Passalacqua: Passalacqua recibe dirigentes del PJ tras su ruptu",
+        "Candado (dice 'muert' y la noticia original no): Por qu\u00e9 el papa Francisco no volvi\u00f3 a la Argentina",
+        "Titulo malo: La CGT confirm\u00f3 un cese de actividades de dos horas antes de"
+      ],
+      "titulos": [
+        "El Senado inicia su \u00faltima semana con foco en suspender las PASO",
+        "La fiscal\u00eda dictamin\u00f3 que el decreto universitario es inconstitucional",
+        "El Gobierno atribuye la suba del riesgo pa\u00eds a factores externos",
+        "Frigerio envi\u00f3 un proyecto para eliminar las PASO en Entre R\u00edos",
+        "Naviera chilena ir\u00e1 a Malvinas sin pedir permiso a Argentina",
+        "Santilli defiende en el Senado el ajuste social de Milei"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1386,59 +1390,68 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5344,
-    5345,
-    5346,
-    5347,
-    5348
+    5350,
+    5351,
+    5352,
+    5353,
+    5354
   ],
-  "cinta_id": 5349,
+  "cinta_id": 5355,
   "published_links": [
     "https://www.ambito.com/politica/presupuesto-caba-el-peronismo-pide-cambios-mientras-el-pro-apunta-los-votos-lla-ucr-y-larreta-n6348801",
-    "https://www.infobae.com/politica/2026/11/24/argentina-busca-recuperar-su-capacidad-de-ataque-antibuque-el-plan-para-equipar-a-los-f-16-con-misiles-aire-mar/",
-    "https://www.clarin.com/politica/milei-viaja-paraguay-primer-encuentro-sucesor-pena_0_E6qndxfhGZ.html",
-    "https://www.lanacion.com.ar/politica/la-oposicion-cargo-contra-el-gobierno-por-la-recesion-tecnica-de-la-economia-no-quieren-aceptar-lo-nid24112026/",
-    "https://www.infobae.com/politica/2026/11/24/el-pj-empieza-a-transitar-la-discusion-sobre-como-ordenarse-sin-paso-la-compleja-tarea-para-conservar-la-unidad/",
-    "https://www.clarin.com/politica/gobierno-exige-uba-frene-provocacion-politica_0_FB2ncIENHj.html",
-    "https://www.lanacion.com.ar/politica/la-iglesia-convoco-a-los-diputados-bonaerenses-para-expresar-su-profunda-preocupacion-por-la-nid24112026/",
-    "https://www.lanacion.com.ar/politica/el-senado-preve-aprobar-ascensos-de-139-diplomaticos-incluidos-16-que-no-pidio-la-cancilleria-y-nid24112026/",
     "https://www.infobae.com/politica/2026/11/25/el-pj-todavia-resiste-la-caida-de-las-paso-pero-busca-consenso-sobre-como-elegir-al-candidato-a-presidente/",
-    "https://www.ambito.com/politica/jorge-macri-elimino-el-ministerio-espacio-publico-caba-y-anuncio-un-recorte-mas-un-centenar-cargos-n6348963",
-    "https://www.infobae.com/politica/2026/11/25/rumbo-a-2027-los-libertarios-buscan-acuerdos-en-cuatro-provincias-para-enfrentar-a-los-oficialismos/",
-    "https://www.infobae.com/politica/2026/11/25/fentanilo-mortal-el-juez-kreplak-rechazo-un-planteo-de-nulidad-clave-pedido-por-la-defensa-del-principal-acusado/"
+    "https://www.infobae.com/politica/2026/11/24/el-pj-empieza-a-transitar-la-discusion-sobre-como-ordenarse-sin-paso-la-compleja-tarea-para-conservar-la-unidad/",
+    "https://www.lanacion.com.ar/politica/el-senado-preve-aprobar-ascensos-de-139-diplomaticos-incluidos-16-que-no-pidio-la-cancilleria-y-nid24112026/",
+    "https://www.infobae.com/politica/2026/11/25/fentanilo-mortal-el-juez-kreplak-rechazo-un-planteo-de-nulidad-clave-pedido-por-la-defensa-del-principal-acusado/",
+    "https://www.lanacion.com.ar/politica/la-oposicion-cargo-contra-el-gobierno-por-la-recesion-tecnica-de-la-economia-no-quieren-aceptar-lo-nid24112026/",
+    "https://www.infobae.com/politica/2026/11/24/con-la-suspension-de-las-paso-como-foco-principal-el-senado-inicia-su-ultima-semana-de-sesiones-ordinarias/",
+    "https://tn.com.ar/politica/2026/11/24/financiamiento-universitario-el-fiscal-de-camara-dictamino-que-el-decreto-del-gobierno-que-suspendio-la-ley-es-inconstitucional/",
+    "https://tn.com.ar/politica/2026/11/24/el-gobierno-volvio-a-respaldar-a-luis-caputo-y-descarto-las-versiones-sobre-su-salida-es-uno-de-los-ministros-mas-importantes/",
+    "https://www.infobae.com/politica/2026/11/24/rogelio-frigerio-adelantara-las-elecciones-en-entre-rios-se-votara-el-domingo-6-de-junio-y-sin-paso/",
+    "https://www.lanacion.com.ar/politica/la-empresa-propietaria-del-buque-chileno-que-ira-a-malvinas-confirmo-que-no-pedira-autorizacion-a-la-nid24112026/",
+    "https://www.lanacion.com.ar/politica/diego-santilli-acude-al-senado-a-defender-frente-a-la-oposicion-el-ajuste-en-el-gasto-social-y-el-nid25112026/"
   ],
   "used_img_hashes": [
+    "bf0d6352a77673214acb0e8f5887ee36",
+    "d036aa97292a2c2b2d26bf0dd85d8d63",
     "b2db827c7f2b0f55f10eb25f25f30578",
     "2c1daefaa183cd61cca6e43784c0930d",
-    "d036aa97292a2c2b2d26bf0dd85d8d63",
+    "3c28f29a8c5232ce2f327048d94b169a",
+    "56b47b18f9ed137407b9312bde77263f",
+    "29932fad7d6bc6c25c9c8ca0bf4efd77",
+    "7f73ad155730cbfa31cc9f2e0c1f299d",
+    "ae9f3f6871969a56ea348393ad8f8d1e",
+    "48cacdf6e6d19fa8b909aa14d04466bc",
+    "599272677adefee51b1cadab0c7ef100",
+    "3ef72fa216aac9c4ce00b0dab0749adb",
+    "5839404124850ec5a8922d3ed3f40a7b",
+    "e54e9509a778dc9d086ef51022ce6d50",
+    "96604fcc0098c8f733255968d5294aaa",
+    "ef610162713f999132ef432b899ae021",
     "daaa7a2ec11b8984b15816259a829eed",
+    "68b67e003389e987f24aadf9e03ac74d",
+    "354e5b20e8867ff7c3990b97997541ab",
+    "a8090a2a034562988dc680dc274125c6",
+    "2d38d803de3b53780a203a68ecbf8e19",
+    "608b8ca8d01bed1a95ba9a265ee21205",
+    "fbe87e6c412d6ea9799eb7c71993fcda",
     "d4a7bd2255534bd1709df98924610f57",
-    "bf0d6352a77673214acb0e8f5887ee36",
-    "56b47b18f9ed137407b9312bde77263f",
-    "ef610162713f999132ef432b899ae021",
-    "29932fad7d6bc6c25c9c8ca0bf4efd77",
-    "56b47b18f9ed137407b9312bde77263f",
-    "ef610162713f999132ef432b899ae021",
-    "daaa7a2ec11b8984b15816259a829eed",
-    "29932fad7d6bc6c25c9c8ca0bf4efd77",
-    "2c1daefaa183cd61cca6e43784c0930d",
-    "bf0d6352a77673214acb0e8f5887ee36",
-    "d036aa97292a2c2b2d26bf0dd85d8d63",
-    "d4a7bd2255534bd1709df98924610f57"
+    "e54e9509a778dc9d086ef51022ce6d50",
+    "3ef72fa216aac9c4ce00b0dab0749adb",
+    "a8090a2a034562988dc680dc274125c6",
+    "68b67e003389e987f24aadf9e03ac74d",
+    "3dbac4371d01bb0676f9a644537d27b2",
+    "ae9f3f6871969a56ea348393ad8f8d1e",
+    "608b8ca8d01bed1a95ba9a265ee21205",
+    "2d38d803de3b53780a203a68ecbf8e19",
+    "48cacdf6e6d19fa8b909aa14d04466bc",
+    "96604fcc0098c8f733255968d5294aaa",
+    "159d2fdd42ec21b37c0c9457c98407fe",
+    "3c28f29a8c5232ce2f327048d94b169a",
+    "fbe87e6c412d6ea9799eb7c71993fcda",
+    "354e5b20e8867ff7c3990b97997541ab"
   ],
   "published_titles": [
-    "Pelea Cornejo-Petri por Mendoza: la Casa Rosada no interviene",
-    "Mendoza: el Gobierno se corre y crece la pelea entre Cornejo y Petri por la gobernaci\u00f3n",
-    "La Libertad Avanza de Neuqu\u00e9n re\u00fane su congreso sin candidatos",
-    "Con las candidaturas sin resolver, La Libertad Avanza de Neuqu\u00e9n re\u00fane a su Congreso Provincial",
-    "Avanza en Diputados la formalizaci\u00f3n gratuita de clubes de barrio",
-    "Avanza en Diputados un proyecto para la formalizaci\u00f3n gratuita de los clubes de barrio",
-    "Ignacio Torres fij\u00f3 elecciones en Chubut para marzo de 2027",
-    "Chubut adelant\u00f3 las elecciones a marzo y Torres buscar\u00e1 la reelecci\u00f3n",
-    "M\u00e1ximo Kirchner: \"Vamos a armar todo el quilombo que haya que armar\"",
-    "M\u00e1ximo Kirchner: \u201cVamos a armar todo el quilombo que haya que armar\u201d",
-    "Cuatro gobernadores debatieron federalismo y las PASO",
-    "Cuatro gobernadores debatieron federalismo y dejaron definiciones sobre las PASO, Milei y la interna peronista",
     "La reforma pol\u00edtica cambiar\u00eda las reglas de la veda electoral",
     "\u00bfBebidas alcoh\u00f3licas y eventos durante la veda electoral? Qu\u00e9 cambiar\u00eda si se aprueba la reforma pol\u00edtica",
     "La C\u00e1mara le dio la Menci\u00f3n de Honor a la te\u00f3loga Emilce Cuda",
@@ -1626,6 +1639,18 @@
     "La Libertad Avanza busca aliados en cuatro provincias para 2027",
     "Rumbo a 2027: los libertarios buscan acuerdos en cuatro provincias para enfrentar a los oficialismos",
     "Caso fentanilo: juez rechaz\u00f3 nulidad pedida por la defensa",
-    "Fentanilo mortal: el juez Kreplak rechaz\u00f3 un planteo de nulidad clave pedido por la defensa del principal acusado"
+    "Fentanilo mortal: el juez Kreplak rechaz\u00f3 un planteo de nulidad clave pedido por la defensa del principal acusado",
+    "El Senado inicia su \u00faltima semana con foco en suspender las PASO",
+    "Con la suspensi\u00f3n de las PASO como foco principal, el Senado inicia su \u00faltima semana de sesiones ordinarias",
+    "La fiscal\u00eda dictamin\u00f3 que el decreto universitario es inconstitucional",
+    "Financiamiento Universitario: la fiscal\u00eda dictamin\u00f3 que el decreto del Gobierno que suspendi\u00f3 la ley es inconstitucional",
+    "El Gobierno atribuye la suba del riesgo pa\u00eds a factores externos",
+    "El Gobierno explic\u00f3 que la suba del riesgo pa\u00eds responde a factores internacionales y descart\u00f3 la salida de Luis Caputo",
+    "Frigerio envi\u00f3 un proyecto para eliminar las PASO en Entre R\u00edos",
+    "Rogelio Frigerio envi\u00f3 el proyecto que elimina las PASO en Entre R\u00edos y le permite fijar la fecha de las elecciones provinciales",
+    "Naviera chilena ir\u00e1 a Malvinas sin pedir permiso a Argentina",
+    "La empresa propietaria del buque chileno que ir\u00e1 a Malvinas confirm\u00f3 que no pedir\u00e1 autorizaci\u00f3n a la Argentina",
+    "Santilli defiende en el Senado el ajuste social de Milei",
+    "Diego Santilli acude al Senado a defender frente a la oposici\u00f3n el ajuste en el gasto social y el rumbo econ\u00f3mico de Milei"
   ]
 }
