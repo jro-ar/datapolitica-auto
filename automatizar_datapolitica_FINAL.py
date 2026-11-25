@@ -53,8 +53,8 @@ RSS_SOURCES = [
 
 MAX_TITULO = 70
 MAX_COPETE = 160
-MIN_CUERPO = 900
-MAX_CUERPO = 1600
+MIN_CUERPO = 2000
+MAX_CUERPO = 3200
 
 # 1=Orden1  4=Editorial(NUNCA TOCAR)  5=Cinta Testigo
 ORDEN_NOTA  = 1
@@ -1696,7 +1696,7 @@ def corregir_conjunciones(texto: str) -> str:
 
 # v32: NOTAS MAS COMPLETAS Y FIELES. El cuerpo se arma con el texto real de la nota original
 # y con lo que publicaron otros diarios sobre el mismo tema (no con "analisis" de conocimiento propio).
-def texto_nota_original(art: dict, maximo: int = 3500) -> str:
+def texto_nota_original(art: dict, maximo: int = 5000) -> str:
     try:
         r = requests.get(art.get("link") or "", headers=HEADERS, timeout=15)
         r.raise_for_status()
@@ -1713,7 +1713,7 @@ def texto_nota_original(art: dict, maximo: int = 3500) -> str:
         return ""
 
 
-def otros_diarios(art: dict, maximo: int = 3) -> str:
+def otros_diarios(art: dict, maximo: int = 5) -> str:
     """Titulos y resumenes de OTROS diarios sobre el mismo tema (del pool ya leido, sin costo)."""
     try:
         claves = _palabras_clave(art.get("title", "") + " " + (art.get("summary") or "")[:200])
@@ -1726,7 +1726,7 @@ def otros_diarios(art: dict, maximo: int = 3) -> str:
             comun = claves & _palabras_clave(a.get("title", "") + " " + (a.get("summary") or "")[:200])
             if len(comun) >= 3:
                 vistos.add(d)
-                elegidos.append(f"- {d}: {a.get('title', '')}. {(a.get('summary') or '')[:300]}")
+                elegidos.append(f"- {d}: {a.get('title', '')}. {(a.get('summary') or '')[:500]}")
             if len(elegidos) >= maximo:
                 break
         return "\n".join(elegidos)
@@ -1772,6 +1772,28 @@ def frase_copiada(nota: str, fuente: str, largo: int = 12) -> str:
     return ""
 
 
+def frases_copiadas(nota: str, fuente: str, largo: int = 12) -> list:
+    """Todas las frases copiadas (para pedir una sola reescritura que las corrija todas)."""
+    nota = _sin_citas(nota)
+    fp = _palabras(fuente)
+    if len(fp) < largo:
+        return []
+    tejas = {" ".join(fp[i:i + largo]) for i in range(len(fp) - largo + 1)}
+    npal = _palabras(nota)
+    res, i = [], 0
+    while i <= len(npal) - largo:
+        frag = " ".join(npal[i:i + largo])
+        if frag in tejas:
+            j = i + largo
+            while j < len(npal) and " ".join(npal[j - largo + 1:j + 1]) in tejas:
+                j += 1
+            res.append(" ".join(npal[i:j]))
+            i = j
+        else:
+            i += 1
+    return res
+
+
 def control_datos_y_copia(titulo: str, copete: str, cuerpo: str, art: dict) -> str:
     """Devuelve "" si se puede publicar, o el motivo por el que NO se publica."""
     fuentes = (art.get("title") or "") + " " + (art.get("summary") or "") + " " + (art.get("_fuentes_texto") or "")
@@ -1805,7 +1827,7 @@ REGLAS:
 - cuerpo: max 200 caracteres. Una sola oracion de contexto.
 - No uses verbos de cita. Narra el hecho.
 - NUNCA INVENTES DATOS: cada nombre, cargo, cifra, porcentaje, fecha y ano tiene que estar en el ARTICULO, la NOTA ORIGINAL u OTROS DIARIOS. Si no esta, no lo escribas. Un control automatico descarta la nota si aparece un numero que no esta en las fuentes.
-- SIN PLAGIO: redacta con tus propias palabras. No copies frases de la nota original ni de otros diarios (un control automatico descarta la nota si repite 8 palabras seguidas de la fuente).
+- SIN PLAGIO: redacta con tus propias palabras. No copies frases de la nota original ni de otros diarios (un control automatico descarta la nota si repite 12 palabras seguidas de la fuente).
 - FIDELIDAD: no agregues nombres propios, cargos, cifras ni datos que no esten en el articulo (si dice 'el Papa', no escribas el nombre del Papa; no cambies 'gobernadores' por 'intendentes').
 - Tono: directo, politico, argentino.
 - ORTOGRAFIA: Usa 'u' en lugar de 'o' ante palabras que empiecen con 'o' u 'ho'. Usa 'e' en lugar de 'y' ante palabras que empiecen con 'i' u 'hi'."""
@@ -1837,17 +1859,17 @@ REGLAS ESTRICTAS:
 - NOMBRE PROPIO EN EL TITULO: si la noticia tiene un protagonista politico identificable (una persona), el titulo DEBE empezar con su NOMBRE Y APELLIDO COMPLETOS (por ejemplo 'Miguel Siciliano: ...' o 'Axel Kicillof: ...'), seguidos de dos puntos o de un verbo. Usa SOLO nombres que figuren en el articulo; nunca inventes nombres ni cargos. Si el articulo solo trae el apellido y no estas seguro del nombre, usa el apellido solo. Si no hay una persona protagonista clara, no fuerces ningun nombre.
 - FECHAS Y ANOS: hoy es {datetime.now().strftime('%d/%m/%Y')} (ano {datetime.now().year}). NUNCA cambies ni inventes anos, fechas ni cifras del articulo: si el articulo habla de 2027, el titulo dice 2027. Si no estas seguro de un ano, no lo menciones.
 - copete: max {MAX_COPETE} caracteres. Lead periodistico que amplia el titulo.
-- cuerpo: entre {MIN_CUERPO} y {MAX_CUERPO} caracteres, en 4 a 6 parrafos separados por \\n, con piramide invertida: el PRIMER PARRAFO dice que paso, quienes son los protagonistas y por que importa; los siguientes suman los DATOS concretos de la NOTA ORIGINAL y de OTROS DIARIOS (cifras, declaraciones resumidas sin verbos de cita, posiciones de cada actor, proximos pasos). IMPORTANTE: el cuerpo se arma SOLO con informacion que este en el articulo, en la NOTA ORIGINAL o en OTROS DIARIOS. NO agregues antecedentes, fechas, cifras ni hechos de tu propio conocimiento. Si un dato aparece en un solo diario y contradice a otro, usa el de la nota original. Si no hay datos suficientes, es preferible un cuerpo de {MIN_CUERPO} caracteres antes que rellenar.
+- cuerpo: entre {MIN_CUERPO} y {MAX_CUERPO} caracteres, en 6 a 9 parrafos separados por \\n, con piramide invertida: el PRIMER PARRAFO dice que paso, quienes son los protagonistas y por que importa; los siguientes suman los DATOS concretos de la NOTA ORIGINAL y de OTROS DIARIOS (cifras, declaraciones resumidas sin verbos de cita, posiciones de cada actor, proximos pasos). IMPORTANTE: el cuerpo se arma SOLO con informacion que este en el articulo, en la NOTA ORIGINAL o en OTROS DIARIOS. NO agregues antecedentes, fechas, cifras ni hechos de tu propio conocimiento. Si un dato aparece en un solo diario y contradice a otro, usa el de la nota original. Si no hay datos suficientes, es preferible un cuerpo de {MIN_CUERPO} caracteres antes que rellenar.
 - No uses verbos de cita. Narra los hechos directamente.
 - NUNCA INVENTES DATOS: cada nombre, cargo, cifra, porcentaje, fecha y ano tiene que estar en el ARTICULO, la NOTA ORIGINAL u OTROS DIARIOS. Si no esta, no lo escribas. Un control automatico descarta la nota si aparece un numero que no esta en las fuentes.
-- SIN PLAGIO: redacta con tus propias palabras. No copies frases de la nota original ni de otros diarios (un control automatico descarta la nota si repite 8 palabras seguidas de la fuente).
+- SIN PLAGIO: redacta con tus propias palabras. No copies frases de la nota original ni de otros diarios (un control automatico descarta la nota si repite 12 palabras seguidas de la fuente).
 - FIDELIDAD: no agregues nombres propios, cargos, cifras ni datos que no esten en el articulo (si dice 'el Papa', no escribas el nombre del Papa; no cambies 'gobernadores' por 'intendentes').
 - Tono: analitico, critico, con voz editorial propia.
 - ORTOGRAFIA: Usa 'u' en lugar de 'o' ante palabras que empiecen con 'o' u 'ho'. Usa 'e' en lugar de 'y' ante palabras que empiecen con 'i' u 'hi'."""
 
     resp = client.messages.create(
         model=CLAUDE_MODEL,
-        max_tokens=3000,
+        max_tokens=5000,
         messages=[{"role": "user", "content": prompt}]
     )
 
@@ -1871,11 +1893,11 @@ REGLAS ESTRICTAS:
                 # Tercer intento: pedir a Claude que corrija el JSON malformado
                 fix_resp = client.messages.create(
                     model=CLAUDE_MODEL,
-                    max_tokens=3500,
+                    max_tokens=5500,
                     messages=[{"role": "user", "content":
                         f"El siguiente texto deberia ser JSON valido con campos titulo, copete y cuerpo. "
                         f"Corregilo y devolvelo SOLO como JSON valido sin markdown. "
-                        f"Escapa correctamente todas las comillas dobles dentro de los strings:\n\n{m.group()[:3000]}"
+                        f"Escapa correctamente todas las comillas dobles dentro de los strings:\n\n{m.group()[:9000]}"
                     }]
                 )
                 fix_raw = fix_resp.content[0].text.strip()
@@ -1902,13 +1924,14 @@ REGLAS ESTRICTAS:
 
     # Reintentar si el cuerpo es demasiado corto
     if tipo != "cinta":
+        _min_posible = max(900, min(MIN_CUERPO, len(art.get("_fuentes_texto") or "") // 2))
         for _intento_cuerpo in range(2):
-            if len(data.get("cuerpo", "")) >= MIN_CUERPO:
+            if len(data.get("cuerpo", "")) >= _min_posible:
                 break
             print(f"   Cuerpo demasiado corto ({len(data.get('cuerpo',''))} chars < {MIN_CUERPO}), reintentando...")
             expand_resp = client.messages.create(
                 model=CLAUDE_MODEL,
-                max_tokens=2500,
+                max_tokens=5000,
                 messages=[{"role": "user", "content": (
                     f"El siguiente cuerpo de nota periodistica es muy corto ({len(data.get('cuerpo',''))} caracteres). "
                     f"Expandilo a entre {MIN_CUERPO} y {MAX_CUERPO} caracteres usando SOLO datos de las fuentes de abajo "
@@ -1918,7 +1941,7 @@ REGLAS ESTRICTAS:
                 )}]
             )
             cuerpo_expandido = expand_resp.content[0].text.strip()
-            if len(cuerpo_expandido) >= MIN_CUERPO:
+            if len(cuerpo_expandido) >= _min_posible:
                 data["cuerpo"] = cuerpo_expandido
 
     STOP_WORDS = {"de", "del", "en", "al", "a", "con", "por", "para", "sin",
@@ -2769,9 +2792,10 @@ def main():
             _motivo_dc = control_datos_y_copia(t, c, b, art)
             if _motivo_dc.startswith("copia"):
                 try:
-                    _rr = client.messages.create(model=CLAUDE_MODEL, max_tokens=2500, messages=[{"role": "user", "content": (
-                        "Reescribi este cuerpo de nota con otras palabras, sin repetir frases de la fuente (por ejemplo, esta: '"
-                        + _motivo_dc.split("('")[-1].rstrip("')") + "'), sin agregar ni quitar datos "
+                    _rr = client.messages.create(model=CLAUDE_MODEL, max_tokens=5000, messages=[{"role": "user", "content": (
+                        "Reescribi este cuerpo de nota con otras palabras. Estas frases estan copiadas de la fuente y hay que redactarlas distinto: "
+                        + " | ".join("'" + _f + "'" for _f in (frases_copiadas(b, (art.get("summary") or "") + " " + (art.get("_fuentes_texto") or "")) or [_motivo_dc.split("('")[-1].rstrip("')")])[:12])
+                        + ". Cambia tambien el orden de las ideas dentro de cada parrafo. Sin agregar ni quitar datos "
                         "y sin cambiar ningun numero. Las declaraciones entre comillas se pueden dejar igual. Responde SOLO con el texto del cuerpo:\n\n" + b)}])
                     _b2 = "".join(getattr(x, "text", "") for x in _rr.content).strip()
                     if _b2 and not control_datos_y_copia(t, c, _b2, art):
