@@ -1,10 +1,11 @@
 {
- "actualizado": "2026-11-24T23:38Z",
+ "actualizado": "2026-11-25T23:19Z",
  "procesadas": [
   "https://www.clarin.com/politica/acabo-sueno-outsider-2027-ultimas-encuestas-dan-mal-famosos_0_oq8JyTt8SL.html",
   "https://www.clarin.com/politica/alerta-gobierno-hicieron-encuesta-votantes-libertarios-milei-quedo-cuarto_0_KKgOtDH0tA.html",
   "https://www.clarin.com/politica/congreso-nido-ratas-hicieron-encuesta-visita-papa-gano-frase-polemica_0_heNgEmrdHA.html",
   "https://www.clarin.com/politica/dice-ultima-encuesta-llego-milei-hizo-consultor-anticipo-triunfo-2023_0_DTtICcH71Z.html",
+  "https://www.clarin.com/politica/encuesta-llego-cristina-sacudio-interna-pj-kicillof-massa-vs-milei-balotaje_0_myy9iqEAr9.html",
   "https://www.clarin.com/politica/nueva-encuesta-consultor-anti-k-inesperado-empate-punta_0_heYF0KbS67.html",
   "https://www.clarin.com/politica/nueva-encuesta-consultora-mejor-anticipo-fenomeno-milei-alerta-caidas_0_eTvbVOnCc3.html",
   "https://www.clarin.com/politica/nueva-encuesta-consultores-preferidos-pj-anticipa-definiran-eleccion-2027_0_Bv6CDWJc3M.html",
@@ -28,6 +29,78 @@
   "https://www.clarin.com/politica/votaria-nueva-encuesta-midio-15-posibles-candidatos-reprobaron_0_EZRECyVMY6.html"
  ],
  "encuestas": [
+  {
+   "consultora": "Analogías",
+   "alcance": "Nacional",
+   "fecha_campo": "15 al 18 de este mes",
+   "casos": "2.786",
+   "metodologia": "+/- 2% de margen de error",
+   "preguntas": [
+    {
+     "pregunta": "Imagen de Milei",
+     "opciones": [
+      {
+       "nombre": "A favor",
+       "valor": "39,2%"
+      },
+      {
+       "nombre": "En contra",
+       "valor": "56,7%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Intención de voto por espacio",
+     "opciones": [
+      {
+       "nombre": "Milei",
+       "valor": "33,7%"
+      },
+      {
+       "nombre": "Peronismo Unido",
+       "valor": "33%"
+      },
+      {
+       "nombre": "Una fuerza de los gobernadores",
+       "valor": "6,1%"
+      },
+      {
+       "nombre": "Izquierda",
+       "valor": "5,7%"
+      },
+      {
+       "nombre": "No sabe",
+       "valor": "18,4%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Balotaje",
+     "opciones": [
+      {
+       "nombre": "Kicillof",
+       "valor": "41,7%"
+      },
+      {
+       "nombre": "Milei (vs Kicillof)",
+       "valor": "35,7%"
+      },
+      {
+       "nombre": "Massa",
+       "valor": "40%"
+      },
+      {
+       "nombre": "Milei (vs Massa)",
+       "valor": "37,6%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-25",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/encuesta-llego-cristina-sacudio-interna-pj-kicillof-massa-vs-milei-balotaje_0_myy9iqEAr9.html",
+   "titulo_fuente": ""
+  },
   {
    "consultora": "Jorge Giacobbe",
    "alcance": "Nacional",
