@@ -57,28 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-11-07 10:15",
-      "publicadas": 5,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [
-        "Titulo malo: Bullrich y 15 diputados presionan a La Libertad Avanza por l",
-        "Titulo malo: Encuesta muestra imagen negativa de Milei pero opositores pe",
-        "Titulo malo: Argentina apuesta a la continuidad con Paraguay tras el camb",
-        "Sin foto de Andr\u00e9s Malamud: Malamud: el Estado no premia al que cumple ni cast",
-        "Titulo distinto de la noticia original: ADEPA celebr\u00f3 la visita del Papa y pidi\u00f3 que contribuya",
-        "Titulo malo: Karina Milei prepar\u00f3 la Casa Rosada para la visita del Papa"
-      ],
-      "titulos": [
-        "La visita del papa Le\u00f3n XIV moviliza a m\u00e1s de 500 periodistas",
-        "Pagni analiz\u00f3 las estrategias de Massa, Bullrich y Kicillof",
-        "Bullrich choca con la Casa Rosada por la pol\u00edtica de discapacidad",
-        "El peronismo ve chances de ganarle a Milei y busca unidad",
-        "Bullrich anunci\u00f3 que el Senado tratar\u00e1 la ley contra la ludopat\u00eda",
-        "Las CTA le enviaron una carta al papa Le\u00f3n XIV contra Milei"
-      ]
-    },
-    {
       "fecha": "2026-11-07 14:11",
       "publicadas": 5,
       "cinta": true,
@@ -1387,6 +1365,26 @@
         "Tres listas disputan la conducci\u00f3n de los Metrodelegados",
         "PAMI le debe $28.038 millones a hospitales p\u00fablicos del pa\u00eds"
       ]
+    },
+    {
+      "fecha": "2026-11-26 14:01",
+      "publicadas": 3,
+      "cinta": true,
+      "estado": "PROBLEMA",
+      "detalle": [
+        "Titulo malo: La canciller de Finlandia visit\u00f3 Argentina y pidi\u00f3 avanzar e",
+        "Titulo malo: Caso Chocolate: un fiscal desestim\u00f3 la denuncia de un juez p",
+        "Control (tiene el numero 2027 que no esta en ninguna fuente): El gobernador bonaerense y la ministra de Seg",
+        "Titulo malo: Atentado contra Cristina: la Justicia revoc\u00f3 sobreseimientos",
+        "Titulo malo: Pagano impugna ante la Corte a senadora libertaria por una v",
+        "Titulo malo: Tapia consigui\u00f3 permiso para viajar al exterior, pero el jue"
+      ],
+      "titulos": [
+        "Milei presenta su libro sobre moral a funcionarios y legisladores",
+        "Luis Juez: el Senado suspender\u00eda las PASO 2027 con 41 o 42 votos",
+        "El Gobierno activa negociaciones de \u00faltimo momento por el Presupuesto",
+        "El Senado debate la reforma electoral de Milei"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1398,62 +1396,68 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5367,
-    5368
+    5370,
+    5371,
+    5372
   ],
-  "cinta_id": 5369,
+  "cinta_id": 5373,
   "published_links": [
     "https://www.infobae.com/politica/2026/11/25/aca-no-se-rinde-nadie-recesion-y-aguante-para-2027-en-el-corazon-del-gobierno/",
-    "https://www.infobae.com/politica/2026/11/25/fentanilo-mortal-el-juez-kreplak-rechazo-un-planteo-de-nulidad-clave-pedido-por-la-defensa-del-principal-acusado/",
-    "https://www.perfil.com/politica/la-cgt-activa-una-agenda-de-protestas-en-la-calle-contra-el-gobierno-aR3m04h5jN8O",
-    "https://tn.com.ar/politica/2026/11/24/financiamiento-universitario-el-fiscal-de-camara-dictamino-que-el-decreto-del-gobierno-que-suspendio-la-ley-es-inconstitucional/",
-    "https://www.perfil.com/politica/la-corte-suprema-sortea-conjueces-para-definir-si-los-crimenes-contra-los-soldados-prescribieron-aKRbF6u1rz59",
-    "https://www.infobae.com/politica/2026/11/25/extienden-hasta-mayo-de-2027-la-intervencion-judicial-en-la-uom-y-cambian-a-sus-responsables-para-normalizar-al-sindicato/",
-    "https://tn.com.ar/politica/2026/11/24/a-dias-de-la-sesion-por-el-presupuesto-2027-el-pro-define-su-apoyo-al-proyecto-y-negociara-modificaciones-hasta-ultimo-momento/",
-    "https://www.infobae.com/politica/2026/11/25/los-rectores-enviaron-una-carta-al-congreso-y-advirtieron-por-el-ajuste-a-las-universidades-en-el-presupuesto-2027/",
-    "https://www.perfil.com/mas-perfil/la-ruta-del-dinero-de-la-afa-en-rdi-los-millones-que-habrian-quedado-en-el-exterior-y-el-rol-de-pablo-toviggino-aVfaj4b6kyuw",
-    "https://www.ambito.com/politica/la-cgt-marcha-la-situacion-critica-las-obras-sociales-y-exige-al-gobierno-una-respuesta-n6349384",
     "https://www.infobae.com/politica/2026/11/26/eleccion-sindical-clave-los-metrodelegados-elegiran-hoy-su-nuevo-lider-entre-tres-candidatos-y-con-un-resultado-imprevisible/",
-    "https://www.perfil.com/politica/el-gobierno-reconocio-que-el-pami-acumula-una-deuda-de-28.038-millones-con-hospitales-publicos-de-todo-el-pais-aD0qh6m8LfqQ"
+    "https://www.perfil.com/politica/el-gobierno-reconocio-que-el-pami-acumula-una-deuda-de-28.038-millones-con-hospitales-publicos-de-todo-el-pais-aD0qh6m8LfqQ",
+    "https://www.infobae.com/politica/2026/11/25/los-rectores-enviaron-una-carta-al-congreso-y-advirtieron-por-el-ajuste-a-las-universidades-en-el-presupuesto-2027/",
+    "https://www.perfil.com/politica/la-cgt-activa-una-agenda-de-protestas-en-la-calle-contra-el-gobierno-aR3m04h5jN8O",
+    "https://www.infobae.com/politica/2026/11/25/fentanilo-mortal-el-juez-kreplak-rechazo-un-planteo-de-nulidad-clave-pedido-por-la-defensa-del-principal-acusado/",
+    "https://www.perfil.com/mas-perfil/la-ruta-del-dinero-de-la-afa-en-rdi-los-millones-que-habrian-quedado-en-el-exterior-y-el-rol-de-pablo-toviggino-aVfaj4b6kyuw",
+    "https://www.infobae.com/politica/2026/11/25/extienden-hasta-mayo-de-2027-la-intervencion-judicial-en-la-uom-y-cambian-a-sus-responsables-para-normalizar-al-sindicato/",
+    "https://www.clarin.com/politica/milei-presenta-libro-conferencia-magistral-funcionarios-legisladores-ex-cck_0_hQakx0QVpq.html",
+    "https://www.infobae.com/politica/2026/11/25/luis-juez-anticipo-que-el-senado-suspendera-las-paso-para-2027-vamos-a-estar-con-41-42-votos/",
+    "https://tn.com.ar/politica/2026/11/25/el-gobierno-busca-evitar-otro-traspie-en-diputados-y-activa-negociaciones-de-ultimo-momento-por-el-presupuesto/",
+    "https://www.lanacion.com.ar/politica/que-dice-la-reforma-electoral-de-javier-milei-que-se-debate-en-el-senado-hoy-nid26112026/"
   ],
   "used_img_hashes": [
-    "9414741191b95c97dfc1d56299a4f87e",
-    "99af3b310e07cf37df5f5b1375bb6574",
-    "1d07271533e6172c9efd7760bd4b74bb",
-    "01ff6259f2687134179305efc2942243",
-    "cf177c8438ec0405d1b9ee6337b2f3a9",
-    "1acd924b4fa18a1e4bc077b04c3b16d9",
     "7d11b43bcfb0a0a97a3169a4a1372733",
+    "1d07271533e6172c9efd7760bd4b74bb",
+    "30eec8476f1ece3e5759c31c83333267",
+    "99af3b310e07cf37df5f5b1375bb6574",
+    "cf177c8438ec0405d1b9ee6337b2f3a9",
+    "c1d141a4a9b1b231d83696fa7558e0c5",
+    "884db931e61ca1567b4b97cb80fab4bf",
+    "8f02cddb274ff903afea752837319b30",
+    "a20ed4ee2f7bda583bd5d49513f0ae84",
+    "1acd924b4fa18a1e4bc077b04c3b16d9",
+    "6316ce79a7ecbe1df6683f8d19c80b77",
+    "22f722623347c465da5f27212924b109",
+    "c67f8129eb0ab880b710deda511ffded",
     "5a5d13d7b7f8a78836100b9fbbb1ec79",
-    "16ba703c4544caef426c8bd6e600a8f5",
-    "c67f8129eb0ab880b710deda511ffded",
+    "a6a42dfb1aa3e1e3103d8eb5e0c137e7",
+    "e83d8c6512a2662bbbc9d61f808ba0eb",
     "246a716f7cf9ed45b83d954c6b2b22d5",
-    "30eec8476f1ece3e5759c31c83333267",
-    "2afb04a5f99d02f5cc6f4b1a7755e08b",
+    "3d626c081d174f47a9feb833d2db9782",
     "a23bda2e114f49f43fd6b9af7bf2e84c",
-    "246a716f7cf9ed45b83d954c6b2b22d5",
-    "2afb04a5f99d02f5cc6f4b1a7755e08b",
-    "cf177c8438ec0405d1b9ee6337b2f3a9",
-    "a23bda2e114f49f43fd6b9af7bf2e84c",
-    "30eec8476f1ece3e5759c31c83333267",
-    "99af3b310e07cf37df5f5b1375bb6574",
-    "7d11b43bcfb0a0a97a3169a4a1372733",
-    "1d07271533e6172c9efd7760bd4b74bb",
+    "caacbf4b8144de332ff05e7a3dae5485",
     "16ba703c4544caef426c8bd6e600a8f5",
+    "64a4ba1cf35316c62a7b0d1aa99ad2cc",
+    "4c01da56acde7a74fd06895dc6aa21d3",
     "9414741191b95c97dfc1d56299a4f87e",
-    "1acd924b4fa18a1e4bc077b04c3b16d9",
-    "c67f8129eb0ab880b710deda511ffded",
-    "01ff6259f2687134179305efc2942243"
+    "bd79a980dcacdcd52e2103c8837afb9c",
+    "2afb04a5f99d02f5cc6f4b1a7755e08b",
+    "587d6f42467353208f668e9909efb996",
+    "a3142714fdfb68e640e155a00b0b7370",
+    "6ca58ceb277fcf95664ea3fcbc4b6f35",
+    "a6a42dfb1aa3e1e3103d8eb5e0c137e7",
+    "22f722623347c465da5f27212924b109",
+    "a20ed4ee2f7bda583bd5d49513f0ae84",
+    "bd79a980dcacdcd52e2103c8837afb9c",
+    "397b2af9cb726d9fa8c878a4cf9213fd",
+    "c1d141a4a9b1b231d83696fa7558e0c5",
+    "ba5231e713ec46f3a59814aa0ee8b570",
+    "6316ce79a7ecbe1df6683f8d19c80b77",
+    "e83d8c6512a2662bbbc9d61f808ba0eb",
+    "587d6f42467353208f668e9909efb996",
+    "3d626c081d174f47a9feb833d2db9782"
   ],
   "published_titles": [
-    "La Corte Suprema proh\u00edbe los aumentos libres de las prepagas",
-    "La Corte Suprema frena los aumentos de las prepagas: cu\u00e1ndo se implementa el cambio y qu\u00e9 hacer si no se respeta",
-    "La Corte anul\u00f3 parte del megadecreto de Milei: qu\u00e9 significa",
-    "La Corte y los DNU: Milei perdi\u00f3 un rasgo que compart\u00eda con Cristina Kirchner y entr\u00f3 en un grupo reducido de presidentes",
-    "Milei busca evitar una interna con Bullrich en las elecciones",
-    "Milei puso en marcha su estrategia electoral para evitar una interna con Bullrich y complicar los planes de Kicillof",
-    "Macri apoy\u00f3 al Gobierno, pero la interna del PRO traba el acuerdo",
-    "Karina Milei retom\u00f3 el v\u00ednculo con Macri, pero la interna del PRO no permite destrabar el acuerdo en CABA",
     "Milei volvi\u00f3 a la escena p\u00fablica tras la estad\u00eda de Le\u00f3n XIV",
     "Operativo centralidad: el despliegue de Javier y Karina Milei para recuperar la agenda tras la estad\u00eda de Le\u00f3n XIV",
     "El Gobierno logra dictamen del S\u00faper RIGI con concesiones a aliados",
@@ -1645,6 +1649,14 @@
     "Tres listas disputan la conducci\u00f3n de los Metrodelegados",
     "Elecci\u00f3n sindical clave: los Metrodelegados elegir\u00e1n hoy su nuevo l\u00edder entre tres candidatos y con un resultado imprevisible",
     "PAMI le debe $28.038 millones a hospitales p\u00fablicos del pa\u00eds",
-    "El Gobierno reconoci\u00f3 que el PAMI acumula una deuda de $28.038 millones con hospitales p\u00fablicos de todo el pa\u00eds"
+    "El Gobierno reconoci\u00f3 que el PAMI acumula una deuda de $28.038 millones con hospitales p\u00fablicos de todo el pa\u00eds",
+    "Milei presenta su libro sobre moral a funcionarios y legisladores",
+    "Milei presenta otro libro con una \"conferencia magistral\" para sus funcionarios y legisladores en el ex CCK",
+    "Luis Juez: el Senado suspender\u00eda las PASO 2027 con 41 o 42 votos",
+    "Luis Juez anticip\u00f3 que el Senado suspender\u00e1 las PASO para 2027: \u201cVamos a estar con 41, 42 votos\u201d",
+    "El Gobierno activa negociaciones de \u00faltimo momento por el Presupuesto",
+    "El Gobierno busca evitar otro traspi\u00e9 en Diputados y activa negociaciones de \u00faltimo momento por el Presupuesto",
+    "El Senado debate la reforma electoral de Milei",
+    "Qu\u00e9 dice la Reforma Electoral de Javier Milei que se debate en el Senado hoy"
   ]
 }
