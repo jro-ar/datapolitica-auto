@@ -57,26 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-11-09 10:15",
-      "publicadas": 5,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [
-        "Tercera nota de milei: Milei acusa a la oposición de distorsionar el mens",
-        "Titulo distinto de la noticia original: Gobernadores y oposición elogiaron al papa León XIV",
-        "Mismo tema que otra nota: El Gobierno no vio el discurso del Papa como una crític",
-        "Titulo malo: El Papa en Argentina: pidió que la economía sirva a las pers"
-      ],
-      "titulos": [
-        "Los gobernadores aliados le endurecen las exigencias a Milei",
-        "Milei encabezará la despedida oficial del Papa rumbo a Perú",
-        "Evangélicos kirchneristas: 'No todos somos de derecha'",
-        "El discurso del Papa dividió los aplausos de la política argentina",
-        "La visita del Papa tensiona al Gobierno y reactiva al peronismo",
-        "León XIV dejó en Uruguay señales de su agenda para la Argentina"
-      ]
-    },
-    {
       "fecha": "2026-11-09 14:14",
       "publicadas": 5,
       "cinta": true,
@@ -1393,6 +1373,28 @@
         "Passalacqua rompe con Rovira y va a la reelección con sello propio",
         "Fiscal pide investigar giro de $260 millones de AFA a Tapia"
       ]
+    },
+    {
+      "fecha": "2026-11-27 23:01",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: AFA: una empresa ligada a Tapia y Toviggino compr\u00f3 una mansi",
+        "Titulo malo: Tata Yofre cuestiona la reivindicaci\u00f3n de las organizaciones",
+        "Titulo malo: Cooperativas como pymes: el alivio fiscal no alcanza para fr",
+        "Control (tiene el numero 2026 que no esta en ninguna fuente): Insfr\u00e1n pide a la Corte que rechace la demand",
+        "Control (copia una frase de la nota original ('claudio vazquez establecio un re): Un juez entreg\u00f3 la administraci\u00f3n de estancia",
+        "Titulo malo: El Senado convirti\u00f3 en ley el vandalismo rural y dio media s"
+      ],
+      "titulos": [
+        "Kicillof envi\u00f3 110 pliegos judiciales y prepara otros 140",
+        "Macri invita a Bullrich a su documental en medio de tensiones",
+        "Santa Cruz aprob\u00f3 un nuevo C\u00f3digo Electoral para 2027",
+        "El intendente adicto a la coca\u00edna conserv\u00f3 su cargo",
+        "Coalici\u00f3n C\u00edvica alert\u00f3 que Suizo Argentina gan\u00f3 m\u00e1s licitaciones",
+        "Piden allanar otra mansi\u00f3n ligada a autoridades de la AFA"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1404,39 +1406,70 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5398,
-    5399,
-    5400
+    5402,
+    5403,
+    5404,
+    5405,
+    5406
   ],
-  "cinta_id": 5401,
+  "cinta_id": 5407,
   "published_links": [
-    "https://tn.com.ar/politica/2026/11/26/en-medio-de-las-negociaciones-con-lla-mauricio-macri-volvio-a-marcar-la-falta-de-previsibilidad-y-confianza-en-la-argentina/",
-    "https://www.lanacion.com.ar/politica/como-voto-cada-diputado-el-presupuesto-2027-nid27112026/",
-    "https://www.ambito.com/politica/paso-bonaerense-el-peronismo-se-une-sostener-las-primarias-y-tener-un-solo-candidato-gobernador-n6349580",
-    "https://tn.com.ar/politica/2026/11/26/ara-san-juan-casacion-fijo-fecha-para-revisar-la-condena-y-las-absoluciones-de-exmiembros-de-la-armada-argentina/",
-    "https://www.clarin.com/politica/nueva-encuesta-sorpresa-datos-cristina-kirchner-mauricio-macri-victoria-villarruel_0_mShPWoaJKk.html",
-    "https://www.lanacion.com.ar/politica/el-senado-voto-a-favor-de-prorrogar-el-estatuto-del-periodista-a-partir-del-1-de-enero-de-2027-nid27112026/",
-    "https://tn.com.ar/politica/2026/11/26/marcha-universitaria-docentes-y-estudiantes-se-movilizan-al-congreso-para-reclamar-mejoras-salariales-y-mas-recursos/",
-    "https://www.clarin.com/politica/milei-presenta-libro-conferencia-magistral-funcionarios-legisladores-ex-cck_0_hQakx0QVpq.html",
-    "https://www.ambito.com/politica/lo-que-no-se-sabe-la-guerra-el-banco-central-y-la-agn-el-oro-argentino-n6350054",
     "https://www.infobae.com/politica/2026/11/27/efecto-reforma-electoral-la-suspension-de-las-paso-divide-la-estrategia-de-los-outsiders/",
-    "https://www.lanacion.com.ar/politica/hugo-passalacqua-hablo-sobre-la-ruptura-con-carlos-rovira-y-anuncio-que-ira-por-la-reeleccion-en-nid27112026/",
-    "https://www.perfil.com/politica/pollicita-solicito-investigar-una-transferencia-de-260-millones-de-la-afa-a-chiqui-tapia-ahJnP2G3zI7I"
+    "https://www.lanacion.com.ar/politica/como-voto-cada-diputado-el-presupuesto-2027-nid27112026/",
+    "https://tn.com.ar/politica/2026/11/26/en-medio-de-las-negociaciones-con-lla-mauricio-macri-volvio-a-marcar-la-falta-de-previsibilidad-y-confianza-en-la-argentina/",
+    "https://www.perfil.com/politica/pollicita-solicito-investigar-una-transferencia-de-260-millones-de-la-afa-a-chiqui-tapia-ahJnP2G3zI7I",
+    "https://www.clarin.com/politica/nueva-encuesta-sorpresa-datos-cristina-kirchner-mauricio-macri-victoria-villarruel_0_mShPWoaJKk.html",
+    "https://www.ambito.com/politica/paso-bonaerense-el-peronismo-se-une-sostener-las-primarias-y-tener-un-solo-candidato-gobernador-n6349580",
+    "https://www.lanacion.com.ar/politica/kicillof-envio-110-pliegos-judiciales-al-senado-bonaerense-y-planea-mandar-otros-140-en-los-proximos-nid27112026/",
+    "https://www.perfil.com/politica/mauricio-macri-invito-a-patricia-bullrich-al-estreno-de-su-documental-aoFAQ4w5ppUC",
+    "https://tn.com.ar/politica/2026/11/27/santa-cruz-aprobo-su-nuevo-codigo-electoral-y-definio-las-reglas-para-2027-cuales-son-los-principales-cambios/",
+    "https://tn.com.ar/politica/2026/11/27/el-intendente-que-conto-que-es-adicto-a-la-cocaina-enfrento-un-proceso-de-destitucion-y-logro-conservar-su-cargo/",
+    "https://www.lanacion.com.ar/politica/causa-andis-advierten-que-la-suizo-argentina-siguio-ganando-licitaciones-tras-el-estallido-del-nid27112026/",
+    "https://www.lanacion.com.ar/politica/pidieron-allanar-una-segunda-mansion-de-pilar-que-aparece-ligada-a-las-autoridades-de-la-afa-nid27112026/"
   ],
-  "used_img_hashes": [],
+  "used_img_hashes": [
+    "1255f84837e4037cc223aab0733a1d63",
+    "e8befc11e9bf34349fb31f2bd6230668",
+    "dabce078854d570161ca4c3e65f001ba",
+    "6e5cb5a162f6eafbb0567217bf4d7bf8",
+    "36f604b784549d2dd83ebe5e411a888a",
+    "de36a90b57c3dfaf5eccb4c876975279",
+    "c65364a654708647d4ddd1f8a2862f56",
+    "2ce1730146ee0a24e6343a99dbf4b632",
+    "130334af699fd84fb8e44b1d0059ba7c",
+    "5645cce5583e1555034a50b2988fd4c7",
+    "71653a111bc736aad52322ec9c84f302",
+    "4f8e9d1aa7e9bac5da90638f24809f1b",
+    "802858000db947abc03976beb93fe58f",
+    "1a31cb3274ba1179aff68700ca870006",
+    "2fddfd3b23ffed3ff8d40cc29fed170f",
+    "a0bc4d38d9b9d9d9cfd81d677b944abf",
+    "80752605371b14968fcc84c699542679",
+    "cbcf120f95808b825626c158349ba536",
+    "dee88d5821d79c548144aeecb6922edc",
+    "6ec9deb2b6230d8cee0be1e5fcb698a0",
+    "5d4697526fde283bb56c1077bdd2dffe",
+    "27e6834c1c00e4b6837149818fbfc6cd",
+    "ea0adb230bed6948618ca8c51f2c4e9f",
+    "3b7563bfb89b23e1cd217a1ef18c5337",
+    "f7290ef7f3952e5dd4b28f64cb6f34ec",
+    "3e6a941211edab4ceddc2af58cec1ade",
+    "cbcf120f95808b825626c158349ba536",
+    "71653a111bc736aad52322ec9c84f302",
+    "de36a90b57c3dfaf5eccb4c876975279",
+    "6a45a0d4f03b45e8059e26ed9214b11c",
+    "fba73bb8d31ca417f1f0f3d4f210caf2",
+    "5645cce5583e1555034a50b2988fd4c7",
+    "c4d7d955904a273d02399ad792b91d9b",
+    "c65364a654708647d4ddd1f8a2862f56",
+    "2fddfd3b23ffed3ff8d40cc29fed170f",
+    "dabce078854d570161ca4c3e65f001ba",
+    "6e5cb5a162f6eafbb0567217bf4d7bf8",
+    "628b69facf10daf5ad8f67d65fe8c48b",
+    "f7290ef7f3952e5dd4b28f64cb6f34ec",
+    "dee88d5821d79c548144aeecb6922edc"
+  ],
   "published_titles": [
-    "Jueces y fiscales esperan una cuarta postergación en Comodoro Py",
-    "Los jueces y fiscales de Comodoro Py esperan la cuarta postergación del sistema acusatorio",
-    "Milei llega a 2027 con las PASO suspendidas y el riesgo país en alza",
-    "Las PASO y el precio de llegar a 2027: Javier Milei entre los gobernadores y el mercado",
-    "Karina Milei negoció para evitar un traspié del Gobierno",
-    "El tembladeral que desordena los planes de Javier Milei y los pactos de urgencia de Karina",
-    "El Gobierno pide a la UBA cancelar un homenaje a Santucho",
-    "El Gobierno le exige a la UBA que frene una provocación política",
-    "El Gobierno recorta obras viales y acelera la concesión de rutas",
-    "Rutas Nacionales: mientras el Gobierno busca acelerar su privatización, continúa la reducción de partidas para obras viales",
-    "Héctor Salomon censura prensa y lo premian con un cargo",
-    "Buscan premiar al juez cercano a Gerardo Zamora que impuso una censura a la prensa a favor de Toviggino",
     "El Gobierno busca recomponer lazos con gobernadores y el PRO",
     "Una etapa de más diálogo y nuevos acercamientos a la espera de cómo serán las elecciones: el Gobierno empieza a reordenarse",
     "Milei demora las propuestas de Lijo, Borinsky y Mahiques",
@@ -1624,6 +1657,18 @@
     "Passalacqua rompe con Rovira y va a la reelección con sello propio",
     "Hugo Passalacqua contó las razones de su ruptura con Carlos Rovira y anunció que irá por la reelección en Misiones",
     "Fiscal pide investigar giro de $260 millones de AFA a Tapia",
-    "Pollicita pidió investigar una transferencia de $260 millones de la AFA a Claudio \"Chiqui\" Tapia"
+    "Pollicita pidi\u00f3 investigar una transferencia de $260 millones de la AFA a Claudio \"Chiqui\" Tapia",
+    "Kicillof envi\u00f3 110 pliegos judiciales y prepara otros 140",
+    "Kicillof envi\u00f3 110 pliegos judiciales al Senado bonaerense y planea mandar otros 140 en los pr\u00f3ximos d\u00edas",
+    "Macri invita a Bullrich a su documental en medio de tensiones",
+    "Mauricio Macri invit\u00f3 a Patricia Bullrich al estreno de su documental",
+    "Santa Cruz aprob\u00f3 un nuevo C\u00f3digo Electoral para 2027",
+    "Santa Cruz aprob\u00f3 su nuevo C\u00f3digo Electoral y defini\u00f3 las reglas para las elecciones de 2027: cu\u00e1les son los principales cambios",
+    "El intendente adicto a la coca\u00edna conserv\u00f3 su cargo",
+    "El intendente que cont\u00f3 que es adicto a la coca\u00edna enfrent\u00f3 un proceso de destituci\u00f3n y logr\u00f3 conservar su cargo",
+    "Coalici\u00f3n C\u00edvica alert\u00f3 que Suizo Argentina gan\u00f3 m\u00e1s licitaciones",
+    "Causa ANDIS: advierten que la Suizo Argentina sigui\u00f3 ganando licitaciones tras el estallido del esc\u00e1ndalo",
+    "Piden allanar otra mansi\u00f3n ligada a autoridades de la AFA",
+    "Pidieron allanar una segunda mansi\u00f3n de Pilar que aparece ligada a las autoridades de la AFA"
   ]
 }
