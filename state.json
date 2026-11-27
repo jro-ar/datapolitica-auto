@@ -57,25 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-11-08 18:14",
-      "publicadas": 5,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [
-        "Error armando una nota: Expecting value: line 1 column 1 (char 0)",
-        "Titulo malo: Karina Milei public\u00f3 un video y mensaje por la llegada del P",
-        "Titulo malo: Karina Milei prepar\u00f3 la Casa Rosada para recibir al Papa"
-      ],
-      "titulos": [
-        "Juan Pablo II visit\u00f3 Argentina en tiempos de Alfons\u00edn",
-        "El periodista dijo que se sinti\u00f3 amenazado por Berni en una reuni\u00f3n",
-        "El padr\u00f3n provisorio 2027 ya est\u00e1 disponible para consulta",
-        "El Gobierno abre licitaci\u00f3n para auditar las represas de Santa Cruz",
-        "Milei regresa de Espa\u00f1a y prepara la visita del papa Le\u00f3n XIV",
-        "Macri dice que el acuerdo electoral con La Libertad Avanza no avanz\u00f3"
-      ]
-    },
-    {
       "fecha": "2026-11-08 23:13",
       "publicadas": 5,
       "cinta": true,
@@ -1391,6 +1372,28 @@
         "La AGN detect\u00f3 que el oro argentino en Inglaterra no tiene seguro",
         "Roy Cortina lanz\u00f3 un instituto socialdem\u00f3crata opositor"
       ]
+    },
+    {
+      "fecha": "2026-11-27 14:01",
+      "publicadas": 5,
+      "cinta": true,
+      "estado": "OK",
+      "detalle": [
+        "Titulo malo: Coto descart\u00f3 una interna en LLA y neg\u00f3 una disputa por el l",
+        "Control (copia una frase de la nota original ('cambios en materia judicial bene): Diputados avanz\u00f3 con el traspaso de la Justic",
+        "Titulo distinto de la noticia original: Bullrich bail\u00f3 y lanz\u00f3 un beso a c\u00e1mara tras la sesi\u00f3n ",
+        "Control (copia una frase de la nota original ('organizado por le monde diplomat): Pol\u00edticos y artistas debaten en la UBA una al",
+        "Control (tiene el numero 58 que no esta en ninguna fuente): El Senado aprob\u00f3 penas de hasta 8 a\u00f1os de pri",
+        "Control (copia una frase de la nota original ('menem anuncio medidas de segurid): Diputados confirma un incidente de seguridad "
+      ],
+      "titulos": [
+        "Encuesta: la imagen de Cristina, Macri y Villarruel",
+        "Diputados aprob\u00f3 el Presupuesto 2027: as\u00ed vot\u00f3 cada legislador",
+        "El peronismo bonaerense usa las PASO para evitar dividirse en 2027",
+        "El Senado vota 68 a 3 para mantener el estatuto del periodista",
+        "Macri critica la falta de previsibilidad en plenas negociaciones",
+        "Casaci\u00f3n revisar\u00e1 condena y absoluciones por el caso ARA San Juan"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1402,59 +1405,67 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5386,
-    5387,
-    5388,
-    5389,
-    5390
+    5392,
+    5393,
+    5394,
+    5395,
+    5396
   ],
-  "cinta_id": 5391,
+  "cinta_id": 5397,
   "published_links": [
-    "https://tn.com.ar/politica/2026/11/25/santilli-ratifico-la-politica-del-gobierno-sobre-malvinas-y-pidio-que-se-apruebe-la-ley-de-defensa-de-la-soberania-nacional/",
-    "https://tn.com.ar/politica/2026/11/26/el-gobierno-propone-endurecer-las-penas-por-las-apuestas-ilegales-y-ampliar-las-facultades-del-enacom-para-bloquear-sitios/",
-    "https://www.infobae.com/politica/2026/11/25/los-rectores-enviaron-una-carta-al-congreso-y-advirtieron-por-el-ajuste-a-las-universidades-en-el-presupuesto-2027/",
-    "https://tn.com.ar/politica/2026/11/26/marcha-universitaria-docentes-y-estudiantes-se-movilizan-al-congreso-para-reclamar-mejoras-salariales-y-mas-recursos/",
     "https://www.clarin.com/politica/milei-presenta-libro-conferencia-magistral-funcionarios-legisladores-ex-cck_0_hQakx0QVpq.html",
-    "https://www.perfil.com/mas-perfil/la-ruta-del-dinero-de-la-afa-en-rdi-los-millones-que-habrian-quedado-en-el-exterior-y-el-rol-de-pablo-toviggino-aVfaj4b6kyuw",
-    "https://www.infobae.com/politica/2026/11/27/cuenta-regresiva-para-el-fallo-del-tribunal-del-mar-sobre-el-petroleo-de-malvinas-tres-escenarios-y-por-que-para-el-gobierno-es-un-proceso-historico/",
-    "https://tn.com.ar/politica/2026/11/26/jorge-macri-hablo-sobre-el-operativo-policial-que-genero-polemica-en-caballito-fue-un-error-grave/",
-    "https://tn.com.ar/politica/2026/11/26/tras-los-cuestionamientos-de-la-oposicion-el-senado-volvio-a-postergar-el-debate-del-proyecto-sobre-falsas-denuncias/",
-    "https://www.perfil.com/politica/grabois-aseguro-que-caputo-es-un-garca-fracasado-que-se-tiene-que-ir-del-gobierno-aYQP31E5sxW0",
     "https://www.ambito.com/politica/explosiva-auditoria-la-agn-el-oro-argentino-esta-inglaterra-y-no-se-constato-que-su-envio-este-asegurado-n6349729",
-    "https://www.perfil.com/politica/roy-cortina-lanzo-el-instituto-socialdemocrata-argentino-para-articular-un-espacio-opositor-rumbo-a-2027-aUpwy3R7S5LP"
+    "https://tn.com.ar/politica/2026/11/26/marcha-universitaria-docentes-y-estudiantes-se-movilizan-al-congreso-para-reclamar-mejoras-salariales-y-mas-recursos/",
+    "https://tn.com.ar/politica/2026/11/26/tras-los-cuestionamientos-de-la-oposicion-el-senado-volvio-a-postergar-el-debate-del-proyecto-sobre-falsas-denuncias/",
+    "https://www.perfil.com/politica/roy-cortina-lanzo-el-instituto-socialdemocrata-argentino-para-articular-un-espacio-opositor-rumbo-a-2027-aUpwy3R7S5LP",
+    "https://tn.com.ar/politica/2026/11/26/el-gobierno-propone-endurecer-las-penas-por-las-apuestas-ilegales-y-ampliar-las-facultades-del-enacom-para-bloquear-sitios/",
+    "https://www.clarin.com/politica/nueva-encuesta-sorpresa-datos-cristina-kirchner-mauricio-macri-victoria-villarruel_0_mShPWoaJKk.html",
+    "https://www.lanacion.com.ar/politica/como-voto-cada-diputado-el-presupuesto-2027-nid27112026/",
+    "https://www.ambito.com/politica/paso-bonaerense-el-peronismo-se-une-sostener-las-primarias-y-tener-un-solo-candidato-gobernador-n6349580",
+    "https://www.lanacion.com.ar/politica/el-senado-voto-a-favor-de-prorrogar-el-estatuto-del-periodista-a-partir-del-1-de-enero-de-2027-nid27112026/",
+    "https://tn.com.ar/politica/2026/11/26/en-medio-de-las-negociaciones-con-lla-mauricio-macri-volvio-a-marcar-la-falta-de-previsibilidad-y-confianza-en-la-argentina/",
+    "https://tn.com.ar/politica/2026/11/26/ara-san-juan-casacion-fijo-fecha-para-revisar-la-condena-y-las-absoluciones-de-exmiembros-de-la-armada-argentina/"
   ],
   "used_img_hashes": [
-    "0a3df3448e0b03a213f2d5e6dc382226",
-    "75515d977b09aa8aff5c9671aabbddc4",
-    "f09de82bc00c50b50d4c8f219d1ec75a",
-    "8c9cc6e51b56ab2386768ef1dba21022",
     "1255f84837e4037cc223aab0733a1d63",
+    "276fcf575e3a0eb6671f8d7c0da01508",
+    "bbb4f51a8500ea48afb9813e44583e66",
+    "787849d9b3cf237772943d44413fef14",
+    "4e3d0eb2a2dbcdbfe45834e9a8f032bf",
+    "5583b865a7178c1b05f58c6dff15bc3c",
+    "75515d977b09aa8aff5c9671aabbddc4",
+    "0a3df3448e0b03a213f2d5e6dc382226",
+    "c3703c8cc7e25c246c2db528c92bc8d2",
+    "802858000db947abc03976beb93fe58f",
+    "31fc5e8efc7a4d1872f7244d47651d22",
+    "d706be4aafa97ee0cba845e73b2b3cbc",
+    "735b1c117956b6e2aeb56795c3c20661",
+    "378f1b997b7e7eec1fd0c7cca6579700",
+    "2ce1730146ee0a24e6343a99dbf4b632",
     "3b7563bfb89b23e1cd217a1ef18c5337",
-    "50dbe4c489833291c20dd38fae2087d3",
+    "628b69facf10daf5ad8f67d65fe8c48b",
     "a0bc4d38d9b9d9d9cfd81d677b944abf",
-    "c3703c8cc7e25c246c2db528c92bc8d2",
-    "f09de82bc00c50b50d4c8f219d1ec75a",
+    "dae9f57055dcf31068fcbda69acd1ea3",
     "50dbe4c489833291c20dd38fae2087d3",
-    "1255f84837e4037cc223aab0733a1d63",
-    "75515d977b09aa8aff5c9671aabbddc4",
-    "c3703c8cc7e25c246c2db528c92bc8d2",
-    "0a3df3448e0b03a213f2d5e6dc382226",
-    "3b7563bfb89b23e1cd217a1ef18c5337",
-    "8c9cc6e51b56ab2386768ef1dba21022"
+    "9e7543f27e1efbd0e51af7debba06dfe",
+    "f09de82bc00c50b50d4c8f219d1ec75a",
+    "950b30106f7739ee138e81ecc47aa796",
+    "8c9cc6e51b56ab2386768ef1dba21022",
+    "787849d9b3cf237772943d44413fef14",
+    "d706be4aafa97ee0cba845e73b2b3cbc",
+    "628b69facf10daf5ad8f67d65fe8c48b",
+    "dae9f57055dcf31068fcbda69acd1ea3",
+    "378f1b997b7e7eec1fd0c7cca6579700",
+    "735b1c117956b6e2aeb56795c3c20661",
+    "bbb4f51a8500ea48afb9813e44583e66",
+    "9e7543f27e1efbd0e51af7debba06dfe",
+    "950b30106f7739ee138e81ecc47aa796",
+    "802858000db947abc03976beb93fe58f",
+    "276fcf575e3a0eb6671f8d7c0da01508",
+    "31fc5e8efc7a4d1872f7244d47651d22",
+    "ea0adb230bed6948618ca8c51f2c4e9f"
   ],
   "published_titles": [
-    "Salta desdobla las elecciones y vota gobernador en 2027",
-    "Calendario electoral 2027: cu\u00e1ndo se vota gobernador en Salta",
-    "El padr\u00f3n provisorio 2027 ya est\u00e1 disponible para consulta",
-    "D\u00f3nde voto: publicaron el padr\u00f3n provisorio para las elecciones de Argentina 2027",
-    "El juicio de N\u00faremberg estuvo a punto de no realizarse",
-    "A 81 a\u00f1os del juicio de N\u00faremberg: la historia del proceso contra los jerarcas nazis que estuvo a punto de no hacerse",
-    "Javier Milei defiende el manejo del oro del Banco Central",
-    "Javier Milei respondi\u00f3 a las cr\u00edticas por el manejo del oro y defendi\u00f3 la gesti\u00f3n del Banco Central",
-    "Villarruel atac\u00f3 a Quirno por el cierre de 32.000 empresas",
-    "Victoria Villarruel fulmin\u00f3 a Pablo Quirno por justificar el cierre de Pymes y por los gastos de Canciller\u00eda",
-    "Juan Manuel Urtubey pide renovar al peronismo sin Kirchner",
-    "Juan Manuel Urtubey tom\u00f3 distancia de una posible candidatura de CFK: \u201cEs hacerle el juego al Gobierno\u201d",
     "Crisis pol\u00edtica y turbulencia econ\u00f3mica sacuden al Gobierno",
     "Un Guernica pol\u00edtico y un mercado implacable",
     "El jefe de Gabinete debuta ante el Senado para rendir cuentas",
@@ -1642,6 +1653,18 @@
     "La AGN detect\u00f3 que el oro argentino en Inglaterra no tiene seguro",
     "Explosiva auditor\u00eda de la AGN: el oro argentino est\u00e1 en Inglaterra y no se constat\u00f3 que su env\u00edo est\u00e9 asegurado",
     "Roy Cortina lanz\u00f3 un instituto socialdem\u00f3crata opositor",
-    "Roy Cortina lanz\u00f3 el Instituto Socialdem\u00f3crata Argentino para articular un espacio opositor rumbo a 2027"
+    "Roy Cortina lanz\u00f3 el Instituto Socialdem\u00f3crata Argentino para articular un espacio opositor rumbo a 2027",
+    "Encuesta: la imagen de Cristina, Macri y Villarruel",
+    "Nueva encuesta: sorpresa con los datos de Cristina Kirchner, Mauricio Macri y Victoria Villarruel",
+    "Diputados aprob\u00f3 el Presupuesto 2027: as\u00ed vot\u00f3 cada legislador",
+    "C\u00f3mo vot\u00f3 cada diputado el presupuesto 2027",
+    "El peronismo bonaerense usa las PASO para evitar dividirse en 2027",
+    "PASO bonaerense: el peronismo se une para sostener las primarias y tener un solo candidato a gobernador",
+    "El Senado vota 68 a 3 para mantener el estatuto del periodista",
+    "El Senado vot\u00f3 a favor de prorrogar el estatuto del periodista a partir del 1\u00b0 de enero de 2027",
+    "Macri critica la falta de previsibilidad en plenas negociaciones",
+    "En medio de las negociaciones con LLA, Mauricio Macri volvi\u00f3 a marcar la \u201cfalta de previsibilidad y confianza\u201d en la Argentina",
+    "Casaci\u00f3n revisar\u00e1 condena y absoluciones por el caso ARA San Juan",
+    "ARA San Juan: Casaci\u00f3n fij\u00f3 fecha para revisar la condena y las absoluciones de exmiembros de la Armada Argentina"
   ]
 }
