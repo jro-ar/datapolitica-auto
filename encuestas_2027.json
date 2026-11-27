@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T23:19Z",
+ "actualizado": "2026-11-27T22:57Z",
  "procesadas": [
   "https://www.clarin.com/politica/acabo-sueno-outsider-2027-ultimas-encuestas-dan-mal-famosos_0_oq8JyTt8SL.html",
   "https://www.clarin.com/politica/alerta-gobierno-hicieron-encuesta-votantes-libertarios-milei-quedo-cuarto_0_KKgOtDH0tA.html",
@@ -22,6 +22,7 @@
   "https://www.clarin.com/politica/nueva-encuesta-midio-afectan-milei-candidaturas-bullrich-villarruel-macri_0_YqOS4YhKSb.html",
   "https://www.clarin.com/politica/nueva-encuesta-midio-balotajes-2027-dejo-sorpresas-milei-bullrich-vs-kicillof-massa_0_rD6rtCvD6x.html",
   "https://www.clarin.com/politica/nueva-encuesta-pregunto-elecciones-2027-aparecio-grieta-exacta-46-46_0_lFp9lV9HTG.html",
+  "https://www.clarin.com/politica/nueva-encuesta-sorpresa-datos-cristina-kirchner-mauricio-macri-victoria-villarruel_0_mShPWoaJKk.html",
   "https://www.clarin.com/politica/nuevas-encuestas-crecen-criticas-economia-salarios-empleo-convirtieron-principal-preocupacion_0_T73546RJWN.html",
   "https://www.clarin.com/politica/nuevas-encuestas-electorales-caba-santa-fe-mendoza-viene-pelea-2027_0_4yQvZBU9zZ.html",
   "https://www.clarin.com/politica/nuevas-encuestas-midieron-puede-impactar-visita-papa-beneficia-perjudica-milei_0_pQ7TtpB4Ng.html",
@@ -29,6 +30,74 @@
   "https://www.clarin.com/politica/votaria-nueva-encuesta-midio-15-posibles-candidatos-reprobaron_0_EZRECyVMY6.html"
  ],
  "encuestas": [
+  {
+   "consultora": "Pulso Research",
+   "alcance": "Nacional",
+   "fecha_campo": "7 y 16 de noviembre",
+   "casos": "1.552",
+   "metodologia": "Relevamiento online",
+   "preguntas": [
+    {
+     "pregunta": "Imagen de dirigentes políticos",
+     "opciones": [
+      {
+       "nombre": "Cristina Kirchner (positiva)",
+       "valor": "44,3%"
+      },
+      {
+       "nombre": "Cristina Kirchner (negativa)",
+       "valor": "51,8%"
+      },
+      {
+       "nombre": "Victoria Villarruel (positiva)",
+       "valor": "41%"
+      },
+      {
+       "nombre": "Victoria Villarruel (negativa)",
+       "valor": "40,5%"
+      },
+      {
+       "nombre": "Mauricio Macri (positiva)",
+       "valor": "29,8%"
+      }
+     ]
+    },
+    {
+     "pregunta": "Aprobación de gestión",
+     "opciones": [
+      {
+       "nombre": "Aprueba",
+       "valor": "34%"
+      },
+      {
+       "nombre": "Desaprueba",
+       "valor": "59,6%"
+      }
+     ]
+    },
+    {
+     "pregunta": "¿Está de acuerdo o en desacuerdo con eliminar las PASO?",
+     "opciones": [
+      {
+       "nombre": "De acuerdo",
+       "valor": "45,4%"
+      },
+      {
+       "nombre": "En desacuerdo",
+       "valor": "37,1%"
+      },
+      {
+       "nombre": "ns/nc",
+       "valor": "17,5%"
+      }
+     ]
+    }
+   ],
+   "publicada": "2026-11-27",
+   "fuente": "Clarín (Eduardo Paladini)",
+   "url": "https://www.clarin.com/politica/nueva-encuesta-sorpresa-datos-cristina-kirchner-mauricio-macri-victoria-villarruel_0_mShPWoaJKk.html",
+   "titulo_fuente": ""
+  },
   {
    "consultora": "Analogías",
    "alcance": "Nacional",
