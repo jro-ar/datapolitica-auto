@@ -57,24 +57,6 @@
   "x_last_tweet_url": "https://datapolitica.com/4651~el-gobierno-y-el-pj-pelean-por-la-magistratura",
   "run_log": [
     {
-      "fecha": "2026-11-09 18:20",
-      "publicadas": 5,
-      "cinta": true,
-      "estado": "OK",
-      "detalle": [
-        "Titulo malo: Javier Milei mencion\u00f3 a Bergoglio ante toda la clase pol\u00edtic",
-        "Titulo malo: Villarruel respald\u00f3 el llamado a la unidad de Le\u00f3n XIV y rec"
-      ],
-      "titulos": [
-        "Figueroa adelanta las elecciones en Neuqu\u00e9n para febrero de 2027",
-        "El Papa habl\u00f3 de la familia como semilla de renovaci\u00f3n del pa\u00eds",
-        "Victoria Villarruel responde a cr\u00edticos libertarios",
-        "El intendente de Rafaela ech\u00f3 a un lavacoches de una plaza p\u00fablica",
-        "Milei habl\u00f3 en la recepci\u00f3n al papa Le\u00f3n XIV",
-        "Le\u00f3n XIV visit\u00f3 el Cottolengo y habl\u00f3 sobre discapacidad"
-      ]
-    },
-    {
       "fecha": "2026-11-09 23:21",
       "publicadas": 3,
       "cinta": true,
@@ -1396,6 +1378,25 @@
         "Oposici\u00f3n se reuni\u00f3 en la UBA para buscar alternativa a Milei en 2027",
         "Imputaron a un dirigente de izquierda por mensajes antisemitas"
       ]
+    },
+    {
+      "fecha": "2026-11-28 14:01",
+      "publicadas": 2,
+      "cinta": true,
+      "estado": "PROBLEMA",
+      "detalle": [
+        "Titulo malo: Postales del Congreso: un triunfo libertario, un \u00e9xito oposi",
+        "Titulo malo: La UCR quiere sacarle el nombre al bloque que vot\u00f3 el ajuste",
+        "Titulo malo: Emergencia pyme: advierten que incluir cooperativas en el r\u00e9",
+        "Control (copia una frase de la nota original ('el minuto a minuto de las decisi): Sturzenegger celebr\u00f3 la aprobaci\u00f3n del acuerd",
+        "Titulo distinto de la noticia original: El juez Gusman ingres\u00f3 a la Academia Nacional de Derech",
+        "Titulo malo: Milei, Bullrich y Massa reconfiguran la oposici\u00f3n con tres m"
+      ],
+      "titulos": [
+        "Argentina busca captar inversiones en Washington y Abu Dhabi",
+        "El Gobierno logr\u00f3 media sanci\u00f3n del Presupuesto y la reforma electoral",
+        "Encuesta de Opinaia muestra tres leves mejoras para Milei"
+      ]
     }
   ],
   "borradas_a_mano": [
@@ -1407,73 +1408,67 @@
     "ftp": "no (error_perm)"
   },
   "orden1_ids": [
-    5408,
-    5409
+    5411,
+    5412
   ],
-  "cinta_id": 5410,
+  "cinta_id": 5413,
   "published_links": [
-    "https://www.infobae.com/politica/2026/11/27/efecto-reforma-electoral-la-suspension-de-las-paso-divide-la-estrategia-de-los-outsiders/",
-    "https://www.lanacion.com.ar/politica/causa-andis-advierten-que-la-suizo-argentina-siguio-ganando-licitaciones-tras-el-estallido-del-nid27112026/",
-    "https://tn.com.ar/politica/2026/11/27/el-intendente-que-conto-que-es-adicto-a-la-cocaina-enfrento-un-proceso-de-destitucion-y-logro-conservar-su-cargo/",
     "https://www.lanacion.com.ar/politica/pidieron-allanar-una-segunda-mansion-de-pilar-que-aparece-ligada-a-las-autoridades-de-la-afa-nid27112026/",
-    "https://tn.com.ar/politica/2026/11/27/santa-cruz-aprobo-su-nuevo-codigo-electoral-y-definio-las-reglas-para-2027-cuales-son-los-principales-cambios/",
+    "https://tn.com.ar/politica/2026/11/27/el-intendente-que-conto-que-es-adicto-a-la-cocaina-enfrento-un-proceso-de-destitucion-y-logro-conservar-su-cargo/",
     "https://www.perfil.com/politica/mauricio-macri-invito-a-patricia-bullrich-al-estreno-de-su-documental-aoFAQ4w5ppUC",
+    "https://www.infobae.com/politica/2026/11/27/imputaron-a-un-dirigente-de-izquierda-por-mensajes-antisemitas-contra-un-comerciante-en-rosario/",
     "https://tn.com.ar/politica/2026/11/26/en-medio-de-las-negociaciones-con-lla-mauricio-macri-volvio-a-marcar-la-falta-de-previsibilidad-y-confianza-en-la-argentina/",
-    "https://www.lanacion.com.ar/politica/como-voto-cada-diputado-el-presupuesto-2027-nid27112026/",
-    "https://www.perfil.com/politica/pollicita-solicito-investigar-una-transferencia-de-260-millones-de-la-afa-a-chiqui-tapia-ahJnP2G3zI7I",
+    "https://tn.com.ar/politica/2026/11/27/santa-cruz-aprobo-su-nuevo-codigo-electoral-y-definio-las-reglas-para-2027-cuales-son-los-principales-cambios/",
     "https://www.clarin.com/politica/cambios-funcionarios-gobierno-renuncio-carlos-curci-interventor-medios-publicos-reemplazo_0_TsWFeADudG.html",
-    "https://www.perfil.com/politica/como-fue-la-cumbre-opositora-en-la-uba-que-busca-armar-una-alternativa-para-2027-ai7S00g2p3kT",
-    "https://www.infobae.com/politica/2026/11/27/imputaron-a-un-dirigente-de-izquierda-por-mensajes-antisemitas-contra-un-comerciante-en-rosario/"
+    "https://www.infobae.com/politica/2026/11/27/efecto-reforma-electoral-la-suspension-de-las-paso-divide-la-estrategia-de-los-outsiders/",
+    "https://www.perfil.com/politica/pollicita-solicito-investigar-una-transferencia-de-260-millones-de-la-afa-a-chiqui-tapia-ahJnP2G3zI7I",
+    "https://tn.com.ar/internacional/2026/11/27/entre-washington-y-abu-dhabi-las-oportunidades-de-la-argentina-para-captar-inversiones-y-los-desafios-de-consolidar-sus-alianzas/",
+    "https://www.infobae.com/politica/2026/11/28/el-gobierno-debio-ordenar-la-politica-para-los-mercados-y-la-inquietante-duda-que-planto-patricia-bullrich/",
+    "https://www.clarin.com/politica/nueva-encuesta-mandaron-javier-milei-mejoras-leves_0_yh19FPO4cF.html"
   ],
   "used_img_hashes": [
-    "628b69facf10daf5ad8f67d65fe8c48b",
-    "5d4697526fde283bb56c1077bdd2dffe",
-    "6e5cb5a162f6eafbb0567217bf4d7bf8",
-    "08c87ca81357801e5da8814f5e2d086b",
-    "cbcf120f95808b825626c158349ba536",
-    "65662f0b4c0af83e22aa4dd0a02cb831",
-    "2ce1730146ee0a24e6343a99dbf4b632",
-    "5afbd67d01e1394f73e99cc46b5af21f",
-    "fba73bb8d31ca417f1f0f3d4f210caf2",
-    "36f604b784549d2dd83ebe5e411a888a",
-    "6dcf9cee760eaf6333bd7f556fc3c946",
-    "3e6a941211edab4ceddc2af58cec1ade",
-    "2f00e4b32ba6f0e6015654ded9e498d7",
-    "802858000db947abc03976beb93fe58f",
-    "1255f84837e4037cc223aab0733a1d63",
-    "fda18c1373c19c93cf17f8087c6604a6",
-    "dabce078854d570161ca4c3e65f001ba",
-    "a0bc4d38d9b9d9d9cfd81d677b944abf",
-    "7c5697043ca22246b3c88148091be603",
-    "c65364a654708647d4ddd1f8a2862f56",
-    "2fddfd3b23ffed3ff8d40cc29fed170f",
-    "dee88d5821d79c548144aeecb6922edc",
-    "6a45a0d4f03b45e8059e26ed9214b11c",
-    "c4d7d955904a273d02399ad792b91d9b",
-    "6ec9deb2b6230d8cee0be1e5fcb698a0",
-    "de36a90b57c3dfaf5eccb4c876975279",
-    "29445e0623a2b23cb88dd5801d100e1f",
-    "2ac6d4a3b56fc3b06d832fefed5f2f9c",
-    "ac42c9f25cab15007f55f28783cdb347",
-    "53cf0d8729b4b6f3de64d5e26dbbe72e",
-    "f045ad3dde3f2d3a1b29215ba9726ca1",
-    "7c5697043ca22246b3c88148091be603",
-    "fda18c1373c19c93cf17f8087c6604a6",
-    "ecc47706fa18379de7a1988eae8ef08c",
-    "5afbd67d01e1394f73e99cc46b5af21f",
-    "2f00e4b32ba6f0e6015654ded9e498d7",
-    "65662f0b4c0af83e22aa4dd0a02cb831",
     "18cded3c56a05cd4615910a651d3ffeb",
-    "735b1c117956b6e2aeb56795c3c20661",
-    "e1c2fd102bd9446b4d4f1a49358d5431"
+    "6dcf9cee760eaf6333bd7f556fc3c946",
+    "802858000db947abc03976beb93fe58f",
+    "fda18c1373c19c93cf17f8087c6604a6",
+    "9b32ae4810c8ed8a0f391e4a5cc97113",
+    "628b69facf10daf5ad8f67d65fe8c48b",
+    "c65364a654708647d4ddd1f8a2862f56",
+    "cbcf120f95808b825626c158349ba536",
+    "6a45a0d4f03b45e8059e26ed9214b11c",
+    "da693df056ce7e67f3eff8fc6e3f3430",
+    "29445e0623a2b23cb88dd5801d100e1f",
+    "d8372db770798ea7b271ef0484a3eebf",
+    "6ec9deb2b6230d8cee0be1e5fcb698a0",
+    "2ac6d4a3b56fc3b06d832fefed5f2f9c",
+    "1255f84837e4037cc223aab0733a1d63",
+    "787849d9b3cf237772943d44413fef14",
+    "dee88d5821d79c548144aeecb6922edc",
+    "7c5697043ca22246b3c88148091be603",
+    "65662f0b4c0af83e22aa4dd0a02cb831",
+    "5645cce5583e1555034a50b2988fd4c7",
+    "36f604b784549d2dd83ebe5e411a888a",
+    "de36a90b57c3dfaf5eccb4c876975279",
+    "5afbd67d01e1394f73e99cc46b5af21f",
+    "4d34e99b5c6cc7bcc5d0aeb59f40f6c6",
+    "2fddfd3b23ffed3ff8d40cc29fed170f",
+    "3e6a941211edab4ceddc2af58cec1ade",
+    "c406830972dc22d4943bc1ddc67d0bdc",
+    "0c7cc06b79ae0349f3915e594e7f1390",
+    "5645cce5583e1555034a50b2988fd4c7",
+    "2ac6d4a3b56fc3b06d832fefed5f2f9c",
+    "d8372db770798ea7b271ef0484a3eebf",
+    "4d34e99b5c6cc7bcc5d0aeb59f40f6c6",
+    "6be38819dfa04bb3788be1ab6f51c45b",
+    "0411512c742460b422f9975e6f79f464",
+    "975fdeb0dccb41c83fa0034353ff869f",
+    "9b32ae4810c8ed8a0f391e4a5cc97113",
+    "e2ef4dca8329764674b354dd820210e6",
+    "2435a496ea7fb0f3fd94c423190db86e",
+    "787849d9b3cf237772943d44413fef14",
+    "1d2facc15a8ce2b157d25720c0e84237"
   ],
   "published_titles": [
-    "Sturzenegger llama 'casta' a los empresarios pesqueros",
-    "Enfrentamiento entre Sturzenegger y el sector de la pesca: el ministro los llama \u201ccasta\u201d y los empresarios aseguran que los est\u00e1n \"fundiendo\"",
-    "Fern\u00e1ndez D\u00edaz: el atractivo de Milei se agota antes de las elecciones",
-    "Jorge Fern\u00e1ndez D\u00edaz analiz\u00f3 el rol del Gobierno de cara a las pr\u00f3ximas elecciones: \u201cLa magia de Milei est\u00e1 desgastada\u201d",
-    "Cornide critica a Bullrich por la ley de ludopat\u00eda infantil",
-    "Reclamo de un referente empresarial contra Patricia Bullrich por la ley de ludopat\u00eda infantil",
     "Lacunza: el PRO \"desaparece\" si se fusiona con Milei",
     "Hern\u00e1n Lacunza dijo que si el Pro se une a Milei \u201cdesaparece\u201d como partido pol\u00edtico",
     "La Iglesia pidi\u00f3 que el Senado apruebe la ley contra la ludopat\u00eda",
@@ -1667,6 +1662,12 @@
     "Oposici\u00f3n se reuni\u00f3 en la UBA para buscar alternativa a Milei en 2027",
     "De Lali Esp\u00f3sito al peronismo y la UCR: c\u00f3mo fue la cumbre opositora en la UBA que busca armar una alternativa para 2027",
     "Imputaron a un dirigente de izquierda por mensajes antisemitas",
-    "Imputaron a un dirigente de izquierda por mensajes antisemitas contra un comerciante en Rosario"
+    "Imputaron a un dirigente de izquierda por mensajes antisemitas contra un comerciante en Rosario",
+    "Argentina busca captar inversiones en Washington y Abu Dhabi",
+    "Entre Washington y Abu Dhabi: las oportunidades de la Argentina para captar inversiones y los desaf\u00edos de consolidar sus alianzas",
+    "El Gobierno logr\u00f3 media sanci\u00f3n del Presupuesto y la reforma electoral",
+    "El Gobierno debi\u00f3 ordenar la pol\u00edtica para los mercados y la inquietante duda que plant\u00f3 Patricia Bullrich",
+    "Encuesta de Opinaia muestra tres leves mejoras para Milei",
+    "La nueva encuesta que le mandaron a Javier Milei con tres mejoras (leves)"
   ]
 }
